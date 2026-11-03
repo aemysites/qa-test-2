@@ -1,0 +1,468 @@
+{
+ "source": "http://localhost:3000/stardust/migrated/partners.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Tata Capital"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "- Partners"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "View our list of partners below"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Tata Digital (Tata Neu)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Tata Digital is bringing together the acumen and deep technology expertise of the Tata Group to simplify lives and deliver enriched consumer experience."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "View Details",
+     "href": "https://www.tataneu.com/home"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "View Privacy Policy",
+     "href": "https://www.tataneu.com/login/privacypolicy"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Paisabazaar"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "We make personal finance easy, convenient & transparent. Using data and technology innovations, we help you choose the most-suited financial products."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Our algorithm-based technology platform provides you with access to multiple personal credit offers, ease of comparison of multiple offers available and unbiased advice."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "View Details",
+     "href": "https://www.paisabazaar.com/"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "View Privacy Policy",
+     "href": "https://www.paisabazaar.com/privacy-policy"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Wishfin"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Wishfin is an online platform run by Mywish Marketplaces Private Limited (MMPL). MMPL has pioneered financial marketplaces in India. It runs neutral financial marketplaces that leverage its proprietary technology to intermediate between the banks and customers seeking banking products. MMPL operated websites include Wishfin and Deal4loans. Wishfin provides its users with an actionable plan to make the right financial decision to fulfill their wishes. Its offerings span a broad range of product genres such as Loans, Credit Cards, Home Loans, Business Loans."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "View Details",
+     "href": "https://www.wishfin.com/"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "View Privacy Policy",
+     "href": "https://www.wishfin.com/privacy-policy"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "FinAGG"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "FinAGG is an invoice based financing solution for MSMEs in India. FinAGG’s Quick Cash Flow product promotes MSME business growth while holding stocks in ample, also widely known as Stock Now Pay Later solution for MSMEs in India."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "View Privacy Policy",
+     "href": "https://finagg.in/privacy.php"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "One 97 Communications Ltd"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Paytm is India's leading financial services company that offers full-stack payments & financial solutions to consumers, offline merchants and online platforms."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "View Details",
+     "href": "https://paytm.com/loans-credit-cards/personal-loan/"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "View Privacy Policy",
+     "href": "https://paytm.com/company/terms-and-conditions?company=one97&tab=lending-privacy-policy"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Navi"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Navi is a technology-driven financial products and services company focusing on the digitally connected young middle-class population of India. Navi has a mobile-first approach, utilizing a strong in-house technology and product expertise to build customer-centric products. This is a co-lending partnership between Navi Finserv Limited & Tata Capital for a co-lending arrangement for the personal loan product."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "View Details",
+     "href": "https://navi.com/finserv"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "View Privacy Policy",
+     "href": "https://navi.com/privacy-policy/cash-loan"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Krazybee Services Limited"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "KreditBee is popular Indian fintech platform that offer instant personal loan and credit services, catering to the financial needs of individuals across the country. With a user- friendly mobile app, it provides quick access to hassle-free personal loan."
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "View Details",
+     "href": "./content/dam/tata-capital/pdf/tcl/kreditbeegro-details-on-tcl-website-updated-fy-25-26.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "View Privacy Policy",
+     "href": "https://www.kreditbee.in/privacy-policy"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Volt Money"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Volt Money is a digital platform that unlocks the value of financial assets like mutual funds, allowing retail investors to avail loans against them instantly. With a hassle-free process and an array of options, including overdrafts and term loans, customers can access cash loans, credit lines, affordable interest rates, and flexible EMIs, while keeping their financial assets intact."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "View Details",
+     "href": "https://www.voltmoney.in/"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "View Privacy Policy",
+     "href": "https://voltmoney.in/privacy"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Finnable Technologies Private Ltd"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Finnable Technologies Private Ltd. is committed to transforming salaried earners' financial environment by providing them with affordable Personal Loans. Finnable is dedicated to using innovation and technology to eliminate barriers to financial goods access by offering hassle-free loans and enabling people to improve their financial situation."
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "View Details",
+     "href": "https://www.finnable.com/"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "View Privacy Policy",
+     "href": "https://www.finnable.com/privacy-policy/"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "INDMoney"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Finzoomers Services Private Limited offers intermediation & facilitation services, relating to a diverse range of financial products inter-alia acting as lending service provider, distribution of fixed deposits, offering digital banking solutions etc."
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "View Details",
+     "href": "https://www.indmoney.com/"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "View Privacy Policy",
+     "href": "https://www.indmoney.com/privacy-policy"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Tata Capital Ltd"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Looking for a seamless loan experience? Get the Tata Capital Loan App and Apply for loans, Download Account Statement/Certificates, Track your requests & much more."
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "View Details",
+     "href": "./online/loans/personal-loans/apply-now-personal-loan/index.html"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "View Privacy Policy",
+     "href": "./content/dam/tata-capital/pdf/footer/Privacy_Commitment.pdf"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "OLA Money"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Ola Money, in collaboration with Tata Capital, presents a unique personal loan offering. This product allows you the flexibility to withdraw, repay, and pre-pay funds conveniently, catering to your individual financial needs."
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "View Details",
+     "href": "https://www.olamoney.com/index.html"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "View Policy",
+     "href": "https://www.olamoney.com/media/filer_public/85/86/8586b688-d32c-4b13-be0b-c67eef44881a/privacy_policy.pdf"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Lending Kart"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Lendingkartis India’s leading digital platform that is leveraging technology to simplify finance for MSMEs. Since its inception, Lendingkart group has disbursed over 3,00,000 loans worth 19,000 crores across 4000+ towns and cities of India (nearly 14,800 pin codes) - strengthening its position as the fintech with the largest geographical footprint in the country."
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "View Details",
+     "href": "https://www.lendingkart.com/"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "View Privacy Policy",
+     "href": "https://www.lendingkart.com/privacy/"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Social Worth Technologies Limited"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Social Worth Technologies Limited(Fibe): Fibe, formerly known as EarlySalary, is India’s first consumer digital lending app, catering to the aspirations of young, tech-savvy individuals in the mid-income segment."
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "View Details",
+     "href": "https://www.fibe.in/instant-cash-loan/"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "View Privacy Policy",
+     "href": "https://www.fibe.in/privacy-policy/"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Synergenius Growth Private Limited"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Finfinity is your one-stop digital financial marketplace, offering a seamless and personalized experience for all your financial needs. Whether you're looking for loans, investments, insurance, or innovative budgeting tools, Finfinity brings it all together under one secure and user-friendly platform."
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "View Details",
+     "href": "https://www.finfinity.co.in/"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "View Privacy Policy",
+     "href": "https://www.finfinity.co.in/privacy-policy"
+    }
+   ],
+   "imgCount": 15,
+   "editableTexts": 33,
+   "repeats": [
+    {
+     "unitSelector": "DIV.all-alliances-items",
+     "count": 15,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 1,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "To view the list of Digital Lending Partners, please"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "click here.",
+     "href": "./content/dam/tata-capital/pdf/tcl/tcl-website-disclosure-list-of-lsp-dlas.pdf"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "To view the list of Co-lending Partners, please"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "click here.",
+     "href": "./content/dam/tata-capital/pdf/tcl/tcl-list-of-co-lending-partner-september-26.pdf"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "To view the list of Collection Agents, please"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "click here.",
+     "href": "./content/dam/tata-capital/pdf/tcl/active-agency-list-as-on-september-2026.pdf"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "To view the list of Lead Referral Partners, please"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "click here.",
+     "href": "./content/dam/tata-capital/pdf/tcl/TCL-LeadReferralPartners.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "P.heading20",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Subscribe to our"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "newsletter"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Email ID"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Subscribe Now"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Submitted successfully"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

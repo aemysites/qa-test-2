@@ -1,0 +1,146 @@
+/* lead-form — lifted from the gated prototype (canon.css short lead form), scoped */
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+.lead-form .non-product-short-lead-form {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  padding: 0 15px;
+  pointer-events: none;
+  transition: transform .3s ease-in-out;
+}
+
+.lead-form .non-product-short-lead-form.is-hidden {
+  transform: translateY(100%);
+}
+
+.lead-form .non-product-short-lead-form .container {
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.lead-form .short-lead-form-box {
+  position: relative;
+  display: flex;
+  max-width: 576px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-top: 5px solid var(--tc-blue);
+  border-radius: 30px 30px 0 0;
+  background: #fff;
+  box-shadow: 0 8px 25px rgb(0 0 0 / 25%);
+  pointer-events: auto;
+}
+
+.lead-form .short-lead-form-content {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  padding: 22px;
+}
+
+.lead-form .short-lead-form-text {
+  width: 100%;
+}
+
+.lead-form .short-lead-form-fields {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lead-form .short-lead-form-input {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.lead-form .short-lead-form-input input {
+  width: 100%;
+  padding: 0 0 10px;
+  border: 0;
+  border-bottom: 1px solid #333;
+  outline: 0;
+  color: #1b1b1b;
+  background: transparent;
+  font-family: var(--f-reg);
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.lead-form .short-lead-form-input input::placeholder {
+  color: #333;
+}
+
+.lead-form .short-lead-form-input .error-msgs {
+  display: block;
+  min-height: 17px;
+  margin-top: 5px;
+  color: #c62828;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.lead-form .short-lead-form-btn {
+  flex: 0 0 auto;
+  padding: 12px 17px;
+  border-radius: 12px;
+  font-family: var(--f-semi);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+  width: 100px;
+}
+
+@media (width <=991px) {
+  .lead-form .non-product-short-lead-form {
+    padding: 0;
+  }
+
+  .lead-form .non-product-short-lead-form .container,
+  .lead-form .short-lead-form-box {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .lead-form .short-lead-form-content {
+    padding: 14px 32px;
+  }
+
+  .lead-form .short-lead-form-fields {
+    gap: 28px;
+  }
+
+  .lead-form .short-lead-form-input input {
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .lead-form .short-lead-form-btn {
+    padding: 8px 12px;
+    width: auto;
+    font-size: 12px;
+  }
+}
+
+@media (width <=767px) {
+  .lead-form .short-lead-form-content {
+    padding: 14px 18px;
+  }
+
+  .lead-form .short-lead-form-fields {
+    gap: 12px;
+  }
+}
+
+/* authored-structure adapters */
+.lead-form .short-lead-form-submit {
+  flex: 0 0 auto;
+}
+
+.lead-form .short-lead-form-submit p {
+  margin: 0;
+}

@@ -1,0 +1,1769 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-02T08:56:51.987Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "calculator",
+  "url": "https://www.tatacapital.com/calculator.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-02T08:56:51.987Z",
+  "finalUrl": "https://www.tatacapital.com/calculator.html",
+  "title": "Financial EMI Calculators Online | Tata Capital",
+  "description": "Use Tata Capitals financial online calculators to estimate EMI, loan eligibility, interest rate. Plan your finances smarter today.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Calculators"
+    },
+    {
+      "tag": "h3",
+      "text": "Home Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Home Loan Eligibility Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Home Loan Balance Top Up Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Home Loan Stamp Duty Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "PMAY Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Business Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Business Loan Foreclosure Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Business Loan Pre Payment Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Personal Loan Eligibility Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Personal Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Personal Loan Pre Payment Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Loan Against Property Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Two Wheeler Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Used Car Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Car Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Education Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "APR Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Area Conversion Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "GST Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Micro Finance Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Rural Individual Loan EMI Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Retirement Planning Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Financial Goal Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Investment Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "IRR Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Human Life Value Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Inflation Impact Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Acre to Bigha Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Acre to Cent Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Acre to Gaj Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Acre to Guntha Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Acre to Hectare Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Acre to Square Feet Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Bigha to Gaj Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Bigha to Hectare Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Bigha to Marla Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Bigha to Square Feet Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Acre to Ground Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Acre to Marla Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Bigha to Acre Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Bigha to Guntha Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Cent to Acre Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Cent to Gaj Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Cent to Ground Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Cent to Guntha Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Cent to Hectare Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Gaj to Bigha Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Gaj to Cent Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Gaj to Guntha Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Gaj to Hectare Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Ground to Cent Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Guntha to Acre Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Guntha to Gaj Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Guntha to Hectare Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Hectare to Cent Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Hectare to Gaj Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Hectare to Guntha Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Hectare to Marla Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Hectare to Square Feet Calculator"
+    },
+    {
+      "tag": "h3",
+      "text": "Cent to Square Feet"
+    },
+    {
+      "tag": "h3",
+      "text": "Gaj to Acre"
+    },
+    {
+      "tag": "h3",
+      "text": "Gaj to Marla"
+    },
+    {
+      "tag": "h3",
+      "text": "Gaj to Square Feet"
+    },
+    {
+      "tag": "h3",
+      "text": "Ground to Acre"
+    },
+    {
+      "tag": "h3",
+      "text": "Guntha to Square Feet"
+    },
+    {
+      "tag": "h3",
+      "text": "Hectare to Acre"
+    },
+    {
+      "tag": "h3",
+      "text": "Hectare to Bigha"
+    },
+    {
+      "tag": "h3",
+      "text": "Ground to Square Feet"
+    },
+    {
+      "tag": "h3",
+      "text": "Guntha to Bigha"
+    },
+    {
+      "tag": "h3",
+      "text": "Guntha to Cent"
+    },
+    {
+      "tag": "h2",
+      "text": "Calculator Blogs"
+    },
+    {
+      "tag": "h6",
+      "text": "How To Calculate EMI Using Personal Loan EMI Calculator On Tata Capital App"
+    },
+    {
+      "tag": "h6",
+      "text": "Commercial Property Loan Calculator: How to Calculate Your Loan EMI Amount"
+    },
+    {
+      "tag": "h2",
+      "text": "Subscribe to our newsletter"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Get the Tata Capital App to apply for Loans & manage your account. Download Now",
+    "Blogs",
+    "SUPPORT",
+    "Loans for You Personal Loan Home Loan Business Loan Vehicle Loan Loan Against Securities Loan Against Property Education Loan Credit Cards Microfinance Rural Individual Loan New Personal loan starting @ 10.99% p.a Instant approval Personal Loan Hybrid Term Loan Know More Apply Now All you need to know Personal Loan Rates & Charges Personal Loan Documents Required Personal loan for all your needs Personal Loan Hybrid Term Loan Personal Loan for Travel Personal Loan for Medical Personal Loan for Marriage Personal Loan for Home Renovation Calculator Personal Loan EMI Calculator Personal Loan Pre-payment Calculator Personal Loan Eligibility Calculator Check Your Credit Score Higher credit score increases the chances of loan approval. Check your CIBIL score today and get free insights on how to be credit-worthy. Check Credit Score Home Loan Instant approval Easy repayment Know More Apply Now All you need to know Home Loan Rates & Charges Home Loan Documents Required Home Loan Online RERA Approved Housing Projects Home Loan for all your needs Home Extension Loan Affordable Housing Loan PMAY Quick Cash Plot & Construction Loan Balance Transfer Home Loan Top Up Calculators Home Loan EMI Calculator PMAY Calculator Balance Transfer & Top-up Calculator Home Loan Eligibility Calculator Area Conversion Calculator Stamp Duty Calculator Register as a Selling Agent. Join our Loan Mitra Program Know More Check Your Credit Score Check Credit Score Business loan to suit your growth plan Collateral-free loans Customized EMI options Know More Apply Now All you need to know Business Loan Rates & Charges Business Loan Documents Required Business loan for all your needs Hybrid Term Loan Machinery Loan MSME Loan Small Business Loan Calculators Business Loan EMI Calculator Business Loan Pre-payment Calculator GST Calculator Foreclosure Calculator Looking for Secured Business Loans? Get secured business loans with affordable interest rates with Tata Capital. Verify eligibility criteria and apply today Know More Accelerate your dreams with our Vehicle Loans Flexible Tenures Competitive interest rates Know More Explore Used Car Loans Used Car Loan Loan On Used Car Explore New Car Loans New Car Loan Explore Two Wheeler Loans Two Wheeler Loan Two Wheeler Market Place Calculators Used Car EMI Calculator Two Wheeler EMI Calculator Get upto 95% of your car value and book your dream car Apply Now A loan upto ₹5,00,000 to own the bike of your choice Apply Now Avail Loan Against Securities up to ₹60 crores Quick access to finance Zero foreclosure charges Know More Apply Now All you need to know Loan Against Securities Rates & Charges Loan Against Securities Documents Required Explore Loan Against Securities Loan against Shares Loan against mutual funds Check Your Credit Score Higher credit score increases the chances of loan approval. Check your CIBIL score today and get free insights on how to be credit-worthy. Check Credit Score Avail Loan Against Property up to ₹ 10 Crores Lower Interest Rates Longer Tenure Flexible Repayment Options Know More Apply Now All you need to know Loan Against Property Rates & Charges Loan Against Property Documents Required EMI Options Loans for all your needs Hybrid Term Loan Secured BL (SBL) Calculators Loan Against Property EMI Calculator Get Education Loan up to Rs. 2 crores Pre admission sanction Attractive interest rates Know More Apply Now All you need to know Education Loan Rates & Charges Education Loan Documents Required Calculators Education Loan EMI Calculator Want To Know More? Request a Callback Empowering Rural India with Microfinance loans Quick processing Collateral-free loans Know More All you need to know Microfinance Rates & Charges Microfinance Documents Required Calculators Microfinance EMI Calculator Want To Know More? Request a Callback Avail a Rural Individual Loan Quick processing Collateral-free loans Know More All you need to know Rural Individual Loan Rates & Charges Rural Individual Loan Documents Required Calculators Rural Individual Loan EMI Calculator Want To Know More? Request a Callback",
+    "Loans for Business Working Capital Loans Cleantech Finance Structured Products Term Loans Equipment Financing & Leasing Construction Financing Commercial Vehicle Loan Commercial Vehicle Leasing Explore all Business Loans Digital financial solutions to aid your growth Simple standard documentation process Quick disbursal Know More Most Popular products Channel Financing Invoice Discounting Purchase Order Funding Working Capital Demand Loan Sub Dealer Loan Factoring Reverse Factoring Operating Expense Loan for Transporters Pioneering Climate Finance through innovative solutions Know More Most popular products Project & structured design Debt Syndication Financial Advisory Cleantech Advisory Financing solutions tailored to your business needs Quick approvals Flexible payment options Know More Our Bestselling Products Loan Against Securities Structured Investment Debt Syndication Letter of Credit Lease Rental Discounting Avail Term Loans up to Rs. 1 Crore Customise loan tenures as per your needs Get your loan processed, sanctioned and funds disbursed digitally Know More Equipment Finance Avail Digital Equipment Loans up to Rs. 1 Crore Attractive ROIs Customizable Loan tenure Know More Equipment Leasing Avail Leasing solutions for all asset classes Up to 100% financing No additional collateral required Know More Ensure your business’ operational effeciency with ease Wide range of equipments covered Minimum paperwork Most Popular products Construction Finance Construction Equipment Finance New Commercial Vehicle Financing First time user Retail and strategic Clients Know more Used Commercial Vehicle Financing Repurchase Refinance Top up Balance Transfer Know more Commercial Vehicle Leasing Up to 100% Funding Customized Solutions & Flexible Lease Options Know More",
+    "Investment Moneyfy by Tata Capital A personal finance app, your one-stop shop for comprehensive financial needs - SIP, Mutual Funds, Loans, Insurance, Credit Cards and many more 100% digital journey Start investing in SIP as low as Rs 500 Visit Website Download App Calculators SIP Calculator Investment Calculator All you need to know Mutual Funds Fixed Deposit Credit Cards Loans Wealth Services by Tata Capital Personalised Wealth Services for exclusive customers delivered by a team of experts from a suite of product offerings Inhouse research & reports Exclusive Privileges & Offers Know More Apply Now Calculators Financial Goal Calculator Retirement Calculator All you need to know Blogs Reports Download forms",
+    "Insurance Protect your family against unforeseen risks Avail any of the Insurance policies online in just a few clicks Know More Choose from our list of insurance solutions Motor Insurance Life Insurance Health Insurance Home & Travel Insurance Wellness Insurance Protection Plan & other solutions",
+    "Apply Quick Links for Loans Personal Loan Application Home Loans Application Two Wheeler Loan Application Two Wheeler Market Place Used Car Loans Application New Car Loans Application Business Loan Application Loan against Property Application Loan Against Securities Application Credit Cards Application Quick Links for insurance Motor Insurance Car Insurance Bike Insurance Life Insurance Term Plan Saving & Investments Health Insurance Medical Insurance Other Insurance Wellness solutions Home Insurance Travel Insurance Investment Mutual Fund",
+    "Offers",
+    "Quick Pay",
+    "Search...",
+    "Offers & Updates Download the Moneyfy App Be investment ready in minutes Download Moneyfy App Take a Tata Capital Home Loan Lowest interest rates starting at 8.00%* Apply for Home Loan Apply for a Tata Card Get benefits worth Rs. 18,000* Apply Now",
+    "Sign in to unlock special offers! Sign In You are signed in to unlock special offers! Data Loading Please Wait !! Sign out",
+    "Login Retail Customer Login Corporate Customer Login Moneyfy Motors Finance Login Wealth Management Services",
+    "Home",
+    "Calculator",
+    "Plan your finances wisely with our easy-to-use calculators.",
+    "All",
+    "Loans",
+    "Wealth",
+    "Area Conversion",
+    "Calculate the monthly EMI for your home loan.",
+    "Determine your home loan eligibility amount.",
+    "Calculate the extra amount you can borrow on your home loan.",
+    "Calculate stamp duty with Tata Capitals.",
+    "Calculate the monthly EMI PMAY",
+    "Use the Business loan calculator and plan your finances effectively.",
+    "Calculate the total cost to foreclose your business loan.",
+    "Calculate the Pre Payment charges for your Business Loan.",
+    "Determine your personal loan eligibility amount.",
+    "Calculate the monthly EMI for your personal loan.",
+    "Plan your repayment strategy and save on interest. Try our calculator now!",
+    "Calculate the loan amount you can get against your property.",
+    "Calculate the monthly EMI for your two-wheeler loan.",
+    "Calculate the monthly EMI for your used car loan.",
+    "Calculate your monthly car loan EMI based on the loan amount, interest rate, and tenure.",
+    "Get a quick estimate of your education loan EMI at Tata Capital.",
+    "Use our APR Calculator to quickly calculate the Annual Percentage Rate of a loan.",
+    "Tata Capitals land area unit converter helps you convert between multiple units.",
+    "Calculate GST amount online by entering the net price and GST rate.",
+    "Calculate your EMI in minutes with Tata Capital’s easy to use Micro Finance Loan EMI Calculator.",
+    "Use Tata Capita's rural individual loan EMI calculator to easily calculate your monthly EMI.",
+    "Check your eligibility for the Retirement Planning",
+    "Check your eligibility for the Financial Goal",
+    "Check your eligibility for the Investment",
+    "Check your eligibility for the IRR",
+    "Check your eligibility for the Human Life Value",
+    "Check your eligibility for the Inflation Impact",
+    "Convert Acre to Bigha online using Tata Capitals Acre to Bigha calculator.",
+    "Convert Acre to Cent online using Tata Capitals Acre to Cent calculator.",
+    "Convert Acre to Gaj online using Tata Capitals Acre to Gaj calculator.",
+    "Convert Acre to Guntha online using Tata Capitals Acre to Guntha calculator.",
+    "Convert Acre to Hectare online using Tata Capitals Acre to Hectare calculator.",
+    "Convert Acre to Square Feet online using Tata Capitals Acre to Square Feet calculator.",
+    "Convert Bigha to Gaj online using Tata Capitals Bigha to Gaj calculator.",
+    "Convert Bigha to Hectare online using Tata Capitals Bigha to Hectare calculator.",
+    "Convert Bigha to Marla online using Tata Capitals Bigha to Marla calculator.",
+    "Convert Bigha to Square Feet online using Tata Capitals Bigha to Square Feet calculator.",
+    "Convert Acre to Ground online using Tata Capitals Acre to Ground calculator.",
+    "Convert Acre to Marla online using Tata Capitals Acre to Marla calculator.",
+    "Convert Bigha to Acre online using Tata Capitals Bigha to Acre calculator.",
+    "Convert Bigha to Guntha online using Tata Capitals Bigha to Guntha calculator.",
+    "Convert Cent to Acre online using Tata Capitals Cent to Acre calculator.",
+    "Convert Cent to Gaj online using Tata Capitals Cent to Gaj calculator.",
+    "Convert Cent to Ground online using Tata Capitals Cent to Ground calculator.",
+    "Convert Cent to Guntha online using Tata Capitals Cent to Guntha calculator.",
+    "Convert Cent to Hectare online using Tata Capitals Cent to Hectare calculator.",
+    "Convert Gaj to Bigha online using Tata Capitals Gaj to Bigha calculator.",
+    "Convert Gaj to Cent online using Tata Capitals Gaj to Cent calculator.",
+    "Convert Gaj to Guntha online using Tata Capitals Gaj to Guntha calculator.",
+    "Convert Gaj to Hectare online using Tata Capitals Gaj to Hectare calculator.",
+    "Convert Ground to Cent online using Tata Capitals Ground to Cent calculator.",
+    "Convert Guntha to Acre online using Tata Capitals Guntha to Acre calculator.",
+    "Convert Guntha to Gaj online using Tata Capitals Guntha to Gaj calculator.",
+    "Convert Guntha to Hectare online using Tata Capitals Guntha to Hectare calculator.",
+    "Convert Hectare to Cent online using Tata Capitals Hectare to Cent calculator.",
+    "Convert Hectare to Gaj online using Tata Capitals Hectare to Gaj calculator.",
+    "Convert Hectare to Guntha online using Tata Capitals Hectare to Guntha calculator.",
+    "Convert Hectare to Marla online using Tata Capitals Hectare to Marla calculator.",
+    "Convert Hectare to Square Feet online using Tata Capitals Hectare to Square Feet calculator.",
+    "Convert Cent to Square Feet online using Tata Capitals Cent to Square Feet calculator.",
+    "Convert Gaj to Acre online using Tata Capitals Gaj to Acre calculator.",
+    "Convert Gaj to Marla online using Tata Capitals Gaj to Marla calculator.",
+    "Convert Gaj to Square Feet online using Tata Capitals Gaj to Square Feet calculator.",
+    "Convert Ground to Acre online using Tata Capitals Ground to Acre calculator.",
+    "Convert Guntha to Square Feet online using Tata Capitals Guntha to Square Feet calculator.",
+    "Convert Hectare to Acre online using Tata Capitals Hectare to Acre calculator.",
+    "Convert Hectare to Bigha online using Tata Capitals Hectare to Bigha calculator.",
+    "Convert Ground to Square Feet online using Tata Capitals Ground to Square Feet calculator.",
+    "Convert Guntha to Bigha online using Tata Capitals Guntha to Bigha calculator.",
+    "Convert Guntha to Cent online using Tata Capitals Guntha to Cent calculator.",
+    "Home Loan",
+    "Quick Cash",
+    "About Us",
+    "Careers",
+    "Media Center",
+    "CSR",
+    "Blog",
+    "Contact Us",
+    "Branch Locator",
+    "Tata Capital Housing Finance Limited",
+    "Tata Securities Limited",
+    "Tata Capital Healthcare Fund",
+    "Tata Capital Healthcare Fund",
+    "Tata Capital Growth Fund",
+    "Tata Capital Growth Fund",
+    "Useful Links and Resources",
+    "Important Information",
+    "Investor Information",
+    "Amalgamated Companies",
+    "Our Other Websites",
+    "Top Branches",
+    "Policies, Codes & Other Documents",
+    "Tata Capital Limited",
+    "Tata Capital Housing Finance Limited",
+    "Tata Securities Limited",
+    "Tata Capital Solutions & Services",
+    "Loans for You",
+    "Loans for Business",
+    "Calculators",
+    "Rates & Charges",
+    "Legal Disclaimer",
+    "Privacy Policy",
+    "Fraud Advisory",
+    "Sitemap",
+    "Copyright © 2026 Tata Capital Limited",
+    "Download Our Apps",
+    "Free Credit Score"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Download Now",
+      "href": "https://play.google.com/store/apps/details?id=com.snapwork.tcl&hl=en_IN"
+    },
+    {
+      "label": "Blogs",
+      "href": "https://www.tatacapital.com/blog/"
+    },
+    {
+      "label": "SUPPORT",
+      "href": "https://www.tatacapital.com/contact-us/retail-service-faqs.html"
+    },
+    {
+      "label": "Loans for You",
+      "href": "https://www.tatacapital.com/loans.html"
+    },
+    {
+      "label": "Loans for Business",
+      "href": "https://www.tatacapital.com/corporate.html"
+    },
+    {
+      "label": "Investment",
+      "href": "#"
+    },
+    {
+      "label": "Insurance",
+      "href": "https://www.tatacapital.com/insurance.html"
+    },
+    {
+      "label": "Apply",
+      "href": "#"
+    },
+    {
+      "label": "Offers",
+      "href": null
+    },
+    {
+      "label": "Quick Pay",
+      "href": "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html"
+    },
+    {
+      "label": "Search...",
+      "href": null
+    },
+    {
+      "label": "Login",
+      "href": null
+    },
+    {
+      "label": "Home",
+      "href": "https://www.tatacapital.com/"
+    },
+    {
+      "label": "All",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Loans",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Wealth",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Area Conversion",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Home Loan EMI Calculator Calculate the monthly EMI for your home loan.",
+      "href": "https://www.tatacapital.com/home-loan/emi-calculator.html"
+    },
+    {
+      "label": "Home Loan Eligibility Calculator Determine your home loan eligibility amount.",
+      "href": "https://www.tatacapital.com/home-loan/home-loan-eligibility-calculator.html"
+    },
+    {
+      "label": "Home Loan Balance Top Up Calculator Calculate the extra amount you can borrow on your home loan.",
+      "href": "https://www.tatacapital.com/home-loan/balance-transfer-top-up-calculator.html"
+    },
+    {
+      "label": "Home Loan Stamp Duty Calculator Calculate stamp duty with Tata Capitals.",
+      "href": "https://www.tatacapital.com/home-loan/stamp-duty-calculator.html"
+    },
+    {
+      "label": "PMAY Calculator Calculate the monthly EMI PMAY",
+      "href": "https://www.tatacapital.com/home-loan/pmay-calculator.html"
+    },
+    {
+      "label": "Business Loan EMI Calculator Use the Business loan calculator and plan your finances effectively.",
+      "href": "https://www.tatacapital.com/business-loan/emi-calculator.html"
+    },
+    {
+      "label": "Business Loan Foreclosure Calculator Calculate the total cost to foreclose your business loan.",
+      "href": "https://www.tatacapital.com/business-loan/foreclosure-calculator.html"
+    },
+    {
+      "label": "Business Loan Pre Payment Calculator Calculate the Pre Payment charges for your Business Loan.",
+      "href": "https://www.tatacapital.com/business-loan/pre-payment-calculator.html"
+    },
+    {
+      "label": "Personal Loan Eligibility Calculator Determine your personal loan eligibility amount.",
+      "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html"
+    },
+    {
+      "label": "Personal Loan EMI Calculator Calculate the monthly EMI for your personal loan.",
+      "href": "https://www.tatacapital.com/personal-loan/emi-calculator.html"
+    },
+    {
+      "label": "Personal Loan Pre Payment Calculator Plan your repayment strategy and save on interest. Try our calculator now!",
+      "href": "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html"
+    },
+    {
+      "label": "Loan Against Property Calculator Calculate the loan amount you can get against your property.",
+      "href": "https://www.tatacapital.com/loan-against-property/emi-calculator.html"
+    },
+    {
+      "label": "Two Wheeler Loan EMI Calculator Calculate the monthly EMI for your two-wheeler loan.",
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan/emi-calculator.html"
+    },
+    {
+      "label": "Used Car Loan EMI Calculator Calculate the monthly EMI for your used car loan.",
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan/emi-calculator.html"
+    },
+    {
+      "label": "Car Loan EMI Calculator Calculate your monthly car loan EMI based on the loan amount, interest rate, and tenure.",
+      "href": "https://www.tatacapital.com/vehicle-loan/car-loan/emi-calculator.html"
+    },
+    {
+      "label": "Education Loan EMI Calculator Get a quick estimate of your education loan EMI at Tata Capital.",
+      "href": "https://www.tatacapital.com/education-loan/emi-calculator.html"
+    },
+    {
+      "label": "APR Calculator Use our APR Calculator to quickly calculate the Annual Percentage Rate of a loan.",
+      "href": "https://www.tatacapital.com/apr-calculator.html"
+    },
+    {
+      "label": "Area Conversion Calculator Tata Capitals land area unit converter helps you convert between multiple units.",
+      "href": "https://www.tatacapital.com/home-loan/area-conversion-calculator.html"
+    },
+    {
+      "label": "GST Calculator Calculate GST amount online by entering the net price and GST rate.",
+      "href": "https://www.tatacapital.com/business-loan/gst-calculator.html"
+    },
+    {
+      "label": "Micro Finance Loan EMI Calculator Calculate your EMI in minutes with Tata Capital’s easy to use Micro Finance Loan EMI Calculator.",
+      "href": "https://www.tatacapital.com/micro-finance-loan/emi-calculator.html"
+    },
+    {
+      "label": "Rural Individual Loan EMI Calculator Use Tata Capita's rural individual loan EMI calculator to easily calculate your monthly EMI.",
+      "href": "https://www.tatacapital.com/rural-individual-loan/emi-calculator.html"
+    },
+    {
+      "label": "Retirement Planning Calculator Check your eligibility for the Retirement Planning",
+      "href": "https://www.tatacapital.com/wealth/calculators/retirement-planning-calculator.html"
+    },
+    {
+      "label": "Financial Goal Calculator Check your eligibility for the Financial Goal",
+      "href": "https://www.tatacapital.com/wealth/calculators/financial-goal-calculator.html"
+    },
+    {
+      "label": "Investment Calculator Check your eligibility for the Investment",
+      "href": "https://www.tatacapital.com/wealth/calculators/portfolio-return-calculator.html"
+    },
+    {
+      "label": "IRR Calculator Check your eligibility for the IRR",
+      "href": "https://www.tatacapital.com/wealth/calculators/irr-calculator.html"
+    },
+    {
+      "label": "Human Life Value Calculator Check your eligibility for the Human Life Value",
+      "href": "https://www.tatacapital.com/wealth/calculators/human-life-value-calculator.html"
+    },
+    {
+      "label": "Inflation Impact Calculator Check your eligibility for the Inflation Impact",
+      "href": "https://www.tatacapital.com/wealth/calculators/inflation-calculator.html"
+    },
+    {
+      "label": "Acre to Bigha Calculator Convert Acre to Bigha online using Tata Capitals Acre to Bigha calculator.",
+      "href": "https://www.tatacapital.com/calculator/acre-to-bigha.html"
+    },
+    {
+      "label": "Acre to Cent Calculator Convert Acre to Cent online using Tata Capitals Acre to Cent calculator.",
+      "href": "https://www.tatacapital.com/calculator/acre-to-cent.html"
+    },
+    {
+      "label": "Acre to Gaj Calculator Convert Acre to Gaj online using Tata Capitals Acre to Gaj calculator.",
+      "href": "https://www.tatacapital.com/calculator/acre-to-gaj.html"
+    },
+    {
+      "label": "Acre to Guntha Calculator Convert Acre to Guntha online using Tata Capitals Acre to Guntha calculator.",
+      "href": "https://www.tatacapital.com/calculator/acre-to-guntha.html"
+    },
+    {
+      "label": "Acre to Hectare Calculator Convert Acre to Hectare online using Tata Capitals Acre to Hectare calculator.",
+      "href": "https://www.tatacapital.com/calculator/acre-to-hectare.html"
+    },
+    {
+      "label": "Acre to Square Feet Calculator Convert Acre to Square Feet online using Tata Capitals Acre to Square Feet calculator.",
+      "href": "https://www.tatacapital.com/calculator/acre-to-square-feet.html"
+    },
+    {
+      "label": "Bigha to Gaj Calculator Convert Bigha to Gaj online using Tata Capitals Bigha to Gaj calculator.",
+      "href": "https://www.tatacapital.com/calculator/bigha-to-gaj.html"
+    },
+    {
+      "label": "Bigha to Hectare Calculator Convert Bigha to Hectare online using Tata Capitals Bigha to Hectare calculator.",
+      "href": "https://www.tatacapital.com/calculator/bigha-to-hectare.html"
+    },
+    {
+      "label": "Bigha to Marla Calculator Convert Bigha to Marla online using Tata Capitals Bigha to Marla calculator.",
+      "href": "https://www.tatacapital.com/calculator/bigha-to-marla.html"
+    },
+    {
+      "label": "Bigha to Square Feet Calculator Convert Bigha to Square Feet online using Tata Capitals Bigha to Square Feet calculator.",
+      "href": "https://www.tatacapital.com/calculator/bigha-to-square-feet.html"
+    },
+    {
+      "label": "Acre to Ground Calculator Convert Acre to Ground online using Tata Capitals Acre to Ground calculator.",
+      "href": "https://www.tatacapital.com/calculator/acre-to-ground.html"
+    },
+    {
+      "label": "Acre to Marla Calculator Convert Acre to Marla online using Tata Capitals Acre to Marla calculator.",
+      "href": "https://www.tatacapital.com/calculator/acre-to-marla.html"
+    },
+    {
+      "label": "Bigha to Acre Calculator Convert Bigha to Acre online using Tata Capitals Bigha to Acre calculator.",
+      "href": "https://www.tatacapital.com/calculator/bigha-to-acre.html"
+    },
+    {
+      "label": "Bigha to Guntha Calculator Convert Bigha to Guntha online using Tata Capitals Bigha to Guntha calculator.",
+      "href": "https://www.tatacapital.com/calculator/bigha-to-guntha.html"
+    },
+    {
+      "label": "Cent to Acre Calculator Convert Cent to Acre online using Tata Capitals Cent to Acre calculator.",
+      "href": "https://www.tatacapital.com/calculator/cent-to-acre.html"
+    },
+    {
+      "label": "Cent to Gaj Calculator Convert Cent to Gaj online using Tata Capitals Cent to Gaj calculator.",
+      "href": "https://www.tatacapital.com/calculator/cent-to-gaj.html"
+    },
+    {
+      "label": "Cent to Ground Calculator Convert Cent to Ground online using Tata Capitals Cent to Ground calculator.",
+      "href": "https://www.tatacapital.com/calculator/cent-to-ground.html"
+    },
+    {
+      "label": "Cent to Guntha Calculator Convert Cent to Guntha online using Tata Capitals Cent to Guntha calculator.",
+      "href": "https://www.tatacapital.com/calculator/cent-to-guntha.html"
+    },
+    {
+      "label": "Cent to Hectare Calculator Convert Cent to Hectare online using Tata Capitals Cent to Hectare calculator.",
+      "href": "https://www.tatacapital.com/calculator/cent-to-hectare.html"
+    },
+    {
+      "label": "Gaj to Bigha Calculator Convert Gaj to Bigha online using Tata Capitals Gaj to Bigha calculator.",
+      "href": "https://www.tatacapital.com/calculator/gaj-to-bigha.html"
+    },
+    {
+      "label": "Gaj to Cent Calculator Convert Gaj to Cent online using Tata Capitals Gaj to Cent calculator.",
+      "href": "https://www.tatacapital.com/calculator/gaj-to-cent.html"
+    },
+    {
+      "label": "Gaj to Guntha Calculator Convert Gaj to Guntha online using Tata Capitals Gaj to Guntha calculator.",
+      "href": "https://www.tatacapital.com/calculator/gaj-to-guntha.html"
+    },
+    {
+      "label": "Gaj to Hectare Calculator Convert Gaj to Hectare online using Tata Capitals Gaj to Hectare calculator.",
+      "href": "https://www.tatacapital.com/calculator/gaj-to-hectare.html"
+    },
+    {
+      "label": "Ground to Cent Calculator Convert Ground to Cent online using Tata Capitals Ground to Cent calculator.",
+      "href": "https://www.tatacapital.com/calculator/ground-to-cent.html"
+    },
+    {
+      "label": "Guntha to Acre Calculator Convert Guntha to Acre online using Tata Capitals Guntha to Acre calculator.",
+      "href": "https://www.tatacapital.com/calculator/guntha-to-acre.html"
+    },
+    {
+      "label": "Guntha to Gaj Calculator Convert Guntha to Gaj online using Tata Capitals Guntha to Gaj calculator.",
+      "href": "https://www.tatacapital.com/calculator/guntha-to-gaj.html"
+    },
+    {
+      "label": "Guntha to Hectare Calculator Convert Guntha to Hectare online using Tata Capitals Guntha to Hectare calculator.",
+      "href": "https://www.tatacapital.com/calculator/guntha-to-hectare.html"
+    },
+    {
+      "label": "Hectare to Cent Calculator Convert Hectare to Cent online using Tata Capitals Hectare to Cent calculator.",
+      "href": "https://www.tatacapital.com/calculator/hectare-to-cent.html"
+    },
+    {
+      "label": "Hectare to Gaj Calculator Convert Hectare to Gaj online using Tata Capitals Hectare to Gaj calculator.",
+      "href": "https://www.tatacapital.com/calculator/hectare-to-gaj.html"
+    },
+    {
+      "label": "Hectare to Guntha Calculator Convert Hectare to Guntha online using Tata Capitals Hectare to Guntha calculator.",
+      "href": "https://www.tatacapital.com/calculator/hectare-to-guntha.html"
+    },
+    {
+      "label": "Hectare to Marla Calculator Convert Hectare to Marla online using Tata Capitals Hectare to Marla calculator.",
+      "href": "https://www.tatacapital.com/calculator/hectare-to-marla.html"
+    },
+    {
+      "label": "Hectare to Square Feet Calculator Convert Hectare to Square Feet online using Tata Capitals Hectare to Square Feet calculator.",
+      "href": "https://www.tatacapital.com/calculator/hectare-to-square-feet.html"
+    },
+    {
+      "label": "Cent to Square Feet Convert Cent to Square Feet online using Tata Capitals Cent to Square Feet calculator.",
+      "href": "https://www.tatacapital.com/calculator/cent-to-square-feet.html"
+    },
+    {
+      "label": "Gaj to Acre Convert Gaj to Acre online using Tata Capitals Gaj to Acre calculator.",
+      "href": "https://www.tatacapital.com/calculator/gaj-to-acre.html"
+    },
+    {
+      "label": "Gaj to Marla Convert Gaj to Marla online using Tata Capitals Gaj to Marla calculator.",
+      "href": "https://www.tatacapital.com/calculator/gaj-to-marla.html"
+    },
+    {
+      "label": "Gaj to Square Feet Convert Gaj to Square Feet online using Tata Capitals Gaj to Square Feet calculator.",
+      "href": "https://www.tatacapital.com/calculator/gaj-to-square-feet.html"
+    },
+    {
+      "label": "Ground to Acre Convert Ground to Acre online using Tata Capitals Ground to Acre calculator.",
+      "href": "https://www.tatacapital.com/calculator/ground-to-acre.html"
+    },
+    {
+      "label": "Guntha to Square Feet Convert Guntha to Square Feet online using Tata Capitals Guntha to Square Feet calculator.",
+      "href": "https://www.tatacapital.com/calculator/guntha-to-square-feet.html"
+    },
+    {
+      "label": "Hectare to Acre Convert Hectare to Acre online using Tata Capitals Hectare to Acre calculator.",
+      "href": "https://www.tatacapital.com/calculator/hectare-to-acre.html"
+    },
+    {
+      "label": "Hectare to Bigha Convert Hectare to Bigha online using Tata Capitals Hectare to Bigha calculator.",
+      "href": "https://www.tatacapital.com/calculator/hectare-to-bigha.html"
+    },
+    {
+      "label": "Ground to Square Feet Convert Ground to Square Feet online using Tata Capitals Ground to Square Feet calculator.",
+      "href": "https://www.tatacapital.com/calculator/ground-to-square-feet.html"
+    },
+    {
+      "label": "Guntha to Bigha Convert Guntha to Bigha online using Tata Capitals Guntha to Bigha calculator.",
+      "href": "https://www.tatacapital.com/calculator/guntha-to-bigha.html"
+    },
+    {
+      "label": "Guntha to Cent Convert Guntha to Cent online using Tata Capitals Guntha to Cent calculator.",
+      "href": "https://www.tatacapital.com/calculator/guntha-to-cent.html"
+    },
+    {
+      "label": "How To Calculate EMI Using Personal Loan EMI Calculator On Tata Capital App",
+      "href": "https://www.tatacapital.com/blog/personal-use-loan/calculate-personal-loan-emi-on-tata-capital-app/"
+    },
+    {
+      "label": "Share",
+      "href": null
+    },
+    {
+      "label": "Commercial Property Loan Calculator: How to Calculate Your Loan EMI Amount",
+      "href": "https://www.tatacapital.com/blog/loan-on-property/commercial-property-loan-calculator-how-to-calculate-your-loan-amount/"
+    },
+    {
+      "label": "Share",
+      "href": null
+    },
+    {
+      "label": "Subscribe Now",
+      "href": null
+    },
+    {
+      "label": "Quick Links",
+      "href": null
+    },
+    {
+      "label": "Home Loan",
+      "href": "https://www.tatacapital.com/home-loan.html"
+    },
+    {
+      "label": "Quick Cash",
+      "href": "https://www.tatacapital.com/home-loan/quick-cash.html"
+    },
+    {
+      "label": "About Us",
+      "href": "https://www.tatacapital.com/about-us.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://www.tatacapital.com/careers.html"
+    },
+    {
+      "label": "Media Center",
+      "href": "https://www.tatacapital.com/media-center.html"
+    },
+    {
+      "label": "CSR",
+      "href": "https://www.tatacapital.com/sustainability.html"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.tatacapital.com/blog/"
+    }
+  ],
+  "links": [
+    "https://play.google.com/store/apps/details?id=com.snapwork.tcl&hl=en_IN",
+    "https://www.tatacapital.com/blog/",
+    "https://www.tatacapital.com/contact-us/retail-service-faqs.html",
+    "https://www.tatacapital.com/",
+    "https://www.tatacapital.com/loans.html",
+    "https://www.tatacapital.com/personal-loan.html",
+    "https://www.tatacapital.com/home-loan.html",
+    "https://www.tatacapital.com/business-loan.html",
+    "https://www.tatacapital.com/vehicle-loan.html",
+    "https://www.tatacapital.com/loan-against-securities.html",
+    "https://www.tatacapital.com/loan-against-property.html",
+    "https://www.tatacapital.com/education-loan.html",
+    "https://www.tatacapital.com/tata-cards.html",
+    "https://www.tatacapital.com/micro-finance-loan.html",
+    "https://www.tatacapital.com/rural-individual-loan.html",
+    "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+    "https://www.tatacapital.com/personal-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/personal-loan/documents-required.html",
+    "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html",
+    "https://www.tatacapital.com/personal-loan/travel-loan.html",
+    "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html",
+    "https://www.tatacapital.com/personal-loan/marriage-loan.html",
+    "https://www.tatacapital.com/personal-loan/home-renovation-loan.html",
+    "https://www.tatacapital.com/personal-loan/emi-calculator.html",
+    "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html",
+    "https://www.tatacapital.com/personal-loan/eligibility-calculator.html",
+    "https://www.tatacapital.com/check-credit-score.html",
+    "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!",
+    "https://www.tatacapital.com/home-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/home-loan/document-required.html",
+    "https://www.tatacapital.com/home-loan/rera.html",
+    "https://www.tatacapital.com/home-loan/approved-housing-projects.html",
+    "https://www.tatacapital.com/home-loan/home-extension-loan.html",
+    "https://www.tatacapital.com/home-loan/affordable-housing-loan.html",
+    "https://www.tatacapital.com/home-loan/pmay.html",
+    "https://www.tatacapital.com/home-loan/quick-cash.html",
+    "https://www.tatacapital.com/home-loan/self-construction.html",
+    "https://www.tatacapital.com/home-loan/home-loan-balance-transfer.html",
+    "https://www.tatacapital.com/home-loan/top-up.html",
+    "https://www.tatacapital.com/home-loan/emi-calculator.html",
+    "https://www.tatacapital.com/home-loan/pmay-calculator.html",
+    "https://www.tatacapital.com/home-loan/balance-transfer-top-up-calculator.html",
+    "https://www.tatacapital.com/home-loan/home-loan-eligibility-calculator.html",
+    "https://www.tatacapital.com/home-loan/area-conversion-calculator.html",
+    "https://www.tatacapital.com/home-loan/stamp-duty-calculator.html",
+    "https://www.tatacapital.com/home-loan/loan-mitra.html",
+    "https://www.tatacapital.com/online/loans/business-loans/home#!",
+    "https://www.tatacapital.com/business-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/business-loan/documents-required.html",
+    "https://www.tatacapital.com/business-loan/hybrid-term-loan.html",
+    "https://www.tatacapital.com/business-loan/machinery-loan.html",
+    "https://www.tatacapital.com/business-loan/msme-loan-sme-loan.html",
+    "https://www.tatacapital.com/business-loan/small-business-loan.html",
+    "https://www.tatacapital.com/business-loan/emi-calculator.html",
+    "https://www.tatacapital.com/business-loan/pre-payment-calculator.html",
+    "https://www.tatacapital.com/business-loan/gst-calculator.html",
+    "https://www.tatacapital.com/business-loan/foreclosure-calculator.html",
+    "https://www.tatacapital.com/vehicle-loan/used-car-loan.html",
+    "https://www.tatacapital.com/vehicle-loan/used-car-loan/loan-on-car.html",
+    "https://www.tatacapital.com/vehicle-loan/car-loan.html",
+    "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan.html",
+    "https://www.tatacapital.com/marketplace/two-wheeler/",
+    "https://www.tatacapital.com/vehicle-loan/used-car-loan/emi-calculator.html",
+    "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan/emi-calculator.html",
+    "https://www.tatacapital.com/online/loans/used-car-loans/apply-now-used-car-loan",
+    "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan#!",
+    "https://www.las.tatacapital.com/online/loans/las/apply-now-las-loan#!",
+    "https://www.tatacapital.com/loan-against-securities/rates-and-charges.html",
+    "https://www.tatacapital.com/loan-against-securities/documents-required.html",
+    "https://www.tatacapital.com/online/loans/loan-against-property/apply-now-loan-against-property#!",
+    "https://www.tatacapital.com/loan-against-property/rates-and-charges.html",
+    "https://www.tatacapital.com/loan-against-property/documents-required.html",
+    "https://www.tatacapital.com/loan-against-property/emi-option.html",
+    "https://www.tatacapital.com/loan-against-property/hybrid-term-loan.html",
+    "https://www.tatacapital.com/business-loan/micro-loan-against-property.html",
+    "https://www.tatacapital.com/loan-against-property/emi-calculator.html",
+    "https://www.tatacapital.com/education-loan/apply-now-education-loan.html",
+    "https://www.tatacapital.com/education-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/education-loan/document-required.html",
+    "https://www.tatacapital.com/education-loan/emi-calculator.html",
+    "https://www.tatacapital.com/contact-us.html",
+    "https://www.tatacapital.com/micro-finance-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/micro-finance-loan/documents-required.html",
+    "https://www.tatacapital.com/micro-finance-loan/emi-calculator.html",
+    "https://www.tatacapital.com/rural-individual-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/rural-individual-loan/documents-required.html",
+    "https://www.tatacapital.com/rural-individual-loan/emi-calculator.html",
+    "https://www.tatacapital.com/corporate.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance.html",
+    "https://www.tatacapital.com/corporate/structured-products.html",
+    "https://www.tatacapital.com/corporate/term-loan.html",
+    "https://www.tatacapital.com/corporate/equipment-finance-leasing.html",
+    "https://www.tatacapital.com/corporate/construction-finance.html",
+    "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan.html",
+    "https://www.tatacapital.com/corporate/commercial-vehicle-leasing.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/channel-finance.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/invoice-discounting.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/purchase-order-funding.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/working-capital-demand-loan.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/channel-finance/sub-dealer-loan.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/factoring.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/reverse-factoring.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/operating-expense-loan-for-transporters.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance/project-structured-finance.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance/debt-syndication.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance/financial-advisory.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance/cleantech-advisory.html",
+    "https://www.tatacapital.com/corporate/structured-products/structured-investments.html",
+    "https://www.tatacapital.com/corporate/structured-products/debt-syndication.html",
+    "https://www.tatacapital.com/corporate/structured-products/letter-of-credit.html",
+    "https://www.tatacapital.com/corporate/structured-products/lease-rental-discounting.html",
+    "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-finance.html",
+    "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-leasing.html",
+    "https://www.tatacapital.com/corporate/construction-finance/construction-equipment-finance.html",
+    "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/new-commercial-vehicle-financing.html",
+    "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/used-commercial-vehicle-financing.html",
+    "https://www.tatacapital.com/calculator.html#",
+    "https://www.tatacapitalmoneyfy.com/",
+    "https://www.tatacapitalmoneyfy.com/sip-calculator",
+    "https://www.tatacapitalmoneyfy.com/compound-interest-calculator",
+    "https://www.tatacapitalmoneyfy.com/mutual-funds",
+    "https://www.tatacapitalmoneyfy.com/corporate-fixed-deposit?sourceName=website",
+    "https://www.tatacapitalmoneyfy.com/credit-card?sourceName=website",
+    "https://www.tatacapitalmoneyfy.com/loans?sourceName=website",
+    "https://www.tatacapital.com/wealth.html",
+    "https://www.tatacapital.com/wealth/request-callback.html",
+    "https://www.tatacapital.com/wealth/calculators/financial-goal-calculator.html",
+    "https://www.tatacapital.com/wealth/calculators/retirement-planning-calculator.html",
+    "https://www.tatacapital.com/wealth/knowledge-centre/blogs.html",
+    "https://www.tatacapital.com/wealth/knowledge-centre/reports.html",
+    "https://www.tatacapital.com/wealth/knowledge-centre/forms.html",
+    "https://www.tatacapital.com/insurance.html",
+    "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html",
+    "https://www.tatacapital.com/insurance/motor-insurance.html",
+    "https://www.tatacapital.com/insurance/life-insurance.html",
+    "https://www.tatacapital.com/insurance/health-insurance.html",
+    "https://www.tatacapital.com/insurance/travel-and-home-insurance.html",
+    "https://www.tatacapital.com/insurance/wellness-solutions.html",
+    "https://www.tatacapital.com/insurance/protection-plans.html",
+    "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan",
+    "https://onlinelaploans.tatacapital.com/online/loans/loan-against-property/",
+    "https://www.tatacapital.com/apply-now-credit-card-lead-form.html",
+    "https://www.tatacapital.com/insurance/motor-insurance/car-insurance/apply-now-car-insurance.html",
+    "https://www.tatacapital.com/insurance/motor-insurance/bike-insurance/apply-now-bike-insurance.html",
+    "https://www.tatacapital.com/insurance/life-insurance/term-insurance/apply-now-protection-and-health-solution.html",
+    "https://www.tatacapital.com/insurance/life-insurance/savings-and-investments/apply-now-traditional-life-insurance.html",
+    "https://www.tatacapital.com/insurance/health-insurance/medical-insurance/apply-now-medical-insurance.html",
+    "https://www.tatacapital.com/insurance/wellness-solutions/apply-now-for-wellness-solutions.html",
+    "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-home-insurance.html",
+    "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-travel-insurance.html",
+    "https://app.adjust.com/18oyrgga?engagement_type=fallback_click&fallback=https%3A%2F%2Fwww.tatacapital.com%2Fmoneyfy%2F&fallback_lp=https%3A%2F%2Fwww.tatacapital.com%2Fmoneyfy%2F",
+    "https://www.tatacapital.com/online/loans/new-car-loan/apply-now-new-car-loan",
+    "https://play.google.com/store/apps/details?id=com.tatacapital.moneyfy&referrer=adjust_reftag%3DcKAEox8iQCo4D%26utm_source%3DTata%2BCapital%2BWebsite%2Bwidget",
+    "https://retailonline.tatacapital.com/",
+    "https://corporateservices.tatacapital.com/#/login",
+    "https://www.tatacapitalmoneyfy.com/customer/login",
+    "https://www.tatacapital.com/corporate/landing-page.html",
+    "javascript:void(0);",
+    "https://www.tatacapital.com/vehicle-loan/car-loan/emi-calculator.html",
+    "https://www.tatacapital.com/apr-calculator.html",
+    "https://www.tatacapital.com/wealth/calculators/portfolio-return-calculator.html",
+    "https://www.tatacapital.com/wealth/calculators/irr-calculator.html",
+    "https://www.tatacapital.com/wealth/calculators/human-life-value-calculator.html",
+    "https://www.tatacapital.com/wealth/calculators/inflation-calculator.html",
+    "https://www.tatacapital.com/calculator/acre-to-bigha.html",
+    "https://www.tatacapital.com/calculator/acre-to-cent.html",
+    "https://www.tatacapital.com/calculator/acre-to-gaj.html",
+    "https://www.tatacapital.com/calculator/acre-to-guntha.html",
+    "https://www.tatacapital.com/calculator/acre-to-hectare.html",
+    "https://www.tatacapital.com/calculator/acre-to-square-feet.html",
+    "https://www.tatacapital.com/calculator/bigha-to-gaj.html",
+    "https://www.tatacapital.com/calculator/bigha-to-hectare.html",
+    "https://www.tatacapital.com/calculator/bigha-to-marla.html",
+    "https://www.tatacapital.com/calculator/bigha-to-square-feet.html",
+    "https://www.tatacapital.com/calculator/acre-to-ground.html",
+    "https://www.tatacapital.com/calculator/acre-to-marla.html",
+    "https://www.tatacapital.com/calculator/bigha-to-acre.html",
+    "https://www.tatacapital.com/calculator/bigha-to-guntha.html",
+    "https://www.tatacapital.com/calculator/cent-to-acre.html",
+    "https://www.tatacapital.com/calculator/cent-to-gaj.html",
+    "https://www.tatacapital.com/calculator/cent-to-ground.html",
+    "https://www.tatacapital.com/calculator/cent-to-guntha.html",
+    "https://www.tatacapital.com/calculator/cent-to-hectare.html",
+    "https://www.tatacapital.com/calculator/gaj-to-bigha.html",
+    "https://www.tatacapital.com/calculator/gaj-to-cent.html",
+    "https://www.tatacapital.com/calculator/gaj-to-guntha.html",
+    "https://www.tatacapital.com/calculator/gaj-to-hectare.html",
+    "https://www.tatacapital.com/calculator/ground-to-cent.html",
+    "https://www.tatacapital.com/calculator/guntha-to-acre.html",
+    "https://www.tatacapital.com/calculator/guntha-to-gaj.html",
+    "https://www.tatacapital.com/calculator/guntha-to-hectare.html",
+    "https://www.tatacapital.com/calculator/hectare-to-cent.html",
+    "https://www.tatacapital.com/calculator/hectare-to-gaj.html",
+    "https://www.tatacapital.com/calculator/hectare-to-guntha.html",
+    "https://www.tatacapital.com/calculator/hectare-to-marla.html",
+    "https://www.tatacapital.com/calculator/hectare-to-square-feet.html",
+    "https://www.tatacapital.com/calculator/cent-to-square-feet.html",
+    "https://www.tatacapital.com/calculator/gaj-to-acre.html",
+    "https://www.tatacapital.com/calculator/gaj-to-marla.html",
+    "https://www.tatacapital.com/calculator/gaj-to-square-feet.html",
+    "https://www.tatacapital.com/calculator/ground-to-acre.html",
+    "https://www.tatacapital.com/calculator/guntha-to-square-feet.html",
+    "https://www.tatacapital.com/calculator/hectare-to-acre.html",
+    "https://www.tatacapital.com/calculator/hectare-to-bigha.html",
+    "https://www.tatacapital.com/calculator/ground-to-square-feet.html",
+    "https://www.tatacapital.com/calculator/guntha-to-bigha.html",
+    "https://www.tatacapital.com/calculator/guntha-to-cent.html",
+    "https://www.tatacapital.com/blog/personal-use-loan/calculate-personal-loan-emi-on-tata-capital-app/",
+    "https://www.tatacapital.com/blog/loan-on-property/commercial-property-loan-calculator-how-to-calculate-your-loan-amount/",
+    "https://www.tatacapital.com/about-us.html",
+    "https://www.tatacapital.com/careers.html",
+    "https://www.tatacapital.com/media-center.html",
+    "https://www.tatacapital.com/sustainability.html",
+    "https://www.tatacapital.com/contact-us/branch-locator.html",
+    "https://www.tatacapital.com/tchfl.html",
+    "https://www.tatacapital.com/tsl.html",
+    "https://www.tatacapitalhealthcarefund.com/",
+    "https://www.tatacapitalgrowthfund.com/",
+    "https://branches.tatacapital.com/",
+    "https://www.tatacapital.com/mastertc/retail.html",
+    "https://www.tatacapital.com/mastertc/retail/tcfsl-pre-31-december.html",
+    "https://www.tatacapital.com/vendor-feedback.html",
+    "https://www.tatacapital.com/corporate/rate-history.html",
+    "https://www.tatacapital.com/ways-to-service.html",
+    "https://www.tatacapital.com/partners.html",
+    "https://www.tatacapital.com/tata-capital-api.html",
+    "https://www.tatacapital.com/sarfaesi.html",
+    "https://www.tatacapital.com/content/dam/customer-frequently-asked-questions-21-jan-2025-01.pdf",
+    "https://www.tatacapital.com/about-us/investor-information-and-financials.html",
+    "https://www.tatacapital.com/tchfl/investor-relations.html",
+    "https://www.tatacapital.com/tcfsl/investor-relations.html",
+    "https://www.tatacapital.com/tccl/investor-relation.html",
+    "https://www.tatacapital.com/tmfl/investor-relation.html",
+    "https://www.tata.com/",
+    "https://www.tataaig.com/",
+    "https://www.tataaia.com/",
+    "https://www.tatamutualfund.com/",
+    "https://www.tatapensionfund.com/",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-AuditCommitteeCharter.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-AffirmativeActionPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-WhistleBlowerPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-CodeofConductforNon-ExecutiveDirectors.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-RemunerationPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-BoardDiversityPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-CodeofCorporateDisclosurePracticesandPolicyondeterminationoflegitimatepurposeforcommunicationofUPSI.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL%20ABAC%20Policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-VigilMechanism.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-csr-policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/footer/TCL_Committees%27%20Composition.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-notice-of-hours-of-work-rest-interval-weekly-holiday.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-Fit%20and%20Proper%20policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL%20-%20Policy%20for%20Appointment%20of%20Statutory%20Auditors.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL_RPTPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL__Policyfordeterminingmaterialsubsidiaries.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/policy-on-archival-of-documents.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/investors-and-financial-reports/corporate-governance/Familiarisation%20Programme.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/Compensation%20Policy%20for%20KMPs%20and%20SM.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-internal-corporate-governance-guidelines-13-12-2023-v1.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-merged-customer-service-and-grievance-handling-revision-13-12-2023-v1.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-privacy-policy-aadhaar-v1.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/dividend-distribution-policy-13-12-2023-v1.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcfsl/regulatory-policies/Vendor%20termination%20list.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/policy-for-determining-interest-rates-processing-and-other-charges.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/examples-of-sma-npa-classification.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/list-of-recovery-agents-mfb.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-policy-specifying-the-process-to-be-followed-by-investors-for-claiming-t-v1-29-02-2024-circulated.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/policy-for-determining-materiality-of-information-for-disclosure-to-stock-exchanges.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/website-updation-31-july-2026.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCHFL_NHB_Registration_Certificate.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/KYC%20Guidelines.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/GSTdetails.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/CSR%20Policy-TCHFL.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Draft_legal_disclaimer.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/List%20of%20Recovery%20Agents.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcfsl/regulatory-policies/RPT%20Policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/tchfl_Privacy_Commitment.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Guidelines_on_CG.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Anti%20Bribery%20and%20Anti%20Corruption%20Policy-TCHFL.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL%20Committees%20Composition.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL-Policy_on_Board_Diversity_and_Director_Attributes.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL-Remuneration_Policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL-Form_MGT-9.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL_-_Audit_Committee_Charter.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Affirmative_Action_Policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Code_of_Conduct_for_Non-Executive_Directors.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Code_of_Corporate_Disclosure_Practices_and_Policy_on_determination_of_legitimate_purpose.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/ChannelPartners.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tchfl/investor-information/general-information/VigilMechanismTCHFL.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/RestructuringPolicyforCOVID-19-relatedStressedAssetsorAdvances2.0.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL%20-%20Policy%20for%20Appointment%20of%20Statutory%20Auditor.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Examples_of_SMA_NPA_Classification_TCHFL.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL%20-%20Familiarisation%20Programme%20for%20Independent%20Directors.pdf",
+    "https://www.tatacapital.com/tchfl/partners.html",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/PolicyforuseofUnparliamentaryLanguagebyCustomers.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL%20-%20Policy%20on%20Archival%20of%20Documents.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/policy-for-determining-interest-rates-processing-and-other-charges.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tchfl/tchfl-privacy-for-protecting-personal-data-of-aadhaar-number-holders.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Compensation%20Policy%20for%20KMPs%20and%20SM.pdf",
+    "https://sachet.rbi.org.in/",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/release-of-property-documents-in-the-event-of-demise-of-property-owners.pdf",
+    "https://www.tatacapital.com/tchfl/sarfaesi.html",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tchfl-policy-specifying-the-process-to-be-followed-by-investors-for-cl.pdf",
+    "https://www.tatacapital.com/mastertc/retail/tchfl-pre-31-december.html",
+    "https://www.tatacapital.com/mastertc/retail/tchfl.html",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/i-pmla-policy-jan-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/ii-tax-policy-on-current-taxes-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/iii-whistle-blower-policy-jan-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/iv-cyber-security-policy-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/v-conflict-o-interest-policy-january-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/vi-outsourcing-policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/vii-surveilliance-policy-oct-2021.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/viii-abac-policy-jan-2022-clean.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/ix-insider-trading-code-25.01.2022.pdf",
+    "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html",
+    "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html",
+    "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html",
+    "https://www.tatacapital.com/personal-loan/small-personal-loan.html",
+    "https://www.tatacapital.com/personal-loan/application-process.html",
+    "https://www.tatacapital.com/personal-loan/balance-transfer.html",
+    "https://www.tatacapital.com/business-loan/business-loan-for-women.html",
+    "https://www.tatacapital.com/emergency-credit-line-guarantee-scheme.html",
+    "https://www.tatacapital.com/emi-calculator.html",
+    "https://www.tatacapital.com/vehicle-loan/used-car-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan/rates-and-charges.html",
+    "https://play.google.com/store/apps/details?id=com.snapwork.tcl&hl=en_IN&pli=1",
+    "https://apps.apple.com/in/app/tata-capital-loan-wealth-app/id1451688163",
+    "https://play.google.com/store/apps/details?id=com.tatacapital.moneyfy&hl=en",
+    "https://apps.apple.com/in/app/moneyfy-sip-mf-elss-loans/id1479549912",
+    "https://www.facebook.com/tatacapital/",
+    "https://x.com/tatacapital?lang=en",
+    "https://www.instagram.com/tatacapital/?hl=en",
+    "https://www.youtube.com/channel/UCCLXn_znjOupIWJ8502cUtg",
+    "https://www.linkedin.com/company/tata-capital/",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/footer/Legal_disclaimer.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/footer/privacy-policy-v1-06-08-2024.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/footer/Fraud%20Advisory.pdf",
+    "https://www.tatacapital.com/site-map.html",
+    "https://app.adjust.net.in/nytxoi4",
+    "https://tatacap.go.link/b9vxo",
+    "tel:18602676060"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-header-images/tcl.svg",
+        "alt": "Header Logo",
+        "w": 133,
+        "h": 15
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital/app-download-popup/2.jpg",
+        "alt": "Check Credit Score",
+        "w": 2560,
+        "h": 2560
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital/app-download-popup/3.webp",
+        "alt": "Check Credit Score",
+        "w": 1000,
+        "h": 667
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/error-icon-red.png",
+        "alt": "error-icon",
+        "w": 61,
+        "h": 60
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/download-app.svg",
+        "alt": "Download app",
+        "w": 13,
+        "h": 21
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/download-app-mobile.svg",
+        "alt": "Download app",
+        "w": 13,
+        "h": 22
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/credit-score.svg",
+        "alt": "Check credit score",
+        "w": 27,
+        "h": 15
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/img/TCL-Logo-OnlyText.svg",
+        "alt": "Logo",
+        "w": 300,
+        "h": 71
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/offers/arrow-up-right.svg",
+        "alt": "arrowright",
+        "w": 18,
+        "h": 21
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/tata-logo-blue.svg",
+        "alt": "tata-logo-blue",
+        "w": 188,
+        "h": 20
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/fraud-img1.svg",
+        "alt": "fraud-img",
+        "w": 49,
+        "h": 49
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/fraud-img2.svg",
+        "alt": "fraud-img",
+        "w": 49,
+        "h": 49
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/customer-care-icon.svg",
+        "alt": "customer-care-icon",
+        "w": 49,
+        "h": 49
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/tata-logo-blue.svg",
+        "alt": "tata-logo",
+        "w": 188,
+        "h": 20
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/chatbot-girl-opt.svg",
+        "alt": "tia-chatbot",
+        "w": 127,
+        "h": 127
+      }
+    ],
+    "allImgCount": 68,
+    "cssBackgrounds": [
+      "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/bg-length-desktop.svg"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 76,
+    "mainTextLen": 35950,
+    "realImageCount": 15,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "adobedc.demdex.net",
+        "path": "/ee/v1/identity/acquire",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://adobedc.demdex.net/ee/v1/identity/acquire",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "e.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://e.clarity.ms/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/api/master/web/api/mdm/export/mitc-pdfs.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2442,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/api/master/web/api/mdm/export/mitc-pdfs.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://edge.adobedc.net/ee/or2/v1/interact",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/api/master/web/api/mdm/export/stampdutymaster.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 403,
+        "bytes": 199,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/api/master/web/api/mdm/export/stampdutymaster.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/989333712/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "mpc2-prod-28-is5qnl632q-ue.a.run.app",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://mpc2-prod-28-is5qnl632q-ue.a.run.app/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "mpc2-prod-23-is5qnl632q-ue.a.run.app",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://mpc2-prod-23-is5qnl632q-ue.a.run.app/events",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "smart-search.senseforth.com",
+        "path": "/PROD/CX-TCSmartSearch/getUniqueId",
+        "query": [
+          "source",
+          "time"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 48,
+        "hits": 1,
+        "example": "https://smart-search.senseforth.com/PROD/CX-TCSmartSearch/getUniqueId",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=COWvqJn16JcDFdoNhAgdUtsgoA;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=COWvqJn16JcDFdoNhAgdUtsgoA;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=17111583580504066844;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWsHd6U5LnyEBaY6WwToWBFYR1SEvHTCi0JZwA;_dc_time=1793609802;cid=CAQS4QEAQM4h3GIO9uKSZuRCvL8hqAajOeiHRBEHSSqqPQ5sdLLYzT20c7oEHisio5rPM1HFq71mX25ZPyAhy4-n3QOrlApoonmsRq1ShUm_rvifNAGwQUnoN9EaFj8emWDs8yq-3VeFzX45lPgHI6Irii2R8hyjQUa5KtwFwSmlAi4R1VU31i2AWGHE7t6cdeSMgjatSwcAc8IQ--rMDn7ICjQGLDhd28mkMvSfIoGjpza7BDcnCBaMeDI6sl9dYJOXUm7Q-LozC40I6Tj0Hh_6DNRN1gizWQHeY-3IAcEcGUgkx2Q;eps=AHas8cABEgT9m1QCiqMMVR7WGWhWNXtw_7fWaL65Ac6vJ0Gse3prfZlO8mOakwGiP8Vs1Oqji3yexc5uOde8qPLWk7rTXrVccYp3hJHX9SpFnHA63A;dc_pre=COWvqJn16JcDFdoNhAgdUtsgoA;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 42,
+        "hits": 1,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=17111583580504066844;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWsHd6U5LnyEBaY6WwToWBFYR1SEvHTCi0JZwA;_dc_time=1793609802;cid=CAQS4QEAQM4h3GIO9uKSZuRCvL8hqAajOeiHRBEHSSqqPQ5sdLLYzT20c7oEHisio5rPM1HFq71mX25ZPyAhy4-n3QOrlApoonmsRq1ShUm_rvifNAGwQUnoN9EaFj8emWDs8yq-3VeFzX45lPgHI6Irii2R8hyjQUa5KtwFwSmlAi4R1VU31i2AWGHE7t6cdeSMgjatSwcAc8IQ--rMDn7ICjQGLDhd28mkMvSfIoGjpza7BDcnCBaMeDI6sl9dYJOXUm7Q-LozC40I6Tj0Hh_6DNRN1gizWQHeY-3IAcEcGUgkx2Q;eps=AHas8cABEgT9m1QCiqMMVR7WGWhWNXtw_7fWaL65Ac6vJ0Gse3prfZlO8mOakwGiP8Vs1Oqji3yexc5uOde8qPLWk7rTXrVccYp3hJHX9SpFnHA63A;dc_pre=COWvqJn16JcDFdoNhAgdUtsgoA;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "smart-search.senseforth.com",
+        "path": "/PROD/CX-TCSmartSearch/logout",
+        "query": [
+          "apiuser",
+          "clearSession",
+          "location",
+          "nb_status",
+          "source"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 74,
+        "hits": 1,
+        "example": "https://smart-search.senseforth.com/PROD/CX-TCSmartSearch/logout",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/header-ef/header-experience-fragment/master.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 301,
+        "bytes": 313,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/header-ef/header-experience-fragment/master.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/header-experience-fragment/master.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 21654,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/header-experience-fragment/master.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "gum.criteo.com",
+        "path": "/sid/json",
+        "query": [
+          "ceid",
+          "domain",
+          "origin",
+          "sn",
+          "so",
+          "topUrl"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://gum.criteo.com/sid/json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "mug.criteo.com",
+        "path": "/sid",
+        "query": [
+          "cpp",
+          "cppv"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://mug.criteo.com/sid",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 7
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 6
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 4
+      },
+      {
+        "host": "smart-search.senseforth.com",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "www.clarity.ms",
+        "count": 1
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "dynamic.criteo.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 3,
+    "triggers": [
+      {
+        "marker": "js-bannerPopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 4,
+      "thirdPartyEndpoints": 16,
+      "thirdPartyScriptHosts": 9,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/calculator.png",
+  "renderedHtml": "pages/calculator.html"
+}

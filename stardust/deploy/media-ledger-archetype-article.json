@@ -1,0 +1,62 @@
+{
+  "media/check-credit-score/Cibil-Score-banner_1.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-article/upload/Cibil-Score-banner_1.jpg",
+    "size": 21242,
+    "sha256": "4b298b8b1af221c5bfc98b9ee25bd8520b2a1df0ac766fd1c78d2accc6ef05c6",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/290ff49a/media/check-credit-score/Cibil-Score-banner_1.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-02T12:46:48.097Z"
+  },
+  "media/check-credit-score/credit-score-desktop.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-article/upload/credit-score-desktop.jpg",
+    "size": 32501,
+    "sha256": "0b27f2f3f5e03ac3625c94e3f731c7318d7c3fcfbeb1fecd3a166f350a4ce8ee",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/290ff49a/media/check-credit-score/credit-score-desktop.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-02T12:46:48.542Z"
+  },
+  "media/check-credit-score/credit-score-videothumbnail.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-article/upload/credit-score-videothumbnail.jpg",
+    "size": 14669,
+    "sha256": "50388806590d146a9cb495c04a08a52051b0c0d386b5ff2a16792c036c1d303c",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/290ff49a/media/check-credit-score/credit-score-videothumbnail.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-02T12:46:48.571Z"
+  },
+  "media/check-credit-score/credit-score-mobile.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-article/upload/credit-score-mobile.jpg",
+    "size": 16773,
+    "sha256": "e5853abb301e4508370014a916fc34490baf2244b94bd0fdd23f70110986b2aa",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/290ff49a/media/check-credit-score/credit-score-mobile.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-02T12:46:48.648Z"
+  },
+  "media/check-credit-score/credit-score-tablet.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-article/upload/credit-score-tablet.jpg",
+    "size": 31992,
+    "sha256": "cb1f6205708ff9b9e5c3881cf2c8a82475ce1cbd9ac9d1fa2e480e849cc0c57d",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/290ff49a/media/check-credit-score/credit-score-tablet.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-02T12:46:48.650Z"
+  }
+}

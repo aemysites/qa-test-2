@@ -1,0 +1,626 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout",
+    "writtenAt": "2026-11-02T16:03:19Z",
+    "stardustVersion": "0.36.0"
+  },
+  "site": {
+    "originUrl": "https://www.tatacapital.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-02T09:04:57.087Z",
+    "pageCap": 10,
+    "totalDiscovered": 1000,
+    "crawled": 10,
+    "scope": "site-plan selected pages (10 of 1000)"
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-02T09:04:57.087Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.tatacapital.com/",
+      "title": "Leading NBFC for Loans and Investments in India | Tata Capital",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:56:47.509Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-02T10:14:17Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T10:42:52Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T16:03:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "calculator",
+      "url": "https://www.tatacapital.com/calculator.html",
+      "title": "Financial EMI Calculators Online | Tata Capital",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:56:51.987Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-02T10:42:52Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T10:42:53Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T16:03:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/calculator.json",
+      "prototypePath": "stardust/prototypes/calculator-proposed.html",
+      "migratedPath": "stardust/migrated/calculator.html"
+    },
+    {
+      "slug": "check-credit-score",
+      "url": "https://www.tatacapital.com/check-credit-score.html",
+      "title": "Check Your Credit Score and CIBIL Score for | Tata Capital",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:56:49.522Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-02T10:35:24Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T10:42:53Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T16:03:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/check-credit-score.json",
+      "prototypePath": "stardust/prototypes/check-credit-score-proposed.html",
+      "migratedPath": "stardust/migrated/check-credit-score.html"
+    },
+    {
+      "slug": "experian-credit-score",
+      "url": "https://www.tatacapital.com/experian-credit-score.html",
+      "title": "Experian Credit Score: Check Free Credit Report Online",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:57:02.993Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T13:52:38Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/experian-credit-score.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "home-loan-app",
+      "url": "https://www.tatacapital.com/home-loan-app.html",
+      "title": "Home Loan App India: Best Housing Finance App (Download for Android and iOS)",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:57:04.666Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-02T10:35:29Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T10:42:53Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T16:03:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/home-loan-app.json",
+      "prototypePath": "stardust/prototypes/home-loan-app-proposed.html",
+      "migratedPath": "stardust/migrated/home-loan-app.html"
+    },
+    {
+      "slug": "home-loan",
+      "url": "https://www.tatacapital.com/home-loan.html",
+      "title": "Apply for Home Loan: Interest Rate @8%* p.a. | Tata Capital",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:57:09.233Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T14:10:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/home-loan.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "partners",
+      "url": "https://www.tatacapital.com/partners.html",
+      "title": "Our Partners | Tata Capital",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:57:14.731Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T13:13:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/partners.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/partners.html"
+    },
+    {
+      "slug": "sawaal-karo-phir-loan-lo",
+      "url": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+      "title": "Sawaal Karo, Phir Loan Lo – Make Smart Loan | Tata Capital",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:57:22.805Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T15:07:10Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/sawaal-karo-phir-loan-lo.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/sawaal-karo-phir-loan-lo.html"
+    },
+    {
+      "slug": "privacy-commitment",
+      "url": "https://www.tatacapital.com/privacy-commitment.html",
+      "title": "Privacy Commitment | Tata Capital",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:57:22.807Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-02T10:42:52Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T10:42:53Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T16:03:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/privacy-commitment.json",
+      "prototypePath": "stardust/prototypes/privacy-commitment-proposed.html",
+      "migratedPath": "stardust/migrated/privacy-commitment.html"
+    },
+    {
+      "slug": "personal-loan",
+      "url": "https://www.tatacapital.com/personal-loan.html",
+      "title": "Personal Loan Online – Instant Approval Up to ₹35 Lakh | Tata Capital",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T08:57:32.451Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-02T10:26:19Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T10:42:53Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-02T16:03:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/personal-loan.json",
+      "prototypePath": "stardust/prototypes/personal-loan-proposed.html",
+      "migratedPath": "stardust/migrated/personal-loan.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-02T15:07:02Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/calculator.html",
+        "outputPath": "calculator.html",
+        "slug": "calculator",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/check-credit-score.html",
+        "outputPath": "check-credit-score.html",
+        "slug": "check-credit-score",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/experian-credit-score.html",
+        "outputPath": "experian-credit-score.html",
+        "slug": "experian-credit-score",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/home-loan-app.html",
+        "outputPath": "home-loan-app.html",
+        "slug": "home-loan-app",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/home-loan.html",
+        "outputPath": "home-loan.html",
+        "slug": "home-loan",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/partners.html",
+        "outputPath": "partners.html",
+        "slug": "partners",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/sawaal-karo-phir-loan-lo.html",
+        "outputPath": "sawaal-karo-phir-loan-lo.html",
+        "slug": "sawaal-karo-phir-loan-lo",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/privacy-commitment.html",
+        "outputPath": "privacy-commitment.html",
+        "slug": "privacy-commitment",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/personal-loan.html",
+        "outputPath": "personal-loan.html",
+        "slug": "personal-loan",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 196,
+    "bundledAssets": [
+      "css/calculator.css",
+      "css/canon.css",
+      "css/check-credit-score.css",
+      "css/home-loan-app.css",
+      "css/index.css",
+      "css/personal-loan.css",
+      "css/privacy-commitment.css",
+      "css/sawaal-karo-phir-loan-lo.css",
+      "fonts/OpenSans-Bold.woff2",
+      "fonts/OpenSans-Light.woff2",
+      "fonts/OpenSans-Regular.woff2",
+      "fonts/OpenSans-Semibold.woff2",
+      "fonts/OpenSansItalic.woff2",
+      "fonts/icomoon.woff",
+      "js/canon.js",
+      "js/index.js",
+      "media/Desk_HL.jpg",
+      "media/Desk_LAP.jpg",
+      "media/Desk_PL.jpg",
+      "media/Desk_TWL.jpg",
+      "media/Desk_UCL_LOC.jpg",
+      "media/Desk_Wealth.jpg",
+      "media/Mob_HL.jpg",
+      "media/Mob_LAP.jpg",
+      "media/Mob_PL.jpg",
+      "media/Mob_TWL.jpg",
+      "media/Mob_UCL_LOC.jpg",
+      "media/Mob_Wealth.jpg",
+      "media/PL_Desk.jpg",
+      "media/Picture3-1.jpg",
+      "media/Picture4-1.jpg",
+      "media/Picture5-1.jpg",
+      "media/Picture6-1.jpg",
+      "media/ZTKTab.jpg",
+      "media/bg-length-desktop.svg",
+      "media/bg-length-mobile.svg",
+      "media/bussiness-loan.svg",
+      "media/calculator/2.jpg",
+      "media/calculator/3.webp",
+      "media/calculator/tick.svg",
+      "media/call-ring.svg",
+      "media/chat-bot.png",
+      "media/check-circle.svg",
+      "media/check-credit-score.png",
+      "media/check-credit-score/Cibil-Score-banner_1.jpg",
+      "media/check-credit-score/credit-score-desktop.jpg",
+      "media/check-credit-score/credit-score-mobile.jpg",
+      "media/check-credit-score/credit-score-tablet.jpg",
+      "media/check-credit-score/credit-score-videothumbnail.jpg",
+      "media/check-credit-score/facebook-colored.svg",
+      "media/check-credit-score/src-validator.png",
+      "media/check-credit-score/thankyou.svg",
+      "media/check-credit-score/twitter-x.svg",
+      "media/check-credit-score/whatsapp-colored.svg",
+      "media/credit-card.svg",
+      "media/credit-score.svg",
+      "media/dot-img.gif",
+      "media/download-app-mobile.svg",
+      "media/download-app.svg",
+      "media/ef-80.svg",
+      "media/ef-81.svg",
+      "media/error-icon-red.png",
+      "media/favicon.ico",
+      "media/home-loan-app/Picture1-1.png",
+      "media/home-loan-app/Picture1-2.jpg",
+      "media/home-loan-app/Picture4.jpg",
+      "media/home-loan-app/Picture6-1.jpg",
+      "media/home-loan-app/ap-img1.svg",
+      "media/home-loan-app/app-verticle-img1.svg",
+      "media/home-loan-app/app-verticle-img2.svg",
+      "media/home-loan-app/dashboard.png",
+      "media/home-loan-app/get-loan-qr.svg",
+      "media/home-loan-app/get-loans-img.png",
+      "media/home-loan-app/gp-img1.svg",
+      "media/home-loan-app/hl-400.jpg",
+      "media/home-loan-app/homeloan-app-desk.png",
+      "media/home-loan-app/homeloan-app-mob.png",
+      "media/home-loan-app/homeloan-app-tab.png",
+      "media/home-loan-app/multilingual.png",
+      "media/home-loan-app/raise-new-request.png",
+      "media/home-loan-app/specific-icon-1.svg",
+      "media/home-loan-app/specific-icon-2.svg",
+      "media/home-loan-app/specific-icon-3.svg",
+      "media/home-loan-app/specific-icon-4.svg",
+      "media/home-loan-app/src-validator.png",
+      "media/home-loan-app/step-video-play.svg",
+      "media/home-loan-app/steps-green-ticks.svg",
+      "media/home-loan-app/steps-icon-1.svg",
+      "media/home-loan-app/steps-icon-2.svg",
+      "media/home-loan-app/steps-icon-3.svg",
+      "media/home-loan-app/steps-icon-4.svg",
+      "media/home-loan-app/steps-icon-5.svg",
+      "media/home-loan-app/thankyou.svg",
+      "media/home-loan-app/tia.png",
+      "media/home-loan-app/tick.svg",
+      "media/home-loan.svg",
+      "media/instant-loan.png",
+      "media/insurance.svg",
+      "media/lap.svg",
+      "media/las.svg",
+      "media/loader-img.gif",
+      "media/manage-seamless-transaction.png",
+      "media/microfinance.svg",
+      "media/personal-loan.svg",
+      "media/personal-loan/8547f1-whatsapp-colored.svg",
+      "media/personal-loan/Personal-Loan-Festive-Season.png",
+      "media/personal-loan/Picture11.png",
+      "media/personal-loan/Picture8.png",
+      "media/personal-loan/Types-of-unsecured-loans-in-India.jpg",
+      "media/personal-loan/calc-c-img-mob.png",
+      "media/personal-loan/calc-c-img.png",
+      "media/personal-loan/city-col.svg",
+      "media/personal-loan/eligibility-calculator-150.jpg",
+      "media/personal-loan/facebook-colored.svg",
+      "media/personal-loan/home-renuvation-loan.png",
+      "media/personal-loan/how-to-apply-pl-150.jpg",
+      "media/personal-loan/loan-product-img-1.jpg",
+      "media/personal-loan/loan-product-img-2.png",
+      "media/personal-loan/loan-product-img-4.png",
+      "media/personal-loan/medical-loan.png",
+      "media/personal-loan/mobile-pl-govt-employee.png",
+      "media/personal-loan/mobile-pl-salaried-employee.png",
+      "media/personal-loan/mobile-pl-women.png",
+      "media/personal-loan/overdraft-loan.png",
+      "media/personal-loan/pl-400.jpg",
+      "media/personal-loan/pl-guide.jpg",
+      "media/personal-loan/src-validator.png",
+      "media/personal-loan/star-fill-2.svg",
+      "media/personal-loan/star-fill-one.svg",
+      "media/personal-loan/star-fill.svg",
+      "media/personal-loan/step-video-play.svg",
+      "media/personal-loan/steps-green-ticks.svg",
+      "media/personal-loan/steps-icon-1.svg",
+      "media/personal-loan/steps-icon-2.svg",
+      "media/personal-loan/steps-icon-3.svg",
+      "media/personal-loan/steps-icon-4.svg",
+      "media/personal-loan/steps-icon-5.svg",
+      "media/personal-loan/thankyou.svg",
+      "media/personal-loan/tick.svg",
+      "media/personal-loan/travel.png",
+      "media/personal-loan/twitter-x.svg",
+      "media/personal-loan/watch-in-hand.png",
+      "media/personal-loan/wedding-loan.png",
+      "media/personal-loan/whatsapp-colored.svg",
+      "media/pre-approved-loan.svg",
+      "media/sacan-to-download.png",
+      "media/sawaal-karo-phir-loan-lo/Asterisk.jpg",
+      "media/sawaal-karo-phir-loan-lo/BL.png",
+      "media/sawaal-karo-phir-loan-lo/CL.png",
+      "media/sawaal-karo-phir-loan-lo/HL.png",
+      "media/sawaal-karo-phir-loan-lo/PL.png",
+      "media/sawaal-karo-phir-loan-lo/Picture3-1.jpg",
+      "media/sawaal-karo-phir-loan-lo/Picture4-1.jpg",
+      "media/sawaal-karo-phir-loan-lo/Picture5-1.jpg",
+      "media/sawaal-karo-phir-loan-lo/Picture6-1.jpg",
+      "media/sawaal-karo-phir-loan-lo/add-icon.svg",
+      "media/sawaal-karo-phir-loan-lo/btn-no.png",
+      "media/sawaal-karo-phir-loan-lo/btn-yes.png",
+      "media/sawaal-karo-phir-loan-lo/call-ring.svg",
+      "media/sawaal-karo-phir-loan-lo/check-circle.svg",
+      "media/sawaal-karo-phir-loan-lo/chevron-down.svg",
+      "media/sawaal-karo-phir-loan-lo/csr-desk.png",
+      "media/sawaal-karo-phir-loan-lo/csr-mob.png",
+      "media/sawaal-karo-phir-loan-lo/csr-tab.png",
+      "media/sawaal-karo-phir-loan-lo/edit-loan-icon.svg",
+      "media/sawaal-karo-phir-loan-lo/error-icon-red.png",
+      "media/sawaal-karo-phir-loan-lo/img.png",
+      "media/sawaal-karo-phir-loan-lo/minus-icon.svg",
+      "media/sawaal-karo-phir-loan-lo/quiz-card-image.png",
+      "media/sawaal-karo-phir-loan-lo/registered-lender.jpg",
+      "media/sawaal-karo-phir-loan-lo/result-icon.png",
+      "media/sawaal-karo-phir-loan-lo/src-validator.png",
+      "media/sawaal-karo-phir-loan-lo/trash.svg",
+      "media/sawaal-karo-phir-loan-lo/unsuccesful.svg",
+      "media/sawaal-karo-phir-loan-lo/warning-icon.svg",
+      "media/secure-business-loan.png",
+      "media/sms-mobile.png",
+      "media/src-validator.png",
+      "media/star-fill.svg",
+      "media/strip-1.png",
+      "media/strip-2-desktop.png",
+      "media/strip-2.png",
+      "media/tab-graphics-bottom.svg",
+      "media/tab-graphics-top.svg",
+      "media/tc-instant-loan-tick.png",
+      "media/tcl.svg",
+      "media/tick-error.svg",
+      "media/tick.svg",
+      "media/two-wheeler-loan.svg",
+      "media/unsuccesful.svg",
+      "media/used-car-loan.svg",
+      "media/watsapp-tab.png",
+      "media/ways-to-service-personal-loan.svg",
+      "media/wealth-management.svg",
+      "media/zidd-Desk.jpg",
+      "media/zidd-Mob.jpg"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 76
+      },
+      {
+        "slug": "calculator",
+        "file": "stardust/migrated/calculator.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "check-credit-score",
+        "file": "stardust/migrated/check-credit-score.html",
+        "assetsBundled": 23
+      },
+      {
+        "slug": "home-loan-app",
+        "file": "stardust/migrated/home-loan-app.html",
+        "assetsBundled": 42
+      },
+      {
+        "slug": "privacy-commitment",
+        "file": "stardust/migrated/privacy-commitment.html",
+        "assetsBundled": 13
+      },
+      {
+        "slug": "personal-loan",
+        "file": "stardust/migrated/personal-loan.html",
+        "assetsBundled": 53
+      },
+      {
+        "slug": "partners",
+        "file": "stardust/migrated/partners.html",
+        "assetsBundled": 21
+      },
+      {
+        "slug": "experian-credit-score",
+        "file": "stardust/migrated/experian-credit-score.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "home-loan",
+        "file": "stardust/migrated/home-loan.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "sawaal-karo-phir-loan-lo",
+        "file": "stardust/migrated/sawaal-karo-phir-loan-lo.html",
+        "assetsBundled": 46
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-02T15:07:02Z",
+      "rendered": [
+        "sawaal-karo-phir-loan-lo"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "frozenAt": "2026-11-02T17:12:57.017Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "a56d8b22a4fff2a021da50ccc24be4d52a3bea6ef305a264026d73c26816b7c8",
+    "blocks/footer/footer.js": "4133d546ef686d59381d197c5fec5031ed49c2c9d89858c26b9f5f46cb9faa78",
+    "blocks/header/header.css": "dea913296a5695e590e02083558c88ee40181fea8dca44e30c3a63dc30f97fc5",
+    "blocks/header/header.js": "94cc0cba6559e5d4859a0f4a8f0971678b2eefb7c9a6b645509ac7ccd4f53df3",
+    "fonts/OpenSans-Bold.woff2": "8f2af743de57f3983d56bf5d5d30405bb6470e5a82c4f18bf4dc426c2b2078cf",
+    "fonts/OpenSans-Light.woff2": "6f3b99ec6bb790f3d228d1ce39c91b723d63aec9d51c884eac7fb10bf960d8c6",
+    "fonts/OpenSans-Regular.woff2": "d8fdd397051bcc0966f8e53d2732a28a868c5ab64808786e2cfe92c3a62cd064",
+    "fonts/OpenSans-Semibold.woff2": "10cd45a75c473bbf7647602db251a063354e27b10bec57cf1512b93f4ddcf063",
+    "fonts/OpenSansItalic.woff2": "dae8b42caff39f69224524b6033330b28ecab30f8ba21ae22781b7e1cbb982e4",
+    "fonts/icomoon.woff": "231509965abb8fa39f2fa99560c190b3875d7b82c4632d1e2a94e47cdef245bc",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/scripts.js": "03e265dd9d5fbe50a8adcaae652103bba9fc5ec934475e66015e63e53a6860d3",
+    "styles/fonts.css": "bb39aec8d487766d2b4842c6b2ce7ada86046bcd5cd7146f6919884d6a4bf56f",
+    "styles/images/bg-length-desktop.svg": "db7fab3bd1d091b652bbecc52f556122844a900af3cb2205706b39f42ed60a26",
+    "styles/images/bg-length-mobile.svg": "e0103e03699f5a963bfa5517da2007c7edcf3e8f239228b100ec5b090e50ba37",
+    "styles/lazy-styles.css": "ebb3afb4ff63fe8450c63ef7f93aa1b3cd245ca26ffd50d8f0f4e4a837df82e4",
+    "styles/styles.css": "072e59b0ad8eea2f951071fa4de9df9f8af019b9821f3d8af8056d8c33727efa"
+  }
+}

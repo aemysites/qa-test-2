@@ -1,20 +1,414 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/*
+ * Footer — the gated canon's chrome rules (stardust/prototypes/css/canon.css), scoped under the
+ * block. footer.js rebuilds the prototype DOM (same class names) around the authored /footer nodes.
+ */
+
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+footer .footer {
+  position: relative;
+  display: block;
 }
 
-footer .footer > div {
+.footer .footer-inner {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.footer .footer-container {
+  width: 100%;
+  max-width: 1236px;
   margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+  padding: 0 15px;
 }
 
-footer .footer p {
+.footer .footer-top-box {
+  background-color: var(--tc-blue);
+  padding: 24px 0;
+}
+
+.footer .footer-top-box ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+
+.footer .footer-top-box li {
+  padding: 0 10px;
+}
+
+.footer .footer-top-box a {
+  font-family: var(--f-semi);
+  font-size: 13px;
+  line-height: 17px;
+  color: #fff;
+  display: inline-block;
+}
+
+.footer .footer-top-box a:hover {
+  opacity: .8;
+}
+
+.footer .footer-headings {
+  font-family: var(--f-semi);
+  font-size: 16px;
+  line-height: 19px;
+  color: #333;
+  margin-bottom: 18px;
+  display: block;
+  text-transform: capitalize;
+  text-align: left;
+  pointer-events: none;
+  padding: 0;
+}
+
+.footer .our-other-websites {
+  background-color: var(--tc-footer-tint);
+  padding: 24px 0;
+  position: relative;
+}
+
+.footer .our-other-websites .row-flex {
+  margin: 0 -15px;
+}
+
+.footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -20px -22px 0;
+}
+
+.footer .footer-links li {
+  padding: 0 22px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.footer .footer-links li::before {
+  content: "";
+  border-left: 1px solid rgb(51 51 51 / 40%);
+  height: 14px;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  display: block;
+}
+
+.footer .footer-links li:last-child::before {
+  display: none;
+}
+
+.footer .footer-links a,
+.footer .footer-js-void {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.footer .footer-links a:hover {
+  color: #005594;
+}
+
+.footer .footer-head-sub12 {
+  font-family: var(--f-semi);
+  font-size: 12px;
+  line-height: 16px;
+  color: #333;
+  margin: 16px 0;
+}
+
+.footer .footer-main-content {
+  padding: 24px 0 9px;
+}
+
+.footer .top-outer-policies {
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgb(150 150 150 / 40%);
+  margin-bottom: 24px;
+}
+
+.footer .top-outer-policies:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.footer .tablist-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -2px;
+}
+
+.footer .nav-tablist {
+  padding: 0 2px;
+}
+
+.footer .policies-tabnav .nav-link {
+  display: block;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: var(--f-semi);
+  color: #333;
+  position: relative;
+  padding: 10px 35px 16px 20px;
+}
+
+.footer .policies-tabnav .nav-tablist:first-child .nav-link {
+  padding-left: 30px;
+}
+
+.footer .policies-tabnav .nav-link::before {
+  content: "\e90e";
+  font-family: icomoon, sans-serif;
+  position: absolute;
+  right: 13px;
+  top: 12px;
+  font-size: 10px;
+  width: 10px;
+  color: #333;
+}
+
+.footer .policies-tabnav .nav-link.link-no-tabs {
+  padding-right: 20px;
+}
+
+.footer .policies-tabnav .nav-link.link-no-tabs::before {
+  display: none;
+}
+
+.footer .policies-tabnav .nav-tablist.active .nav-link {
+  background: var(--tc-panel);
+  border-radius: 14px 14px 0 0;
+}
+
+.footer .policies-tabnav .nav-tablist.active .nav-link::before {
+  content: "\e90d";
+}
+
+.footer .policies-tabnav .tab-panel {
+  padding: 22px 30px;
+  background: var(--tc-panel);
+  border-radius: 14px;
+  margin-bottom: 9px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.footer .policies-tabnav .tab-panel ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 40px;
+}
+
+.footer .policies-tabnav .tab-panel a,
+.footer .policies-tabnav .tab-panel span {
+  color: #333;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.footer .tab-accordian {
+  display: none;
+}
+
+.footer .footer-follow-inner {
+  border-bottom: 1px solid rgb(150 150 150 / 40%);
+  padding: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .follow-left-outer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer .follow-3 {
+  width: 33.33%;
+}
+
+.footer .follow-logo {
+  height: 42px;
+  margin-bottom: 25px;
+}
+
+.footer .follow-logo a {
+  display: inline-flex;
+}
+
+.footer .follow-app-store {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .follow-app-store a {
+  display: block;
+  margin-left: 12px;
+}
+
+.footer .follow-app-store a:first-child {
+  margin-left: 0;
+}
+
+.footer .follow-right .heading14 {
+  font-family: var(--f-semi);
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 19px;
+  color: #333;
+}
+
+.footer .socal-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .socal-lists a {
+  display: block;
+  margin-left: 20px;
+}
+
+.footer .socal-lists a:first-child {
+  margin-left: 0;
+}
+
+.footer .copyright-box {
+  padding: 23px 0;
+}
+
+.footer .copyright-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .copyright-links ul {
+  margin: 0 -20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .copyright-links li {
+  padding: 0 20px;
+}
+
+.footer .copyright-links a {
+  font-size: 12px;
+  line-height: 14px;
+  color: #333;
+  display: block;
+}
+
+.footer .copyright-text {
+  padding: 0 0 0 20px;
+}
+
+.footer .copyright-text p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #333;
+}
+
+/* authored-content adaptations: the links/images arrive inside their authored paragraphs */
+.footer .follow-logo p,
+.footer .follow-app-store p,
+.footer .socal-lists p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* image boxes as the source renders them (its lazy loader paints into fixed boxes) */
+.footer .follow-logo img {
+  width: 122px;
+  height: 42px;
+}
+
+.footer .follow-app-store img {
+  width: 137px;
+  height: 42px;
+}
+
+.footer .socal-lists img {
+  width: 26px;
+  height: 21px;
+}
+
+.footer .footer-headings p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+@media (width <= 767px) {
+  .footer .footer-top-box ul {
+    justify-content: flex-start;
   }
+
+  .footer .footer-top-box li {
+    width: 33.33%;
+    margin-bottom: 16px;
+  }
+
+  .footer .our-other-websites .footer-headings {
+    pointer-events: auto;
+    width: 100%;
+    margin: 0;
+    padding: 12px 0;
+    border-bottom: 1px solid rgb(150 150 150 / 40%);
+  }
+
+  .footer .our-other-websites .footer-links {
+    display: none;
+  }
+
+  .footer .tablist-nav {
+    display: none;
+  }
+
+  .footer .tab-accordian {
+    display: block;
+    padding: 16px 40px 16px 20px;
+    border-bottom: 1px solid var(--tc-line);
+    font-family: var(--f-semi);
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+  }
+
+  .footer .tab-accordian::after {
+    content: "\e90e";
+    font-family: icomoon, sans-serif;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 10px;
+  }
+
+  .footer .policies-tabnav .nav-link,
+  .footer .policies-tabnav .nav-tablist:first-child .nav-link {
+    padding: 16px 40px 16px 20px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid var(--tc-line);
+  }
+
+  .footer .follow-3 {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .footer .copyright-inner {
+    display: block;
+  }
+
+  .footer .copyright-text {
+    padding: 16px 0 0;
+    text-align: center;
+  }
+
 }

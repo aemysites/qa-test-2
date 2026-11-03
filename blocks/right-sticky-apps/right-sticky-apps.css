@@ -1,0 +1,28 @@
+/* right-sticky-apps — source right-sticky-apps rules (page sheet), scoped under the block */
+/* stylelint-disable selector-class-pattern */
+
+:where(.right-sticky-apps) .right-sticky-apps {
+  position: fixed;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 7;
+}
+
+:where(.right-sticky-apps) .right-sticky-apps a {
+  display: block;
+  width: 42px;
+  margin: 10px 0;
+}
+
+@media (width <= 767px) {
+  :where(.right-sticky-apps) .right-sticky-apps a {
+    width: 34px;
+  }
+}
+
+.right-sticky-apps .right-sticky-apps img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

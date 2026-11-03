@@ -1,0 +1,1354 @@
+{
+ "source": "http://localhost:8791/home-loan-app-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "banner-cntr-new",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Home Loan"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "App"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Unlock your dream home with flexible financing and quick approvals, all at your fingertips"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "4.6"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "60.9K + reviews"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "5M +"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Downloads"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Loan against property"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Loan against property"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.shops-cols",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "A.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "overviews-tab-box",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Back",
+     "href": "https://www.tatacapital.com/home-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Apply Now",
+     "href": "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "×"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Apply Now"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Sending OTP to"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Select Product"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Product Type"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Loan on existing car"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Loan to buy a pre-owned car"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Verify OTP"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "OTP sent to"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Resend OTP in 00:30"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "OTP expired."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Resend OTP"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Verify & Submit"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Thank you for your"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "application"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "×"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Loan Application - Terms & Conditions and Declarations"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "I/We declare that all the details furnished in this application form are true, correct and upto date in all respects and that I/We have not withheld any information whatsoever. I/We undertake to inform of any changes therein, Immediately"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Tata Capital Limited(\"The Company\"/\"TCL\")"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Select All"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "I/We expressly authorise/consent to the Company, entities with which the Company has service arrangements and its agents to contact me/us in the manner and for the purposes and on the terms set out hereinafter."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "I/We hereby consent to receiving information from Central KYC Registry through SMS/ Email on the above registered number/ Email address."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "I/We authorise the Company, their agents and entities with which the Company has service arrangements, to exchange, share or part with all the information and details as set out hereinafter and for the purposes and on the terms set out hereinafter."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "In addition to consenting to the above, I/We agree to have read & understood the and confirm the same."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Loan Application - Terms & Conditions and Declaration"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Proceed to OTP"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Ok"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Terms and Conditions - Loan Facility"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Terms and Conditions:"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "1. This application is not for citizens, residents, persons or entities accessing from the European Union and no services shall be provided to any person or entity in the European Union."
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "2. This Application Form shall not be construed to imply automatic approval of your loan / facility by Tata Capital Limited (“the Company”). The sanction of the loan, loan amount and disbursal is at the sole discretion of the company and no commitment has been given regarding the same."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "3. The loan facility shall be disbursed by the Company to the applicant/s and/or such other person as instructed by the applicant and the amount disbursed by the Company to such person shall be valid binding and effectual discharge from the applicant/s."
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "4. Payment of non-refundable processing fee, if any, is a pre-requisite together with this loan application."
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "5. Wherever PAN is not available, Form-60 to be provided."
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "6. The Terms and Conditions mentioned above are an indicative list of terms and conditions of our loan products. These Terms and Conditions are further described in other financing documents (such as Specific Agreements, Master Terms and Conditions, other loan documents) under relevant sections / schedules and therefore should be read in conjunction with such financing documents."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "7. This Application Form should not be construed as giving rise to any binding obligation on the part of the Tata Capital Limited to provide the financial assistance/ facilities opted for by the applicant."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Please also visit the Company's website www.tatacapital.com for the Fair Practices Code and Policy for determination of Interest Rates, Processing and other charges adopted by the Company."
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Declarations"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "1. I/ We certify that I/ We are citizens of India. I / We declare that I / We am / are not citizens, residents, persons or entities accessing from the European Union."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "2. I/ We declare that no cash/ bearer cheque has been collected from me/ us upfront or otherwise towards processing of this Loan Application Form by any executive/ representative of the Company. All payment instruments being issued for the purpose of this loan application/ loan payments/ repayment have to be issued in favour of the Company only."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "3. I/We declare that all the details furnished in this application form are true, correct and up-to-date in all respects and that I/We have not withheld any information whatsoever. I / We undertake to inform the Company of any changes therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I /we am / are aware that I may be held liable for it."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "4. I/We hereby confirm and duly undertake that the loan is being taken for the purpose as stated in the Application Form. I/We also confirm that the loan is not being used for investment in stocks and shares, speculative activities or any purposes linked to capital market activities/ illegal activities."
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "5. I/We hereby confirm that no insolvency proceeding or suits for recovery of outstanding dues or monies whatsoever or for attachment of my/ our assets or properties, and/ or any criminal proceedings have been initiated and/ or are pending against me/ us and that I/We have never been adjudicated insolvent by any court or other authority nor has any receiver, administrator, administrative receiver, trustees or similar officer been appointed for my/our assets."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "6. I/We understand and acknowledge that the Company shall have the absolute discretion, without assigning any reasons (unless required by applicable law), to reject my application and any costs, losses, damages or expenses, or other consequence caused by reason of such rejection, or any delay in notifying me/us of such rejection of our application."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "7. I/ We understand and am aware that the charges paid to the Company towards out of pocket expenses and/ or log-in/ processing fees are non-refundable to me/ us and upon the application being withdrawn by us or being rejected by the Company for any reason whatsoever, we will not be entitled for refund either in part or in full."
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "8. Processing fee along with applicable taxes/ Insurance Premium (in case I have opted for insurance cover) will be deducted from the disbursement amount and the amount disbursed shall be net of fee/ charges/ premium amount."
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "9. Government Taxes, Stamp duty and other statutory charges will be as per applicable laws."
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "10. No Discount/ free gift or any other commitment whatsoever are made /binding except what is documented in the loan agreement or any other finance document."
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "11. I/ We hereby confirm and duly undertake that the loan is being taken for purpose as stated in the application. I / We also confirm that I / We shall not use the loan for any improper/illegal or unlawful purpose/ activities."
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "12. I/we have been informed that incomplete/ defective application will not be processed, and the Company shall not be responsible in any manner for the resulting delay or otherwise. The Company may request for additional documents other than those collected with the application."
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "13. I/ We hereby consent to the Company to carry out the KYC and other requisite checks by such processes as may be permissible under law including authentication/ verification of documents or details submitted for KYC purpose, accessing and procuring data from databases maintained by statutory or other authorities constituted by law, for the purpose of granting the Loan Facility referred in this form."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "14. I/We hereby understand that TCL may, if required, seek information or documents in addition to what is mentioned in its KYC-PMLA Policy and I/We hereby consent to the same and agree to provide such information or documents."
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "15. The loan terms as sanctioned are valid for a period of 30 days only. In case of delay beyond 30 days in accepting the loan offer for whatsoever reasons, there may be revision/s in the loan terms, and you are requested to kindly seek clarifications, if required."
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "16. I/We authorize the Company, their agents and entities with which the Company has service arrangements, to exchange, share or part with all the information and details (including personal sensitive data or information and any information that requires a consent under the Information Technology Act, 2008 and/or any other statute) relating to my/our existing loans and/or repayment history to bank, financial institutions, credit bureaus, information utilities, agencies, entities with which the Company has service arrangements, statutory bodies etc. as may be required or as they may deem fit and shall not hold the Company or its agents/representatives/such entities liable for use/sharing of this information."
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "17. I/ We expressly authorize/consent to the Company, and its agents, to contact me / us, through e-mails, telephones, messages, SMS, Whatsapp or other applications or otherwise even if my / our names appear in the Do Not Call or Do Not Disturb Register to inform me / us about the marketing schemes, promotional schemes, various financial and other products and/or offerings of other services, loyalty programs or any other aspect offered by them. I / We agree to the use of e-mails, messages, SMS, Whatsapp and/or other applications for communication or sharing of information or documents, agree to abide by the terms and conditions of such applications and agree to the risks associated with such applications or sharing of information through them. I / We agree that this consent shall continue to be valid even if the loan applied for has been rejected or closed."
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "18. I/ We hereby consent to receiving information from Central KYC Registry through SMS/ Email on the above registered number/ Email address."
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "19. I/We hereby provide our consent to the Company to obtain and/ or submit my/ our information from/ to Credit Information Company and/or information utility and/or such institution set up under the provisions of law from time to time, as and when required. I/We also authorise the Company to carry out multiple bureau checks wherever required."
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "20. I/We declare that am/ we is/ are not a Director/relative of a Director of TCL or we are not a firm in which any Director/ relative of a Director of TCL is interested as a partner/ manager/ employee/ guarantor or we are not a company in which any Director/ relative of a Director of TCL is interested as a major shareholder, director, manager, employee or guarantor. I/we am/are also not a senior officer(s)/relative of a senior officer of TCL. If the declaration is found to be false, then TCL will be entitled to revoke and / or recall the credit facility."
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "21. The Company has adopted the Tata Code of Conduct (“TCoC”) and all our employees and representatives are bound by the same. A copy of the TCoC is available on www.tatacapital.com. In case you notice any violation or potential violation of the TCoC by any of our employees or representatives, you may write to us at ethics@tatacapital.com intimating us of the same."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "22. I/ We hereby consent to voluntarily submit to the Company at my/ our own discretion, the physical copy of Aadhaar card/ physical e-Aadhaar/ offline electronic Aadhaar xml as issued by the Unique Identification Authority of India (“UIDAI”) after masking the Aadhaar number for the purpose of establishing my/ our identity/ address proof in line with the Directions/ guidelines issued by the Regulatory and Statutory bodies from time to time. I/ We further give my/ our consent to the Company for verification of my/ our Aadhaar to establish the genuineness in such manner as permitted by UIDAI or under any law from time to time. The consent and purpose of collecting Aadhaar has been explained to me/ us in local language. The Company has informed me/ us that my/ our Aadhaar submitted to the Company shall not be used for any other purpose other than as per the requirements of law."
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "23. I /We hereby declare that the mobile number as submitted by me/us in this application is the same as the one available and registered with the Unique Identification Authority of India (“UIDAI”). I / We undertake to inform the Company of any changes therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I /We am / are aware that I may be held liable for it."
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "24. The Company/ its Group Companies reserve the right to retain the photographs and documents submitted with the application and will not return the same to me/ us."
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "25. I/We understand that the purchase of any insurance products is purely voluntary and is not linked to availment of any other facility from the Company."
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "26. I/We hereby expressly authorize the Company to send me/ us communications regarding insurance products of the Company through any of the modes of communication referred above."
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "27. I/ We hereby consent to the Company to carry out the KYC and other requisite checks by such processes as may be permissible under law including verification of documents or details submitted for KYC purpose, accessing and procuring data from databases maintained by statutory or other authorities constituted by law, for the purpose of granting the Loan Facility referred in this form."
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "28. More particularly, I/ We hereby consent to the Company updating/furnishing my/our KYC data on the Centralised KYC Registry (CKYCR) or such other database or repository as may be prescribed from time to time as also access, download and procure data therefrom and rely upon the same for the purpose of KYC checks and it shall be my/our responsibility to ensure that the data is correct and updated and to immediately intimate in writing in case of any changes to the data. The Company may also verify the data in such manner as it deems fit and seek additional information or perform enhanced due diligence. I consent to receive information/intimation from the Company/CKYCR through SMS/Email on the above registered number/Email address notwithstanding my/our names and / or numbers appearing in the Do Not Call or Do Not Disturb registry."
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "29. I/ We am/ are aware of the Fair Practices Code and Policy for determination of Interest Rates, Processing and other charges adopted by the Company which are placed on the Company's website ."
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "www.tatacapital.com",
+     "href": "https://www.tatacapital.com"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "30. I/We hereby declare that I/We have understood and read the terms & conditions given above."
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Continue"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 49,
+   "repeats": [
+    {
+     "unitSelector": "DIV.subnav-apply-popup",
+     "count": 2,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 13
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why Use the Tata Capital"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Home Loan App?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Choose EMIs that align with your financial comfort, making home ownership more manageable."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Flexible Repayment Plans:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Enjoy swift loan approval and quick fund release to secure your dream home without delay."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Fast Disbursal:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Get personalized advice from dedicated mortgage experts to guide you through every step."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Expert Support:"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "No Hidden Charges"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "No Hidden Charges:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "space-tb40",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Unlock App-Specific"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Advantages"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Multilingual Support"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Access loan services in multiple languages, including Hindi and Hinglish, to cater to a diverse user base."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Raise new requests"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Easily check the status of your requests and track them."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "AI-Powered VoiceBot (TIA)"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Quick approval process with minimal paperwork, get your loan in minutes."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Dashboard for loan details"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Check all your loan details and access quick links for checking statements , making payments etc."
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.specific-steps-li",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.media-holder-row",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "reasons-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Key Features & Benefits of"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tata Capital Loan App"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The Tata Capital Loan App offers a seamless way to apply for and manage your loans anytime, anywhere. It combines convenience, transparency, and security to make your borrowing experience simple and efficient."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Online Loan Tracking"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Users can monitor the entire loan journey, from application submission to approval stages and final disbursement. Real-time tracking ensures transparency, helping borrowers stay up to date at every step without visiting a branch."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Financial History"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "The app provides easy access to past transactions, EMI payments, and account statements. This allows users to track repayment patterns, review financial activity, and plan future obligations effectively, ensuring better control over their finances."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Digital Payment Tool"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Users can pay EMIs conveniently through the app’s secure digital payment feature. This simplifies repayment management, ensures timely payments, and reduces dependency on offline methods, making the entire loan repayment process faster and hassle-free."
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Drawdown Functionality"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "For eligible loan types, the app allows borrowers to initiate drawdown requests digitally. This feature streamlines the disbursement process, saving time and effort, and enables users to access funds efficiently without any physical paperwork."
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Real-Time Notifications"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Instant alerts keep users informed about application updates, EMI due dates, and important account changes. Real-time notifications ensure borrowers never miss crucial information, helping them manage loans and repayments proactively and conveniently."
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Easy Navigation"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "The app offers an intuitive and easy-to-use interface. Users can quickly access eligibility tools, EMI calculators, loan-tracking features, and other services, ensuring a smooth, seamless digital experience with minimal effort."
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Personalized Loan Options"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Based on user profile and eligibility, the app recommends customised loan solutions. These personalized suggestions help borrowers efficiently choose the most suitable loan options, saving time and aligning with their financial goals."
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Raise Service Requests"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Users can submit queries or requests regarding statements, repayments, or documentation directly through the app. This reduces the need to visit a branch, making customer service faster, more convenient, and fully digital."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.why-to-choose-us-reasonlist",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "space-tb40",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Step 1"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Enter your basic details"
+    },
+    {
+     "role": "eyebrow",
+     "order": 2,
+     "text": "Step 2"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Check your eligibility"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "Step 3"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Pay the processing fee"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Step 4"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Upload Documents"
+    },
+    {
+     "role": "eyebrow",
+     "order": 8,
+     "text": "Step 5"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Get Provisional Sanction"
+    }
+   ],
+   "imgCount": 14,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.loan-steps-li",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "A.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Using the Tata Capital Loan App"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "to Check Eligibility & EMI Instantly"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The Tata Capital loan app allows users to check home loan eligibility and calculate EMIs instantly by entering income, loan amount, interest rate, and tenure. This feature helps borrowers assess affordability before proceeding with a formal application."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Security & Data Privacy in"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tata Capital Home Loan App"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Security is a key consideration while using any housing finance app. The Tata Capital Loan App incorporates standard security protocols to protect user information. Data encryption, secure login processes, and verification mechanisms help protect personal and financial details. Users are encouraged to download the home loan app only from official Android or iOS app stores to ensure authenticity."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How to Choose the Best"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Home Loan App in India?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Selecting the right home loan app can simplify the borrowing process and save time. A good app should combine convenience, transparency, and security for effective loan management."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Apply online without visiting a branch."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Digital Application –"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Easily upload scanned or digital documents."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Document Upload –"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Estimate monthly repayments quickly."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "EMI Calculator –"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Monitor application, approval, and disbursement status."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Real-Time Tracking –"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Clear information on interest rates, fees, and eligibility."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Transparency –"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Strong data protection and secure logins."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Security –"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Easy navigation for smooth use."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "User-Friendly Interface –"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Considering these factors helps choose a reliable app for a smooth home loan experience."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "faq-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "FAQs on"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Home Loan App"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Is a home loan App safe to use?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Yes, the Tata Capital app for home loans is safe to use. With secure transactions and a trusted financial institution backing it, you can meet all your home loan-related needs safely on the go with the Tata Capital app."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "How do I repay my home loan through the App?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "To repay your home loan through the Tata Capital app, all you have to do is log in using your fingerprint or face ID, choose the payment option and make quick, hassle-free loan repayments on the go."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "How long does it take to get the home loan approved through the App?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Your home loan will be approved instantly through the Tata Capital app. All you have to do is log in, share your details, check eligibility, and upload the necessary documents. Our team will inform you once your loan application is processed."
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Can I set auto payment for a home loan on the App?"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "The Tata Capital app offers seamless management of your home loan. You can apply for home loans, view your account details, and even check your credit score right on the app."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Can I track my home loan application status on the App?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Yes, you can track the status of your home loan application from the Tata Capital app. You can also view loan account details, download statements of accounts, check your credit score and apply for other loan products directly from the app."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Can I calculate my EMI using the home loan App?"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "To calculate your home loan EMI, visit the Tata Capital Simply feed in the loan amount, duration and interest rate. The calculator will instantly calculate the monthly EMI for you. You can keep track of the EMI due date through the Tata Capital app."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "home loan EMI calculator.",
+     "href": "https://www.tatacapital.com/home-loan/emi-calculator.html"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "How to get a 100% home loan amount?"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "As per RBI guidelines, borrowers cannot get a 100% home loan. The maximum loan amount borrowers can apply for is 90% of their property’s value. For a hassle-free loan application process, attractive interest rates and flexible tenures, apply for your home loan through the Tata Capital app."
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Which is the Best Home Loan App to Use in India?"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "The best home loan app should offer digital application, EMI calculation, document upload, and real-time tracking. Compare features, transparency, and security standards before selecting a housing finance app."
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Is Tata Capital's Home Loan App Safe for Online Applications and Payments?"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "The home loan app follows standard digital security protocols to protect user information. Always download the app from official app stores and avoid sharing login credentials."
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "How Fast Can I Get Loan Approval Through the App?"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Approval timelines depend on eligibility, document verification, and credit assessment. The home loan app streamlines application processing, but final approval remains subject to lender evaluation."
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "Can I Manage More Than One Loan with the Tata Capital Loan App?"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Depending on account linkage and eligibility, users may manage multiple loan accounts within the home loan app for better tracking and repayment management."
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "What Documents Do I Need to Apply for a Home Loan App?"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Applicants generally need identity proof, address proof, income documents, and property details. The best home loan app allows secure digital upload of required documents."
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Does the Home Loan App Notify Me About Status, EMI Dues, and Offers?"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Real-time notifications may alert users about application updates, EMI due dates, and relevant account information within the housing finance app."
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "Can I Upload and Sign Documents Digitally in the Tata Capital Loan App?"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "The home loan app enables digital submission of documents and may support electronic verification processes, subject to applicable policies and regulations."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Read Less"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 22,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-accordion__item",
+     "count": 14,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "financial-insights-wrap",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Blogs"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "on Loan"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Home Loan"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Tax Benefits on Second Home Loan: What You Can C laim & How ...",
+     "href": "https://www.tatacapital.com/blog/loan-for-home/tax-benefit-on-second-home-loan/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "28 October, 2026"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Home Loan"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Home Loan for a Resale Flat: Eligibility, Docume nts & Tax Benefits ...",
+     "href": "https://www.tatacapital.com/blog/loan-for-home/home-loan-for-resale-flat/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "14 October, 2026"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Home Loan"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Bhulekh Odisha 2026: How to Check Land Records O nline ...",
+     "href": "https://www.tatacapital.com/blog/loan-for-home/bhulekh-odisha-land-records/"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "10 September, 2026"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Home Loan"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "What is a loan repayment schedule & how does it work? ...",
+     "href": "https://www.tatacapital.com/blog/loan-for-home/loan-repayment-schedule/"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "21 August, 2026"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Next"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "2"
+    }
+   ],
+   "imgCount": 16,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "space-tb40",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Start Your Application By Downloading Our Home Loan App Now!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Begin your journey with just a tap — download the app today!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "or"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "A.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

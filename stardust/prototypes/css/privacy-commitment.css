@@ -1,0 +1,89 @@
+/* lifted from source sheets: clientlib-base.lc-cc6417e4fb40ab2caf800bb85a2c5625-lc.min.css, clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css, clientlib-site.lc-99a5ff922700a9bff656c1db08c6bc22-lc.min.css, tcl-global-clientlibs.lc-40f761598d1b4d5ae8820eba55aea479-lc.min.css, card-table-clientlib.lc-d3c0084e0e09f50b6a32edc631e5a213-lc.min.css, tcl-personal-loan-clientlibs.lc-babf75a60df3ffa97557440ad99615fd-lc.min.css, tia-chatbot-clientlib.lc-cdeeb850860e7f90b026c18c446946f2-lc.min.css, tcl-customer-testimonials-clientlib.lc-05a7166f6b0995528705a328a5c5af4b-lc.min.css, testimonial-form-clientlib.lc-a4babbfac069dab851ec8f00bdba885a-lc.min.css, financial-insight-clientlib.lc-1c41ece713658990e8faa28abd3659d6-lc.min.css, apply-for-loans-clientlib.lc-a221327c6884049342d5f7f602d0a6c5-lc.min.css, apply-for-loan-on-whatsapp-clientlibs.lc-6e3b1b5230526d9450100bb8a85612a4-lc.min.css, tcl-other-pages-clientlibs.lc-73a7d76e6db71fb9245c524ab45e9e1f-lc.min.css, tcl-about-us-clientlibs.lc-1a5a078890812499cb6c24b7a01d57cd-lc.min.css, clientlib.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css, clientlib.lc-084a6454fefcc87e85ba22ac5423b5dc-lc.min.css, clientlib.lc-db4a0eb6c1669506a6cc826fe13ae1c2-lc.min.css, clientlib.lc-867b6c3f82c2c886c6a5833656cae465-lc.min.css, saving-and-investment-clientlib.lc-3c969ad9de1443650fe9a4b1547e0887-lc.min.css, proceed-button-clientlib.lc-74961ead62a7f4f1c997466a427bc042-lc.min.css, custom-related-clientlib.lc-45993e90b36eb1d0a39f9639c99d5a2a-lc.min.css, esg-resources-clientlib.lc-9d18e7508fb6c0c6cfc62812e043c736-lc.min.css, press-release-clientlib.lc-e845fd9f4fa2129a6d9d08adb593beb4-lc.min.css, way-to-service-clientlib.lc-2f941012fcb9c6cacd0e681f786d7765-lc.min.css, partners-policy-box-clientlib.lc-faffef9e128843f8cda784b60de2f812-lc.min.css, loan-for-you-clientlib.lc-6877f13567e3cbaf25704017d0c9d606-lc.min.css, csr-pdf-component-clientlib.lc-31ef9a2a725bb6e91d76bdb37ceedd44-lc.min.css, csr-strip-clientlib.lc-940bf7d1df850821f69a2562fff7c8c5-lc.min.css, non-product-shortLeadForm-clientlib.lc-b63baf4c07cb65fd241d951d8473f9bc-lc.min.css */
+main.container{padding:.5em 1em}
+.error-msgs{font-size:12px;line-height:18px;letter-spacing:.02em;display:block;position:absolute;top:100%;left:0;padding:0;color:#ff3030;margin-top:2px;display:block}
+.text-center{text-align:center !important}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+.d-block{display:block !important}
+.heading36{font-family:"OpenSans-Regular";font-size:34px;line-height:130%;letter-spacing:.02em;color:#000}
+.heading36 span{font-family:"OpenSans-Bold"}
+.text16i{font-size:15px;line-height:140%;letter-spacing:.02em;color:#333}
+.btn-blue{background-color:#1961ac;color:#fff;border-radius:12px;font-family:"OpenSans-SemiBold";font-size:12px;line-height:16px;text-align:center;border:0;outline:0;padding:10px 30px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:all .2s}
+.btn-blue:hover{background:#165ca4;box-shadow:0 38px 15px rgba(30,109,194,0.02),0 21px 13px rgba(30,109,194,0.08),0 9px 9px rgba(30,109,194,0.13),0 2px 5px rgba(30,109,194,0.15),0 0 0 rgba(30,109,194,0.15)}
+.list-circle-info{padding-left:8px}
+.list-circle-info li{margin-bottom:10px;position:relative;padding-left:13px}
+.list-circle-info li:before{content:"";width:5px;height:5px;border-radius:50%;background-color:#4f4f4f;display:block;position:absolute;left:0;top:8px}
+.list-circle-info li:last-child{margin-bottom:0}
+.bg-div{background:radial-gradient(50.79% 52.48% at 48.36% 50.79%,rgba(255,255,255,0.88) 0,#fff 100%);border-radius:30px;box-shadow:-5px 0 10px rgba(0,0,0,0.01),5px 0 10px rgba(0,0,0,0.01),0 -5px 10px rgba(0,0,0,0.01),0 5px 10px rgba(0,0,0,0.01)}
+.container{margin:auto;padding:0 15px}
+.space-tb40{padding:40px 0}
+.tops-heads{max-width:862px;margin:0 auto 40px;text-align:center}
+.tops-heads p{margin-top:10px;color:#333;letter-spacing:.02em}
+.np-box{padding:14px 0;position:relative;z-index:1}
+.np-box ul{display:flex;flex-wrap:wrap;margin:0 -5px}
+.np-box ul li{font-size:12px;line-height:16px;color:#1961ac;font-family:"OpenSans-Bold";padding:0 5px;position:relative}
+.np-box ul li:before{content:"-";position:absolute;left:-1px;top:50%;transform:translateY(-50%);font-size:8px}
+.np-box ul li:first-child:before{display:none}
+.np-box ul a{font-family:"OpenSans-Regular";display:block;color:#1961ac}
+@media(max-width:991px){.heading36{font-size:30px}}
+@media(max-width:991px){.space-tb40{padding:30px 0}}
+@media(max-width:767px){.text16i{font-size:14px}}
+@media(max-width:767px){.space-tb40{padding:25px 0}}
+@media(max-width:767px){.bg-div{border-radius:24px}}
+@media(max-width:767px){.container{max-width:100%}}
+@media(max-width:767px){.tops-heads{margin-bottom:34px}}
+@media(max-width:767px){.tops-heads p{font-size:14px;line-height:20px}}
+@media(max-width:767px){.heading36{font-size:22px}}
+@media(max-width:767px){.list-circle-info li{font-size:13px;line-height:19px}}
+@media(max-width:767px){.np-box{padding:10px 0}}
+@media(min-width:768px){.container{max-width:720px}}
+@media(min-width:992px){.container{max-width:960px}}
+@media(min-width:1200px){.container{max-width:1140px}}
+.about-product .personal-para .tc-rte h1,.about-product .personal-para .tc-rte h2,.about-product .personal-para .tc-rte h3{font-family:inherit;font-size:inherit;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0 0 30px}
+.check-eligibility-box .eligibility-cards{background:linear-gradient(134.06deg,rgba(255,255,255,0.3) 0,rgba(255,255,255,0.67) 99.11%);padding:30px 50px}
+.check-eligibility-box .eligibility-cards h3{margin-bottom:26px;color:#1268b3}
+@media(max-width:1199px){.check-eligibility-box .eligibility-cards{padding:30px}}
+@media(max-width:767px){.check-eligibility-box .eligibility-cards{padding:24px}}
+@media(max-width:767px){.check-eligibility-box .eligibility-cards h3{margin-bottom:12px}}
+.personal-loan-box .personal-cards{padding:25px 40px}
+.personal-loan-box .personal-cards h2{margin-bottom:26px}
+.personal-loan-box .personal-para p{margin-bottom:25px}
+.personal-loan-box .personal-para p:last-child{margin-bottom:0}
+@media(max-width:767px){.personal-loan-box .personal-cards{padding:24px}}
+@media(max-width:767px){.personal-loan-box .personal-cards h2{margin-bottom:12px}}
+@media(max-width:767px){.personal-loan-box .personal-para p{font-size:13px;margin-bottom:20px}}
+.personal-loan-box .about-product-big-div p a{text-underline-offset:2px;text-decoration-thickness:1px}
+.personal-loan-box .about-product-big-div p a:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+.btn-blue a{color:#fff}
+.non-product-short-lead-form{position:fixed;left:0;right:0;bottom:0;z-index:999;padding:0 15px;pointer-events:none;transition:transform .3s ease-in-out}
+.non-product-short-lead-form.is-hidden{transform:translateY(100%)}
+.non-product-short-lead-form .container{max-width:1200px;padding-right:0;padding-left:0;margin:0 auto}
+.non-product-short-lead-form .short-lead-form-box{position:relative;display:flex;max-width:576px;margin:0 auto;overflow:hidden;border-top:5px solid #1961ac;border-radius:30px 30px 0 0;background-color:#fff;box-shadow:0 8px 25px rgba(0,0,0,0.25098);pointer-events:auto}
+.non-product-short-lead-form .short-lead-form-content{display:flex;flex:1 1 auto;align-items:center;padding:22px}
+.non-product-short-lead-form .short-lead-form-text{width:100%}
+.non-product-short-lead-form .short-lead-form-fields{display:flex;align-items:center;gap:20px}
+.non-product-short-lead-form .short-lead-form-input{flex:1 1 auto;min-width:0}
+.non-product-short-lead-form .short-lead-form-input input{width:100%;padding:0 0 10px;border:0;border-bottom:1px solid #333;outline:0;color:#1b1b1b;background:transparent;box-shadow:none;font-family:"OpenSans-Regular",Arial,sans-serif;font-size:14px;line-height:140%}
+.non-product-short-lead-form .short-lead-form-input input::placeholder{color:#333}
+.non-product-short-lead-form .short-lead-form-input input:focus{border-bottom-color:#333;outline:0;box-shadow:none}
+.non-product-short-lead-form .short-lead-form-btn{flex:0 0 auto;padding:12px 17px;border:0;border-radius:12px;background-color:#1961ac;color:#fff;font-family:"OpenSans-SemiBold",Arial,sans-serif;font-size:14px;font-weight:600;line-height:130%;width:100px}
+.non-product-short-lead-form .short-lead-form-btn:disabled{cursor:not-allowed;opacity:.55}
+.non-product-short-lead-form .error-msgs{display:block;min-height:17px;margin-top:5px;color:#c62828;font-size:12px;line-height:17px}
+@media(max-width:991px){.non-product-short-lead-form{right:0;bottom:0;left:0;padding:0}}
+@media(max-width:991px){.non-product-short-lead-form .container,.non-product-short-lead-form .short-lead-form-box{width:100%;max-width:100%;margin:0}}
+@media(max-width:991px){.non-product-short-lead-form .short-lead-form-box{border-radius:30px 30px 0 0;background-image:none}}
+@media(max-width:991px){.non-product-short-lead-form .short-lead-form-content{padding:14px 32px}}
+@media(max-width:991px){.non-product-short-lead-form .short-lead-form-fields{gap:28px}}
+@media(max-width:991px){.non-product-short-lead-form .short-lead-form-input input{padding-bottom:10px;font-size:12px;line-height:130%}}
+@media(max-width:991px){.non-product-short-lead-form .short-lead-form-btn{padding:8px 12px;width:auto;font-size:12px}}
+@media(max-width:575px){.non-product-short-lead-form .short-lead-form-content{padding:14px 18px}}
+@media(max-width:575px){.non-product-short-lead-form .short-lead-form-fields{gap:12px}}
+
+/* replica fixes (hand-authored, from gate rounds) */
+/* mobile: source JS turns these desktop flex rows into one-card slick carousels; static equivalent = one-card scroll row */
+@media (max-width:767px){
+ .flex-slider:not(.slick-initialized):not(.take-per-slider){display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-left:0!important;margin-right:0!important}
+ .flex-slider:not(.slick-initialized):not(.take-per-slider)>*{flex:0 0 100%!important;max-width:100%!important;width:100%!important;scroll-snap-align:start}
+ .slick-initialized .slick-track{transform:none!important}
+ .slick-initialized .slick-arrow{display:none!important}
+}
+@media (max-width:767px){ main{overflow-x:clip} }

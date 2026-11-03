@@ -1,0 +1,11 @@
+{
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T12:03:37.099Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

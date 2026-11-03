@@ -1,0 +1,148 @@
+{
+ "accepted": [
+  {
+   "kind": "MISSING ICON",
+   "text": "copy",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING ICON",
+   "text": "share",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING ICON",
+   "text": "button#",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING SR-ONLY TEXT",
+   "text": "Tata Capital Moneyfy",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING SR-ONLY TEXT",
+   "text": "tata capital banner",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING SR-ONLY TEXT",
+   "text": "LAP",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING SR-ONLY TEXT",
+   "text": "CSR Banner",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING SR-ONLY TEXT",
+   "text": "Personal Loan",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING ARIA-LABEL",
+   "text": "Apply Now",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING ARIA-LABEL",
+   "text": "Know more",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING ARIA-LABEL",
+   "text": "Explore",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING ARIA-LABEL",
+   "text": "Explore Now",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "Apply Now",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "Explore Now",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "Explore",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "How to Check RC",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "Equifax Credit Score",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "Credit Utilisation Ratio",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "Tax Benefits on Second Home Loan",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "Know More",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING CTA",
+   "text": "Personal Loan",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "ROLE SWAP",
+   "text": "Personal Loan",
+   "root": "#main-content",
+   "reason": "Slick loop clone on live (banner: 8 cloned slides; testimonials/insights: cloned cards) duplicates this item; the recreation renders each real slide once and does not reproduce text-bearing loop clones (recreation-procedure § Carousels: clones are presentational). One real instance verified present in the build."
+  },
+  {
+   "kind": "MISSING PLACEHOLDER",
+   "text": "Ask about",
+   "root": "#main-content",
+   "reason": "Live smart-search placeholder/aria-label is a typewriter animation (value changes every few hundred ms); nondeterministic capture state — build keeps the captured resting value 'Ask about eligibility...'."
+  },
+  {
+   "kind": "MISSING ARIA-LABEL",
+   "text": "Ask about",
+   "root": "#main-content",
+   "reason": "Live smart-search placeholder/aria-label is a typewriter animation (value changes every few hundred ms); nondeterministic capture state — build keeps the captured resting value 'Ask about eligibility...'."
+  }
+ ]
+}

@@ -1,0 +1,887 @@
+/* lifted from source sheets: clientlib-base-ef.lc-6bd548fdb975d22be2ae175302b4a4e4-lc.min.css, tcl-simplebar.lc-b643c26f89eaa5c498c5bf1d89c5d390-lc.min.css, tcl-global-pl-emi-calc-opt-clientlibs.lc-547b27a562fb4bc9f99edaac3be8d995-lc.min.css, campaign-header-clientlib.lc-c2952ded91a517c9b1c1f28d256ad113-lc.min.css, tcl-tchfl-components-clientlibs.lc-071eceffd4a5bb6419f65352ddd59bc3-lc.min.css, csr-faq-clientlib.lc-af793140e321128098d1d8c2cc4d7552-lc.min.css, csr-checklist-pdf-clientlib.lc-61d84cd03414f065d90e23a5b691933b-lc.min.css, clientlibs.lc-054ca86909bdc79140a0f4f1e1aed4c3-lc.min.css, financial-insight-clientlib.lc-1c41ece713658990e8faa28abd3659d6-lc.min.css, clientlib-quiz-form.lc-502b789ce607e7ca9ce50933ec96f33e-lc.min.css, clientlibs.lc-881e4ebb49d2aacc182dc65c53b777ce-lc.min.css, csr-footer-clientlib.lc-65784e3430f9c38e89633d98795391c8-lc.min.css, calculators-libs-clientlib.lc-868cc66dcfb2d88ca5f21ac9a1e3ed4d-lc.min.css, csr-feedback-popup-clientlib.lc-3d79313a7fc4ce080ab5520d3dc6f6d7-lc.min.css, loan-affordability-calculator-clientlib.lc-3b7fca2b50239cce343e1be399d32bfe-lc.min.css, why-to-choose-us-clientlib.lc-48654299224c81e835c2fc65259e5dcd-lc.min.css, clientlibs.lc-d1ad389936692997bcb72a29b5570d72-lc.min.css, clientlib-loan-ready-quiz.lc-97a69da9b92ed531df722f469bfcbab0-lc.min.css, swiper-bundle.min.css, clientlibs.lc-c13a72d6331c2b7494309817bcd0098b-lc.min.css */
+.cmp-accordion__header{margin:0}
+.cmp-accordion__button{display:block;width:100%;text-align:left}
+.cmp-accordion__panel--hidden{display:none}
+.simplebar-wrapper{overflow:hidden;width:inherit;height:inherit;max-width:inherit;max-height:inherit}
+.simplebar-mask{direction:inherit;position:absolute;overflow:hidden;padding:0;margin:0;left:0;top:0;bottom:0;right:0;width:auto !important;height:auto !important;z-index:0}
+.simplebar-offset{direction:inherit !important;box-sizing:inherit !important;resize:none !important;position:absolute;top:0;left:0;bottom:0;right:0;padding:0;margin:0;-webkit-overflow-scrolling:touch}
+.simplebar-content-wrapper{direction:inherit;box-sizing:border-box !important;position:relative;display:block;height:100%;width:auto;max-width:100%;max-height:100%;overflow:auto;scrollbar-width:none;-ms-overflow-style:none}
+.simplebar-content-wrapper::-webkit-scrollbar{display:none;width:0;height:0}
+.simplebar-content:before,.simplebar-content:after{content:" ";display:table}
+.simplebar-placeholder{max-height:100%;max-width:100%;width:100%;pointer-events:none}
+.simplebar-height-auto-observer-wrapper{box-sizing:inherit !important;height:100%;width:100%;max-width:1px;position:relative;float:left;max-height:1px;overflow:hidden;z-index:-1;padding:0;margin:0;pointer-events:none;flex-grow:inherit;flex-shrink:0;flex-basis:0}
+.simplebar-height-auto-observer{box-sizing:inherit;display:block;opacity:0;position:absolute;top:0;left:0;height:1000%;width:1000%;min-height:1px;min-width:1px;overflow:hidden;pointer-events:none;z-index:-1}
+.simplebar-track{z-index:1;position:absolute;right:0;bottom:0;pointer-events:none;overflow:hidden}
+.simplebar-scrollbar{position:absolute;left:0;right:0;min-height:10px}
+.simplebar-scrollbar:before{position:absolute;content:"";background:black;border-radius:7px;left:2px;right:2px;opacity:0;transition:opacity .2s .5s linear}
+.simplebar-track.simplebar-vertical{top:0;width:11px}
+.simplebar-scrollbar:before{top:2px;bottom:2px;left:2px;right:2px}
+.simplebar-track.simplebar-horizontal{left:0;height:11px}
+.simplebar-track.simplebar-horizontal .simplebar-scrollbar{right:auto;left:0;top:0;bottom:0;min-height:0;min-width:10px;width:auto}
+[data-simplebar-direction="rtl"] .simplebar-track.simplebar-vertical{right:auto;left:0}
+.icon-Frame-2043683522:before{content:"\ea6f"}
+.icon-Frame-2043683524:before{content:"\ea70"}
+.icon-Frame-2043683525:before{content:"\ea71"}
+.icon-Frame-2043683526:before{content:"\ea72"}
+.icon-Frame-2043683527:before{content:"\ea73"}
+.icon-Frame-2043683528:before{content:"\ea74"}
+.icon-Frame-2043683529:before{content:"\ea75"}
+.icon-download-new:before{content:"\e996"}
+.icon-EMI-calculator:before{content:"\e975"}
+.icon-handsome-loan:before{content:"\e990"}
+.icon-save-interest:before{content:"\ea01"}
+.icon-check:before{content:"\e938"}
+.icon-play:before{content:"\e930"}
+.icon-copy:before{content:"\e928"}
+.icon-arrow-up-right:before{content:"\e926"}
+.icon-whatsapp:before{content:"\e911"}
+.icon-close:before{content:"\e910"}
+.icon-twitter:before{content:"\e900"}
+.icon-facebook:before{content:"\e901"}
+.icon-share:before{content:"\e904"}
+.icon-arrow-right:before{content:"\e905"}
+.icon-arrow-left:before{content:"\e906"}
+.icon-linkedin:before{content:"\e90c"}
+.slick-prev,.slick-next{font-size:0;line-height:0;position:absolute;top:50%;display:block;width:20px;height:20px;padding:0;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;color:transparent;border:0;outline:0;background:transparent}
+.slick-prev:hover,.slick-prev:focus,.slick-next:hover,.slick-next:focus{color:transparent;outline:0;background:transparent}
+.slick-prev:hover:before,.slick-prev:focus:before,.slick-next:hover:before,.slick-next:focus:before{opacity:1}
+.slick-prev:before,.slick-next:before{font-family:'slick';font-size:20px;line-height:1;opacity:.75;color:white;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.slick-prev{left:-25px}
+[dir='rtl'] .slick-prev{right:-25px;left:auto}
+.slick-prev:before{content:'←'}
+[dir='rtl'] .slick-prev:before{content:'→'}
+.slick-next{right:-25px}
+[dir='rtl'] .slick-next{right:auto;left:-25px}
+.slick-next:before{content:'→'}
+[dir='rtl'] .slick-next:before{content:'←'}
+.slick-dotted.slick-slider{margin-bottom:30px}
+.slick-dots{position:absolute;bottom:-25px;display:block;width:100%;padding:0;margin:0;list-style:none;text-align:center}
+.slick-dots li{position:relative;display:inline-block;width:20px;height:20px;margin:0 5px;padding:0;cursor:pointer}
+.slick-dots li button{font-size:0;line-height:0;display:block;width:20px;height:20px;padding:5px;cursor:pointer;color:transparent;border:0;outline:0;background:transparent}
+.slick-dots li button:hover,.slick-dots li button:focus{outline:0}
+.slick-dots li button:hover:before,.slick-dots li button:focus:before{opacity:1}
+.slick-dots li button:before{font-family:'slick';font-size:6px;line-height:20px;position:absolute;top:0;left:0;width:20px;height:20px;content:'•';text-align:center;opacity:.25;color:black;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.slick-dots li.slick-active button:before{opacity:.75;color:black}
+.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
+.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}
+.slick-list:focus{outline:0}
+.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}
+.slick-track:before,.slick-track:after{display:table;content:''}
+.slick-track:after{clear:both}
+.slick-slide{display:none;float:left;height:100%;min-height:1px}
+[dir='rtl'] .slick-slide{float:right}
+.slick-slide img{display:block}
+.slick-initialized .slick-slide{display:block}
+.dropdown-block{min-width:260px;background:linear-gradient(134.06deg,rgba(255,255,255,0.95) 0,rgba(255,255,255,0.92) 99.11%);box-shadow:0 119px 47px rgba(0,0,0,0.02),0 67px 40px rgba(0,0,0,0.08),0 30px 30px rgba(0,0,0,0.14),0 7px 16px rgba(0,0,0,0.16),0 0 0 rgba(0,0,0,0.16);border-radius:20px;padding-top:20px;padding-bottom:20px;display:none}
+.dropdown-block a{font-size:12px;color:#333}
+.dropdown-block h4{text-transform:capitalize;font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;color:#333;opacity:.9}
+.dropdown-block h5{font-family:"OpenSans-SemiBold";font-size:13px;line-height:130%;color:#333;margin-bottom:4px}
+.dropdown-block p{margin-bottom:10px;font-family:"OpenSans-Regular";font-size:12px;line-height:130%;color:#333;opacity:.9}
+@media(max-width:991px){.dropdown-block h4{font-size:15px}}
+@media(max-width:991px){.dropdown-block{min-width:330px}}
+@media(max-width:767px){.dropdown-block h4 br{display:none}}
+@media(max-width:767px){.dropdown-block .btn-holder button{width:calc(100% + 40px)}}
+@media(max-width:359px){.dropdown-block{min-width:290px}}
+.thankyou-modal-inner{text-align:center}
+.thankyou-modal-inner .heading36{color:#fff;margin-bottom:8px}
+.thankyou-modal-inner p{color:#fff}
+.thankyou-modal-inner .thankyou-img{margin:0 auto 10px}
+.thankyou-modal-inner .otp-failure-btn{margin-top:40px}
+.text-center{text-align:center !important}
+.d-flex{display:flex !important}
+.justify-content-center{justify-content:center !important}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+.mg-b15{margin-bottom:15px !important}
+.mg-b25{margin-bottom:25px !important}
+.d-block{display:block !important}
+.d-none{display:none !important}
+.heading36{font-family:"OpenSans-Regular";font-size:34px;line-height:130%;letter-spacing:.02em;color:#000}
+.heading36 span{font-family:"OpenSans-Bold"}
+.heading24{font-size:24px;line-height:31px;color:#333;letter-spacing:.02em}
+.text16i{font-size:15px;line-height:140%;letter-spacing:.02em;color:#333}
+.text14i{font-size:14px;line-height:140%;letter-spacing:.02em;color:#333}
+.btn-apply{font-family:"OpenSans-Bold";height:50px;background-color:#fff;border:0;outline:0;border-radius:50px;font-size:15px;line-height:20px;display:inline-flex;align-items:center;justify-content:center;letter-spacing:.02em;text-transform:uppercase;color:#2c6eb5;padding:10px 20px;min-width:158px;cursor:pointer}
+.btn-white{background:radial-gradient(48.39% 149.81% at 48.36% 50.79%,rgba(255,255,255,0.8) 0,rgba(255,255,255,0.67) 100%,rgba(255,255,255,0.86) 100%);border-radius:10px;outline:0;padding:10px;font-family:"OpenSans-Bold";font-size:12px;line-height:14px;border:1px solid #fff;cursor:pointer}
+.btn-white:focus{box-shadow:none}
+.btn-white span{margin-left:8px;vertical-align:middle}
+.btn-blue{background-color:#1961ac;color:#fff;border-radius:12px;font-family:"OpenSans-SemiBold";font-size:12px;line-height:16px;text-align:center;border:0;outline:0;padding:10px 30px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:all .2s}
+.btn-blue:hover{background:#165ca4;box-shadow:0 38px 15px rgba(30,109,194,0.02),0 21px 13px rgba(30,109,194,0.08),0 9px 9px rgba(30,109,194,0.13),0 2px 5px rgba(30,109,194,0.15),0 0 0 rgba(30,109,194,0.15)}
+.btn-blue.btn-disabled{background:#87abd0;pointer-events:none;color:#fafafa}
+.btn-link{display:inline-block;font-size:12px;line-height:16px;text-align:center;border:0;outline:0;padding:10px 30px;color:#1961ac;font-family:"OpenSans-SemiBold";border-radius:12px;background:#fff;transition:all .2s}
+.btn-link.btn-big{font-size:16px;line-height:19px;padding:16px 25px}
+.btn-link:hover{color:#0f5197;box-shadow:0 22px 13px rgba(0,0,0,0.01),0 10px 10px rgba(0,0,0,0.02),0 2px 5px rgba(0,0,0,0.02),0 0 0 rgba(0,0,0,0.02)}
+.btn-link.btn-disabled{background:#fafafa;color:#87abd0;pointer-events:none}
+.btn-link.btn-with-card-bg:hover{color:#0f5197;background:#f2f2f2;box-shadow:0 30px 12px rgba(29,91,149,0.04),0 17px 10px rgba(29,91,149,0.13),0 8px 8px rgba(29,91,149,0.21),0 2px 4px rgba(29,91,149,0.25),0 0 0 rgba(29,91,149,0.25)}
+.btn-link.btn-with-card-bg.btn-disabled{background:#a0d3ff;color:#589ddd}
+.btn-big{font-size:16px;line-height:20px;padding:13px 30px}
+.slick-dots{display:none}
+.slider-dots .slick-dots{left:0;right:0;text-align:center;display:block}
+.slider-dots .slick-dots li{width:auto;height:auto;margin:0 5px}
+.slider-dots .slick-dots li button{width:9px;height:9px;background-color:rgba(51,51,51,0.1);border-radius:50%;transition:all .4s;padding:2px}
+.slider-dots .slick-dots li button:before{content:none}
+.slider-dots .slick-dots li.slick-active button{background-color:#333}
+.slider-arrows .slick-arrow{width:50px;height:50px;display:flex;align-items:center;justify-content:center;z-index:5;background:linear-gradient(134.06deg,rgba(255,255,255,0.85) 0,rgba(255,255,255,0.9) 99.11%);border-radius:16px}
+.slider-arrows .slick-arrow:before{font-family:"icomoon";font-size:14px;line-height:17px;color:#333}
+.slider-arrows .slick-prev{left:-15px}
+.slider-arrows .slick-prev:before{content:"\e906"}
+.slider-arrows .slick-next{right:-15px}
+.slider-arrows .slick-next:before{content:"\e905"}
+.mx-944{max-width:944px;margin:auto}
+.all-icon32{width:32px;min-width:32px;height:32px;border-radius:50%;background-color:#b287d4;font-size:18px;color:#fff;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
+.row-flex{margin:0 -15px;display:flex;flex-wrap:wrap}
+.row-flex.row-flex-30{margin:0 -30px}
+.row-flex.row-flex-20{margin:0 -20px}
+.row-flex .col-sp20{padding:0 20px}
+.row-flex .col-sp30{padding:0 30px}
+.row-flex .row-col-33{width:33.33%}
+.pd-t50{padding-top:50px !important}
+.bg-div{background:radial-gradient(50.79% 52.48% at 48.36% 50.79%,rgba(255,255,255,0.88) 0,#fff 100%);border-radius:30px;box-shadow:-5px 0 10px rgba(0,0,0,0.01),5px 0 10px rgba(0,0,0,0.01),0 -5px 10px rgba(0,0,0,0.01),0 5px 10px rgba(0,0,0,0.01)}
+.container{margin:auto;padding:0 15px}
+.custom-container{width:100%;max-width:1294px;margin:auto;padding:0 15px;position:relative;z-index:10}
+.slick-slide:focus{outline:0}
+.space-tb40{padding:40px 0}
+.space-tb40.space-b80{padding-bottom:80px}
+@media(min-width:768px){.d-md-none{display:none !important}}
+@media(min-width:768px){.d-md-block{display:block !important}}
+.tops-heads{max-width:862px;margin:0 auto 25px;text-align:center}
+.tops-heads p{margin-top:10px;color:#333;letter-spacing:.02em}
+.share-bundle-menu{padding:10px 15px;background:radial-gradient(48.39% 149.81% at 48.36% 50.79%,rgba(255,255,255,0.8) 0,rgba(255,255,255,0.67) 100%,rgba(255,255,255,0.86) 100%);border-radius:12px;position:absolute;right:0;top:calc(100% + 8px);border:1px solid #fff;display:none;align-items:center;flex-wrap:wrap}
+.share-bundle-menu.active{display:flex}
+.share-bundle-menu .social-btn{background-color:transparent;height:22px;font-size:12px;line-height:22px;margin-right:16px;font-family:"OpenSans-Regular";border:0;outline:0;color:#333;display:inline-flex;align-items:center}
+.share-bundle-menu .social-btn:nth-last-child(1){margin-right:0}
+.share-bundle-menu .social-btn .icon{color:#333;margin-right:5px;font-size:18px}
+.simple-bar{overflow:auto}
+.simplebar-scrollbar:before{opacity:1;background:rgba(130,130,130,0.5)}
+.simplebar-track .simplebar-track{right:-2px}
+.simplebar-track.simplebar-vertical{width:7px}
+.min-w149{min-width:149px}
+@media(max-width:991px){.heading36{font-size:30px}}
+@media(max-width:991px){.space-tb40{padding:30px 0}}
+@media(max-width:991px){.space-tb40.space-b80{padding-bottom:60px}}
+@media(max-width:991px){.share-bundle-menu{top:calc(100% + 2px)}}
+@media(max-width:767px){.share-bundle-menu .social-btn{margin-right:13px}}
+@media(max-width:767px){.btn-big{font-size:14px}}
+@media(max-width:767px){.heading24{font-size:16px;line-height:23px}}
+@media(max-width:767px){.text14i{font-size:13px}}
+@media(max-width:767px){.text16i{font-size:14px}}
+@media(max-width:767px){.space-tb40{padding:25px 0}}
+@media(max-width:767px){.space-tb40.space-b80{padding-bottom:50px}}
+@media(max-width:767px){.bg-div{border-radius:24px}}
+@media(max-width:767px){.container{max-width:100%}}
+@media(max-width:767px){.tops-heads{margin-bottom:34px}}
+@media(max-width:767px){.tops-heads p{font-size:14px;line-height:20px}}
+@media(max-width:767px){.heading36{font-size:22px}}
+@media(max-width:767px){.slider-arrows .slick-arrow{width:30px;height:30px;bottom:-46px}}
+@media(max-width:767px){.slider-arrows .slick-arrow:before{font-size:10px;line-height:14px}}
+@media(max-width:767px){.slider-arrows .slick-prev{margin-left:-85px}}
+@media(max-width:767px){.slider-arrows .slick-next{margin-right:-85px}}
+@media(max-width:767px){.btn-link.btn-big{font-size:14px}}
+@media(max-width:767px){.btn-xs-full{width:100%}}
+@media(max-width:359px){.share-bundle-menu .social-btn{margin-right:8px}}
+@media(max-width:359px){.share-bundle-menu .social-btn .icon{font-size:15px}}
+@media(min-width:768px){.container{max-width:720px}}
+@media(min-width:992px){.container{max-width:960px}}
+@media(min-width:1200px){.container{max-width:1140px}}
+.popover-modal-close{background:transparent;border:0;color:#333;position:absolute;top:25px;right:25px;padding:0;cursor:pointer;font-size:12px;line-height:12px;z-index:2}
+.popover-modal-close:focus{outline:0}
+.popover-modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;display:none;overflow:hidden;outline:0}
+.popover-modal .popover-modal-body{position:relative}
+.popover-modal .popover-modal-dialog{position:relative;margin:15px auto;max-width:720px;padding:0 15px}
+.popover-modal.fade .popover-modal-dialog{transition:-webkit-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out;-webkit-transform:translate(0,-100%);transform:translate(0,-100%)}
+.popover-modal .popover-modal-dialog-centered{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:calc(100% - 30px)}
+.popover-modal .popover-modal-content{position:relative;width:100%;pointer-events:auto;outline:0;padding:50px;background:linear-gradient(134.06deg,rgba(255,255,255,0.85) 0,rgba(255,255,255,0.9) 99.11%);border-radius:21px;overflow:hidden}
+.popover-modal .popover-modal-content.video-modals{padding:35px 0 0;border-radius:18px;background:transparent}
+.popover-modal .popover-modal-content.video-modals .popover-modal-close{color:#fff;top:15px;right:20px}
+.popover-modal.modals-blue .popover-modal-close{color:#fff}
+.popover-modal.modals-blue .popover-modal-content{background:linear-gradient(132.42deg,#187bd1 .05%,#108dfa 99%)}
+.videos-outer iframe{width:100%;height:450px;border-radius:18px;border:0}
+.modal-tb-content{width:100%}
+@media(max-width:991px){.videos-outer iframe{height:400px}}
+@media(max-width:767px){.thankyou-modal-inner .otp-failure-btn{margin-top:30px}}
+@media(max-width:767px){.popover-modal .popover-modal-content{padding:40px 20px}}
+@media(max-width:767px){.popover-modal.modals-blue .popover-modal-close{right:20px}}
+@media(max-width:767px){.popover-modal-close{top:20px;right:20px}}
+@media(max-width:767px){.videos-outer iframe{height:242px;border-radius:8px}}
+@media(min-width:992px){.popover-modal{padding:0 15px}}
+@media(min-width:992px){.popover-modal .popover-modal-dialog.popover-modal-lg2{max-width:970px}}
+@media(min-width:992px){.popover-modal .popover-modal-dialog.popover-modal-md{max-width:500px}}
+@media(min-width:992px){.popover-modal .popover-modal-dialog.popover-modal-md2{max-width:704px}}
+.container.responsivegrid{padding:0;max-width:100%}
+.fi-overlay-card .fi-card-mid p{font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;color:#333}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-mid p{color:#fff}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-mid p a{color:#fff}
+@media(max-width:991px){.fi-overlay-card .fi-card-mid p{font-size:15px;line-height:19px}}
+.loan-against-body .btn-controls .btn-link{margin-left:20px;height:51px;min-width:163px}
+.btn-blue a{color:#fff}
+.padding-top-0{padding-top:0 !important}
+.padding-bottom-0{padding-bottom:0 !important}
+.irs{position:relative;display:block;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:12px;font-family:Arial,sans-serif}
+.irs-line{position:relative;display:block;overflow:hidden;outline:none !important}
+.irs-bar{position:absolute;display:block;left:0;width:0}
+.irs-shadow{position:absolute;display:none;left:0;width:0}
+.irs-handle{position:absolute;display:block;box-sizing:border-box;cursor:default;z-index:1}
+.irs-min,.irs-max{position:absolute;display:block;cursor:default}
+.irs-min{left:0}
+.irs-max{right:0}
+.irs-from,.irs-to,.irs-single{position:absolute;display:block;top:0;left:0;cursor:default;white-space:nowrap}
+.irs-grid{position:absolute;display:none;bottom:0;left:0;width:100%;height:20px}
+.irs-hidden-input{position:absolute !important;display:block !important;top:0 !important;left:0 !important;width:0 !important;height:0 !important;font-size:0 !important;line-height:0 !important;padding:0 !important;margin:0 !important;overflow:hidden;outline:none !important;z-index:-9999 !important;background:none !important;border-style:solid !important;border-color:transparent !important}
+.irs--round{height:50px}
+.irs--round .irs-line{top:36px;height:4px;background-color:#dee4ec;border-radius:4px}
+.irs--round .irs-bar{top:36px;height:4px;background-color:#006cfa}
+.irs--round .irs-bar--single{border-radius:4px 0 0 4px}
+.irs--round .irs-shadow{height:4px;bottom:21px;background-color:rgba(222,228,236,0.5)}
+.irs--round .irs-handle{top:26px;width:24px;height:24px;border:4px solid #006cfa;background-color:white;border-radius:24px;box-shadow:0 1px 3px rgba(0,0,255,0.3)}
+.irs--round .irs-handle:hover{background-color:#f0f6ff}
+.irs--round .irs-min,.irs--round .irs-max{color:#333;font-size:14px;line-height:1;top:0;padding:3px 5px;background-color:rgba(0,0,0,0.1);border-radius:4px}
+.irs--round .irs-from,.irs--round .irs-to,.irs--round .irs-single{font-size:14px;line-height:1;text-shadow:none;padding:3px 5px;background-color:#006cfa;color:white;border-radius:4px}
+.irs--round .irs-from:before,.irs--round .irs-to:before,.irs--round .irs-single:before{position:absolute;display:block;content:"";bottom:-6px;left:50%;width:0;height:0;margin-left:-3px;overflow:hidden;border:3px solid transparent;border-top-color:#006cfa}
+.irs--round .irs-grid{height:25px}
+@media(min-width:768px){.banner-slider-new .banner-new-full .banner-captions{padding-bottom:0}}
+.banner-cntr-new{position:relative;z-index:3;padding-top:26px}
+@media(max-width:767px){.banner-cntr-new{padding-top:12px}}
+.banner-cntr-new.inner-banner-new{padding-top:0}
+.banner-new-box{box-shadow:-5px 0 10px rgba(0,0,0,0.01),5px 0 10px rgba(0,0,0,0.01),0 -5px 10px rgba(0,0,0,0.01),0 5px 10px rgba(0,0,0,0.01);border-radius:30px;overflow:hidden}
+.banner-new-box .slider-dots .slick-dots{margin-left:-5px;margin-right:-5px}
+.banner-new-box .slick-dots{bottom:40px;left:50px;right:50px;text-align:left;width:auto}
+.banner-new-box .slick-dotted.slick-slider{margin-bottom:0}
+.banner-slider-new{border-radius:30px;overflow:hidden}
+.banner-list-info{margin-top:34px}
+.banner-slider-new .banner-img{width:100%}
+.banner-slider-new .banner-img .banners-img{width:100%;object-fit:cover;border-radius:30px;height:340px}
+.banner-slider-new .banner-wrap{position:relative}
+.banner-slider-new .banner-text-new{position:absolute;left:0;top:0;bottom:0;max-width:540px;width:100%;padding:40px 20px 50px 50px}
+.banner-slider-new .banner-captions{height:100%;position:relative;padding-bottom:100px;z-index:1}
+.banner-slider-new .banner-captions .dsk-banner-cta{position:absolute;left:0;bottom:30px;display:flex;flex-wrap:wrap}
+.banner-slider-new .banner-no-text-content .banner-captions .dsk-banner-cta{bottom:53px}
+.banner-slider-new .banner-new-full .btn-holder .btn-link{background:#fff}
+.banner-slider-new .banner-new-full .banner-img{position:relative}
+.banner-slider-new .banner-new-full .banner-img:before{display:none;content:"";background:linear-gradient(90deg,rgba(51,51,51,0) 7.59%,#333 100%);transform:matrix(-1,0,0,1,0,0);position:absolute;left:0;top:0;right:0;bottom:0;border-radius:30px}
+.inner-banner-new .banner-slider-new .banner-text-new{padding-top:40px;padding-bottom:25px}
+.inner-banner-new .banner-slider-new .banner-captions{padding-bottom:55px}
+.inner-banner-new .banner-slider-new .banner-captions .dsk-banner-cta{bottom:0}
+.inner-banner-new .banner-slider-new .banner-img .banners-img{height:340px}
+.inner-banner-new.inner-with-star .banner-slider-new .banner-text-new{padding-top:25px}
+@media(max-width:1249px){.banner-slider-new .banner-text-new{max-width:510px}}
+@media(max-width:1249px){.inner-banner-new .banner-slider-new .banner-text-new{padding-top:30px}}
+@media(max-width:1199px){.banner-new-box .slick-dots{left:32px;right:32px}}
+@media(max-width:1199px){.banner-slider-new .banner-text-new{padding-left:32px;padding-top:60px;max-width:480px}}
+@media(max-width:1199px){.banner-slider-new .banner-captions{padding-bottom:90px}}
+@media(max-width:1199px){.banner-slider-new .banner-captions .dsk-banner-cta{bottom:25px}}
+@media(max-width:1199px){.banner-slider-new .banner-new-full .banner-img:before{background:linear-gradient(90deg,rgba(51,51,51,0) 7.59%,#333 100%);transform:matrix(-1,0,0,1,0,0)}}
+@media(max-width:1199px){.inner-banner-new .banner-slider-new .banner-text-new{padding-top:40px;padding-bottom:40px}}
+@media(max-width:1199px){.inner-banner-new .banner-slider-new .banner-img .banners-img{height:370px}}
+@media(max-width:1199px){.banner-list-info{margin-top:16px}}
+@media(max-width:991px){.banner-new-box .slick-dots{bottom:25px;left:25px}}
+@media(max-width:991px){.banner-slider-new .banner-text-new{max-width:370px;padding-top:45px;padding-left:25px}}
+@media(max-width:991px){.banner-slider-new .banner-captions{padding-bottom:58px}}
+@media(max-width:991px){.banner-slider-new .banner-captions .dsk-banner-cta{bottom:0}}
+@media(max-width:991px){.banner-slider-new .banner-img .banners-img{height:300px}}
+@media(max-width:991px){.inner-banner-new .banner-slider-new .banner-text-new{padding-top:50px}}
+@media(max-width:991px){.inner-banner-new .banner-slider-new .banner-img .banners-img{height:300px}}
+@media(max-width:991px){.banner-list-info .row-flex{margin:0 -10px}}
+@media(max-width:767px){.banner-slider-new .banner-wrap.banner-new-full .banner-captions{min-height:460px}}
+@media(max-width:767px){.banner-new-box{border-radius:24px}}
+@media(max-width:767px){.banner-new-box .slick-dots{left:20px;right:20px;text-align:center}}
+@media(max-width:767px){.banner-slider-new{border-radius:24px}}
+@media(max-width:767px){.banner-slider-new .slick-track{display:flex}}
+@media(max-width:767px){.banner-slider-new .banner-img .banners-img{border-radius:24px;height:auto}}
+@media(max-width:767px){.banner-slider-new .banner-item-new{height:auto}}
+@media(max-width:767px){.banner-slider-new .banner-wrap{background:radial-gradient(50.79% 52.48% at 48.36% 50.79%,#fff 0,#fff 100%);border-radius:24px;height:100%}}
+@media(max-width:767px){.banner-slider-new .banner-wrap.banner-new-full .banner-captions{min-height:430px}}
+@media(max-width:767px){.banner-slider-new .banner-wrap.banner-new-full .banner-text-new{position:relative;padding:0}}
+@media(max-width:767px){.banner-slider-new .banner-wrap.banner-new-full .banner-img:before{background:linear-gradient(180deg,#333 0,rgba(51,51,51,0) 100%);border-radius:24px;transform:matrix(-1,0,0,1,0,0)}}
+@media(max-width:767px){.banner-slider-new .banner-wrap.banner-new-full .mob-banners{position:absolute;left:0;right:0;bottom:0;top:0;margin-bottom:0;border-radius:24px}}
+@media(max-width:767px){.banner-slider-new .banner-wrap.banner-new-full .mob-banners .banners-img{width:100%;height:100%;border-radius:24px;object-fit:cover}}
+@media(max-width:767px){.banner-slider-new .banner-wrap.banner-new-full .dsk-banner-cta{padding:0 20px 58px}}
+@media(max-width:767px){.banner-slider-new .banner-no-text-content .banner-captions .dsk-banner-cta{bottom:0}}
+@media(max-width:767px){.banner-slider-new .mob-banners{margin-bottom:25px;position:relative}}
+@media(max-width:767px){.banner-slider-new .banner-text-new{position:static;padding:25px 20px 58px;text-align:center;max-width:100%;height:100%}}
+@media(max-width:767px){.banner-slider-new .banner-captions{padding-bottom:112px}}
+@media(max-width:767px){.banner-slider-new .banner-captions .dsk-banner-cta{right:0;width:100%;margin-left:auto;margin-right:auto;position:absolute}}
+@media(max-width:767px){.inner-banner-new .banner-slider-new .banner-img .banners-img{height:auto}}
+@media(max-width:767px){.inner-banner-new .banner-slider-new .dsk-banner-cta{margin-top:25px;position:static}}
+@media(max-width:767px){.inner-banner-new .banner-slider-new .banner-captions{padding-bottom:0}}
+@media(max-width:767px){.inner-banner-new .banner-slider-new .mob-banners{margin-bottom:0}}
+@media(max-width:767px){.inner-banner-new .banner-slider-new .banner-text-new{padding-top:25px;padding-bottom:25px}}
+@media(max-width:767px){.inner-banner-new .banner-slider-new .banner-wrap.banner-new-full{min-height:400px}}
+@media(max-width:767px){.inner-banner-new .banner-slider-new .banner-wrap.banner-new-full .banner-captions{min-height:400px;padding-bottom:125px}}
+@media(max-width:767px){.inner-banner-new .banner-slider-new .banner-wrap.banner-new-full .banner-captions .dsk-banner-cta{position:absolute;padding-bottom:25px}}
+@media(max-width:767px){.banner-list-info{position:absolute;bottom:0;left:0;right:0;padding:0 16px 22px}}
+@media(max-width:767px){.banner-list-info .row-flex{margin:0 -4px}}
+.banner-pdt28{padding-top:28px !important}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.resource-update-wrap .resoure-update-bottom{padding:20px 20px}
+.resource-update-list{max-height:400px}
+.resource-update-list li{padding:0 20px 0 25px;margin-bottom:20px}
+.resource-report-right{height:100%;margin:0 -10px}
+.resource-report-right .resource-report-rb{max-height:84%;padding:20px 5px 0}
+@media(max-width:991px){.resource-report-right .resource-report-rb{display:none}}
+@media(max-width:991px){.csr-products-faqs .csr-right-accordian{margin-top:15px}}
+@media(max-width:991px){.media-resources-box .row-flex .resent50{width:100%}}
+@media(max-width:991px){.resource-update-wrap{margin-bottom:30px}}
+@media(max-width:991px){.resource-update-list{max-height:400px}}
+@media(max-width:991px){.resource-update-list li{margin-bottom:15px}}
+@media(max-width:767px){.resource-update-wrap .resoure-update-bottom{padding-top:12px}}
+@media(max-width:767px){.resource-report-right{height:auto;margin:0}}
+@media(max-width:767px){.resource-report-right .resource-report-rb{display:none;height:auto;padding:0;margin:18px 0}}
+@media(max-width:767px){.resource-update-list{max-height:330px}}
+@media(max-width:767px){.resource-update-list li{margin-bottom:10px;padding:0 18px 0 24px}}
+@media(max-width:767px){.csr-products-faqs .custom-dropdown.close-on-outside.loans-dropdown{margin-bottom:10px}}
+.csr-products-faqs .csr-left-img{width:30%}
+.csr-right-accordian{width:63%}
+.resource-update-list .csr-products-faqs .resoure-update-bottom{padding:10px 40px}
+.csr-products-faqs img{display:block;width:100%;height:100%;border-radius:21px}
+.csr-products-faqs .faq-row{display:block;border-bottom:1px solid #bfd4e2;padding:30px 0}
+.csr-products-faqs .faq-heading{font-family:"OpenSans-SemiBold";font-size:16px;line-height:18px;color:#333;display:block;padding-right:20px;position:relative;width:100%;text-align:left;cursor:pointer}
+.csr-products-faqs .faq-row .faq-heading:before{content:"\e90e";font-family:"icomoon";font-size:12px;font-weight:normal;position:absolute;right:0;top:50%;transform:translateY(-50%)}
+.csr-products-faqs .faq-row .faq-heading.active:before{content:"\e90d"}
+.csr-products-faqs .faq-row:last-child{border-bottom:0}
+.csr-products-faqs .faq-row .faq-body-inner{padding-top:20px}
+.csr-products-faqs .custom-dropdown.close-on-outside.loans-dropdown{background:linear-gradient(94.99deg,rgba(75,184,130,0.85) -7.43%,rgba(82,169,126,0.909844) 37.99%,#65b68e 102.12%);border-radius:12px;font-family:"OpenSans-Bold";font-size:14px;line-height:17px;color:#333;padding:20px 51px 18px 18px;display:inline-block;position:relative;z-index:1;width:100%;cursor:pointer}
+.csr-products-faqs .custom-dropdown.close-on-outside.loans-dropdown a{color:#fff}
+.dropdown-heading.active:before{transform:translateX(-50%) rotate(-180deg)}
+.dropdown-heading:before{content:"\e90e";font-family:"icomoon";font-size:12px;line-height:3px;position:absolute;top:50%;transform:translateX(-50%);right:18px;transition:all .2s}
+.csr-products-faqs .dropdown-block{position:absolute;z-index:2;top:100%;margin-top:10px;padding:10px 0;left:0;min-width:165px;border-radius:12px;background-color:#fff;box-shadow:0 1px 5px rgba(0,0,0,0.2);width:100%}
+.custom-dropdown .dropdown-block a{display:block;padding:7px 20px}
+.csr-products-faqs .custom-dropdown.close-on-outside.loans-dropdown .hpc-dropdown-title{color:#333}
+.csr-products-faqs .simplebar-content{margin:0 21px}
+.csr-checklist-pdf .row-col-33{width:50% !important}
+.csr-checklist-pdf .csr-checklist-items{display:flex;align-items:center}
+.csr-checklist-pdf .test-icon{margin-right:17px}
+.csr-checklist-pdf .row-flex.row-flex-30{max-height:200px}
+.csr-checklist-pdf .row-flex.row-flex-30 .simplebar-content{display:flex;flex-wrap:wrap}
+.csr-checklist-pdf .btn-controls{display:flex;justify-content:center}
+.csr-checklist-pdf .btn-controls .downloadBtn{font-family:"OpenSans-SemiBold";background:#fff;color:#1961ac;font-size:18px}
+.csr-checklist-pdf .btn-controls span{margin-left:15px}
+.loan-against-form-wrap{background:linear-gradient(134.06deg,rgba(255,255,255,0.71) 0,rgba(255,255,255,0.95) 99.11%);border-radius:30px;margin-bottom:80px;position:relative;min-height:368px}
+.loan-against-prop-box .tops-heads{max-width:100%;position:relative;padding:0 60px}
+.loan-against-header{background:linear-gradient(94.99deg,rgba(75,184,130,0.85) -7.43%,rgba(82,169,126,0.909844) 37.99%,#65b68e 102.12%);border-radius:30px 30px 0 0;padding:24px 40px;display:flex;justify-content:center}
+.loan-against-header h4{color:#fff;margin-right:20px}
+.loan-against-header h4 a{color:#fff;display:inline-block;text-decoration:underline}
+.loan-against-body{border-radius:0 0 30px 30px;padding:25px 40px}
+.loan-against-body .form-textbox-new{margin-bottom:8px;border-bottom:1px solid rgba(199,199,199,0.6)}
+.loan-against-body .btn-controls{margin-top:27px}
+.loan-against-body .btn-controls .btn-link{margin-left:20px}
+@media(max-width:991px){.loan-against-body .row-flex .row-col-33{width:50%}}
+@media(max-width:991px){.loan-against-form-wrapper{padding-top:16px}}
+@media(max-width:991px){.loan-against-form-wrapper:nth-child(1){padding-top:0}}
+@media(max-width:767px){.loan-against-form-wrap{border-radius:24px;margin-bottom:50px}}
+@media(max-width:767px){.loan-against-header{border-radius:24px 24px 0 0;padding:15px 16px}}
+@media(max-width:767px){.loan-against-body{border-radius:0 0 24px 24px;padding:20px 16px}}
+@media(max-width:767px){.csr-checklist-pdf .loan-against-body .row-flex{margin:0}}
+@media(max-width:767px){.loan-against-body .row-flex .row-col-33{width:100% !important}}
+@media(max-width:767px){.loan-against-body .row-flex .col-sp30{padding:0}}
+@media(max-width:767px){.loan-against-body .btn-controls{margin-top:27px}}
+@media(max-width:767px){.loan-against-prop-box .tops-heads{padding:0}}
+.csr-products-faqs .simplebar-track{z-index:0 !important}
+.blog-video-box{padding:65px 0}
+.blog-video-box.most-viewed{padding:0 0 40px}
+.blog-video-box.most-viewed .blog-video-slider .blog-sliders .blog-content p{margin-bottom:10px}
+.blog-video-slider .blog-slider-col{padding:25px 10px 35px}
+.blog-video-slider .blog-sliders{background-color:#fff;box-shadow:0 4px 25px rgba(0,0,0,0.08);border-radius:10px;position:relative;height:100%}
+.blog-video-slider .blog-sliders .blog-img{position:relative}
+.blog-video-slider .blog-sliders .blog-img img{border-radius:10px 10px 0 0;width:350px;height:208px}
+.blog-video-slider .blog-sliders .blog-img .video-overlay{width:100%;height:100%;background:linear-gradient(178.02deg,#000 -51.24%,rgba(0,0,0,0) 127.02%);position:absolute;left:0;top:0;border-radius:10px 10px 0 0}
+.blog-video-slider .blog-sliders .blog-img .play-btn{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+.blog-content{cursor:pointer}
+.blog-video-slider .blog-sliders .blog-content{padding:15px 25px 50px}
+.blog-video-slider .blog-sliders .blog-content h6{font-weight:600;font-size:14px;line-height:21px;color:#2c6eb5;margin-bottom:8px}
+.blog-video-slider .blog-sliders .blog-content p{font-weight:600;font-size:20px;line-height:30px;color:#333;margin-bottom:18px}
+.blog-video-slider.webinars-noslider{display:flex;flex-wrap:wrap;margin:0 -10px}
+.blog-video-slider.webinars-noslider .blog-slider-col{width:33.33%;padding-bottom:0}
+@media(max-width:991px){.blog-video-box{padding:40px 0 50px}}
+@media(max-width:991px){.blog-video-box.most-viewed{padding:25px 0 30px}}
+@media(max-width:991px){.blog-video-slider.webinars-noslider .blog-slider-col{width:50%}}
+@media(max-width:767px){.blog-video-slider .blog-sliders{width:246px}}
+@media(max-width:767px){.blog-video-slider .blog-sliders .blog-content{padding-left:20px;padding-right:37px;padding-bottom:45px;position:relative}}
+@media(max-width:767px){.blog-video-slider .blog-sliders .blog-content h6{font-size:12px;line-height:18px;margin-bottom:6px}}
+@media(max-width:767px){.blog-video-slider .blog-sliders .blog-content p{font-size:16px;line-height:20px;margin-bottom:8px}}
+@media(max-width:767px){.blog-video-box.most-viewed{padding:0 0 20px}}
+@media(max-width:767px){.blog-video-box.most-viewed .blog-video-slider .blog-sliders{width:276px}}
+@media(max-width:767px){.blog-video-box.most-viewed .blog-video-slider.webinars-noslider .blog-sliders{width:100%}}
+@media(max-width:767px){.blog-video-box.most-viewed .blog-video-slider.webinars-noslider .blog-slider-col{width:100%;padding-top:15px}}
+@media(max-width:575px){.blog-video-box .container{padding:0}}
+@media(max-width:575px){.blog-video-box .container.mob-lr-15{padding-left:15px;padding-right:15px}}
+@media screen and (max-width:1024px){.slick-dots li:not(.slick-active):not(:nth-child(-n+5)){display:none}}
+.financial-insights-wrap h2{width:100%;margin-bottom:48px}
+.financial-insights-wrap .slider-arrows .slick-arrow{top:100px}
+.financial-insights-slider{padding:0 12px}
+.financial-insights-slider .financial-insights-item{position:relative}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card{transform:translateY(-50%);background:linear-gradient(134.06deg,rgba(18,104,179,0.71) 0,rgba(16,141,250,0.95) 99.11%);cursor:pointer}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-top .arrow-icon{opacity:1}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-mid h6{color:#fff}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-mid h6 a{color:#fff}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-bottom .time-stamp{color:#fff}
+.financial-insights-slider .financial-insights-item .fi-thumbnail-img{height:212px;width:100%}
+.financial-insights-slider .financial-insights-item .fi-thumbnail-img img{width:100%;height:100%;border-radius:20px;object-fit:cover}
+.fi-overlay-card{display:block;width:calc(100% - 50px);padding:25px 20px 56px 25px;background:radial-gradient(50.79% 52.48% at 48.36% 50.79%,rgba(255,255,255,0.94) 0,rgba(255,255,255,0.92) 100%);box-shadow:-5px 0 10px rgba(0,0,0,0.01),5px 0 10px rgba(0,0,0,0.01),0 -5px 10px rgba(0,0,0,0.01),0 5px 10px rgba(0,0,0,0.01);border:1px solid #fff;border-radius:20px;transform:translateY(-60px);margin:0 auto;-webkit-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out;position:relative;min-height:178px}
+.fi-overlay-card:hover{background:radial-gradient(50.79% 52.48% at 48.36% 50.79%,rgba(18,104,179,0.86) 0,rgba(16,141,250,0.95) 100%);box-shadow:0 45px 45px rgba(15,157,245,0.02),0 70px 42px rgba(15,157,245,0.07),0 31px 31px rgba(15,157,245,0.12),0 8px 17px rgba(15,157,245,0.14),0 0 0 rgba(15,157,245,0.14)}
+.fi-overlay-card .fi-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.fi-overlay-card .fi-card-top .arrow-icon{opacity:0}
+.fi-overlay-card .fi-card-mid{margin-bottom:11px}
+.fi-overlay-card .fi-card-mid h6{font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;color:#333}
+.fi-overlay-card .fi-card-mid h6 a{color:#333}
+.fi-overlay-card .fi-card-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;position:absolute;left:0;right:0;bottom:20px;padding:0 25px}
+.fi-insight-tag{padding:4px 10px;background:#f4faff;border-radius:5px;color:#1268b3;line-height:1.3;font-size:14px;font-family:"OpenSans-SemiBold";text-transform:capitalize}
+.arrow-icon{font-size:10px;color:#fff;margin-right:6px}
+.time-stamp{font-family:"OpenSans-Regular";font-size:12px;line-height:18px;color:#8b8b8b;width:calc(100% - 82px);padding-right:8px}
+.financial-insights-slider-dots .slick-dots{transform:translateY(-50px)}
+.financial-inner{position:relative;z-index:1}
+@media(max-width:1199px){.fi-overlay-card{padding-left:15px;padding-right:15px;min-height:193px}}
+@media(max-width:1199px){.fi-overlay-card .fi-card-bottom{padding-left:15px;padding-right:10px}}
+@media(max-width:991px){.financial-insights-wrap .slider-arrows .slick-arrow{top:86px}}
+@media(max-width:991px){.fi-overlay-card{width:calc(100% - 40px);transform:translateY(-35px);min-height:inherit;box-shadow:-5px 0 10px rgba(0,0,0,0.01),5px 0 10px rgba(0,0,0,0.01),0 -5px 10px rgba(0,0,0,0.01),0 5px 10px rgba(0,0,0,0.01)}}
+@media(max-width:991px){.fi-overlay-card:hover{box-shadow:none}}
+@media(max-width:991px){.fi-overlay-card .fi-card-top{margin-bottom:10px}}
+@media(max-width:991px){.fi-overlay-card .fi-card-mid{margin-bottom:24px}}
+@media(max-width:991px){.fi-overlay-card .fi-card-mid h6{font-size:15px;line-height:19px}}
+@media(max-width:991px){.fi-overlay-card .btn-white{font-family:"OpenSans-SemiBold"}}
+@media(max-width:991px){.time-stamp{font-size:10px}}
+@media(max-width:991px){.financial-insights-wrap .mob-px-0{padding-left:0;padding-right:0}}
+@media(max-width:991px){.financial-insights-slider{padding:0 7px}}
+@media(max-width:991px){.financial-insights-slider .financial-insights-item:hover .fi-overlay-card{transform:translateY(-35px)}}
+@media(max-width:991px){.financial-insights-slider .financial-insights-item .fi-thumbnail-img{height:190px}}
+@media(max-width:991px){.financial-insights-wrap h2{margin-bottom:30px}}
+@media(max-width:991px){.fi-insight-tag{line-height:16px;font-size:12px}}
+@media(max-width:991px){.financial-insights-slider-dots .slick-dots{transform:translateY(-25px)}}
+@media(max-width:767px){.financial-insights-wrap .slick-list{padding-left:10px !important}}
+@media(max-width:359px){.fi-overlay-card{width:calc(100% - 20px)}}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-mid h3{color:#fff}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-mid h3 a{color:#fff}
+.fi-overlay-card .fi-card-mid h3{font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;color:#333}
+.fi-overlay-card .fi-card-mid h3 a{color:#333}
+.fi-overlay-card .fi-card-mid .financial-insight-title{display:block;margin:0;font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;color:#333}
+.financial-insights-slider .financial-insights-item:hover .fi-overlay-card .fi-card-mid .financial-insight-title{color:#fff}
+@media(max-width:991px){.fi-overlay-card .fi-card-mid .financial-insight-title{font-size:15px;line-height:19px}}
+.quiz-box{padding:30px 0 80px}
+.quiz-box h2{margin-bottom:16px}
+@media(max-width:991px){.quiz-box{padding-bottom:50px}}
+@media(max-width:767px){.quiz-box{padding:23px 0 50px}}
+@media(max-width:767px){.quiz-box h2{margin-bottom:7px}}
+.custom-dropdown{position:relative}
+.custom-dropdown .dropdown-block{position:absolute;z-index:2;top:100%;margin-top:10px;padding:10px 0;left:0;min-width:165px;border-radius:12px;background-color:#fff;box-shadow:0 1px 5px rgba(0,0,0,0.2)}
+.custom-dropdown .dropdown-block a:hover,.custom-dropdown .dropdown-block a.active{background-color:#d8e024}
+.custom-range-slider-wrap{margin-top:-15px}
+.irs--round .irs-line{background-color:#bcbcbc;border-radius:0;opacity:.4}
+.irs--round .irs-bar{background-color:#d8e024;border-radius:0}
+.irs--round .irs-handle{background-color:#1961ac;border:0;border-radius:4px;width:16px;height:16px;box-shadow:0 2px 20px 9px rgba(216,224,36,0.2);top:30px}
+.irs--round .irs-handle:hover{background-color:#1961ac}
+.irs--round .irs-min,.irs--round .irs-max,.irs--round .irs-single{display:none}
+.custom-range-label{display:flex;justify-content:space-between;font-family:"OpenSans-Regular";font-size:12px;line-height:14px;color:#333}
+.graph-chart-box{pointer-events:none;height:250px}
+@media(max-width:767px){.custom-range-label{font-size:10px;line-height:12px}}
+@media(max-width:470px){.graph-chart-box{height:300px}}
+@media(max-width:430px){.graph-chart-box{margin-top:-55px}}
+@media(max-width:359px){.graph-chart-box{margin-top:-55px}}
+ul.simple-bar{overflow-y:auto;height:100px}
+@media(min-width:768px){.popover-modal .popover-modal-dialog.popover-modal-md{max-width:500px}}
+.loan-type-dropdown{position:relative}
+.loan-type-dropdown__trigger{display:flex;align-items:center;justify-content:space-between;width:100%;padding:19px 10px;border:0;border-radius:8px;background:linear-gradient(132.36deg,#fff -2.92%,rgba(255,255,255,0.93) 99.09%);cursor:pointer;text-align:left}
+.loan-type-dropdown__content{display:flex;align-items:center;gap:6px}
+.loan-type-dropdown__label{font-family:"OpenSans-Regular";font-size:13px;line-height:140%;color:#333;letter-spacing:2%}
+.loan-type-dropdown__label::after{content:"";display:inline-block;width:1px;height:10px;background-color:#333;margin-left:6px}
+.loan-type-dropdown__value{font-family:"OpenSans-SemiBold";font-size:14px;line-height:100%;color:#333}
+.loan-type-dropdown__arrow{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;pointer-events:none}
+.loan-type-dropdown__arrow img{display:block;transition:transform .2s ease}
+.loan-type-dropdown__menu{display:none;position:absolute;left:calc(100% - 200px);right:0;z-index:5;box-sizing:border-box;border-radius:8px;background:#fff;box-shadow:0 4px 16px rgba(0,0,0,0.08)}
+.loan-type-dropdown__scroll{max-height:228px}
+.loan-type-dropdown__list{box-sizing:border-box;margin:0;padding:10px 14px;list-style:none}
+.loan-type-dropdown__scroll .simplebar-scrollbar::before{opacity:1;background:#c0d2e3}
+.loan-type-dropdown__scroll .simplebar-track{cursor:pointer;pointer-events:unset}
+.loan-type-dropdown__scroll .simplebar-content{margin-right:15px}
+.loan-type-dropdown__scroll .simplebar-track.simplebar-vertical{width:7px}
+.loan-type-dropdown__option{display:block;width:100%;margin:4px 0;padding:12px 10px;border:0;border-radius:8px;background:transparent;font-family:"OpenSans-Regular";font-size:14px;line-height:140%;color:#333;text-align:left;cursor:pointer;transition:background-color .2s ease}
+.loan-type-dropdown__option:hover,.loan-type-dropdown__option.is-active{background-color:#d8e024}
+.loan-type-dropdown__list li+li{border-top:1px solid #f0f0f0}
+.loan-affordability-step1-summary{border:1px solid #e0e0e0;border-radius:12px;padding:16px 12px;margin-bottom:16px}
+.loan-affordability-step1-summary .loan-affordability-calculator-details-headwrap{margin-bottom:16px}
+.loan-affordability-step1-summary__heading{display:flex;align-items:center;gap:10px}
+@media(max-width:991px){.loan-affordability-step1-summary__heading{gap:8px}}
+.loan-affordability-step1-summary__edit{display:inline-flex;align-items:center;justify-content:center;padding:0;border:0;background:transparent;cursor:pointer}
+.loan-affordability-step1-summary__edit img{display:block;width:18px;height:18px}
+.loan-affordability-step1-summary__grid{background:#fff;border-radius:6px;padding:8px 12px;display:grid;grid-template-columns:1fr 1fr;row-gap:24px}
+@media(max-width:991px){.loan-affordability-step1-summary__grid{padding:12px}}
+.loan-affordability-duration-counter{gap:12px}
+.loan-affordability-duration-counter:after{display:none}
+.loan-affordability-duration-counter .counter-value{position:relative;padding-bottom:5px}
+.loan-affordability-duration-counter .counter-value::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:#a89d9d}
+.loan-affordability-duration-toggle{display:inline-flex;align-items:center;border:1px solid #1961ac;border-radius:6px;overflow:hidden}
+.loan-affordability-duration-toggle__btn{min-width:34px;padding:4px 8px;border:0;background:#fff;color:#1961ac;font-family:"OpenSans-SemiBold";font-size:12px;line-height:100%;cursor:pointer}
+.loan-affordability-duration-toggle__btn.is-active{background:#1961ac;color:#fff}
+.loan-affordability-calculator-details-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}
+.loan-affordability-calculator-details-text{font-family:"OpenSans-Regular";font-size:14px;line-height:100%;color:#333}
+.loan-affordability-calculator-counter{display:flex;justify-content:space-between;align-items:center;gap:10px;position:relative;padding-bottom:5px}
+.loan-affordability-calculator-counter .counter-reduce-btn,.loan-affordability-calculator-counter .counter-increase-btn{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;padding:0;border-radius:4px;border:.4px solid #afafaf;background:transparent;cursor:pointer;line-height:0;flex-shrink:0}
+.loan-affordability-calculator-counter .counter-reduce-btn img,.loan-affordability-calculator-counter .counter-increase-btn img{display:block;width:7px;height:7px}
+.loan-affordability-calculator-counter .counter-value{font-family:"OpenSans-SemiBold";font-size:18px;line-height:140%;color:#333;margin:0;cursor:text;outline:0;min-width:20px}
+.loan-affordability-calculator-counter .counter-value:focus{outline:0}
+.loan-affordability-calculator-counter:after{content:"";height:1px;background-color:#a89d9d;position:absolute;bottom:0;left:0;right:0}
+.loan-affordability-calculator-box .tops-heads h1{font-family:"OpenSans-Regular";font-size:36px;font-weight:400;line-height:130%;letter-spacing:2%;color:#333}
+.loan-affordability-calculator-box .tops-heads h1 span{font-weight:600;font-family:"OpenSans-Bold";line-height:41px}
+.loan-affordability-calculator-box .tops-heads p{font-family:"OpenSans-Regular";font-size:16px;line-height:130%;letter-spacing:2%;color:#333}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap{display:flex}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap{max-width:464px;width:100%;position:relative;z-index:2;flex-shrink:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner{padding:40px;border-radius:30px;height:100%;background:linear-gradient(132.36deg,rgba(255,255,255,0.67) -2.92%,rgba(255,255,255,0.5) 99.09%);backdrop-filter:blur(20px);box-shadow:-5px 0 16px rgba(0,0,0,0.04),5px 0 16px rgba(0,0,0,0.06),0 -5px 16px rgba(0,0,0,0.03),0 5px 16px rgba(0,0,0,0.04)}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-headwrap{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:10px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-details-head-title{font-family:"OpenSans-Bold";font-size:18px;line-height:130%;color:#000}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-step{display:inline-flex;align-items:center;justify-content:center;background-color:#d8e024;border-radius:5px;min-width:75px;padding:8px 15px;text-align:center}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-step{padding:4px 12px}}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-step span{display:block;font-family:"OpenSans-SemiBold";font-size:11px;line-height:100%;color:#1961ac;text-transform:uppercase}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-top-wrap{display:flex;flex-direction:column;gap:30px;margin-bottom:30px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .js-loanAffordabilityStep2Headwrap{margin-bottom:20px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .js-loanAffordabilityStep2Headwrap.d-none{display:none !important}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .js-loanAffordabilityStep2:not(.d-none){display:flex;flex-direction:column;gap:30px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .js-loanAffordabilityStep2.d-none{display:none !important}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .js-loanAffordabilityStep2>.loan-type-dropdown{margin-bottom:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-headwrap{margin-bottom:12px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-headwrap p{font-family:"OpenSans-SemiBold";font-size:14px;line-height:130%;color:#000}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-details-head-btn{font-family:"OpenSans-SemiBold";background:0;border:0;border-bottom:1px solid #1961ac;border-radius:0;cursor:pointer;display:flex;align-items:center;gap:5px;color:#1961ac;font-size:14px;line-height:100%;padding:0 0 2px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-details-head-btn:disabled{opacity:.5;cursor:not-allowed}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-cards-wrap{display:flex;flex-direction:column;gap:8px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card{border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top{margin-bottom:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top:has(+ .card-bottom){margin-bottom:16px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top .top-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top .top-heading p{font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;color:#000}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top .top-heading .card-actions{display:flex;align-items:center;gap:12px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top .top-heading .card-edit-btn,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top .top-heading .card-delete-btn{display:none;align-items:center;justify-content:center;padding:0;border:0;background:0;cursor:pointer}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top .top-heading .card-edit-btn img,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top .top-heading .card-delete-btn img{display:block;width:18px;height:18px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-card .card-top .loan-type-dropdown{margin-bottom:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-wrap-cta{background-color:#1961ac;padding:15px 35px;color:white;border-radius:16px;border:0;margin-top:16px;font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;cursor:pointer}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrapper{width:100%;margin-left:-157px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap{position:relative;z-index:0;width:100%;height:100%;border-radius:30px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-calculator-graph-inner{display:flex;flex-direction:column;gap:16px;height:100%;padding:40px 40px 90px 157px;margin-left:36px;text-align:left;background:linear-gradient(134.06deg,rgba(255,255,255,0.3) 0,rgba(255,255,255,0.67) 99.11%);backdrop-filter:blur(18px);box-shadow:0 5px 10px 0 rgba(0,0,0,0.0117647059);box-shadow:0 -5px 10px 0 rgba(0,0,0,0.0117647059);box-shadow:5px 0 10px 0 rgba(0,0,0,0.0117647059);box-shadow:-5px 0 10px 0 rgba(0,0,0,0.0117647059);border-radius:30px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-top__title{font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;color:#000;margin:0 0 20px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-top__body{display:flex;align-items:center;gap:24px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-chart{flex-shrink:0;width:210px;height:210px;overflow:hidden}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-chart .highcharts-container{overflow:hidden !important}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend li{display:flex;align-items:flex-start;gap:10px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:5px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__dot--income{background:#2e93eb}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__dot--expenses{background:#d8e024}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__dot--emi{background:#b287d4}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__dot--new-emi{background:#4bb882}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__text{font-family:"OpenSans-Regular";font-size:14px;line-height:140%;color:#333}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__text p{margin:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__text p:first-child{margin-bottom:4px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__text strong{font-family:"OpenSans-SemiBold";color:#000}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-bottom{flex-shrink:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-bottom.d-none{display:none !important}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-bottom__title{font-family:"OpenSans-Bold";font-size:16px;line-height:130%;color:#000;margin-bottom:12px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-card{background:linear-gradient(94.99deg,rgba(75,184,130,0.85) -7.43%,rgba(82,169,126,0.91) 37.99%,#65b68e 102.12%);border-radius:20px;padding:20px 30px;margin-bottom:16px;color:#fff}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-card__emi{font-family:"OpenSans-Regular";font-size:15px;line-height:140%;text-align:center;margin-bottom:12px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-card__emi strong{display:inline;font-family:"OpenSans-Bold";font-size:24px;margin-left:10px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-card__emi strong span{font-family:"OpenSans-Bold";font-size:16px;line-height:100%;color:#fff}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning--success{display:flex;align-items:flex-start;gap:12px;border-radius:16px;padding:12px 16px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning .loan-affordability-repayment-warning__icon,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning--success .loan-affordability-repayment-warning__icon{width:24px;height:24px;flex-shrink:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning .loan-affordability-repayment-warning__content,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning--success .loan-affordability-repayment-warning__content{min-width:0;flex:1}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning .loan-affordability-repayment-warning__title,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning--success .loan-affordability-repayment-warning__title{font-family:"OpenSans-Bold";font-size:16px;line-height:100%;color:#333;margin:0 0 4px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning .loan-affordability-repayment-warning__text,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning--success .loan-affordability-repayment-warning__text{font-family:"OpenSans-Regular";font-size:12px;line-height:150%;color:#333;margin:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning{background:#f2d9dd}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning--success{background:rgba(17,212,101,0.2)}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning--success .loan-affordability-repayment-warning__icon{content:url("../../../../../../content/dam/tata-capital-web/assets/csr-calculator/success-icon.svg")}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step{border:1px solid #e0e0e0;border-radius:16px;padding:20px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__badge{display:inline-block;background-color:#d8e024;border-radius:5px;padding:6px 15px;font-family:"OpenSans-SemiBold";font-size:11px;line-height:100%;color:#1961ac;text-transform:uppercase;margin-bottom:12px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__title{font-family:"OpenSans-SemiBold";font-size:16px;line-height:130%;color:#000;margin-bottom:4px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__list li{display:flex;align-items:center;gap:12px;font-family:"OpenSans-Regular";font-size:16px;line-height:140%;letter-spacing:2%;color:#333}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__icon{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:#b287d4;flex-shrink:0;line-height:0;overflow:hidden;text-align:center}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__icon img{display:block;width:18px;height:18px;margin:0;object-fit:contain}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__icon i[class^="icon-"],.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__icon i[class*=" icon-"]{display:inline-flex !important;align-items:center;justify-content:center;width:18px;height:18px;font-size:16px;line-height:1;color:#fff;margin:0;padding:0}
+.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__icon i[class^="icon-"]::before,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__icon i[class*=" icon-"]::before{display:block;width:1em;height:1em;line-height:1;text-align:center}
+@media(max-width:991px){.loan-affordability-calculator-box .tops-heads{margin-bottom:16px}}
+@media(max-width:991px){.loan-affordability-calculator-box .tops-heads h1{font-size:22px}}
+@media(max-width:991px){.loan-affordability-calculator-box .tops-heads h1 span{font-weight:600;line-height:130%}}
+@media(max-width:991px){.loan-affordability-calculator-box .tops-heads p{font-size:12px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap{flex-direction:column}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap{max-width:100%}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner{padding:16px;border-radius:24px;box-shadow:none;height:auto}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-headwrap{margin-bottom:24px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-details-head-title{font-size:16px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-step span{font-size:10px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-top-wrap{gap:24px;margin-bottom:20px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-top-wrap .loan-affordability-calculator-details-top{margin-bottom:12px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-details-head-title{font-size:12px;font-family:"OpenSans-Bold"}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-headwrap .loan-affordability-calculator-details-head-btn{font-size:14px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-cards-wrap .loan-affordability-calculator-details-bottom-card{padding:12px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-cards-wrap .loan-affordability-calculator-details-bottom-card .card-top .top-heading p{font-size:12px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-cards-wrap .loan-affordability-calculator-details-bottom-card .card-top .loan-type-dropdown__trigger{padding:12px 10px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-cards-wrap .loan-affordability-calculator-details-bottom-card .card-top .loan-type-dropdown__content{gap:4px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-cards-wrap .loan-affordability-calculator-details-bottom-card .card-top .loan-type-dropdown__label{font-size:14px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-cards-wrap .loan-affordability-calculator-details-bottom-card .card-top .loan-type-dropdown__value{font-size:14px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordabilty-calculator-details-bottom-wrap .loan-affordability-calculator-details-bottom-cards-wrap .loan-affordability-calculator-details-bottom-card .card-bottom .loan-affordability-calculator-details-top{margin-bottom:12px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-inputs-wrap .loan-affordability-calculator-inputs-inner .loan-affordability-calculator-details-wrapper .loan-affordability-calculator-details-bottom-wrap-cta{width:100%;text-align:center;font-family:"OpenSans-SemiBold";font-size:14px;line-height:100%;padding:15px 20px;margin-top:24px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrapper{max-width:100%;margin-left:0}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap{max-width:100%;margin-left:0;display:none !important}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-calculator-graph-inner{background:linear-gradient(134.06deg,rgba(255,255,255,0.3) 0,rgba(255,255,255,0.67) 99.11%);padding:100px 16px 16px 16px;gap:28px;margin-top:25px;margin-left:0;height:auto}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-calculator-graph-inner .loan-affordability-repayment-warning,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-calculator-graph-inner .loan-affordability-repayment-warning--success{order:1}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-calculator-graph-inner .loan-affordability-graph-top{order:2}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-calculator-graph-inner .js-loanAffordabilityGraphStep2{order:3}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-calculator-graph-inner .js-loanAffordabilityGraphStep1{order:4}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning .loan-affordability-repayment-warning__title,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-warning--success .loan-affordability-repayment-warning__title{font-size:14px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-top__title{font-size:16px;margin-bottom:8px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-top__body{flex-direction:column;align-items:center;gap:24px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-chart{width:220px;height:220px;margin-top:0}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend{width:100%;display:grid;grid-template-columns:repeat(2,1fr);column-gap:16px;row-gap:16px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__text{font-size:12px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-legend__text strong{font-size:16px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-graph-bottom__title{font-size:18px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-card{padding:20px 12px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-card__emi{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:4px 8px;font-size:15px;text-align:left}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-repayment-card__emi strong{display:inline;font-size:24px;margin:0}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step{padding:16px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__title{font-size:14px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-content-wrap .loan-affordability-calculator-graph-wrap .loan-affordability-upcoming-step__list li{font-size:14px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-counter .counter-reduce-btn,.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-counter .counter-increase-btn{display:none}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-counter .counter-value{display:inline-flex;align-items:center;font-size:16px;line-height:140%}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-counter .counter-value::before{content:"₹";font-family:"OpenSans-Regular";font-size:14px;font-weight:400;line-height:1;color:#333;padding-right:8px;margin-right:16px;border-right:1px solid #838383;text-decoration:none}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-counter:after{height:1px;background-color:#1961ac}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-counter.loan-affordability-duration-counter .counter-value{text-decoration:none}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-counter.loan-affordability-duration-counter .counter-value::before{content:none;padding:0;margin:0;border:0}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator .loan-affordability-calculator-counter.loan-affordability-duration-counter .counter-value::after{height:1px;background:#1961ac}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordabilty-calculator-details:has(.js-loanAffordabilityInterestSlider) .loan-affordability-calculator-counter .counter-value::before{content:none;padding:0;margin:0;border:0}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordabilty-calculator-details:has(.js-loanAffordabilityInterestSlider) .loan-affordability-calculator-counter .counter-value::after{content:"%";text-decoration:none;margin-left:2px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-affordability-calculator-details-text{font-size:14px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-type-dropdown__trigger{padding:14px 10px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-type-dropdown__label,.loan-affordability-calculator-box .loan-type-dropdown__value{font-size:14px}}
+@media(max-width:991px){.loan-affordability-calculator-box .loan-type-dropdown__option{font-size:12px}}
+@media(max-width:991px){.loan-affordability-calculator-box .irs--round .irs-handle{width:24px;height:12px;border-radius:20px;border:2px solid #fff;background-color:#1961ac;box-shadow:0 0 14px 6px rgba(216,224,36,0.45);top:32px}}
+@media(max-width:991px){.loan-affordability-calculator-box .irs--round .irs-handle:hover{background-color:#1961ac}}
+.reasons-box .tops-heads{max-width:653px}
+.blog-video-box.most-viewed{padding:35px 0 40px}
+.blog-video-slider .blog-sliders{background-color:#fff;box-shadow:0 4px 25px rgba(0,0,0,0.08);border-radius:10px;position:relative;width:350px;height:100%}
+.blog-video-slider .blog-sliders .blog-img img{border-radius:10px 10px 0 0;width:100%;height:250px;object-fit:contain;display:block}
+.blog-video-slider .blog-sliders .blog-img .video-overlay{width:100%;height:100%;background:unset;position:absolute;left:0;top:0;border-radius:10px 10px 0 0}
+.blog-video-slider .blog-sliders .blog-img .play-btn{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:inline-flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#d9dd43;color:#1a1a1a;text-decoration:none;font-size:18px;border:0}
+.blog-video-slider .blog-sliders .blog-img .play-btn .icon-play{font-size:18px;line-height:1}
+.video-modal-close.mobile{display:none}
+@media(max-width:767px){.blog-video-box.most-viewed{padding:15px 0 20px}}
+.video-modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.85);z-index:9999;display:none;align-items:center;justify-content:center;opacity:0;transition:opacity .3s ease}
+.video-modal-overlay.active{display:flex;opacity:1}
+.video-modal-container{background:#000;border-radius:12px;width:95%;max-width:1200px;max-height:90vh;overflow:hidden;position:relative;animation:modalSlideIn .3s ease;box-shadow:0 10px 40px rgba(0,0,0,0.3);display:grid;grid-template-columns:1fr 400px}
+.video-modal-container.short-video{max-width:750px;grid-template-columns:360px 400px;width:auto}
+.video-modal-left{background:#000;display:flex;align-items:center;justify-content:center;position:relative;min-height:500px;padding:0}
+.video-modal-right{background:#fff;padding:35px 40px;display:flex;flex-direction:column;position:relative;overflow-y:auto}
+.video-modal-close{background:transparent;border:0;cursor:pointer;padding:0;width:32px;height:32px;display:flex;align-items:center;justify-content:center;transition:color .2s ease;position:absolute;top:20px;right:20px;color:#999;font-size:15px;line-height:1;z-index:10}
+.video-modal-close:hover{color:#333}
+.video-info-content{flex:1;padding-top:20px;padding-right:10px}
+.video-modal-title{font-size:26px;font-weight:700;color:#1a1a1a;margin:0 0 20px 0;line-height:1.3;padding-right:20px}
+.video-modal-description{font-size:16px;line-height:1.6;color:#666;margin:0}
+.video-share-btn{width:50px;height:50px;border-radius:50%;background:transparent;border:0;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .3s ease;color:#005899;align-self:flex-end;margin-top:20px}
+.video-share-btn:hover{background:#f0f0f0;transform:scale(1.1)}
+.video-share-btn svg{width:24px;height:24px}
+.video-wrapper{position:relative;width:100%;height:100%;overflow:hidden;background:#000}
+.video-wrapper.short-wrapper{width:360px;height:640px;margin:0 auto;background:#000}
+.video-wrapper iframe{position:absolute;top:0;left:0;width:100%;height:98%;border:0}
+@media(max-width:991px){.video-modal-container{grid-template-columns:1fr 320px;max-width:95%}}
+@media(max-width:991px){.video-modal-container.short-video{grid-template-columns:1fr 300px}}
+@media(max-width:991px){.video-modal-left{min-height:400px;padding:15px;position:relative}}
+@media(max-width:991px){.video-wrapper{max-height:calc(70vh - 80px)}}
+@media(max-width:991px){.video-wrapper.short-wrapper{height:550px;width:300px;max-width:300px;max-height:calc(70vh - 80px)}}
+@media(max-width:991px){.video-modal-right{padding:30px 25px}}
+@media(max-width:991px){.video-modal-title{font-size:22px}}
+@media(max-width:991px){.video-modal-description{font-size:15px}}
+@media(max-width:767px){.video-modal-container,.video-modal-container.short-video{grid-template-columns:1fr;grid-template-rows:auto 1fr;max-height:95vh}}
+@media(max-width:767px){.video-modal-left{min-height:250px;max-height:50vh;padding:10px;position:relative}}
+@media(max-width:767px){.video-wrapper{max-height:45vh}}
+@media(max-width:767px){.video-wrapper.short-wrapper{height:450px;width:250px;max-width:250px;max-height:45vh}}
+@media(max-width:767px){.video-modal-right{padding:25px 20px;max-height:45vh}}
+@media(max-width:767px){.video-modal-close .icon-close{font-size:18px}}
+@media(max-width:767px){.video-modal-title{font-size:20px;margin-bottom:15px}}
+@media(max-width:767px){.video-modal-description{font-size:14px}}
+@media(max-width:767px){.video-modal-close.desktop{display:none}}
+@media(max-width:767px){.video-modal-close.mobile{display:block;position:absolute;top:5px;right:7px;color:#fff;border-radius:50%;width:40px;height:40px;z-index:10002;pointer-events:auto}}
+.heading-view{text-align:center;margin-bottom:30px}
+.heading-view h2{font-weight:100;font-size:32px;line-height:40px;color:#333;margin-bottom:8px}
+.heading-view h2 b,.heading-view h2 strong{font-weight:700;font-family:"OpenSans-Bold"}
+.heading-description{font-size:16px;line-height:24px;color:#333;margin-top:8px;margin-bottom:20px}
+.play-btn{width:54px;height:54px;border-radius:50%;background:#d9dd43;display:inline-flex;align-items:center;justify-content:center;transition:transform .2s ease}
+.play-btn:hover{transform:scale(1.1)}
+.play-btn .icon-play{font-size:20px;color:#333}
+.blog-video-slider .blog-sliders .blog-img img{height:208px;object-fit:cover;display:block;width:350px}
+@media(max-width:767px){.heading-view{margin-bottom:20px}}
+@media(max-width:767px){.heading-view h2{font-size:24px;line-height:32px}}
+@media(max-width:767px){.heading-description{font-size:14px;line-height:20px;margin-top:6px;margin-bottom:15px}}
+@media(max-width:767px){.play-btn{width:48px;height:48px}}
+@media(max-width:767px){.play-btn .icon-play{font-size:18px}}
+.share-modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.8);z-index:10000;display:none;align-items:center;justify-content:center;opacity:0;transition:opacity .3s ease}
+.share-modal-overlay.active{display:flex;opacity:1}
+.share-modal-container{background:#fff;border-radius:16px;width:90%;max-width:520px;overflow:hidden;position:relative;animation:shareModalSlideIn .3s ease;box-shadow:0 20px 60px rgba(0,0,0,0.3)}
+.share-modal-header{display:flex;justify-content:space-between;align-items:center;padding:24px 28px;border-bottom:1px solid #e5e5e5}
+.share-modal-title{font-size:22px;font-weight:600;color:#1a1a1a;margin:0}
+.share-modal-close{background:transparent;border:0;font-size:15px;line-height:1;color:#999;cursor:pointer;padding:0;width:32px;height:32px;display:flex;align-items:center;justify-content:center;transition:color .2s ease}
+.share-modal-close:hover{color:#333}
+.share-modal-body{padding:32px 28px}
+@media(max-width:767px){.share-modal-body{padding:32px 16px}}
+.social-share-icons{display:flex;gap:20px;justify-content:center;margin-bottom:28px}
+.social-share-btn{width:60px;height:60px;border-radius:50%;background:#d9dd43;border:0;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .3s ease;color:#1a1a1a}
+.social-share-btn span{font-size:24px;color:#2c6eb5;background-color:transparent}
+.social-share-btn:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(217,221,67,0.4)}
+.social-share-btn svg{width:24px;height:24px}
+.share-divider{position:relative;text-align:center;margin:28px 0}
+.share-divider::before{content:'';position:absolute;left:0;right:0;top:50%;height:1px;background:#e5e5e5}
+.share-divider span{position:relative;background:#fff;padding:0 16px;color:#999;font-size:14px;font-weight:500}
+.share-link-section{margin-top:28px}
+.share-link-title{font-size:16px;font-weight:600;color:#333;margin:0 0 12px 0}
+.share-link-input-group{display:flex;gap:8px;align-items:stretch}
+.share-link-input{flex:1;padding:12px 16px;border:1px solid #ddd;border-radius:8px;font-size:14px;color:#333;background:#f8f9fa;outline:0;transition:border-color .2s ease}
+@media(max-width:767px){.share-link-input{padding:12px 8px}}
+.share-link-input:focus{border-color:#d9dd43;background:#fff}
+.share-copy-btn{padding:12px 24px;background:#005899;color:#fff;border:0;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:all .3s ease;white-space:nowrap;letter-spacing:.5px}
+@media(max-width:767px){.share-copy-btn{padding:12px 9px}}
+.share-copy-btn:hover{background:#004070;transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,88,153,0.3)}
+@media(max-width:767px){.quiz-box .tops-heads{margin-bottom:16px}}
+.quiz-box .tops-heads h2 strong{font-family:"OpenSans-Bold",sans-serif;font-weight:700}
+@media(max-width:991px){.quiz-slider-box .mySwiper{max-width:650px !important;height:auto;margin:0 auto;overflow:visible}}
+@media(min-width:992px){.quiz-slider-box .mySwiper{width:100% !important;max-width:1200px;height:auto;overflow:visible}}
+.quiz-slider-box .swiper-slide{display:flex;align-items:center;justify-content:center;overflow:visible}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card{width:100%;height:100%;border-radius:30px;background:linear-gradient(134.06deg,#1268b3 0,#108dfa 99.11%);box-shadow:-10px 0 20px rgba(0,0,0,0.1);padding-inline:24px;padding-block:24px;max-width:392px;min-height:343px;position:relative}
+@media(max-width:767px){.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card{min-height:268px;max-width:300px;width:auto;border-radius:16px}}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner{display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding-top:20px}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-number{background-color:#d8e024;border-radius:50%;width:45px;height:45px;padding:0;display:flex;align-items:center;justify-content:center}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-number p{color:#2a78bc;font-size:32px;font-family:"OpenSans-Bold"}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-question{margin-top:12px;width:205px}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-question p{color:white}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-image{position:absolute;right:24px;bottom:55px;width:60px;height:60px;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-image::after{content:"?";font-size:72px;font-weight:900;color:rgba(255,255,255,0.12);line-height:1;font-family:"OpenSans-Bold",sans-serif}
+@media(max-width:767px){.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-image{right:12px;bottom:12px}}
+@media(max-width:767px){.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-image::after{font-size:52px}}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner button{height:60px;text-transform:none;border:1px solid #1961ac;font-size:20px;display:flex;align-items:center;gap:6px;padding:15px 28px;min-width:122px;border-radius:12px}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-buttons-desktop{position:absolute;display:flex;gap:12px;bottom:-27px;left:50%;transform:translateX(-50%)}
+@media(max-width:767px){.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .quiz-card-buttons-desktop{display:none}}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .navigation-buttons{position:absolute;display:flex;top:50%;transform:translateY(-50%);gap:12px;justify-content:space-between;width:100%}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .navigation-buttons button{background:linear-gradient(134.06deg,rgba(255,255,255,0.85) 0,rgba(255,255,255,0.9) 99.11%);border-radius:16px;backdrop-filter:blur(18px);max-width:50px;width:100%;min-width:auto;max-height:50px;padding:19px 22px}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .navigation-buttons button span{color:#333}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .navigation-buttons button:nth-child(1){margin-left:-25px}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .navigation-buttons button:nth-child(2){margin-right:-25px}
+@media(max-width:767px){.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .navigation-buttons{display:none}}
+.quiz-slider-box .quiz-slider-list .quiz-slider-item .quiz-card .quiz-card-inner .navigation-buttons .btn-disabled{opacity:.8;pointer-events:none}
+@media(min-width:768px){.quiz-slider-box .quiz-slider-list .quiz-slider-item:not(:first-child) .quiz-card-buttons-desktop,.quiz-slider-box .quiz-slider-list .quiz-slider-item:not(:first-child) .navigation-buttons{display:none !important}}
+@media(min-width:768px){.quiz-slider-box .separator{display:none}}
+@media(max-width:767px){.quiz-slider-box .separator{display:flex;align-items:center;justify-content:center;margin-top:24px;max-width:272px;margin:24px auto 24px;position:relative}}
+@media(max-width:767px){.quiz-slider-box .separator::before{content:"";position:absolute;top:50%;left:12px;right:auto;height:0;border-top:1px solid black;width:calc(50% - 35px)}}
+@media(max-width:767px){.quiz-slider-box .separator::after{content:"";position:absolute;top:50%;right:12px;left:auto;height:0;border-top:1px solid black;width:calc(50% - 35px)}}
+@media(max-width:767px){.quiz-slider-box .separator span{display:flex;color:#333;font-size:16px;line-height:130%;font-family:"OpenSans-Regular"}}
+@media(max-width:767px){.quiz-slider-box .quiz-card-buttons-mobile{display:flex;gap:15px;justify-content:center;align-items:center}}
+@media(max-width:767px){.quiz-slider-box .quiz-card-buttons-mobile button{font-size:14px;min-width:auto;max-width:143px;border-radius:12px;width:50%;height:44px;text-transform:none;display:flex;gap:8px;padding:15px 28px}}
+@media(min-width:768px){.quiz-slider-box .quiz-card-buttons-mobile{display:none}}
+@media screen and (min-width:768px){.quiz-slider-box-inner{max-width:unset;overflow:visible}}
+@media screen and (min-width:768px){.quiz-slider-list{display:flex;flex-wrap:nowrap;align-items:center;list-style:none;margin:0;padding:0;overflow:visible}}
+@media screen and (min-width:768px){.quiz-slider-box{min-height:var(--quizCardHeight);overflow:visible}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item{flex:0 0 calc(var(--quizCardWidth) + var(--cardOverlap));max-width:calc(var(--quizCardWidth) + var(--cardOverlap));margin-left:calc(-1 * (var(--cardOverlap) / 2 + var(--quizActiveCardExtra)));will-change:transform;backface-visibility:hidden;overflow:visible}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(1){z-index:5}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(1) .quiz-card{height:calc(var(--quizCardHeight) - 0) !important}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(2){z-index:4}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(2) .quiz-card{height:calc(var(--quizCardHeight) - 20px) !important}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(3){z-index:3}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(3) .quiz-card{height:calc(var(--quizCardHeight) - 40px) !important}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(4){z-index:2}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(4) .quiz-card{height:calc(var(--quizCardHeight) - 60px) !important}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(5){z-index:1}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(5) .quiz-card{height:calc(var(--quizCardHeight) - 80px) !important}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(n+2) .quiz-card{border-radius:14px;background:linear-gradient(134.06deg,#3b7fbf 0,#3ea0fb 99.11%)}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:nth-child(n+2) .quiz-card .quiz-card-inner{opacity:.5}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item:last-child{opacity:.8}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item.active{flex:0 0 calc(var(--quizCardWidth) + var(--quizActiveCardExtra) + var(--cardOverlap) / 2);max-width:calc(var(--quizCardWidth) + var(--quizActiveCardExtra) + var(--cardOverlap) / 2);margin-left:0;opacity:1;z-index:10}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item.active .quiz-card{height:350px !important}}
+@media screen and (min-width:768px){.quiz-slider-box .quiz-slider-item .quiz-card{max-width:unset !important;min-height:unset !important}}
+@media(max-width:767px){.result-box .results-inner{display:flex;flex-direction:column;gap:24px;padding-bottom:55px}}
+@media(min-width:768px){.result-box .results-inner{display:flex;justify-content:space-between;max-width:810px;margin:0 auto;padding-bottom:50px}}
+.result-box .results-inner .great-start-box{width:calc(100% - 314px);padding-right:35px;position:relative}
+.result-box .results-inner .great-start-box .great-start{background-color:#fff;background-image:url(../../../../../../content/dam/tata-capital/csr/result-gif.svg);background-repeat:no-repeat;background-position:top center;background-size:contain;border-radius:30px;display:flex;flex-direction:column;padding:35px 36px;height:100%}
+.result-box .results-inner .great-start-box .great-start .great-start-top{display:flex;justify-content:center;align-items:center;flex-direction:column}
+.result-box .results-inner .great-start-box .great-start .great-start-top .top-image{width:90px;height:90px;display:flex;align-items:center;justify-content:center;background:#126fb3;border-radius:50%;margin-bottom:18px}
+.result-box .results-inner .great-start-box .great-start .great-start-top .top-content{margin-bottom:18px}
+@media(min-width:768px){.result-box .results-inner .great-start-box .great-start .great-start-top .top-content{text-align:center}}
+.result-box .results-inner .great-start-box .great-start .great-start-top .top-content p{font-size:32px;font-family:"OpenSans-Regular";line-height:130%}
+@media(max-width:767px){.result-box .results-inner .great-start-box .great-start .great-start-top .top-content p{font-size:22px}}
+.result-box .results-inner .great-start-box .great-start .great-start-top .top-content p span{font-family:"OpenSans-Bold"}
+.result-box .results-inner .great-start-box .great-start .great-start-top .result{background:linear-gradient(94.99deg,rgba(79,179,129,0.85) -1.62%,rgba(91,194,143,0.909844) 47.33%,#68c999 102.12%);padding:9px 24px;border-radius:18px}
+@media(max-width:767px){.result-box .results-inner .great-start-box .great-start .great-start-top .result{padding:6px 16px;border-radius:12px}}
+.result-box .results-inner .great-start-box .great-start .great-start-top .result p{color:#fff;font-size:24px;line-height:140%;font-family:"OpenSans-SemiBold"}
+@media(max-width:767px){.result-box .results-inner .great-start-box .great-start .great-start-top .result p{font-size:16px}}
+.result-box .results-inner .great-start-box .great-start .great-start-bottom{display:flex;justify-content:center;align-items:center;gap:15px;border-top:1.49px solid #a9a9a9;padding-top:24px;margin-top:24px}
+@media(max-width:767px){.result-box .results-inner .great-start-box .great-start .great-start-bottom{padding-top:20px;margin-top:20px}}
+.result-box .results-inner .great-start-box .great-start .great-start-bottom .bottom-content p{font-size:20px;line-height:140%;font-family:"OpenSans-Regular"}
+@media(max-width:991px){.result-box .results-inner .great-start-box .great-start .great-start-bottom .bottom-content p{font-size:18px;line-height:130%}}
+@media(max-width:767px){.result-box .results-inner .great-start-box .great-start .great-start-bottom .bottom-content p{font-size:13px}}
+@media(max-width:991px){.result-box .results-inner .great-start-box{width:calc(100% - 270px)}}
+@media(max-width:767px){.result-box .results-inner .great-start-box{width:100%;padding-right:0}}
+.result-box .results-inner .take-away{width:314px}
+@media(max-width:991px){.result-box .results-inner .take-away{width:270px}}
+@media(max-width:767px){.result-box .results-inner .take-away{width:100%;margin-top:24px}}
+@media(min-width:768px){.result-box .results-inner .take-away .take-away-inner{display:flex;flex-direction:column}}
+.result-box .results-inner .take-away .take-away-inner .heading{margin-bottom:12px;text-align:center}
+.result-box .results-inner .take-away .take-away-inner .heading p{font-size:22px;font-family:"OpenSans-Bold";font-weight:700;color:#0a3152;line-height:130%}
+@media(max-width:767px){.result-box .results-inner .take-away .take-away-inner .heading{margin-bottom:8px;text-align:center}}
+@media(max-width:767px){.result-box .results-inner .take-away .take-away-inner .heading p{font-size:20px}}
+.result-box .results-inner .take-away .take-away-inner .take-away-content{overflow:visible}
+@media(min-width:768px){.result-box .results-inner .take-away .take-away-inner .take-away-content .take-away-list{display:flex;flex-direction:column;gap:12px}}
+.result-box .results-inner .take-away .take-away-inner .take-away-content .swiper-pagination{position:inherit;margin-top:20px}
+@media(min-width:768px){.result-box .results-inner .take-away .take-away-inner .take-away-content .swiper-pagination{display:none}}
+@media(max-width:767px){.result-box .results-inner{position:relative}}
+@media(max-width:767px){.result-box .results-inner .great-start-box{position:static}}
+@media(max-width:767px){.result-box .results-inner .great-start-box .great-start{padding:24px}}
+@media(max-width:767px){.result-box .results-inner .great-start-box .great-start .great-start-top .top-image{width:60px;height:60px}}
+@media(max-width:767px){.result-box .results-inner .great-start-box .great-start .great-start-top .top-image img{width:23px}}
+@media(max-width:767px){.result-box .results-inner .take-away .take-away-inner .take-away-content .take-away-list .swiper-slide{height:auto}}
+@media(max-width:767px){.quiz-result-section .myResultSwiper .take-away-list{display:flex}}
+.swiper{display:block;list-style:none;margin-left:auto;margin-right:auto;overflow:hidden;padding:0;position:relative;z-index:1}
+.swiper-wrapper{box-sizing:initial;display:flex;height:100%;position:relative;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);width:100%;z-index:1}
+.swiper-wrapper{transform:translateZ(0)}
+.swiper-slide{display:block;flex-shrink:0;height:100%;position:relative;transition-property:transform;width:100%}
+.swiper:not(.swiper-watch-progress){.swiper-lazy-preloader{animation:swiper-preloader-spin 1s linear infinite}}
+.swiper-pagination{position:absolute;text-align:center;transform:translateZ(0);transition:opacity .3s;z-index:10;&.swiper-pagination-hidden{opacity:0}&.swiper-pagination-disabled,.swiper-pagination-disabled>&{display:none!important}}
+.vertical-navigation{position:fixed;left:20px;top:50%;transform:translateY(-50%);z-index:1000}
+.vertical-navigation[data-sticky="true"]{position:fixed}
+.vertical-navigation[data-sticky="false"]{position:absolute}
+.vertical-navigation[data-show-labels="true"] .vertical-navigation__label{opacity:0;visibility:hidden;pointer-events:none}
+.vertical-navigation[data-show-labels="true"] .vertical-navigation__link:hover .vertical-navigation__label{opacity:1;visibility:visible;pointer-events:auto}
+.vertical-navigation[data-show-labels="false"] .vertical-navigation__label{opacity:1;visibility:visible;pointer-events:auto}
+.vertical-navigation[data-show-labels="false"] .vertical-navigation__item.is-active .vertical-navigation__label{background-color:#fff;box-shadow:0 6px 20px rgba(0,0,0,0.2);font-weight:600;padding:12px 20px}
+.vertical-navigation__toggle{display:none}
+.vertical-navigation__list{list-style:none;display:flex;flex-direction:column;gap:10px}
+.vertical-navigation__item{position:relative}
+.vertical-navigation__item.is-active{margin:15px 0}
+.vertical-navigation__item.is-active .vertical-navigation__icon-wrapper{background-color:#1961ac !important;box-shadow:0 8px 24px rgba(0,0,0,0.25);transform:scale(1.5) translateZ(0);will-change:transform;backface-visibility:hidden;-webkit-font-smoothing:subpixel-antialiased}
+.vertical-navigation__item.is-active .vertical-navigation__link:hover .vertical-navigation__icon-wrapper{transform:scale(1.5) translateZ(0)}
+.vertical-navigation__link{display:block;text-decoration:none;cursor:pointer;position:relative}
+.vertical-navigation__icon-wrapper{width:42px;height:42px;border-radius:50%;background-color:#b287d4;display:flex;align-items:center;justify-content:center;transition:all .3s ease;box-shadow:0 2px 8px rgba(0,0,0,0.1);will-change:transform;backface-visibility:hidden;-webkit-font-smoothing:subpixel-antialiased;transform:translateZ(0)}
+.vertical-navigation__link:hover .vertical-navigation__icon-wrapper{transform:scale(1.15) translateZ(0);box-shadow:0 4px 12px rgba(0,0,0,0.15)}
+.vertical-navigation__icon{font-size:20px;color:#fff;will-change:transform;backface-visibility:hidden;transform:translateZ(0);display:block;line-height:1}
+.vertical-navigation__label{position:absolute;left:calc(100% + 15px);top:50%;transform:translateY(-50%);background-color:rgba(255,255,255,0.95);color:#333;padding:10px 16px;border-radius:6px;font-size:14px;font-weight:500;white-space:nowrap;box-shadow:0 4px 12px rgba(0,0,0,0.15);transition:all .3s ease}
+.vertical-navigation__label::before{content:'';position:absolute;left:-8px;top:50%;transform:translateY(-50%);width:0;height:0;border-style:solid;border-width:8px;border-color:transparent;border-right-color:rgba(255,255,255,0.95)}
+.vertical-navigation__dots{display:none}
+@media(max-width:768px){.vertical-navigation{right:10px;left:auto;bottom:20px;top:auto;transform:none}}
+@media(max-width:768px){.vertical-navigation__dots{display:flex;flex-direction:column;gap:12px;position:fixed;left:2px;top:50%;transform:translateY(-50%);z-index:999}}
+@media(max-width:768px){.vertical-navigation__dot{width:8px;height:8px;border-radius:50%;background-color:rgba(178,135,212,0.4);cursor:pointer;transition:all .3s ease;border:2px solid transparent}}
+@media(max-width:768px){.vertical-navigation__dot.is-active{background-color:#333;transform:scale(1);box-shadow:0 0 0 3px rgba(51,51,51,0.2)}}
+@media(max-width:768px){.vertical-navigation__dot:hover{background-color:#333;transform:scale(1.2)}}
+@media(max-width:768px){.vertical-navigation::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.4);opacity:0;visibility:hidden;transition:all .3s ease;z-index:-1}}
+@media(max-width:768px){.vertical-navigation__toggle{display:flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,#8fd9b6,#e8f76d);border:3px solid #fff;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.15);transition:all .3s ease;position:fixed;bottom:38px;right:12px;z-index:2000}}
+@media(max-width:768px){.vertical-navigation__toggle:hover{transform:scale(1.05);box-shadow:0 6px 16px rgba(0,0,0,0.2)}}
+@media(max-width:768px){.vertical-navigation__toggle-icon{font-size:32px;font-weight:300;color:#fff;transition:transform .3s ease;line-height:1}}
+@media(max-width:768px){.vertical-navigation__list-container{right:16px;position:fixed;bottom:90px;width:340px;background:#fff;border-radius:24px;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.05);max-height:0;overflow:visible;opacity:0;visibility:hidden;transition:all .4s cubic-bezier(0.4,0,0.2,1);transform:translateY(30px) scale(0.9);z-index:1}}
+@media(max-width:768px){.vertical-navigation__list-container::after{content:'';position:absolute;bottom:-12px;right:20px;width:0;height:0;border-left:15px solid transparent;border-right:15px solid transparent;border-top:15px solid #fff;filter:drop-shadow(0 8px 8px rgba(0,0,0,0.15))}}
+@media(max-width:768px){.vertical-navigation__list{max-height:none;overflow:visible;opacity:1;margin-top:0;gap:5px}}
+@media(max-width:768px){.vertical-navigation__icon-wrapper{width:44px;height:44px;flex-shrink:0}}
+@media(max-width:768px){.vertical-navigation__icon{font-size:18px}}
+@media(max-width:768px){.vertical-navigation__label{position:relative;left:0;top:0;transform:none;opacity:1 !important;visibility:visible !important;background:0;color:#1a1a1a;padding:0;box-shadow:none;font-size:15px;font-weight:600;margin-left:14px;pointer-events:auto !important;letter-spacing:0;line-height:1.2;display:inline-block}}
+@media(max-width:768px){.vertical-navigation__label::before{display:none}}
+@media(max-width:768px){.vertical-navigation__link{display:flex;align-items:center;padding:8px 12px;border-radius:12px;transition:all .3s ease}}
+@media(max-width:768px){.vertical-navigation__link:hover{background-color:rgba(0,0,0,0.04);transform:translateX(4px)}}
+@media(max-width:768px){.vertical-navigation__item.is-active .vertical-navigation__link{background-color:rgba(59,127,196,0.1)}}
+@media(max-width:768px){.vertical-navigation__item.is-active .vertical-navigation__icon-wrapper{background-color:#1961ac !important;transform:scale(1.05);box-shadow:0 4px 14px rgba(0,0,0,0.15);animation:none}}
+
+/* replica fixes (hand-authored, from gate rounds) */
+/* mobile: source JS turns these desktop flex rows into one-card slick carousels; static equivalent = one-card scroll row */
+@media (max-width:767px){
+ .flex-slider:not(.slick-initialized):not(.take-per-slider){display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-left:0!important;margin-right:0!important}
+ .flex-slider:not(.slick-initialized):not(.take-per-slider)>*{flex:0 0 100%!important;max-width:100%!important;width:100%!important;scroll-snap-align:start}
+ .slick-initialized .slick-track{transform:none!important}
+ .slick-initialized .slick-arrow{display:none!important}
+}
+@media (max-width:767px){ main{overflow-x:clip} }

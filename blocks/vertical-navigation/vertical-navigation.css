@@ -1,0 +1,377 @@
+/* vertical-navigation — source csr-vertical-navigation rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.vertical-navigation) .icon-Frame-2043683522::before {
+  content: "\ea6f";
+}
+
+:where(.vertical-navigation) .icon-Frame-2043683524::before {
+  content: "\ea70";
+}
+
+:where(.vertical-navigation) .icon-Frame-2043683525::before {
+  content: "\ea71";
+}
+
+:where(.vertical-navigation) .icon-Frame-2043683526::before {
+  content: "\ea72";
+}
+
+:where(.vertical-navigation) .icon-Frame-2043683527::before {
+  content: "\ea73";
+}
+
+:where(.vertical-navigation) .icon-Frame-2043683528::before {
+  content: "\ea74";
+}
+
+:where(.vertical-navigation) .icon-Frame-2043683529::before {
+  content: "\ea75";
+}
+
+:where(.vertical-navigation) .vertical-navigation {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+:where(.vertical-navigation) .vertical-navigation__toggle {
+  display: none;
+}
+
+:where(.vertical-navigation) .vertical-navigation__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+:where(.vertical-navigation) .vertical-navigation__item {
+  position: relative;
+}
+
+:where(.vertical-navigation) .vertical-navigation__item.is-active {
+  margin: 15px 0;
+}
+
+:where(.vertical-navigation) .vertical-navigation__item.is-active .vertical-navigation__icon-wrapper {
+  box-shadow: rgb(0 0 0 / 25%) 0 8px 24px;
+  transform: scale(1.5) translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  background-color: rgb(25 97 172) !important;
+}
+
+:where(.vertical-navigation) .vertical-navigation__item.is-active .vertical-navigation__link:hover .vertical-navigation__icon-wrapper {
+  transform: scale(1.5) translateZ(0);
+}
+
+:where(.vertical-navigation) .vertical-navigation__link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+:where(.vertical-navigation) .vertical-navigation__icon-wrapper {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: rgb(178 135 212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  box-shadow: rgb(0 0 0 / 10%) 0 2px 8px;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transform: translateZ(0);
+}
+
+:where(.vertical-navigation) .vertical-navigation__link:hover .vertical-navigation__icon-wrapper {
+  transform: scale(1.15) translateZ(0);
+  box-shadow: rgb(0 0 0 / 15%) 0 4px 12px;
+}
+
+:where(.vertical-navigation) .vertical-navigation__icon {
+  font-size: 20px;
+  color: rgb(255 255 255);
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  display: block;
+  line-height: 1;
+}
+
+:where(.vertical-navigation) .vertical-navigation__label {
+  position: absolute;
+  left: calc(100% + 15px);
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(255 255 255 / 95%);
+  color: rgb(51 51 51);
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: rgb(0 0 0 / 15%) 0 4px 12px;
+  transition: 0.3s;
+}
+
+:where(.vertical-navigation) .vertical-navigation__label::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px;
+  border-color: transparent rgb(255 255 255 / 95%) transparent transparent;
+}
+
+:where(.vertical-navigation) .vertical-navigation__dots {
+  display: none;
+}
+
+@media (width <= 768px) {
+  :where(.vertical-navigation) .vertical-navigation {
+    inset: auto 10px 20px auto;
+    transform: none;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__dots {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: fixed;
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(178 135 212 / 40%);
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid transparent;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__dot.is-active {
+    background-color: rgb(51 51 51);
+    transform: scale(1);
+    box-shadow: rgb(51 51 51 / 20%) 0 0 0 3px;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__dot:hover {
+    background-color: rgb(51 51 51);
+    transform: scale(1.2);
+  }
+
+  :where(.vertical-navigation) .vertical-navigation::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgb(0 0 0 / 40%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: -1;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgb(143 217 182), rgb(232 247 109));
+    border: 3px solid rgb(255 255 255);
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 15%) 0 4px 12px;
+    transition: 0.3s;
+    position: fixed;
+    bottom: 38px;
+    right: 12px;
+    z-index: 2000;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__toggle:hover {
+    transform: scale(1.05);
+    box-shadow: rgb(0 0 0 / 20%) 0 6px 16px;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__toggle-icon {
+    font-size: 32px;
+    font-weight: 300;
+    color: rgb(255 255 255);
+    transition: transform 0.3s;
+    line-height: 1;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__list-container {
+    right: 16px;
+    position: fixed;
+    bottom: 90px;
+    width: 340px;
+    background: rgb(255 255 255);
+    border-radius: 24px;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 30%) 0 20px 60px, rgb(0 0 0 / 5%) 0 0 0 1px;
+    max-height: 0;
+    overflow: visible;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(30px) scale(0.9);
+    z-index: 1;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__list-container::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(255 255 255);
+    filter: drop-shadow(rgb(0 0 0 / 15%) 0 8px 8px);
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__list {
+    max-height: none;
+    overflow: visible;
+    opacity: 1;
+    margin-top: 0;
+    gap: 5px;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__icon-wrapper {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__icon {
+    font-size: 18px;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__label {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    background: 0 center;
+    color: rgb(26 26 26);
+    padding: 0;
+    box-shadow: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 14px;
+    letter-spacing: 0;
+    line-height: 1.2;
+    display: inline-block;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__label::before {
+    display: none;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__link {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: 0.3s;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__link:hover {
+    background-color: rgb(0 0 0 / 4%);
+    transform: translateX(4px);
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__item.is-active .vertical-navigation__link {
+    background-color: rgb(59 127 196 / 10%);
+  }
+
+  :where(.vertical-navigation) .vertical-navigation__item.is-active .vertical-navigation__icon-wrapper {
+    transform: scale(1.05);
+    box-shadow: rgb(0 0 0 / 15%) 0 4px 14px;
+    animation: auto ease 0s 1 normal none running none;
+    background-color: rgb(25 97 172) !important;
+  }
+}
+
+/* source state rules (clientlibs vertical-navigation): hover labels, mobile open state */
+:where(.vertical-navigation) .vertical-navigation[data-show-labels="true"] .vertical-navigation__label {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+:where(.vertical-navigation) .vertical-navigation[data-show-labels="true"] .vertical-navigation__link:hover .vertical-navigation__label {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+@media (width <= 768px) {
+  :where(.vertical-navigation) .vertical-navigation.is-open::before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation.is-open .vertical-navigation__toggle {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #8fd9b6, #e8f76d);
+  }
+
+  :where(.vertical-navigation) .vertical-navigation.is-open .vertical-navigation__toggle-icon {
+    transform: rotate(45deg);
+    font-size: 28px;
+  }
+
+  :where(.vertical-navigation) .vertical-navigation.is-open .vertical-navigation__list-container {
+    max-height: 650px;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* CSR theme chrome overrides (page metadata Theme: csr → body.csr). The frozen footer always
+   renders the other-websites band and a logo per app column; the CSR source footer has neither
+   (foundation request filed). Scoped to the CSR theme only. */
+body.csr .footer .our-other-websites,
+body.csr .footer .follow-logo {
+  display: none;
+}
+
+/* the CSR footer's last policies group keeps the group rule + spacing (live: 261px band) */
+body.csr .footer .top-outer-policies:last-child {
+  padding-bottom: 9px;
+  margin-bottom: 24px;
+}
+
+/* source body face: the live page inherits font-family OpenSans-Regular (a single-weight
+   family, so bold weights synthesise from it); the EDS body is the multi-weight "Open Sans" */
+.vertical-navigation {
+  font-family: var(--f-reg);
+}

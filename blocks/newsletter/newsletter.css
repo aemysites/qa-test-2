@@ -1,0 +1,25 @@
+/* newsletter — the band rules live in styles/lazy-styles.css (site-wide module); adapters only */
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+.newsletter .subscribe-left h2 strong {
+  display: block;
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+.newsletter .form-textbox .label-name p {
+  font: inherit;
+  color: inherit;
+}
+
+.newsletter .subscribe-submit p {
+  margin: 0;
+}
+
+.newsletter .subscribe-notice {
+  width: 100%;
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #fff;
+}

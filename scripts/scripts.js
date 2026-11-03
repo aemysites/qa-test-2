@@ -180,6 +180,29 @@ async function loadEager(doc) {
 }
 
 /**
+ * Builds the source site's fixed right-edge action tab ("Download Our Apps",
+ * "Free Credit Score") — site chrome with no authored content.
+ * @param {Document} doc The document
+ */
+function buildStickyActions(doc) {
+  if (doc.querySelector('.sticky-actions')) return;
+  const icons = `${window.hlx.codeBasePath}/icons`;
+  const wrap = doc.createElement('div');
+  wrap.className = 'sticky-actions';
+  wrap.innerHTML = `<button type="button" class="actions-toggle" aria-label="Quick actions" aria-expanded="false"><span class="icon-arrow-right" aria-hidden="true"></span><span class="icon-arrow-left" aria-hidden="true"></span></button>
+<ul class="actions">
+  <li class="downloadApp"><button type="button" class="btn-action text-rotate"><img class="download-icon-default" src="${icons}/download-app.svg" alt="Download app" width="13" height="21"><img class="download-icon-hover" src="${icons}/download-app-mobile.svg" alt="Download app" width="13" height="22"><span class="stick-txt">Download Our Apps</span></button></li>
+  <li class="creditScore"><a class="btn-action text-rotate" href="https://www.tatacapital.com/check-credit-score.html"><img class="credit-score-icon" src="${icons}/credit-score.svg" alt="Check credit score" width="27" height="15"><span class="stick-txt">Free Credit Score</span></a></li>
+</ul>`;
+  const toggle = wrap.querySelector('.actions-toggle');
+  toggle.addEventListener('click', () => {
+    const open = wrap.classList.toggle('active');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  doc.body.append(wrap);
+}
+
+/**
  * Loads everything that doesn't need to be delayed.
  * @param {Element} doc The container element
  */
@@ -196,6 +219,7 @@ async function loadLazy(doc) {
   loadFooter(doc.querySelector('body > footer'));
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
+  buildStickyActions(doc);
   loadFonts();
 }
 

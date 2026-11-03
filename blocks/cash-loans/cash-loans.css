@@ -1,0 +1,252 @@
+/* cash-loans — source cash-loans rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.cash-loans) .text-center {
+  text-align: center !important;
+}
+
+:where(.cash-loans) .semibold {
+  font-family: var(--f-semi) !important;
+}
+
+:where(.cash-loans) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.cash-loans) .d-none {
+  display: none !important;
+}
+
+:where(.cash-loans) .heading36 {
+  font-family: var(--f-reg);
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: rgb(0 0 0);
+}
+
+:where(.cash-loans) .heading36 span {
+  font-family: var(--f-bold);
+}
+
+:where(.cash-loans) .heading20 {
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(51 51 51);
+  letter-spacing: normal;
+}
+
+:where(.cash-loans) .btn-blue {
+  background-color: rgb(25 97 172);
+  color: rgb(255 255 255);
+  border-radius: 12px;
+  font-family: var(--f-semi);
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+:where(.cash-loans) .btn-blue.btn-large {
+  padding: 16px 25px;
+  min-width: 135px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+:where(.cash-loans) .btn-blue:hover {
+  background: rgb(22 92 164);
+  box-shadow: rgb(30 109 194 / 2%) 0 38px 15px, rgb(30 109 194 / 8%) 0 21px 13px, rgb(30 109 194 / 13%) 0 9px 9px, rgb(30 109 194 / 15%) 0 2px 5px, rgb(30 109 194 / 15%) 0 0 0;
+}
+
+:where(.cash-loans) .mx-944 {
+  max-width: 944px;
+  margin: auto;
+}
+
+:where(.cash-loans) .pd-t30i {
+  padding-top: 30px !important;
+}
+
+:where(.cash-loans) .bg-div {
+  background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(255 255 255 / 88%) 0, rgb(255 255 255) 100%);
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+}
+
+:where(.cash-loans) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.cash-loans) .space-tb40 {
+  padding: 40px 0;
+}
+
+:where(.cash-loans) .tops-heads {
+  max-width: 862px;
+  margin: 0 auto 25px;
+  text-align: center;
+}
+
+@media (width <= 991px) {
+  :where(.cash-loans) .heading36 {
+    font-size: 30px;
+  }
+
+  :where(.cash-loans) .space-tb40 {
+    padding: 30px 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.cash-loans) .space-tb40 {
+    padding: 25px 0;
+  }
+
+  :where(.cash-loans) .bg-div {
+    border-radius: 24px;
+  }
+
+  :where(.cash-loans) .container {
+    max-width: 100%;
+  }
+
+  :where(.cash-loans) .tops-heads {
+    margin-bottom: 34px;
+  }
+
+  :where(.cash-loans) .heading36 {
+    font-size: 22px;
+  }
+
+  :where(.cash-loans) .heading20 {
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  :where(.cash-loans) .btn-blue.btn-large {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.cash-loans) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.cash-loans) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.cash-loans) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.cash-loans) .heading20 {
+  letter-spacing: normal;
+}
+
+:where(.cash-loans) .list-cash-loans {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -16px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+:where(.cash-loans) .list-cash-loans li {
+  width: 33.33%;
+  padding: 0 8px;
+  margin-top: 16px;
+}
+
+:where(.cash-loans) .list-cash-loans a {
+  display: block;
+  padding: 15px 50px 15px 45px;
+  border-radius: 16px;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+}
+
+:where(.cash-loans) .list-cash-loans a::before {
+  content: "\e923";
+  font-family: icomoon, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(18 111 179);
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+:where(.cash-loans) .list-cash-loans a:hover {
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+  color: rgb(255 255 255);
+  box-shadow: rgb(15 157 245 / 2%) 0 124px 49px, rgb(15 157 245 / 7%) 0 70px 42px, rgb(15 157 245 / 12%) 0 31px 31px, rgb(15 157 245 / 14%) 0 8px 17px, rgb(15 157 245 / 14%) 0 0 0;
+}
+
+:where(.cash-loans) .list-cash-loans a:hover::before {
+  color: rgb(255 255 255);
+}
+
+@media (width <= 991px) {
+  :where(.cash-loans) .list-cash-loans li {
+    width: 50%;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.cash-loans) .list-cash-loans a::before {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+@media (width <= 575px) {
+  :where(.cash-loans) .list-cash-loans {
+    margin-top: -15px;
+  }
+
+  :where(.cash-loans) .list-cash-loans li {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+/* EDS slotting */
+.cash-loans .heading36 strong {
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+.cash-loans .cash-loan-row[hidden] {
+  display: none;
+}
+
+.cash-loans .cash-loan-row > p {
+  margin: 0;
+}
+
+/* the global a:any-link colour outranks the source .heading20 paint */
+.cash-loans .list-cash-loans a:any-link {
+  color: rgb(51 51 51);
+}

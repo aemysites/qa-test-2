@@ -1,1 +1,539 @@
-/* add global styles that can be loaded post LCP here */
+/*
+ * Post-LCP shared helpers from the gated canon: the site-wide newsletter module and the
+ * floating chrome (short lead form, sticky actions, chat + accessibility triggers). The blocks
+ * that rebuild those source compositions inherit these rules.
+ */
+
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+/* icon-font glyph map — every .icon-*:before rule lifted from tcl-global-ef
+   (shared by all archetypes; lowercase aliases for authored :icon: names) */
+.icon-chatbot::before {
+  content: "\ea4d";
+}
+
+/* NEWSLETTER (site-wide module) */
+.subscribe-box {
+  position: relative;
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+.subscribe-box::before {
+  content: "";
+  height: 64px;
+  background-color: var(--tc-blue);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.subscribe-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: auto;
+  background:
+    var(--tc-blue-grad),
+    radial-gradient(
+      50.79% 52.48% at 48.36% 50.79%,
+      rgb(255 255 255 / 97%) 0,
+      rgb(255 255 255 / 97%) 100%
+    );
+  box-shadow: var(--tc-glass-shadow);
+  border-radius: 30px;
+  padding: 48px 60px;
+}
+
+.subscribe-box h2 {
+  color: #fff;
+}
+
+.subscribe-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.subscribe-left {
+  width: 311px;
+}
+
+.subscribe-right {
+  width: calc(100% - 311px);
+  padding-left: 65px;
+}
+
+.subscribe-form {
+  position: relative;
+  padding-right: 220px;
+}
+
+.subscribe-box .form-textbox .label-name {
+  color: #fff;
+}
+
+.subscribe-box .input-textbox {
+  border-bottom-color: #fff;
+  color: #fff;
+}
+
+.btn-subscribes {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  color: #333;
+  min-width: auto;
+}
+
+.subscribe-success {
+  position: absolute;
+  left: 0;
+  top: calc(100% - 10px);
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+
+/* FLOATING CHROME: short lead form, sticky actions, chat, a11y toggle */
+.non-product-short-lead-form {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  padding: 0 15px;
+  pointer-events: none;
+  transition: transform .3s ease-in-out;
+}
+
+.non-product-short-lead-form.is-hidden {
+  transform: translateY(100%);
+}
+
+.non-product-short-lead-form .container {
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.short-lead-form-box {
+  position: relative;
+  display: flex;
+  max-width: 576px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-top: 5px solid var(--tc-blue);
+  border-radius: 30px 30px 0 0;
+  background: #fff;
+  box-shadow: 0 8px 25px rgb(0 0 0 / 25%);
+  pointer-events: auto;
+}
+
+.short-lead-form-content {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  padding: 22px;
+}
+
+.short-lead-form-text {
+  width: 100%;
+}
+
+.short-lead-form-fields {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.short-lead-form-input {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.short-lead-form-input input {
+  width: 100%;
+  padding: 0 0 10px;
+  border: 0;
+  border-bottom: 1px solid #333;
+  outline: 0;
+  color: #1b1b1b;
+  background: transparent;
+  font-family: var(--f-reg);
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.short-lead-form-input input::placeholder {
+  color: #333;
+}
+
+.short-lead-form-input .error-msgs {
+  display: block;
+  min-height: 17px;
+  margin-top: 5px;
+  color: #c62828;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.short-lead-form-btn {
+  flex: 0 0 auto;
+  padding: 12px 17px;
+  border-radius: 12px;
+  font-family: var(--f-semi);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+  width: 100px;
+}
+
+.sticky-actions {
+  border-radius: 4px 0 0 4px;
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  transition: all .4s;
+  z-index: 11;
+}
+
+.sticky-actions .actions-toggle {
+  display: none;
+}
+
+.sticky-actions li {
+  width: 40px;
+  margin: 10px 0;
+  box-shadow: 0 3.6px 36px rgb(0 0 0 / 5%);
+  cursor: pointer;
+  position: relative;
+}
+
+.sticky-actions .btn-action {
+  position: relative;
+  background: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  font-family: var(--f-semi);
+  font-size: 12px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.sticky-actions .text-rotate {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  position: absolute;
+  left: 0;
+}
+
+.sticky-actions .stick-txt {
+  margin: 0 auto;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.sticky-actions li.downloadApp {
+  background: #fff;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  height: 160px;
+}
+
+.sticky-actions li.downloadApp .btn-action {
+  top: 150px;
+  left: 0;
+  color: #333;
+  padding-left: 14px;
+}
+
+.sticky-actions li.downloadApp img {
+  margin-right: 10px;
+  transform: rotate(90deg);
+}
+
+.sticky-actions .download-icon-hover {
+  display: none;
+}
+
+.sticky-actions li.downloadApp:hover {
+  background: var(--tc-chat);
+}
+
+.sticky-actions li.downloadApp:hover .btn-action {
+  color: #fff;
+}
+
+.sticky-actions li.downloadApp:hover .download-icon-default {
+  display: none;
+}
+
+.sticky-actions li.downloadApp:hover .download-icon-hover {
+  display: block;
+}
+
+.sticky-actions li.creditScore {
+  height: 155px;
+  background: #333;
+  border-radius: 27px;
+}
+
+.sticky-actions li.creditScore .btn-action {
+  top: 159px;
+  left: 0;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.sticky-actions li.creditScore img {
+  margin-right: 6px;
+  transform: rotate(90deg);
+}
+
+.sticky-actions li.creditScore:hover {
+  background: var(--tc-blue-2);
+}
+
+.sticky-actions .actions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sticky-actions li.downloadApp .download-icon-hover {
+  margin-right: 10px;
+}
+
+@media (width <= 767px) {
+  .sticky-actions {
+    height: 91px;
+    width: 172px;
+    background: linear-gradient(134.06deg, rgb(18 104 179 / 97%) 0, rgb(16 141 250 / 97%) 100%);
+    border: 1px solid rgb(255 255 255 / 60%);
+    border-radius: 16px 0 0 16px;
+    right: -172px;
+  }
+
+  .sticky-actions.active {
+    right: 0;
+  }
+
+  .sticky-actions .actions-toggle {
+    display: block;
+    width: 20px;
+    height: 44px;
+    padding: 0;
+    background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 71%) 100%);
+    border: 1px solid rgb(255 255 255 / 60%);
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .sticky-actions .actions-toggle .icon-arrow-right,
+  .sticky-actions.active .actions-toggle .icon-arrow-left {
+    display: none;
+  }
+
+  .sticky-actions.active .actions-toggle .icon-arrow-right {
+    display: inline-block;
+  }
+
+  .sticky-actions .actions {
+    padding: 0 12px;
+  }
+
+  .sticky-actions li,
+  .sticky-actions li.downloadApp,
+  .sticky-actions li.creditScore {
+    width: 100%;
+    height: auto;
+    margin: 18px 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .sticky-actions .text-rotate,
+  .sticky-actions li.downloadApp .btn-action,
+  .sticky-actions li.creditScore .btn-action {
+    position: static;
+    transform: none;
+    padding-left: 0;
+    color: #fff;
+  }
+
+  .sticky-actions li.downloadApp .btn-action {
+    border-bottom: 1px solid #bfd4e2;
+    padding-bottom: 3px;
+  }
+
+  .sticky-actions .stick-txt {
+    font-size: 13px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .sticky-actions li img,
+  .sticky-actions li.downloadApp img,
+  .sticky-actions li.creditScore img {
+    transform: none;
+    margin: 0 8px 0 0;
+  }
+
+  .sticky-actions li.downloadApp .download-icon-default {
+    display: none;
+  }
+
+  .sticky-actions li.downloadApp .download-icon-hover {
+    display: block;
+  }
+}
+
+/* the CSR campaign pages (body.csr) carry no action tab on the source */
+body.csr .sticky-actions {
+  display: none;
+}
+
+.chatbot-open-btn {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  padding: 8px 30px 8px 16px;
+  background-color: var(--tc-chat);
+  border-radius: 10px 10px 0 0;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: var(--f-semi);
+  color: #fff;
+  min-width: 72px;
+  z-index: 1050;
+}
+
+.chatbot-open-btn.has-arrow::before {
+  content: "\e905";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  font-family: icomoon, sans-serif;
+  font-size: 8px;
+}
+
+.toggleButton {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 1000;
+}
+
+.toggleButton-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--tc-blue);
+  color: #fdd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (width <= 991px) {
+  .subscribe-inner {
+    padding: 40px;
+    border-radius: 20px;
+  }
+
+  .subscribe-left {
+    width: 100%;
+  }
+
+  .subscribe-left h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .subscribe-right {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .non-product-short-lead-form {
+    padding: 0;
+  }
+
+  .non-product-short-lead-form .container,
+  .short-lead-form-box {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .short-lead-form-content {
+    padding: 14px 32px;
+  }
+
+  .short-lead-form-fields {
+    gap: 28px;
+  }
+
+  .short-lead-form-input input {
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .short-lead-form-btn {
+    padding: 8px 12px;
+    width: auto;
+    font-size: 12px;
+  }
+
+}
+
+@media (width <= 767px) {
+  .subscribe-inner {
+    padding: 24px;
+  }
+
+  .subscribe-left h2 {
+    margin-bottom: 20px;
+  }
+
+  .subscribe-form {
+    padding-right: 0;
+  }
+
+  .btn-subscribes {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .short-lead-form-content {
+    padding: 14px 18px;
+  }
+
+  .short-lead-form-fields {
+    gap: 12px;
+  }
+
+  .sticky-actions {
+    right: -172px;
+    width: 172px;
+    height: 91px;
+  }
+
+  .chatbot-open-btn {
+    right: 15px;
+  }
+
+}

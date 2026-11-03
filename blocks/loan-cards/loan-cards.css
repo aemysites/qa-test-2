@@ -1,0 +1,566 @@
+/* loan-cards — source personal-loan-box (about-product) rules, scoped under the block */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.loan-cards) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.loan-cards) .tc-rte ul {
+  padding-left: 8px;
+}
+
+:where(.loan-cards) .tc-rte ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 13px;
+}
+
+:where(.loan-cards) .tc-rte ul li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgb(79 79 79);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+:where(.loan-cards) .tc-rte ul li:last-child {
+  margin-bottom: 0;
+}
+
+:where(.loan-cards) .bg-div {
+  background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(255 255 255 / 88%) 0, rgb(255 255 255) 100%);
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+}
+
+:where(.loan-cards) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.loan-cards) .space-tb40 {
+  padding: 40px 0;
+}
+
+@media (width <= 991px) {
+  :where(.loan-cards) .space-tb40 {
+    padding: 30px 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.loan-cards) .space-tb40 {
+    padding: 25px 0;
+  }
+
+  :where(.loan-cards) .bg-div {
+    border-radius: 24px;
+  }
+
+  :where(.loan-cards) .container {
+    max-width: 100%;
+  }
+
+  :where(.loan-cards) .tc-rte ul li {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.loan-cards) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.loan-cards) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.loan-cards) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.loan-cards) .about-product .personal-para .tc-rte h3 {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0 0 30px;
+}
+
+:where(.loan-cards) .personal-loan-box .personal-cards {
+  padding: 25px 40px;
+}
+
+:where(.loan-cards) .personal-loan-box .personal-cards h2 {
+  margin-bottom: 26px;
+}
+
+:where(.loan-cards) .personal-loan-box .personal-para p {
+  margin-bottom: 25px;
+}
+
+:where(.loan-cards) .personal-loan-box .personal-para p:last-child {
+  margin-bottom: 0;
+}
+
+@media (width <= 767px) {
+  :where(.loan-cards) .personal-loan-box .personal-cards {
+    padding: 24px;
+  }
+
+  :where(.loan-cards) .personal-loan-box .personal-cards h2 {
+    margin-bottom: 12px;
+  }
+
+  :where(.loan-cards) .personal-loan-box .personal-para p {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* actions row: source customcontainer > white-blue-button (page-sheet utility rules) */
+:where(.loan-cards) .customcontainer .d-flex {
+  display: flex !important;
+}
+
+:where(.loan-cards) .customcontainer .justify-content-center {
+  justify-content: center !important;
+}
+
+.loan-cards .white-blue-button p {
+  margin: 0;
+}
+
+/* EDS slotting: authored <h2> tail, <strong> lead-ins, lists styled by element (EW3) */
+.loan-cards .component-title h2 strong {
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+.loan-cards .tc-rte ul {
+  list-style: none;
+  margin: 0;
+}
+
+.loan-cards .tc-rte li strong {
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+/* authored CTA anchors: the global a:any-link colour outranks the source .btn-blue paint */
+.loan-cards a.btn-blue:any-link {
+  color: #fff;
+}
+
+/* rich-text sub-heads: the source wraps them in a semibold span */
+.loan-cards .about-product .personal-para .tc-rte h3 {
+  font-family: var(--f-semi);
+}
+
+/* the source paragraph after a sub-head opens and closes with a <br> (one blank line each);
+   DA drops edge breaks, so the two blank lines are spacing here */
+.loan-cards .about-product .personal-para .tc-rte h3 + p {
+  padding: 21.6px 0;
+}
+
+/* variant `text`: the source body sits in `about-product-text > text16i` (privacy-commitment);
+   the type is set on the wrapper as on the source, so the 140% line-height is inherited */
+.loan-cards.text .tc-rte:not(:has(> ul)) {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #333;
+}
+
+@media (width <= 767px) {
+  .loan-cards.text .tc-rte:not(:has(> ul)) {
+    font-size: 14px;
+  }
+}
+
+/* the source first list item closes with two <br> (one blank line); DA drops edge breaks */
+.loan-cards.text .tc-rte ul li:first-child:not(:last-child) {
+  padding-bottom: 21.6px;
+}
+
+/* variant `center-title`: the source `component-title text-center` */
+.loan-cards.center-title .component-title {
+  text-align: center;
+}
+
+/* variant details (program pages): top-loan-space card + blue key-figures strip */
+:where(.loan-cards.details) .heading20 span {
+  font-family: var(--f-semi);
+}
+
+:where(.loan-cards.details) .heading20 {
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(51 51 51);
+  letter-spacing: normal;
+}
+
+:where(.loan-cards.details) .text16i {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgb(51 51 51);
+}
+
+:where(.loan-cards.details) .btn-links {
+  font-family: var(--f-semi);
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(25 97 172);
+  display: inline-flex;
+  align-items: center;
+}
+
+:where(.loan-cards.details) .btn-links:hover {
+  text-decoration: none;
+}
+
+@media (width <= 767px) {
+  :where(.loan-cards.details) .btn-links {
+    font-size: 14px;
+  }
+
+  :where(.loan-cards.details) .text16i {
+    font-size: 14px;
+  }
+
+  :where(.loan-cards.details) .heading20 {
+    font-size: 16px;
+    line-height: 130%;
+  }
+}
+
+:where(.loan-cards.details) .personal-loan-box.top-loan-space {
+  padding-top: 80px;
+}
+
+:where(.loan-cards.details) .personal-loan-box .personal-cards.personal-bottom-card {
+  padding-bottom: 70px;
+}
+
+:where(.loan-cards.details) .loan-details-outer {
+  padding: 0 40px;
+  margin-top: -48px;
+  position: relative;
+  z-index: 1;
+}
+
+:where(.loan-cards.details) .loans-details-per {
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+:where(.loan-cards.details) .amount-info-pers {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -30px -30px 40px;
+}
+
+:where(.loan-cards.details) .amount-info-pers:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+:where(.loan-cards.details) .amount-info-pers li {
+  border-left: 1px solid rgb(224 233 241);
+  padding: 0 30px;
+  width: 33.33%;
+  margin-top: 30px;
+}
+
+:where(.loan-cards.details) .amount-info-pers li:first-child {
+  border-left: 0;
+}
+
+:where(.loan-cards.details) .amount-info-pers .heading20 {
+  color: rgb(255 255 255);
+  font-family: var(--f-semi);
+}
+
+:where(.loan-cards.details) .amount-info-pers .text16i {
+  color: rgb(255 255 255);
+  margin-bottom: 10px;
+}
+
+:where(.loan-cards.details) .amount-info-pers .per-flex-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+:where(.loan-cards.details) .amount-info-pers .per-flex-text .heading20 {
+  padding-right: 12px;
+}
+
+:where(.loan-cards.details) .amount-info-pers .views-links {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgb(255 255 255);
+  display: inline-block;
+  font-family: var(--f-reg);
+  text-decoration: underline;
+}
+
+@media (width <= 1199px) {
+  :where(.loan-cards.details) .amount-info-pers {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+  }
+
+  :where(.loan-cards.details) .amount-info-pers li {
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (width <= 991px) {
+  :where(.loan-cards.details) .personal-loan-box.top-loan-space {
+    padding-top: 30px;
+  }
+
+  :where(.loan-cards.details) .amount-info-pers .text16i {
+    font-size: 13px;
+    line-height: 140%;
+    color: rgb(255 255 255 / 80%);
+    margin-bottom: 10px;
+  }
+
+  :where(.loan-cards.details) .amount-info-pers .heading20 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  :where(.loan-cards.details) .amount-info-pers .views-links {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  :where(.loan-cards.details) .personal-loan-box .personal-cards.personal-bottom-card {
+    padding-bottom: 144px;
+  }
+
+  :where(.loan-cards.details) .loan-details-outer {
+    margin-top: -124px;
+  }
+
+  :where(.loan-cards.details) .loans-details-per {
+    border-radius: 24px;
+    padding: 25px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  :where(.loan-cards.details) .loans-details-per .amount-info-pers {
+    display: block;
+    margin: 0;
+  }
+
+  :where(.loan-cards.details) .loans-details-per .amount-info-pers li {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    border-left: 0;
+    border-top: 1px solid rgb(255 255 255 / 32%);
+  }
+
+  :where(.loan-cards.details) .loans-details-per .amount-info-pers li:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  :where(.loan-cards.details) .loans-details-per .amount-info-pers li:last-child {
+    padding-bottom: 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.loan-cards.details) .loans-details-per {
+    max-width: 100%;
+  }
+
+  :where(.loan-cards.details) .personal-loan-box .personal-cards.personal-bottom-card {
+    padding-bottom: 180px;
+  }
+
+  :where(.loan-cards.details) .loan-details-outer {
+    margin-top: -160px;
+  }
+
+  :where(.loan-cards.details) .loan-details-outer {
+    padding: 0 24px;
+  }
+
+  :where(.loan-cards.details) .amount-info-pers .per-flex-text {
+    display: block;
+  }
+
+  :where(.loan-cards.details) .amount-info-pers .per-flex-text .heading20 {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+}
+
+:where(.loan-cards.details) .white-links a {
+  font-family: var(--f-reg) !important;
+  font-size: 14px !important;
+  color: rgb(255 255 255) !important;
+}
+
+:where(.loan-cards.details) .loans-details-per {
+  backdrop-filter: blur(9px);
+}
+
+:where(.loan-cards.details) .heading20 {
+  letter-spacing: normal;
+}
+
+:where(.loan-cards.details) .blue-card-items .views-links.white-links a {
+  color: rgb(255 255 255) !important;
+}
+
+.loan-cards.details .amount-info-pers {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.loan-cards.details .amount-info-pers li::before {
+  content: none;
+}
+
+/* variant `subhead` (cluster-article): the card title is the source `span.heading20` (no h2),
+   authored as the leading <h3> of the card body */
+.loan-cards.subhead .about-product .personal-para .tc-rte > h3:first-child {
+  font-family: var(--f-semi);
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: #333;
+}
+
+@media (width <= 767px) {
+  .loan-cards.subhead .about-product .personal-para .tc-rte > h3:first-child {
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 12px;
+  }
+}
+
+/* variant `inner-cta` (cluster-article): source in-card `white-blue-button` > btn-blue btn-large */
+.loan-cards.inner-cta .white-blue-button p {
+  margin: 0;
+}
+
+.loan-cards.inner-cta a.btn-blue.btn-large {
+  padding: 16px 25px;
+  min-width: 135px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.loan-cards.inner-cta a.btn-blue:any-link {
+  color: #fff;
+}
+
+.loan-cards.inner-cta .mg-t15 {
+  margin-top: 15px !important;
+}
+
+@media (width <= 767px) {
+  .loan-cards.inner-cta a.btn-blue.btn-large {
+    font-size: 14px;
+  }
+}
+
+/* spaced variant (archetype-campaign): the source's last list item ends in `<br>&nbsp;`
+   (one blank line) that the pipeline drops */
+.loan-cards.spaced .tc-rte ul:last-of-type > li:last-child::after {
+  content: "";
+  display: block;
+  height: 1lh;
+}
+
+/* variant charges (program pages): source loan-charges-wrapper — h3.loan-feature-title */
+.loan-cards.charges .about-product .personal-para .tc-rte h3 {
+  font-size: 20px;
+  line-height: 39px;
+  margin: 0;
+}
+
+.loan-cards.charges .about-product .personal-para .tc-rte h3 + p {
+  padding: 0;
+}
+
+/* variant details: figures strip paragraphs carry no flow margins */
+.loan-cards.details .amount-info-pers p {
+  margin-top: 0;
+}
+
+.loan-cards.details .amount-info-pers p.heading20,
+.loan-cards.details .amount-info-pers p.btn-links {
+  margin-bottom: 0;
+}
+
+/* spaced variant (archetype-campaign): the source's last list item ends in `<br>&nbsp;`
+   (one blank line) that the pipeline drops */
+.loan-cards.spaced .tc-rte ul:last-of-type > li:last-child::after {
+  content: "";
+  display: block;
+  height: 1lh;
+}
+
+/* variant `list-gap` (cluster-article): source `list-circle-info mg-b15` lists;
+   variant `tight`: every paragraph and list is source `mg-b15` (15px instead of 25px) */
+.loan-cards.list-gap .tc-rte ul,
+.loan-cards.tight .tc-rte > :is(p, ul) {
+  margin-bottom: 15px !important;
+}
+
+/* variants `li-breaks` / `last-break` (cluster-article): the source list items end in <br>, which
+   live renders as one blank line under every item / the last item; DA drops edge breaks */
+.loan-cards.li-breaks .tc-rte li,
+.loan-cards.last-break .tc-rte li:last-child {
+  padding-bottom: 1lh;
+}
+
+/* variant `pull` (cluster-program, home-loan details strip): source `div.amount-info-pers`
+   keeps its -30px top/side pull */
+.loan-cards.details.pull .amount-info-pers {
+  margin: -30px -30px 0;
+}
+
+@media (width <= 1199px) {
+  .loan-cards.details.pull .amount-info-pers {
+    margin: -20px -20px 0;
+  }
+}
+
+@media (width <= 767px) {
+  .loan-cards.details.pull .amount-info-pers {
+    margin: 0;
+  }
+}

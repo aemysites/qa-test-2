@@ -1,0 +1,3497 @@
+{
+ "source": "http://localhost:8791/personal-loan-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "calc-banner-center",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Personal"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Loan"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Loan up to ₹35 Lakhs*"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Interest Rates Starting from 10.99%* p.a."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Instant Loan Disbursal*"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "4.8/5 ( 263 reviews)",
+     "href": "https://www.tatacapital.com/contact-us/customer-testimonials.html?activeProduct=Personal%20Loan"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Personal Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Loan amount"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "₹"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Yr"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Mo"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Tenure"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Tenure"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Interest Rates"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "%"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Monthly EMI"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Apply for Personal Loan",
+     "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.banner-calc-details-top",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.calculator-details",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.banner-year-month-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "overviews-tab-box",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Overview",
+     "href": "https://www.tatacapital.com/personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Required Documents",
+     "href": "https://www.tatacapital.com/personal-loan/documents-required.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Application Process",
+     "href": "https://www.tatacapital.com/personal-loan/application-process.html"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Rates & Charges",
+     "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Calculators"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "EMI Calculator",
+     "href": "https://www.tatacapital.com/personal-loan/emi-calculator.html"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Pre-Payment Calculator",
+     "href": "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Eligibility Calculator",
+     "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Related Products"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Personal Hybrid Term Loan",
+     "href": "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Balance Transfer",
+     "href": "https://www.tatacapital.com/personal-loan/balance-transfer.html"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Personal Loan for Travel",
+     "href": "https://www.tatacapital.com/personal-loan/travel-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Personal Loan for Medical",
+     "href": "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Personal Loan for Marriage",
+     "href": "https://www.tatacapital.com/personal-loan/marriage-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Personal Loan for Home Renovation",
+     "href": "https://www.tatacapital.com/personal-loan/home-renovation-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Small Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/small-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Personal Loan for Government Employees",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Personal Loan for Salaried Employees",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Personal Loan for Women",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Overview",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Get Instant Personal Loan",
+     "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "×"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Apply Now"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Sending OTP to"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Select Product"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Product Type"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Loan on existing car"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Loan to buy a pre-owned car"
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "Verify OTP"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "OTP sent to"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Resend OTP in 00:30"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "OTP expired."
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Resend OTP"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Verify & Submit"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Thank you for your"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "application"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "×"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "Loan Application - Terms & Conditions and Declarations"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "I/We declare that all the details furnished in this application form are true, correct and upto date in all respects and that I/We have not withheld any information whatsoever. I/We undertake to inform of any changes therein, Immediately"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Tata Capital Limited(\"The Company\"/\"TCL\")"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Select All"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "I/We expressly authorise/consent to the Company, entities with which the Company has service arrangements and its agents to contact me/us in the manner and for the purposes and on the terms set out hereinafter."
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "I/We hereby consent to receiving information from Central KYC Registry through SMS/ Email on the above registered number/ Email address."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "I/We authorise the Company, their agents and entities with which the Company has service arrangements, to exchange, share or part with all the information and details as set out hereinafter and for the purposes and on the terms set out hereinafter."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "In addition to consenting to the above, I/We agree to have read & understood the and confirm the same."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Loan Application - Terms & Conditions and Declaration"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Proceed to OTP"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Ok"
+    },
+    {
+     "role": "heading",
+     "order": 50,
+     "text": "Terms and Conditions - Loan Facility"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Terms and Conditions:"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "1. This application is not for citizens, residents, persons or entities accessing from the European Union and no services shall be provided to any person or entity in the European Union."
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "2. This Application Form shall not be construed to imply automatic approval of your loan / facility by Tata Capital Limited (“the Company”). The sanction of the loan, loan amount and disbursal is at the sole discretion of the company and no commitment has been given regarding the same."
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "3. The loan facility shall be disbursed by the Company to the applicant/s and/or such other person as instructed by the applicant and the amount disbursed by the Company to such person shall be valid binding and effectual discharge from the applicant/s."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "4. Payment of non-refundable processing fee, if any, is a pre-requisite together with this loan application."
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "5. Wherever PAN is not available, Form-60 to be provided."
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "6. The Terms and Conditions mentioned above are an indicative list of terms and conditions of our loan products. These Terms and Conditions are further described in other financing documents (such as Specific Agreements, Master Terms and Conditions, other loan documents) under relevant sections / schedules and therefore should be read in conjunction with such financing documents."
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "7. This Application Form should not be construed as giving rise to any binding obligation on the part of the Tata Capital Limited to provide the financial assistance/ facilities opted for by the applicant."
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Please also visit the Company's website www.tatacapital.com for the Fair Practices Code and Policy for determination of Interest Rates, Processing and other charges adopted by the Company."
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Declarations"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "1. I/ We certify that I/ We are citizens of India. I / We declare that I / We am / are not citizens, residents, persons or entities accessing from the European Union."
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "2. I/ We declare that no cash/ bearer cheque has been collected from me/ us upfront or otherwise towards processing of this Loan Application Form by any executive/ representative of the Company. All payment instruments being issued for the purpose of this loan application/ loan payments/ repayment have to be issued in favour of the Company only."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "3. I/We declare that all the details furnished in this application form are true, correct and up-to-date in all respects and that I/We have not withheld any information whatsoever. I / We undertake to inform the Company of any changes therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I /we am / are aware that I may be held liable for it."
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "4. I/We hereby confirm and duly undertake that the loan is being taken for the purpose as stated in the Application Form. I/We also confirm that the loan is not being used for investment in stocks and shares, speculative activities or any purposes linked to capital market activities/ illegal activities."
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "5. I/We hereby confirm that no insolvency proceeding or suits for recovery of outstanding dues or monies whatsoever or for attachment of my/ our assets or properties, and/ or any criminal proceedings have been initiated and/ or are pending against me/ us and that I/We have never been adjudicated insolvent by any court or other authority nor has any receiver, administrator, administrative receiver, trustees or similar officer been appointed for my/our assets."
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "6. I/We understand and acknowledge that the Company shall have the absolute discretion, without assigning any reasons (unless required by applicable law), to reject my application and any costs, losses, damages or expenses, or other consequence caused by reason of such rejection, or any delay in notifying me/us of such rejection of our application."
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "7. I/ We understand and am aware that the charges paid to the Company towards out of pocket expenses and/ or log-in/ processing fees are non-refundable to me/ us and upon the application being withdrawn by us or being rejected by the Company for any reason whatsoever, we will not be entitled for refund either in part or in full."
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "8. Processing fee along with applicable taxes/ Insurance Premium (in case I have opted for insurance cover) will be deducted from the disbursement amount and the amount disbursed shall be net of fee/ charges/ premium amount."
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "9. Government Taxes, Stamp duty and other statutory charges will be as per applicable laws."
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "10. No Discount/ free gift or any other commitment whatsoever are made /binding except what is documented in the loan agreement or any other finance document."
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "11. I/ We hereby confirm and duly undertake that the loan is being taken for purpose as stated in the application. I / We also confirm that I / We shall not use the loan for any improper/illegal or unlawful purpose/ activities."
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "12. I/we have been informed that incomplete/ defective application will not be processed, and the Company shall not be responsible in any manner for the resulting delay or otherwise. The Company may request for additional documents other than those collected with the application."
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "13. I/ We hereby consent to the Company to carry out the KYC and other requisite checks by such processes as may be permissible under law including authentication/ verification of documents or details submitted for KYC purpose, accessing and procuring data from databases maintained by statutory or other authorities constituted by law, for the purpose of granting the Loan Facility referred in this form."
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "14. I/We hereby understand that TCL may, if required, seek information or documents in addition to what is mentioned in its KYC-PMLA Policy and I/We hereby consent to the same and agree to provide such information or documents."
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "15. The loan terms as sanctioned are valid for a period of 30 days only. In case of delay beyond 30 days in accepting the loan offer for whatsoever reasons, there may be revision/s in the loan terms, and you are requested to kindly seek clarifications, if required."
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "16. I/We authorize the Company, their agents and entities with which the Company has service arrangements, to exchange, share or part with all the information and details (including personal sensitive data or information and any information that requires a consent under the Information Technology Act, 2008 and/or any other statute) relating to my/our existing loans and/or repayment history to bank, financial institutions, credit bureaus, information utilities, agencies, entities with which the Company has service arrangements, statutory bodies etc. as may be required or as they may deem fit and shall not hold the Company or its agents/representatives/such entities liable for use/sharing of this information."
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "17. I/ We expressly authorize/consent to the Company, and its agents, to contact me / us, through e-mails, telephones, messages, SMS, Whatsapp or other applications or otherwise even if my / our names appear in the Do Not Call or Do Not Disturb Register to inform me / us about the marketing schemes, promotional schemes, various financial and other products and/or offerings of other services, loyalty programs or any other aspect offered by them. I / We agree to the use of e-mails, messages, SMS, Whatsapp and/or other applications for communication or sharing of information or documents, agree to abide by the terms and conditions of such applications and agree to the risks associated with such applications or sharing of information through them. I / We agree that this consent shall continue to be valid even if the loan applied for has been rejected or closed."
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "18. I/ We hereby consent to receiving information from Central KYC Registry through SMS/ Email on the above registered number/ Email address."
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "19. I/We hereby provide our consent to the Company to obtain and/ or submit my/ our information from/ to Credit Information Company and/or information utility and/or such institution set up under the provisions of law from time to time, as and when required. I/We also authorise the Company to carry out multiple bureau checks wherever required."
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "20. I/We declare that am/ we is/ are not a Director/relative of a Director of TCL or we are not a firm in which any Director/ relative of a Director of TCL is interested as a partner/ manager/ employee/ guarantor or we are not a company in which any Director/ relative of a Director of TCL is interested as a major shareholder, director, manager, employee or guarantor. I/we am/are also not a senior officer(s)/relative of a senior officer of TCL. If the declaration is found to be false, then TCL will be entitled to revoke and / or recall the credit facility."
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "21. The Company has adopted the Tata Code of Conduct (“TCoC”) and all our employees and representatives are bound by the same. A copy of the TCoC is available on www.tatacapital.com. In case you notice any violation or potential violation of the TCoC by any of our employees or representatives, you may write to us at ethics@tatacapital.com intimating us of the same."
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "22. I/ We hereby consent to voluntarily submit to the Company at my/ our own discretion, the physical copy of Aadhaar card/ physical e-Aadhaar/ offline electronic Aadhaar xml as issued by the Unique Identification Authority of India (“UIDAI”) after masking the Aadhaar number for the purpose of establishing my/ our identity/ address proof in line with the Directions/ guidelines issued by the Regulatory and Statutory bodies from time to time. I/ We further give my/ our consent to the Company for verification of my/ our Aadhaar to establish the genuineness in such manner as permitted by UIDAI or under any law from time to time. The consent and purpose of collecting Aadhaar has been explained to me/ us in local language. The Company has informed me/ us that my/ our Aadhaar submitted to the Company shall not be used for any other purpose other than as per the requirements of law."
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "23. I /We hereby declare that the mobile number as submitted by me/us in this application is the same as the one available and registered with the Unique Identification Authority of India (“UIDAI”). I / We undertake to inform the Company of any changes therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I /We am / are aware that I may be held liable for it."
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "24. The Company/ its Group Companies reserve the right to retain the photographs and documents submitted with the application and will not return the same to me/ us."
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "25. I/We understand that the purchase of any insurance products is purely voluntary and is not linked to availment of any other facility from the Company."
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "26. I/We hereby expressly authorize the Company to send me/ us communications regarding insurance products of the Company through any of the modes of communication referred above."
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "27. I/ We hereby consent to the Company to carry out the KYC and other requisite checks by such processes as may be permissible under law including verification of documents or details submitted for KYC purpose, accessing and procuring data from databases maintained by statutory or other authorities constituted by law, for the purpose of granting the Loan Facility referred in this form."
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "28. More particularly, I/ We hereby consent to the Company updating/furnishing my/our KYC data on the Centralised KYC Registry (CKYCR) or such other database or repository as may be prescribed from time to time as also access, download and procure data therefrom and rely upon the same for the purpose of KYC checks and it shall be my/our responsibility to ensure that the data is correct and updated and to immediately intimate in writing in case of any changes to the data. The Company may also verify the data in such manner as it deems fit and seek additional information or perform enhanced due diligence. I consent to receive information/intimation from the Company/CKYCR through SMS/Email on the above registered number/Email address notwithstanding my/our names and / or numbers appearing in the Do Not Call or Do Not Disturb registry."
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "29. I/ We am/ are aware of the Fair Practices Code and Policy for determination of Interest Rates, Processing and other charges adopted by the Company which are placed on the Company's website ."
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "www.tatacapital.com",
+     "href": "https://www.tatacapital.com"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "30. I/We hereby declare that I/We have understood and read the terms & conditions given above."
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Continue"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "Overview",
+     "href": "https://www.tatacapital.com/personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "Required Documents",
+     "href": "https://www.tatacapital.com/personal-loan/documents-required.html"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "Application Process",
+     "href": "https://www.tatacapital.com/personal-loan/application-process.html"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "Rates & Charges",
+     "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "Calculators",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "EMI Calculator",
+     "href": "https://www.tatacapital.com/personal-loan/emi-calculator.html"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "Pre-Payment Calculator",
+     "href": "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "Eligibility Calculator",
+     "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "Related Products",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "Personal Hybrid Term Loan",
+     "href": "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "Balance Transfer",
+     "href": "https://www.tatacapital.com/personal-loan/balance-transfer.html"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "Personal Loan for Travel",
+     "href": "https://www.tatacapital.com/personal-loan/travel-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "Personal Loan for Medical",
+     "href": "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "Personal Loan for Marriage",
+     "href": "https://www.tatacapital.com/personal-loan/marriage-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "Personal Loan for Home Renovation",
+     "href": "https://www.tatacapital.com/personal-loan/home-renovation-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Small Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/small-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "Personal Loan for Government Employees",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "Personal Loan for Salaried Employees",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "Personal Loan for Women",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 52,
+   "repeats": [
+    {
+     "unitSelector": "DIV.subnav-apply-popup",
+     "count": 2,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 13
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.accord-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 4,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Instant Personal Loan Onlines"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Up to Rs. 35 Lakh*"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A Personal Loan is an unsecured loan that helps you meet planned and unexpected expenses, such as weddings, home renovations, travel, education, medical emergencies, or debt consolidation, without pledging any collateral. Apply for a Personal Loan with Tata Capital and get funding of up to ₹35 Lakh* through a seamless digital process, along with minimal documentation, quick processing, fast disbursal for eligible applicants, flexible repayment options, and low Personal Loan Interest Rates."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": ": Personal Loans are at the sole discretion of Tata Capital Limited (TCL). Terms and conditions apply."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Disclaimer"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Loan amount offered"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "₹40,000 - ₹35,00,000"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Loan tenure"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Upto 6 Years"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Interest rate starting @"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "10.99% p.a"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "View Rates & Charges",
+     "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "LI.blue-card-items",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why Choose Tata Capital"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "for a Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Tata Capital is a name you can trust. We believe in a customer-first approach and ensure a transparent process to build a relationship of reliability. Securing personal loans online or offline from us is beneficial in more than one way:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Enjoy competitive and affordable loan rates."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Attractive interest rates:"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Choose repayment plans that fit your budget."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Flexible EMI options:"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Get funds without pledging any asset."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "No collateral required:"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Fast approval and instant fund transfer for urgent needs."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Quick disbursal:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "what-personal-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Features and benefits of Tata Capital"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "No Collateral Required"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Borrow without pledging your home, gold, or investments. Eligibility is assessed on your profile, so you get the funds you need without putting an asset on the line."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "No Hidden Charges"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Every applicable fee — processing, documentation, prepayment — is disclosed upfront. What you agree to before disbursal is exactly what you pay. No surprises later."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Flexible Repayment Options"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Choose a tenure and EMI that fit your monthly budget, not the other way around. Repay at a pace you're comfortable with and keep the rest of your finances on track."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Instant Disbursal"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Eligible applicants benefit from quick approval and fast disbursal, so funds reach your account when the need is urgent — not days after you've managed without them."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Personal Loan Hybrid Term Loan"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Need a little extra headroom? Withdraw funds up to an agreed limit as and when you need them, and pay interest only on the amount you actually use."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Zero Charges on Part Pre-Payment"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Part prepay up to 25% of your disbursed amount anytime after availing the loan, at no cost. Prepayments above 25% attract applicable part-prepayment charges."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Multipurpose Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "A wedding, higher studies, a long-planned trip, or something you didn't see coming — whatever the occasion, there's a Personal Loan offering that fits the purpose."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Next"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "3"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "4"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Interest Rate & Charges"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "for Personal Loan"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Low Interest Rate"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Rates start at 10.99% p.a.*, charged on a reducing balance — so you only pay interest on what you still owe, not the original loan amount. Your final rate depends on eligibility and Tata Capital's credit assessment"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Processing Fee"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "A processing fee of up to 5% applies on your loan amount, plus applicable taxes. Where you land within that range depends on the specific loan offer extended to you."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Loan Tenure"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "You can spread repayments over a tenure of up to 6 years, picking an EMI that sits comfortably within your monthly budget instead of stretching it thin."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Explore the complete before you apply."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Personal Loan Fees & Charges",
+     "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Eligibility Criteria"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "For Salaried Individuals"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "21 to 58 years"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Age:"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "₹20,000"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Minimum monthly income:"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Minimum 1 year at current job, 2 years total experience"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Employment stability:"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "725+ preferred"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "CIBIL score:"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Indian resident"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Nationality:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.component-title",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Documents Required for"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Identity and Age Proof"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "PAN card (mandatory)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Aadhaar card"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Voter ID, passport, or driving licence"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Address Proof"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Aadhaar card"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Utility bill (electricity, water, gas)"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Passport or rent agreement"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Income and Financial Proof"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "For Salaried Individuals:"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Latest 3 months' salary slips"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Form 16 for the last 2 years"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Bank statements for last 3-6 months of salary account"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Employment ID card or offer letter"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "UL.list-circle-info",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "space-tb40",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Step 1"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Enter Your Basic Details"
+    },
+    {
+     "role": "eyebrow",
+     "order": 2,
+     "text": "Step 2"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Choose Your Loan Amount & Tenure"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "Step 3"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Complete Your Personal Details"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Step 4"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Set Up Your e-Mandate"
+    },
+    {
+     "role": "eyebrow",
+     "order": 8,
+     "text": "Step 5"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Review & Confirm Your Application"
+    },
+    {
+     "role": "eyebrow",
+     "order": 10,
+     "text": "Step 6"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Get Your Loan Disbursed"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Apply Now",
+     "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!"
+    }
+   ],
+   "imgCount": 14,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.loan-steps-li",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Factors That Affect Your"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Personal Loan Eligibility"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Your Personal Loan eligibility depends on multiple financial and personal factors that help determine your repayment capacity and creditworthiness."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "– A stable income and healthy repayment capacity improve your chances of qualifying for a Personal Loan."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Monthly income and repayment capacity"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "A good Credit Score and consistent repayment history can improve your loan approval prospects."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Credit Score and repayment history –"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Lower outstanding debt and manageable EMIs help demonstrate stronger repayment ability."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Existing EMIs and financial commitments –"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Your age and selected loan tenure may influence loan eligibility and repayment options."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Age and preferred loan tenure –"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Providing complete and correct information helps ensure a smooth verification and approval process."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Accurate application details –"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Things to Consider Before"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Applying for a Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Reviewing a few important factors before applying can help you choose a Personal Loan that suits your financial needs and repayment ability."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "A good Credit Score and timely repayments improve your loan eligibility and may help you qualify for better interest rates."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Maintain a Healthy Credit Score –"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Compare interest rates, charges, loan features, and repayment options to choose the Personal Loan that best fits your needs."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Compare Personal Loan Offers –"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Consider processing fees, interest charges, and other applicable costs instead of focusing only on the monthly EMI."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Understand the Total Loan Cost –"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Select a repayment tenure that keeps your EMIs affordable while helping you manage the overall borrowing cost."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Choose a Suitable Loan Tenure –"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Apply for a loan amount that matches your financial requirement and repayment capacity to avoid unnecessary debt."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Borrow Only What You Need –"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Common Reasons Why a Personal"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Loan Application May Be Rejected"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Knowing the common reasons for loan rejection can help you prepare better and improve your chances of approval."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "A poor credit history may reduce your chances of loan approval."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Low Credit Score –"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Your income should support the requested loan amount and monthly repayments."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Insufficient or unstable income –"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Multiple ongoing loans or high EMIs may affect repayment capacity."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "High existing financial obligations –"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Missing or inaccurate information can delay or impact the application process."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Incomplete or incorrect documents –"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Incorrect personal or financial details may lead to verification issues."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Errors in the application form –"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Frequent applications may affect your credit profile and approval chances."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Multiple loan applications in a short period –"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Tips to Improve Your Chances"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "of Personal Loan Approval"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A few simple financial habits can strengthen your loan application and improve your chances of getting approved with confidence."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Pay your EMIs and credit card bills on time to build a strong credit profile."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Maintain a healthy Credit Score –"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Ensure all required documents are accurate and readily available during the application process."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Keep your documents updated –"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Reviewing the eligibility criteria beforehand can help you avoid unnecessary application rejections."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Check your eligibility before applying –"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Lower financial commitments can improve your repayment capacity and eligibility."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Reduce existing EMIs and debt –"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Consistent income demonstrates your ability to repay the loan comfortably."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Show stable income and employment –"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Applying through your regular banking relationship may help streamline the verification process."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Use your primary bank account –"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Impact of Credit Score on Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Interest Rates and Loan Amount"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A good credit score for a Personal Loan may help you secure a more favourable interest rate, subject to the lender’s assessment."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Your credit score for a Personal Loan may influence the loan amount offered, along with income, obligations, and repayment capacity."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "A strong credit score for a Personal Loan may improve your chances of qualifying for better loan terms and repayment options."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "A lower credit score for a Personal Loan may result in higher interest rates, a lower loan amount, or stricter terms."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Maintaining a healthy credit score for a Personal Loan can strengthen your application and potentially improve your overall borrowing options."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "cash-loans-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Choose the Personal Loan Amount"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "That Fits Your Needs"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "₹2 Lakh Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/2-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "₹3 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/3-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "₹4 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/4-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "₹5 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/5-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "₹6 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/6-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "₹7 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/7-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "₹8 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/8-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "₹9 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/9-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "₹10 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/10-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "₹15 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/15-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "₹20 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/20-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "₹25 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/25-lakhs-personal-loan.html"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "₹30 Lakhs Personal Loan",
+     "href": "https://www.tatacapital.com/personal-loan/30-lakhs-personal-loan.html"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Read Less"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.cash-loan-row",
+     "count": 13,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "find-right-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Different Types of"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Personal Loans"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Personal Loan Hybrid Term Loan"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Personal Loan for Wedding"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Personal Loan for Medical"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Personal Loan for Travel"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Personal Loan for Home Renovation"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Personal Loan Hybrid Term Loan"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Need instant cash for those unexpected needs? Tata Capital offers Personal Loan Hybrid Term Loan with the flexibility to withdraw funds as per your need and pay interest only on the utilized amount."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Avail multiple withdrawals and part-payment facilities without any extra charges."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Know More",
+     "href": "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Personal Loan for Wedding"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "A marriage today comes with its fair share of frills, thrills and not to mention - Bills."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "An equal lifetime as partners, with highs and lows, joys and woes for better or worse, must begin with taking equal financial responsibility for your wedding too"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Know More",
+     "href": "https://www.tatacapital.com/personal-loan/marriage-loan.html"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Personal Loan for Medical"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "In times of emergency, getting funds should be a hassle free experience. That’s how we have designed our Medical Loan - a loan that is easy, fast and convenient."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "We provide flexible repayment options for all cosmetic, medical and dental procedures."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Know More",
+     "href": "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Personal Loan for Travel"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Want to fund your vacation but falling short on funds? An EMI based loan can be an ideal way to pay for a holiday that you can’t quite cover in one go."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Tata Capital Personal Loan for Travel is how you can make it happen. Head off on your next adventure."
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Know More",
+     "href": "https://www.tatacapital.com/personal-loan/travel-loan.html"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Personal Loan for Home Renovation"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Thinking of revamping your home? A home that reflects your personality, your style and your taste. We help you do just that with our Personal Loan for Home Renovation."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "From making extensive upgrades to your interiors to finally addressing your basic repair and maintenance needs, we are the answer to your home needs. You deserve a better home. We’re here to help you."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Know More",
+     "href": "https://www.tatacapital.com/personal-loan/home-renovation-loan.html"
+    }
+   ],
+   "imgCount": 10,
+   "editableTexts": 21,
+   "repeats": [
+    {
+     "unitSelector": "DIV.customcontainer",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "instant-slider-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore Personal Loans"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Available in Your City"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Previous"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Personal Loan in Visakhapatnam",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-visakhapatnam.html"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Personal Loan in Ahmedabad",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-ahmedabad.html"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Personal Loan in Surat",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-surat.html"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Personal Loan in Delhi",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-delhi.html"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Personal Loan in Bangalore",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-bangalore.html"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Personal Loan in Mumbai",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-mumbai.html"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Personal Loan in Hyderabad",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-hyderabad.html"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Personal Loan in Pune",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-pune.html"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Personal Loan in Chennai",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-chennai.html"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Personal Loan in Gurgaon",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-gurgaon.html"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Personal Loan in Kolkata",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-kolkata.html"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Personal Loan in Jaipur",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-jaipur.html"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Personal Loan in Chandigarh",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-chandigarh.html"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Personal Loan in Lucknow",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-lucknow.html"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Next"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "3"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "5"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "6"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "7"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "8"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "9"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "10"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "11"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "12"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "13"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "14"
+    }
+   ],
+   "imgCount": 14,
+   "editableTexts": 16,
+   "repeats": [
+    {
+     "unitSelector": "DIV.instant-row",
+     "count": 14,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 13,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-cntr",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Personal Loans for"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Different Customer Profiles"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Personal Loan for goverment empolyees"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Apply Now",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Personal Loan for salaried employees"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Apply Now",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Personal Loan for women"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Apply Now",
+     "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "1"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "check-loan-eligibility-box",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Get Instant Personal Loans"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "with the Best Deals"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Get the best loan deals with our pre-approved offers"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Check If You’re Pre-approved",
+     "href": "https://www.tatacapital.com/pre-approved-offers.html"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Starting at 10.99% interest rate"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Processing Fee - Up to 5% of the Loan amount + GST"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Get Personalized Offer",
+     "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "space-tb40",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Avail TATA Capital loans directly from WhatsApp"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Apply via WhatsApp",
+     "href": "https://www.tatacapital.com/personal-loan/whatsapp.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.customcontainer",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "faq-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "FAQs"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "on Personal Loan"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "What documents are required to apply for a personal loan?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "A signed and duly filled loan application form"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Passport-sized photographs"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "KYC documents: A copy of passport/driving license/PAN Card/Voter’s ID/Aadhaar Card"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Date of birth proof: A copy of PAN Card/Aadhaar Card/driving license/passport/birth certificate/school leaving certificate"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Signature proof: A copy of any one of the following:"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "PAN Card"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Passport"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Banker’s verification"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Income proof: Bank statements and salary slips for the past 3 months (salaried employees)"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "How can I check my personal loan application status?"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "After you submit your loan application, you receive an application ID. You can track the status of your personal loan application by entering your application ID on the website or contacting the customer service."
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Is it possible to get a personal loan with a low CIBIL score?"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Yes, while you can get a personal loan with a low CIBIL score, approval can be challenging, with the need for additional documents related to your income stability. Lenders may also charge higher interest rates or demand a co-applicant. Thus, you must improve your CIBIL score before applying to negotiate better loan terms."
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "What are the key benefits of choosing Tata Capital for a personal loan?"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "The benefits of securing a personal loan from Tata Capital are:"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Competitive interest rates"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Flexible amount"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Paperless application process"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "No collateral required"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Minimal documentation"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Instant disbursal"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Customized repayment options"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Dedicated customer support"
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "Can I get a top-up on my existing personal loan?"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Yes, you can get a top-up on your existing personal loan if you have a good repayment history and a borrower-lender relationship. You will need to submit the required documents while applying."
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "What is the difference between a personal loan and a credit card?"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "A personal loan is a fixed lump-sum amount of money, whereas a credit card offers a revolving line of credit. A personal loan is repaid through fixed monthly installments over a long repayment tenure, but a credit card has a shorter repayment window. The interest rates on a personal loan are lower and fixed compared to the interest rates on a credit card, which vary."
+    },
+    {
+     "role": "heading",
+     "order": 30,
+     "text": "What are the various ways to repay my personal loan EMI?"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "The various ways to repay your personal loan EMI are:"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Setting up an auto-debit mandate (NACH/ECS)"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Paying EMIs through NetBanking or UPI"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Depositing installments through cheque or demand draft"
+    },
+    {
+     "role": "heading",
+     "order": 35,
+     "text": "Does a personal loan from Tata Capital offer tax benefits?"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "A personal loan doesn’t offer tax benefits like education loans or home loans. However, you can claim different deductions and exemptions if you use the funds received from the personal loan for business purposes, home improvement, or purchasing or constructing residential property."
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "Are there any discounts or offers when applying online for a personal loan?"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Yes, many lenders provide exclusive online offers. These provide lower interest rates, instant approval benefits, or zero processing fees. You can get these offers during festive seasons or special campaigns."
+    },
+    {
+     "role": "heading",
+     "order": 39,
+     "text": "How to improve credit score for better loan terms?"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "You must pay EMI and credit card payments on time, keep your credit utilization below 30%, and avoid multiple loan applications to maintain a good credit score. You must also review your credit report regularly. If you find errors, inform the authorities or raise concerns."
+    },
+    {
+     "role": "heading",
+     "order": 41,
+     "text": "What is a Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "A Personal Loan is an unsecured loan that helps you meet planned or unexpected expenses without pledging any collateral. You can use a Personal Loan for purposes such as home renovation, medical emergencies, weddings, travel, higher education, or debt consolidation."
+    },
+    {
+     "role": "heading",
+     "order": 43,
+     "text": "How does a Personal Loan work?"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Once your Personal Loan application is approved, the loan amount is disbursed to your bank account. You repay the borrowed amount through fixed monthly EMIs over the chosen loan tenure. Your EMI includes both the principal and applicable interest, making repayment simple and predictable."
+    },
+    {
+     "role": "heading",
+     "order": 45,
+     "text": "Do I need to provide collateral or security for a Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "No. A Tata Capital Personal Loan is an unsecured loan, so you don't need to pledge property, gold, or any other asset as collateral."
+    },
+    {
+     "role": "heading",
+     "order": 47,
+     "text": "Can I use a Personal Loan for debt consolidation?"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Yes. You can use a Personal Loan to consolidate multiple existing debts into a single loan. This can simplify repayment by replacing multiple EMIs with one monthly payment and may help you manage your finances more effectively."
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "Does a Personal Loan balance transfer affect my credit score?"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "A Personal Loan balance transfer itself does not negatively affect your credit score when managed responsibly. Making timely EMI payments after the transfer and maintaining a healthy repayment history can improve your overall credit profile."
+    },
+    {
+     "role": "heading",
+     "order": 51,
+     "text": "Can I transfer my existing Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Yes. If you have an existing Personal Loan with another lender, you may be eligible to transfer it to Tata Capital through a Personal Loan Balance Transfer."
+    },
+    {
+     "role": "heading",
+     "order": 53,
+     "text": "Can I get a Top-up on my existing Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Yes. If you have an existing Personal Loan, you may be eligible for a Top-up Personal Loan. It lets you borrow additional funds from your current lender without applying for a new loan."
+    },
+    {
+     "role": "heading",
+     "order": 55,
+     "text": "What can I use a Personal Loan for?"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "A Personal Loan can be used for a variety of personal expenses, including weddings, medical emergencies, home renovation, travel, higher education, debt consolidation, or other planned and unexpected financial needs."
+    },
+    {
+     "role": "heading",
+     "order": 57,
+     "text": "Can I get a Personal Loan without processing fees?"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Yes. Festive or limited-period Personal Loan offers with reduced or zero processing fees may be available for eligible customers."
+    },
+    {
+     "role": "heading",
+     "order": 59,
+     "text": "What is the maximum loan tenure for a Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Tata Capital offers flexible repayment tenures of up to 6 years."
+    },
+    {
+     "role": "heading",
+     "order": 61,
+     "text": "How can I get a Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "You can apply for a Tata Capital Personal Loan online by submitting the required details and documents. Once approved, eligible applicants can receive the loan amount in their bank account."
+    },
+    {
+     "role": "heading",
+     "order": 63,
+     "text": "What is the minimum and maximum Personal Loan amount I can get?"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Personal Loan amounts generally range from ₹40,000 to ₹35 Lakh, based on your eligibility, income, credit profile, and repayment capacity. *"
+    },
+    {
+     "role": "heading",
+     "order": 65,
+     "text": "What are the eligibility criteria for availing a Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Eligibility for a Tata Capital Personal Loan depends on factors such as your age, income, employment profile, repayment capacity, credit history, and other internal assessment criteria. Meeting the eligibility requirements can improve your chances of loan approval."
+    },
+    {
+     "role": "heading",
+     "order": 67,
+     "text": "How is a Personal Loan interest rate calculated?"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Your Personal Loan interest rate is determined based on factors such as your credit score, income, employment profile, repayment history, loan amount, and tenure."
+    },
+    {
+     "role": "heading",
+     "order": 69,
+     "text": "Is there any stamp duty applicable for taking a Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Yes. Stamp duty may be applicable on a Personal Loan as per the laws and regulations of your respective state. The applicable amount, if any, will be communicated during the loan application process."
+    },
+    {
+     "role": "heading",
+     "order": 71,
+     "text": "Can I prepay my Personal Loan?"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Yes. You can prepay your Personal Loan as per the applicable terms and conditions. This may help reduce your outstanding balance and overall interest payable. Applicable charges, if any, will be mentioned in your loan agreement."
+    },
+    {
+     "role": "heading",
+     "order": 73,
+     "text": "Can I apply for a Personal Loan if I already have an ongoing loan?"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Yes. You may still be eligible for a Tata Capital Personal Loan even if you have an existing loan. Your eligibility will depend on factors such as your income, existing financial obligations, repayment history, and credit profile."
+    },
+    {
+     "role": "heading",
+     "order": 75,
+     "text": "What happens if I miss my Personal Loan EMI once?"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Missing a Personal Loan EMI may result in late payment charges and can negatively impact your credit score. If you're unable to make your EMI payment on time, it's advisable to reach out promptly to discuss the available repayment options and avoid additional consequences."
+    },
+    {
+     "role": "heading",
+     "order": 77,
+     "text": "How long does it take to get a Personal Loan approved?"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "The approval time for a Tata Capital Personal Loan depends on your eligibility, the accuracy of the information provided, and successful document verification. Eligible applicants who complete the online application and verification process may receive loan approval quickly through our seamless digital process."
+    },
+    {
+     "role": "heading",
+     "order": 79,
+     "text": "How long does it take to get a Personal Loan disbursed?"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Once your Personal Loan is approved and all required formalities are completed, the loan amount is disbursed to your registered bank account. Tata Capital aims to ensure quick processing and fast disbursal for eligible applicants, helping you access funds when you need them."
+    },
+    {
+     "role": "heading",
+     "order": 81,
+     "text": "Can I foreclose my Personal Loan before the loan tenure ends?"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Yes. You can foreclose your Personal Loan before the loan tenure ends, subject to the applicable terms, conditions, and foreclosure policy."
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Read Less"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 65,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-accordion__item",
+     "count": 31,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "customer-say-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What our customers say"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "about us"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The Support person was helpful, called and explained clearly and help resolved the issues ."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "| 31 Oct, 2025"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Tata Capital team speaks to customers in a way that make them feel welcome."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "| 28 Oct, 2025"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Great work TATA Team is doing. Continue the same . I am more thankful for your support."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "| 27 Oct, 2025"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "I appreciate your efforts to resolve any issues. I am happy with Tata Capital’s service, and if I need any financial assistance in the future, you will be my first priority."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "| 18 Sep, 2025"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "We are very happy with the services provided by Tata Capital. The team is very supportive, transparent, and customer-friendly. We look forward to continuing our relationship with Tata Capital."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "| 16 Sep, 2025"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "I sincerely thank the Tata Capital team for understanding my situation and trying their best to assist me. The team not only understood my situation but also did their best to help me and even provided me with the address."
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "| 15 Sep, 2025"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Happy association with Tata Capital’s customer care service. As a financial partner, Tata understands consumer concerns and provides curated resolutions. Delightful service."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "| 12 Sep, 2025"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Your services are already the best! The Tata Capital team is extremely knowledgeable, experienced, and humble. I can say in one sentence – You Are the Best"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "| 12 Sep, 2025"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Tata Capital customer care service is very fast and resolved my issue quickly. Thank you for your timely response"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "| 23 Aug, 2025"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Next"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "3"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Read All",
+     "href": "https://www.tatacapital.com/contact-us/customer-testimonials.html?activeProduct=Personal%20Loan"
+    }
+   ],
+   "imgCount": 45,
+   "editableTexts": 20,
+   "repeats": [
+    {
+     "unitSelector": "DIV.customer-row",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 5,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "financial-insights-wrap",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Blogs"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Types of Collateral Accepted for Secured Personal Loans",
+     "href": "https://www.tatacapital.com/blog/personal-use-loan/types-of-collateral-for-secured-personal-loan/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "10 September, 2026"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Personal Loan for Investment: What You Need to Know Before You Borrow",
+     "href": "https://www.tatacapital.com/blog/personal-use-loan/personal-loan-for-investment/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "10 September, 2026"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Top reasons to opt for a personal loan this festive season",
+     "href": "https://www.tatacapital.com/blog/personal-use-loan/personal-loan-festive-season/"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "12 August, 2026"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Types of unsecured loans in India",
+     "href": "https://www.tatacapital.com/blog/personal-use-loan/types-of-unsecured-loans/"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "12 August, 2026"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Next"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "2"
+    }
+   ],
+   "imgCount": 16,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "related-video-cntr",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Watch & Learn"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "About Personal Loans"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "#smartsaving"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Know more about Personal Loans"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Whether it’s a home renovation, wedding or a much-needed trip, let Tata Capital fund your dreams. Ab khud ke sapne pure karo with Tata Capital personal loans! Achieve your financial goals with ease."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "0:50"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "How to Apply for a Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "1:48"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Personal Loan Eligibility calculator"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "0:49"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Your guide to Tata Capital Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "5:29"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.social-btn",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.related-video",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

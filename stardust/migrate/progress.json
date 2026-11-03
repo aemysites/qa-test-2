@@ -1,0 +1,67 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "program",
+        "article",
+        "campaign",
+        "listing",
+        "static"
+      ],
+      "pages": 10,
+      "startedAt": "2026-11-02T10:44:30Z",
+      "endedAt": "2026-11-02T10:45:02Z",
+      "verdict": "6 archetypes Path A rendered (rendered 6, unchanged 0, refused 0, passthrough 0); 4 siblings Path A' queued behind their archetype units: home-loan→personal-loan, experian-credit-score→check-credit-score, sawaal-karo-phir-loan-lo→home-loan-app, partners→calculator"
+    },
+    "render-program": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "endedAt": "2026-11-02T15:48:42.706Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (home-loan; recorded with cluster-program)"
+    },
+    "render-article": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "pages": 1,
+      "endedAt": "2026-11-02T14:15:44.933Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "render-campaign": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 1,
+      "endedAt": "2026-11-02T15:48:42.706Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (sawaal-karo-phir-loan-lo)"
+    },
+    "render-listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T12:33:24.402Z",
+      "endedAt": "2026-11-02T13:13:56.884Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report",
+      "templates": [],
+      "pages": 10
+    }
+  }
+}

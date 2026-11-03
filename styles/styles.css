@@ -1,85 +1,939 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * Tata Capital replica — foundation layer (C0).
+ * Every non-chrome rule of the gated canon (stardust/prototypes/css/canon.css): tokens, base,
+ * type ramp, utilities, icon-font glyph map, buttons, slider primitives, form fields. Header and
+ * footer rules live in blocks/header and blocks/footer; newsletter + floating chrome helpers in
+ * lazy-styles.css. Source class names are kept verbatim so blocks that rebuild source DOM
+ * inherit them (hence the class-pattern exemption below).
  */
 
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+/* metric-matched local fallbacks — available at first paint, swapped by fonts.css */
+@font-face {
+  font-family: open-sans-light-fallback;
+  src: local("Arial"), local("Liberation Sans");
+  size-adjust: 103.92%;
+  ascent-override: 102.85%;
+  descent-override: 28.19%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: open-sans-fallback;
+  src: local("Arial"), local("Liberation Sans");
+  size-adjust: 108.16%;
+  ascent-override: 98.82%;
+  descent-override: 27.09%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: open-sans-semibold-fallback;
+  src: local("Arial"), local("Liberation Sans");
+  size-adjust: 112.12%;
+  ascent-override: 95.33%;
+  descent-override: 26.13%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: open-sans-bold-fallback;
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold");
+  size-adjust: 107%;
+  ascent-override: 99.9%;
+  descent-override: 27.38%;
+  line-gap-override: 0%;
+}
+
+/* ---------- tokens ---------- */
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --tc-blue: #1961ac;
+  --tc-blue-dark: #165ca4;
+  --tc-blue-2: #1268b3;
+  --tc-lime: #d8e024;
+  --tc-lime-2: #dedc00;
+  --tc-ink: #333;
+  --tc-black: #000;
+  --tc-muted: rgb(51 51 51 / 60%);
+  --tc-purple: #b287d4;
+  --tc-chat: #b369ab;
+  --tc-bg: #f5f5f5;
+  --tc-line: #e0e9f1;
+  --tc-footer-tint: #ebf5ff;
+  --tc-panel: #f1f8ff;
+  --tc-glass: radial-gradient(
+    50.79% 52.48% at 48.36% 50.79%,
+    rgb(255 255 255 / 40%) 0,
+    rgb(255 255 255 / 72%) 100%
+  );
+  --tc-glass-shadow:
+    -5px 0 10px rgb(0 0 0 / 1%),
+    5px 0 10px rgb(0 0 0 / 1%),
+    0 -5px 10px rgb(0 0 0 / 1%),
+    0 5px 10px rgb(0 0 0 / 1%);
+  --tc-blue-grad: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+  --f-light: "OpenSans-Light", open-sans-light-fallback, sans-serif;
+  --f-reg: "OpenSans-Regular", open-sans-fallback, sans-serif;
+  --f-semi: "OpenSans-SemiBold", open-sans-semibold-fallback, sans-serif;
+  --f-bold: "OpenSans-Bold", open-sans-bold-fallback, sans-serif;
+  --container: 1140px;
+  --shell: 1294px;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* boilerplate token names kept for the runtime + stock blocks */
+  --background-color: var(--tc-bg);
+  --light-color: var(--tc-panel);
+  --dark-color: var(--tc-ink);
+  --text-color: var(--tc-ink);
+  --link-color: var(--tc-blue);
+  --link-hover-color: var(--tc-blue-dark);
+  --body-font-family: "Open Sans", open-sans-fallback, sans-serif;
+  --heading-font-family: var(--f-reg);
+  --body-font-size-m: 15px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
+  --heading-font-size-s: 20px;
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* chrome reservation: the header block's rendered height per source step */
+  --nav-height: 123px;
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+/* ---------- base ---------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
-}
-
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+html {
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
 }
 
 body {
   display: none;
-  margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
   font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 21.6px;
+  color: var(--tc-ink);
+  background: var(--tc-bg) url("images/bg-length-desktop.svg") center top/100% auto repeat-y;
+  -webkit-font-smoothing: antialiased;
 }
 
+a {
+  color: var(--tc-blue);
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  color: inherit;
+}
+
+input,
+select {
+  font: inherit;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: normal;
+}
+
+h1,
+.heading-h1 {
+  font-family: var(--f-light);
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: .02em;
+  color: #000;
+}
+
+h1 span,
+.heading-h1 span {
+  font-family: var(--f-semi);
+}
+
+h2,
+.heading36 {
+  font-family: var(--f-reg);
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: .02em;
+  color: #000;
+}
+
+h2 span,
+.heading36 span {
+  font-family: var(--f-bold);
+}
+
+h3 {
+  font-family: var(--f-light);
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: .1px;
+  color: #333;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 130%;
+  font-family: var(--f-semi);
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #333;
+}
+
+.heading20 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+  letter-spacing: normal;
+}
+
+.text16i {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: .02em;
+  color: #333;
+}
+
+.semibold {
+  font-family: var(--f-semi) !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: auto;
+  padding: 0 15px;
+}
+
+.custom-container {
+  width: 100%;
+  max-width: var(--shell);
+  margin: auto;
+  padding: 0 15px;
+  position: relative;
+  z-index: 10;
+}
+
+.mx-944 {
+  max-width: 944px;
+  margin: auto;
+}
+
+.space-tb40 {
+  padding: 40px 0;
+}
+
+.tops-heads {
+  max-width: 862px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.tops-heads p {
+  margin-top: 10px;
+  color: #333;
+  letter-spacing: .02em;
+}
+
+.relative {
+  position: relative;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: icomoon, sans-serif !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* icon-font glyph map — every .icon-*:before rule lifted from tcl-global-ef
+   (shared by all archetypes; lowercase aliases for authored :icon: names) */
+.icon-EMI-ac::before, .icon-emi-ac::before { content: "\e972"; }
+.icon-EMI-appliances::before, .icon-emi-appliances::before { content: "\e973"; }
+.icon-EMI-bullet::before, .icon-emi-bullet::before { content: "\e974"; }
+.icon-EMI-calculator::before, .icon-emi-calculator::before { content: "\e975"; }
+.icon-EMI-camera::before, .icon-emi-camera::before { content: "\e976"; }
+.icon-EMI-electronics::before, .icon-emi-electronics::before { content: "\e977"; }
+.icon-EMI-laptop::before, .icon-emi-laptop::before { content: "\e978"; }
+.icon-EMI-mobile::before, .icon-emi-mobile::before { content: "\e979"; }
+.icon-EMI-plan::before, .icon-emi-plan::before { content: "\e97a"; }
+.icon-EMI-refrigerator::before, .icon-emi-refrigerator::before { content: "\e97b"; }
+.icon-EMI-tv::before, .icon-emi-tv::before { content: "\e97c"; }
+.icon-EMI-washing-mc::before, .icon-emi-washing-mc::before { content: "\e97d"; }
+.icon-Frame-2043683522::before, .icon-frame-2043683522::before { content: "\ea6f"; }
+.icon-Frame-2043683524::before, .icon-frame-2043683524::before { content: "\ea70"; }
+.icon-Frame-2043683525::before, .icon-frame-2043683525::before { content: "\ea71"; }
+.icon-Frame-2043683526::before, .icon-frame-2043683526::before { content: "\ea72"; }
+.icon-Frame-2043683527::before, .icon-frame-2043683527::before { content: "\ea73"; }
+.icon-Frame-2043683528::before, .icon-frame-2043683528::before { content: "\ea74"; }
+.icon-Frame-2043683529::before, .icon-frame-2043683529::before { content: "\ea75"; }
+.icon-Frame-2043683530::before, .icon-frame-2043683530::before { content: "\ea76"; }
+.icon-Frame-2043683531::before, .icon-frame-2043683531::before { content: "\ea77"; }
+.icon-Frame-2043683532::before, .icon-frame-2043683532::before { content: "\ea78"; }
+.icon-Frame-2043683533::before, .icon-frame-2043683533::before { content: "\ea79"; }
+.icon-Frame-2043683534::before, .icon-frame-2043683534::before { content: "\ea7a"; }
+.icon-Frame-2043683535::before, .icon-frame-2043683535::before { content: "\ea7b"; }
+.icon-Frame-2043683536::before, .icon-frame-2043683536::before { content: "\ea7c"; }
+.icon-Frame-2043683537::before, .icon-frame-2043683537::before { content: "\ea7d"; }
+.icon-Frame-2043683538::before, .icon-frame-2043683538::before { content: "\ea7e"; }
+.icon-Frame-2043683540::before, .icon-frame-2043683540::before { content: "\ea7f"; }
+.icon-Frame-2043683541::before, .icon-frame-2043683541::before { content: "\ea80"; }
+.icon-Frame-2043683542::before, .icon-frame-2043683542::before { content: "\ea81"; }
+.icon-Frame-2043683543::before, .icon-frame-2043683543::before { content: "\ea82"; }
+.icon-Frame-2043683545::before, .icon-frame-2043683545::before { content: "\ea83"; }
+.icon-Income-proof::before, .icon-income-proof::before { content: "\e999"; }
+.icon-KYC-doc::before, .icon-kyc-doc::before { content: "\e9b0"; }
+.icon-LAS-digital::before, .icon-las-digital::before { content: "\e9b1"; }
+.icon-MSME-loan::before, .icon-msme-loan::before { content: "\e9cf"; }
+.icon-OD::before, .icon-od::before { content: "\e9d9"; }
+.icon-PMAY::before, .icon-pmay::before { content: "\e9e1"; }
+.icon-ROI::before, .icon-roi::before { content: "\e9fd"; }
+.icon-academic-record::before { content: "\ea2a"; }
+.icon-accountancy-firm::before { content: "\ea2b"; }
+.icon-address-proof::before { content: "\ea2c"; }
+.icon-age::before { content: "\ea2d"; }
+.icon-age-limit1::before { content: "\ea2e"; }
+.icon-age-limit2::before { content: "\ea2f"; }
+.icon-airport::before { content: "\ea74"; }
+.icon-alert::before { content: "\e916"; }
+.icon-alexa::before { content: "\ea4c"; }
+.icon-angle-down::before { content: "\e903"; }
+.icon-angle-up::before { content: "\e919"; }
+.icon-app-status::before { content: "\ea34"; }
+.icon-apple::before { content: "\e929"; }
+.icon-application::before { content: "\ea30"; }
+.icon-application-process::before { content: "\ea31"; }
+.icon-approval::before { content: "\ea32"; }
+.icon-approval-minutes::before { content: "\ea33"; }
+.icon-approve::before { content: "\ea58"; }
+.icon-architect-engineering::before { content: "\e93c"; }
+.icon-area-converter::before { content: "\e93d"; }
+.icon-arrow-arrow::before { content: "\e90e"; }
+.icon-arrow-left::before { content: "\e906"; }
+.icon-arrow-right::before { content: "\e905"; }
+.icon-arrow-tail-left::before { content: "\e924"; }
+.icon-arrow-tail-right::before { content: "\e923"; }
+.icon-arrow-top::before { content: "\e90d"; }
+.icon-arrow-up-right::before { content: "\e926"; }
+.icon-bags::before { content: "\ea6e"; }
+.icon-balance::before { content: "\e93e"; }
+.icon-balance-tfr::before { content: "\e93f"; }
+.icon-bell::before { content: "\e922"; }
+.icon-beneficiary::before { content: "\ea53"; }
+.icon-best-gift::before { content: "\e940"; }
+.icon-binocular::before { content: "\e912"; }
+.icon-biz-expansion::before { content: "\e941"; }
+.icon-biz-loan::before { content: "\e942"; }
+.icon-biz-productivity::before { content: "\e943"; }
+.icon-biz-proof::before { content: "\e944"; }
+.icon-biz-vintage::before { content: "\e945"; }
+.icon-blog::before { content: "\e921"; }
+.icon-branch::before { content: "\e946"; }
+.icon-build::before { content: "\ea5a"; }
+.icon-bus::before { content: "\ea75"; }
+.icon-buy-construct-house::before { content: "\e947"; }
+.icon-buyers-credit::before { content: "\e948"; }
+.icon-cal-GST::before, .icon-cal-gst::before { content: "\e94e"; }
+.icon-cal-LAS::before, .icon-cal-las::before { content: "\e950"; }
+.icon-cal-area::before { content: "\e949"; }
+.icon-cal-balance::before { content: "\e94a"; }
+.icon-cal-eligibility::before { content: "\e94b"; }
+.icon-cal-fd::before { content: "\e94c"; }
+.icon-cal-foreclosure::before { content: "\e94d"; }
+.icon-cal-pre-payment::before { content: "\e951"; }
+.icon-cal-stamp::before { content: "\e952"; }
+.icon-calander::before { content: "\e915"; }
+.icon-calc-time::before { content: "\ea40"; }
+.icon-calender-timer::before { content: "\ea4a"; }
+.icon-call::before { content: "\e909"; }
+.icon-call1::before { content: "\e94f"; }
+.icon-car::before { content: "\e932"; }
+.icon-car-3::before { content: "\ea6a"; }
+.icon-car-loan::before { content: "\e954"; }
+.icon-card::before { content: "\e931"; }
+.icon-career::before { content: "\e953"; }
+.icon-caret-down::before { content: "\e913"; }
+.icon-caret-top::before { content: "\e914"; }
+.icon-cashflow-requirements::before { content: "\e955"; }
+.icon-cell-power::before { content: "\ea5f"; }
+.icon-channel-financing::before { content: "\e956"; }
+.icon-chartered-accountant::before { content: "\e957"; }
+.icon-chatbot::before { content: "\ea4d"; }
+.icon-check::before { content: "\e938"; }
+.icon-check-circle::before { content: "\e93a"; }
+.icon-cheque::before { content: "\e958"; }
+.icon-clear::before { content: "\e994"; }
+.icon-climate::before { content: "\ea56"; }
+.icon-close::before { content: "\e910"; }
+.icon-close-circle::before { content: "\e939"; }
+.icon-collateral::before { content: "\e959"; }
+.icon-commercial-vehicle::before { content: "\e95a"; }
+.icon-comp-interest-rates::before { content: "\e95b"; }
+.icon-const-equip::before { content: "\e95c"; }
+.icon-const-finance::before { content: "\e95d"; }
+.icon-const-loan::before { content: "\e95e"; }
+.icon-convenient-loan::before { content: "\e95f"; }
+.icon-copy::before { content: "\e928"; }
+.icon-corporate-portal::before { content: "\ea4e"; }
+.icon-corporates::before { content: "\ea3f"; }
+.icon-credit-card::before { content: "\e960"; }
+.icon-credit-score::before { content: "\e961"; }
+.icon-cross-rupee::before { content: "\ea35"; }
+.icon-cust-loan::before { content: "\e962"; }
+.icon-cust-product::before { content: "\e963"; }
+.icon-cust-repayment::before { content: "\e964"; }
+.icon-cust-svcs::before { content: "\e965"; }
+.icon-day::before { content: "\ea5b"; }
+.icon-debt-consolidation::before { content: "\e966"; }
+.icon-debt-syndication::before { content: "\e967"; }
+.icon-digital-equip::before { content: "\e968"; }
+.icon-disbursals::before { content: "\e969"; }
+.icon-doc::before { content: "\e96a"; }
+.icon-doc-checklist::before { content: "\e96b"; }
+.icon-doorstep-svcs::before { content: "\e96c"; }
+.icon-down-payment::before { content: "\e96d"; }
+.icon-download::before { content: "\e92c"; }
+.icon-download-new::before { content: "\e996"; }
+.icon-download-right::before { content: "\e92b"; }
+.icon-download2::before { content: "\ea55"; }
+.icon-dynamic-loan::before { content: "\e96e"; }
+.icon-early-budget::before { content: "\e96f"; }
+.icon-easy-repayment::before { content: "\e970"; }
+.icon-edit::before { content: "\e91c"; }
+.icon-eligibility::before { content: "\e971"; }
+.icon-email::before { content: "\e908"; }
+.icon-employment-type::before { content: "\e97e"; }
+.icon-equip-finance::before { content: "\e97f"; }
+.icon-equip-lease::before { content: "\e980"; }
+.icon-equity::before { content: "\e90f"; }
+.icon-everyday-needs::before { content: "\e981"; }
+.icon-existing-EMI::before, .icon-existing-emi::before { content: "\e982"; }
+.icon-experience::before { content: "\e983"; }
+.icon-extension-oan::before { content: "\e984"; }
+.icon-facebook::before { content: "\e901"; }
+.icon-favorite::before { content: "\ea5c"; }
+.icon-fill-appli::before { content: "\e985"; }
+.icon-filter::before { content: "\e917"; }
+.icon-find-dealer::before { content: "\e986"; }
+.icon-fix-broken::before { content: "\e987"; }
+.icon-fixed-limit::before { content: "\e988"; }
+.icon-flexi::before { content: "\ea61"; }
+.icon-flexi-personal-loan::before { content: "\e98c"; }
+.icon-flexi-repayment::before { content: "\ea68"; }
+.icon-flexi-rupee::before { content: "\ea42"; }
+.icon-flexible::before { content: "\e989"; }
+.icon-flexible-repayment::before { content: "\e98a"; }
+.icon-flexible-tenure::before { content: "\e98b"; }
+.icon-flexible-tenure2::before { content: "\ea54"; }
+.icon-forwards::before { content: "\ea64"; }
+.icon-funds::before { content: "\e98d"; }
+.icon-google::before { content: "\e92f"; }
+.icon-google-assistant::before { content: "\ea4f"; }
+.icon-gst-loal::before { content: "\e98e"; }
+.icon-guarantor-security::before { content: "\e98f"; }
+.icon-hand-circle::before { content: "\ea65"; }
+.icon-hand-dollor::before { content: "\ea43"; }
+.icon-hand-rupees::before { content: "\ea5d"; }
+.icon-hand-setting::before { content: "\ea66"; }
+.icon-hands::before { content: "\ea59"; }
+.icon-handsome-loan::before { content: "\e990"; }
+.icon-headphone::before { content: "\e93b"; }
+.icon-headphones::before { content: "\ea63"; }
+.icon-high-loan::before { content: "\e991"; }
+.icon-highway::before { content: "\ea76"; }
+.icon-home-2::before { content: "\ea6b"; }
+.icon-home-3::before { content: "\ea6d"; }
+.icon-home-calculator::before { content: "\ea36"; }
+.icon-home-enovation::before { content: "\e992"; }
+.icon-home-loan::before { content: "\e993"; }
+.icon-homeloan-top-up::before { content: "\e995"; }
+.icon-hospital::before { content: "\ea77"; }
+.icon-house-person::before { content: "\ea37"; }
+.icon-identity-proof::before { content: "\e997"; }
+.icon-income::before { content: "\e998"; }
+.icon-income2::before { content: "\ea38"; }
+.icon-indian-nationality::before { content: "\e99a"; }
+.icon-industry-longer::before { content: "\e99b"; }
+.icon-info-alt::before { content: "\e934"; }
+.icon-infos::before { content: "\ea6c"; }
+.icon-insiant-approval::before { content: "\e99c"; }
+.icon-instagram::before { content: "\e936"; }
+.icon-instant-Pl::before, .icon-instant-pl::before { content: "\e99d"; }
+.icon-institutes::before { content: "\e99e"; }
+.icon-insurance::before { content: "\e99f"; }
+.icon-insurance-child::before { content: "\e9a0"; }
+.icon-insurance-commercial::before { content: "\e9a1"; }
+.icon-insurance-health::before { content: "\e9a2"; }
+.icon-insurance-home::before { content: "\e9a3"; }
+.icon-insurance-life::before { content: "\e9a4"; }
+.icon-insurance-motor::before { content: "\e9a5"; }
+.icon-insurance-pocket::before { content: "\e9a6"; }
+.icon-insurance-travel::before { content: "\e9a7"; }
+.icon-insurance-wellness::before { content: "\e9a8"; }
+.icon-interest-rate::before { content: "\e9a9"; }
+.icon-invest-future::before { content: "\e9ab"; }
+.icon-investment-future::before { content: "\e9ac"; }
+.icon-invoice-discount::before { content: "\e9ad"; }
+.icon-join-loans::before { content: "\e9ae"; }
+.icon-know-more::before { content: "\e9af"; }
+.icon-latest-equip::before { content: "\e9b2"; }
+.icon-lease-rental::before { content: "\e9b3"; }
+.icon-letter-credit::before { content: "\e9b4"; }
+.icon-linkedin::before { content: "\e90c"; }
+.icon-loan-bike::before { content: "\e9b6"; }
+.icon-loan-disbursal::before { content: "\e9b7"; }
+.icon-loan-education::before { content: "\e9b8"; }
+.icon-loan-eligibility::before { content: "\e9b9"; }
+.icon-loan-principal::before { content: "\e9ba"; }
+.icon-loan-property::before { content: "\e9bb"; }
+.icon-loan-sanction::before { content: "\e9bd"; }
+.icon-loan-shares::before { content: "\e9bf"; }
+.icon-loan-soln::before { content: "\e9c0"; }
+.icon-loan-travel::before { content: "\e9c1"; }
+.icon-loans::before { content: "\e9bc"; }
+.icon-long-time::before { content: "\e9c3"; }
+.icon-longer-tenure::before { content: "\e9c2"; }
+.icon-lower-EMI::before, .icon-lower-emi::before { content: "\e9c4"; }
+.icon-machinery-loan::before { content: "\e9c5"; }
+.icon-mall::before { content: "\ea78"; }
+.icon-map::before { content: "\e90a"; }
+.icon-map-pin-filled::before { content: "\e92e"; }
+.icon-market::before { content: "\ea7c"; }
+.icon-marriage::before { content: "\ea39"; }
+.icon-marriage-loan::before { content: "\e9c6"; }
+.icon-medical::before { content: "\e9c7"; }
+.icon-medical-bag::before { content: "\ea44"; }
+.icon-meet-physically::before { content: "\e9c8"; }
+.icon-metro::before { content: "\ea79"; }
+.icon-mid-tenure::before { content: "\e9c9"; }
+.icon-mini-doc::before { content: "\e9ca"; }
+.icon-mini-paperwork::before { content: "\e9cb"; }
+.icon-minus::before { content: "\e91f"; }
+.icon-mitra-program::before { content: "\e9cc"; }
+.icon-mobile-app::before { content: "\ea50"; }
+.icon-mobile-card::before { content: "\ea3a"; }
+.icon-monitor-mobile::before { content: "\ea69"; }
+.icon-monitors::before { content: "\ea60"; }
+.icon-monthly-income::before { content: "\e9cd"; }
+.icon-monthly-obligations::before { content: "\e9ce"; }
+.icon-multi-purpose--loans::before { content: "\e9d1"; }
+.icon-multiple-loan::before { content: "\e9d0"; }
+.icon-mutual-funds::before { content: "\e9d2"; }
+.icon-net-salary::before { content: "\e9d3"; }
+.icon-no-EMI::before, .icon-no-emi::before { content: "\e9d5"; }
+.icon-no-collateral-needed::before { content: "\e9d4"; }
+.icon-no-needed::before { content: "\ea45"; }
+.icon-no-penalty::before { content: "\e9d6"; }
+.icon-no-prepayment::before { content: "\e9d7"; }
+.icon-no-running::before { content: "\e9d8"; }
+.icon-no-running2::before { content: "\ea3b"; }
+.icon-no-runnings::before { content: "\ea46"; }
+.icon-notes2::before { content: "\ea5e"; }
+.icon-office-building::before { content: "\ea52"; }
+.icon-online::before { content: "\e9da"; }
+.icon-online-application::before { content: "\e9db"; }
+.icon-options::before { content: "\e9dc"; }
+.icon-outstanding-dues::before { content: "\e9dd"; }
+.icon-pay-online::before { content: "\e9de"; }
+.icon-pdf::before { content: "\e9aa"; }
+.icon-per-down::before { content: "\ea47"; }
+.icon-phone::before { content: "\e9df"; }
+.icon-phone-call::before { content: "\e92d"; }
+.icon-phone-fill::before { content: "\e920"; }
+.icon-play::before { content: "\e930"; }
+.icon-playstore::before { content: "\e92a"; }
+.icon-plot-construction::before { content: "\e9e0"; }
+.icon-plus::before { content: "\e91a"; }
+.icon-post-cheques::before { content: "\e9e2"; }
+.icon-process-guidance::before { content: "\e9e3"; }
+.icon-processing-fee::before { content: "\e9e4"; }
+.icon-profit::before { content: "\e9e5"; }
+.icon-profit-revenues::before { content: "\e9e6"; }
+.icon-property::before { content: "\e9e7"; }
+.icon-property-cost::before { content: "\e9e8"; }
+.icon-property-search::before { content: "\e9e9"; }
+.icon-protection-plan::before { content: "\e9ea"; }
+.icon-purchase-funding::before { content: "\e9eb"; }
+.icon-qualification::before { content: "\e9ec"; }
+.icon-qualify-top-up::before { content: "\e9ed"; }
+.icon-quick-approval::before { content: "\e9ee"; }
+.icon-quick-cash::before { content: "\e9ef"; }
+.icon-quick-loan::before { content: "\e9f0"; }
+.icon-quick-processing::before { content: "\e9f1"; }
+.icon-quick-sanction::before { content: "\e9f2"; }
+.icon-rail::before { content: "\ea7a"; }
+.icon-raw-materials::before { content: "\e9f3"; }
+.icon-receive-rupee::before { content: "\ea57"; }
+.icon-reduce-tenure::before { content: "\e9f4"; }
+.icon-relaxed-eligibility::before { content: "\e9f5"; }
+.icon-relocation-charges::before { content: "\e9f6"; }
+.icon-renovate-house::before { content: "\e9f7"; }
+.icon-repayment::before { content: "\e9f8"; }
+.icon-repayments::before { content: "\ea48"; }
+.icon-requested-loan::before { content: "\e9f9"; }
+.icon-requested-tenure::before { content: "\e9fa"; }
+.icon-research-everything::before { content: "\e9fb"; }
+.icon-retail-shop::before { content: "\ea51"; }
+.icon-retirement-soln-child-plan::before { content: "\e9fc"; }
+.icon-rupee::before { content: "\e937"; }
+.icon-rupee-circle::before { content: "\ea67"; }
+.icon-rupee-circle2::before { content: "\ea3c"; }
+.icon-rupees-cross::before { content: "\ea62"; }
+.icon-rupees-loan::before { content: "\ea49"; }
+.icon-salary-deduction::before { content: "\e9fe"; }
+.icon-salary-slips::before { content: "\e9ff"; }
+.icon-sanction::before { content: "\ea00"; }
+.icon-save-interest::before { content: "\ea01"; }
+.icon-school::before { content: "\ea7b"; }
+.icon-score::before { content: "\ea02"; }
+.icon-score1::before { content: "\e927"; }
+.icon-search::before { content: "\e902"; }
+.icon-search-rupee::before { content: "\ea3e"; }
+.icon-secure-business::before { content: "\ea03"; }
+.icon-security::before { content: "\ea04"; }
+.icon-self-employed::before { content: "\ea05"; }
+.icon-share::before { content: "\e904"; }
+.icon-shops::before { content: "\e9b5"; }
+.icon-shortage-cashflow::before { content: "\ea06"; }
+.icon-small-business::before { content: "\ea07"; }
+.icon-sme::before { content: "\ea41"; }
+.icon-sms-services::before { content: "\ea4b"; }
+.icon-sort::before { content: "\e918"; }
+.icon-special-purpose::before { content: "\ea08"; }
+.icon-special-rate-women::before { content: "\ea09"; }
+.icon-stability::before { content: "\ea0a"; }
+.icon-standard-EMI::before, .icon-standard-emi::before { content: "\ea0b"; }
+.icon-star::before { content: "\e907"; }
+.icon-star2::before { content: "\ea3d"; }
+.icon-statement::before { content: "\ea0c"; }
+.icon-step-down-flexi::before { content: "\ea0d"; }
+.icon-step-up-flexi::before { content: "\ea0e"; }
+.icon-structured-EMI::before, .icon-structured-emi::before { content: "\ea0f"; }
+.icon-structured-investment::before { content: "\ea10"; }
+.icon-submit-documents::before { content: "\ea11"; }
+.icon-tailor-made::before { content: "\ea12"; }
+.icon-tata-trust::before { content: "\ea13"; }
+.icon-tds::before { content: "\ea14"; }
+.icon-tenure::before { content: "\ea15"; }
+.icon-tenures::before { content: "\ea16"; }
+.icon-term-loans::before { content: "\ea17"; }
+.icon-track-finances::before { content: "\ea18"; }
+.icon-tracking::before { content: "\e9be"; }
+.icon-trust::before { content: "\ea19"; }
+.icon-turnover::before { content: "\ea1a"; }
+.icon-twitter::before { content: "\e900"; }
+.icon-upgrade-house::before { content: "\ea1b"; }
+.icon-used-car-loan::before { content: "\ea1c"; }
+.icon-user::before { content: "\e925"; }
+.icon-value-check::before { content: "\ea1d"; }
+.icon-vehicle-oan::before { content: "\ea1e"; }
+.icon-verification::before { content: "\ea1f"; }
+.icon-virtual-account::before { content: "\ea20"; }
+.icon-virtual-assistant::before { content: "\ea21"; }
+.icon-watch::before { content: "\e91b"; }
+.icon-we-care::before { content: "\ea23"; }
+.icon-wealth::before { content: "\ea22"; }
+.icon-web::before { content: "\e933"; }
+.icon-whatapp::before { content: "\e935"; }
+.icon-whatsapp::before { content: "\e911"; }
+.icon-withdraw-repay::before { content: "\ea25"; }
+.icon-withdrawals::before { content: "\ea24"; }
+.icon-work-experience::before { content: "\ea26"; }
+.icon-working-capital::before { content: "\ea27"; }
+.icon-youtube::before { content: "\e90b"; }
+.icon-zero-charges::before { content: "\ea28"; }
+.icon-zero-securities::before { content: "\ea29"; }
+
+/* ---------- buttons ---------- */
+.btn-blue {
+  background-color: var(--tc-blue);
+  color: #fff;
+  border-radius: 12px;
+  font-family: var(--f-semi);
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s;
+}
+
+.btn-blue:hover {
+  background: var(--tc-blue-dark);
+}
+
+.btn-blue.btn-big {
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.btn-blue.btn-large {
+  padding: 16px 25px;
+  min-width: 135px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn-blue.btn-yellow {
+  background-color: #eaf225;
+  color: #333;
+}
+
+.btn-link {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  color: var(--tc-blue);
+  font-family: var(--f-semi);
+  border-radius: 12px;
+  background: #fff;
+  transition: all .2s;
+}
+
+.btn-link.btn-big,
+.btn-big {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px 30px;
+}
+
+.btn-links {
+  font-family: var(--f-semi);
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--tc-blue);
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-links .arros {
+  font-size: 11px;
+  margin-left: 5px;
+  padding-top: 3px;
+  transition: transform .3s ease-out;
+}
+
+.btn-links:hover .arros {
+  transform: translateX(3px);
+}
+
+.text-dark-green {
+  color: #29925e !important;
+}
+
+/* ---------- slider primitives (dots/arrows) ---------- */
+.slick-list {
+  position: relative;
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  position: relative;
+  transition: transform .5s ease;
+}
+
+.slider-dots .slick-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  text-align: center;
+  display: block;
+  line-height: 21.6px;
+}
+
+.slider-dots .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  position: relative;
+}
+
+.slider-dots .slick-dots li button {
+  display: block;
+  width: 9px;
+  height: 9px;
+  padding: 2px;
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+  background-color: rgb(51 51 51 / 10%);
+  border-radius: 50%;
+  transition: all .4s;
+}
+
+.slider-dots .slick-dots li.slick-active button {
+  background-color: #333;
+}
+
+.slider-arrows .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  font-size: 0;
+  color: transparent;
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 85%) 0, rgb(255 255 255 / 90%) 99.11%);
+  border-radius: 16px;
+}
+
+.slider-arrows .slick-arrow::before {
+  font-family: icomoon, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+}
+
+.slider-arrows .slick-prev {
+  left: -15px;
+}
+
+.slider-arrows .slick-prev::before {
+  content: "\e906";
+}
+
+.slider-arrows .slick-next {
+  right: -15px;
+}
+
+.slider-arrows .slick-next::before {
+  content: "\e905";
+}
+
+.slider-arrows .slick-arrow.slick-disabled {
+  pointer-events: none;
+}
+
+/* ---------- form fields (floating label) ---------- */
+.form-textbox {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.form-textbox .label-name {
+  display: block;
+  font-family: var(--f-semi);
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  transition: all .4s;
+  pointer-events: none;
+}
+
+.form-textbox.active .label-name {
+  font-size: 12px;
+  top: 5px;
+}
+
+.form-textbox .textbox-inner {
+  position: relative;
+}
+
+.input-textbox {
+  border: 0;
+  font-family: var(--f-semi);
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+  height: 38px;
+  width: 100%;
+  border-radius: 0;
+  background-color: transparent;
+  outline: 0;
+}
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-col-50 {
+  width: 50%;
+  padding: 0 15px;
+}
+
+/* ---------- EDS runtime structural layer (kept from the boilerplate) ---------- */
 body.appear {
   display: block;
 }
@@ -98,228 +952,194 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
-}
-
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
-p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-}
-
-code,
-pre {
-  font-size: var(--body-font-size-s);
-}
-
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-main > div {
-  margin: 40px 16px;
-}
-
-input,
-textarea,
-select,
-button {
-  font: inherit;
-}
-
-/* links */
 a:any-link {
-  color: var(--link-color);
+  color: var(--tc-blue);
   text-decoration: none;
   overflow-wrap: break-word;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
-
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
-}
-
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
+/* ---------- EDS resets: blocks rebuild their own source container ---------- */
+main > div,
+main > .section {
   margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
-  cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  padding: 0;
 }
 
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
+main > .section > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
+main > .section > .default-content-wrapper {
+  width: 100%;
+  max-width: var(--container);
+  margin: auto;
+  padding: 0 15px;
 }
 
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+main .section:empty {
+  display: none;
 }
 
 main img {
   max-width: 100%;
-  width: auto;
   height: auto;
 }
 
 .icon {
   display: inline-block;
-  height: 24px;
-  width: 24px;
 }
 
-.icon img {
-  height: 100%;
-  width: 100%;
+/* authored CTAs (decorateButtons): primary = .btn-blue paint, secondary = .btn-link paint */
+p.button-wrapper {
+  margin: 0;
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
+a.button:any-link,
+button.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  border: 0;
+  border-radius: 12px;
+  padding: 10px 30px;
+  font-family: var(--f-semi);
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .2s;
 }
 
-main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+a.button.primary,
+a.button.accent,
+button.button.primary {
+  background-color: var(--tc-blue);
+  color: #fff;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+a.button.primary:hover,
+a.button.accent:hover,
+button.button.primary:hover {
+  background-color: var(--tc-blue-dark);
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
+a.button.secondary,
+button.button.secondary {
+  background-color: #fff;
+  color: var(--tc-blue);
+}
+
+/* Experience Workspace edit mode: repaint CTAs from their authored marks (EW3) */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 10px 30px;
+  font-family: var(--f-semi);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  background-color: var(--tc-blue);
+  color: #fff;
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  background-color: #fff;
+  color: var(--tc-blue);
+}
+
+/* card-as-link inner anchor while editing (EW6) */
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (width <= 991px) {
+  :root {
+    --nav-height: 137px;
   }
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+@media (width <= 767px) {
+  :root {
+    --nav-height: 120px;
+  }
+
+  body {
+    background-image: url("images/bg-length-mobile.svg");
+  }
+
+  h1,
+  .heading-h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  .heading36 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .heading20 {
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .text16i {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .space-tb40 {
+    padding: 25px 0;
+  }
+
+  .tops-heads {
+    margin-bottom: 34px;
+  }
+
+  .tops-heads p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .btn-links {
+    font-size: 14px;
+  }
+
+  .btn-blue.btn-big,
+  .btn-big {
+    font-size: 14px;
+  }
+
+  .row-col-50 {
+    width: 100%;
+  }
+
+  .tab-content {
+    background: var(--tc-panel);
+    border-radius: 14px;
+  }
+
 }

@@ -1,0 +1,28 @@
+{
+  "/drafts/foundation-shell": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-11-02T11:02:54.562Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T11:21:19.931Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T11:21:19.931Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}
