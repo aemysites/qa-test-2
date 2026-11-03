@@ -1,0 +1,245 @@
+{
+  "generatedAt": "2026-11-02T17:31:58.012Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.tatacapital.com/",
+    "liveHost": "main--290ff49a--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 9
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 1,
+    "optimised": 9
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "calculator",
+      "path": "/calculator",
+      "stage": "optimised",
+      "templateId": "calculator",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "check-credit-score",
+      "path": "/check-credit-score",
+      "stage": "optimised",
+      "templateId": "check-credit-score",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "experian-credit-score",
+      "path": "/experian-credit-score",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "home-loan",
+      "path": "/home-loan",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "home-loan-app",
+      "path": "/home-loan-app",
+      "stage": "deployed",
+      "templateId": "home-loan-app",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "partners",
+      "path": "/partners",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "personal-loan",
+      "path": "/personal-loan",
+      "stage": "optimised",
+      "templateId": "personal-loan",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "privacy-commitment",
+      "path": "/privacy-commitment",
+      "stage": "optimised",
+      "templateId": "privacy-commitment",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "sawaal-karo-phir-loan-lo",
+      "path": "/sawaal-karo-phir-loan-lo",
+      "stage": "optimised",
+      "templateId": "campaign",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "article",
+      "archetype": "experian-credit-score",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "calculator",
+      "archetype": "calculator",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "campaign",
+      "archetype": "sawaal-karo-phir-loan-lo",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "check-credit-score",
+      "archetype": "check-credit-score",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "home-loan-app",
+      "archetype": "home-loan-app",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "partners",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "personal-loan",
+      "archetype": "personal-loan",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "privacy-commitment",
+      "archetype": "privacy-commitment",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "home-loan",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 27,
+    "converted": 27
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      50,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 1
+    },
+    "byAutofix": {}
+  }
+}

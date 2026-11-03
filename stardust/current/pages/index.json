@@ -1,0 +1,2459 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-02T08:56:47.509Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.tatacapital.com/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-02T08:56:47.509Z",
+  "finalUrl": "https://www.tatacapital.com/",
+  "title": "Leading NBFC for Loans and Investments in India | Tata Capital",
+  "description": "Tata Capital is a trusted NBFC in India providing loans, investment solutions, and financial services with seamless digital processes and quick approvals.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Apply for a Loan Online with Tata Capital"
+    },
+    {
+      "tag": "h5",
+      "text": "Personal Loan"
+    },
+    {
+      "tag": "h5",
+      "text": "Home Loan"
+    },
+    {
+      "tag": "h5",
+      "text": "Loan Against Property"
+    },
+    {
+      "tag": "h5",
+      "text": "Business Loan"
+    },
+    {
+      "tag": "h5",
+      "text": "Used Car Loan"
+    },
+    {
+      "tag": "h5",
+      "text": "Two Wheeler Loan"
+    },
+    {
+      "tag": "h2",
+      "text": "Instant loaninstant benefits"
+    },
+    {
+      "tag": "h2",
+      "text": "Tools to help you decide"
+    },
+    {
+      "tag": "h2",
+      "text": "Access your loan information with ease!"
+    },
+    {
+      "tag": "h2",
+      "text": "Stay connected through Mobile Apps"
+    },
+    {
+      "tag": "h3",
+      "text": "Service Portals"
+    },
+    {
+      "tag": "h3",
+      "text": "Contact us"
+    },
+    {
+      "tag": "h3",
+      "text": "Locate Us"
+    },
+    {
+      "tag": "h2",
+      "text": "Loan lene se pehle sawaal kiya?"
+    },
+    {
+      "tag": "h2",
+      "text": "Creating value for our communities"
+    },
+    {
+      "tag": "h2",
+      "text": "What our customers say about us"
+    },
+    {
+      "tag": "h2",
+      "text": "Financial insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Subscribe to our newsletter"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Quick and easy finances at competitive interest rates.",
+    "Afffordable Home loan online in less that 10 minute",
+    "Avail loan up to ₹ 10 Crores",
+    "Get loans upto Rs. 1 Cr* to grow your business.",
+    "Get up to 90% of your car value and book your dream car.",
+    "Ride the bike of your dreams with ease."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Download Now",
+      "href": "https://play.google.com/store/apps/details?id=com.snapwork.tcl&hl=en_IN"
+    },
+    {
+      "label": "Blogs",
+      "href": "https://www.tatacapital.com/blog/"
+    },
+    {
+      "label": "SUPPORT",
+      "href": "https://www.tatacapital.com/contact-us/retail-service-faqs.html"
+    },
+    {
+      "label": "Loans for You",
+      "href": "https://www.tatacapital.com/loans.html"
+    },
+    {
+      "label": "Loans for Business",
+      "href": "https://www.tatacapital.com/corporate.html"
+    },
+    {
+      "label": "Investment",
+      "href": "#"
+    },
+    {
+      "label": "Insurance",
+      "href": "https://www.tatacapital.com/insurance.html"
+    },
+    {
+      "label": "Apply",
+      "href": "#"
+    },
+    {
+      "label": "Offers",
+      "href": null
+    },
+    {
+      "label": "Quick Pay",
+      "href": "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html"
+    },
+    {
+      "label": "Search...",
+      "href": null
+    },
+    {
+      "label": "Login",
+      "href": null
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan?sourceName=hpBanner#!"
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "4",
+      "href": null
+    },
+    {
+      "label": "5",
+      "href": null
+    },
+    {
+      "label": "6",
+      "href": null
+    },
+    {
+      "label": "7",
+      "href": null
+    },
+    {
+      "label": "EN",
+      "href": null
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Personal Loan",
+      "href": "https://www.tatacapital.com/personal-loan.html"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!"
+    },
+    {
+      "label": "Learn More",
+      "href": "https://www.tatacapital.com/personal-loan.html"
+    },
+    {
+      "label": "Home Loan",
+      "href": "https://www.tatacapital.com/home-loan.html"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!"
+    },
+    {
+      "label": "Learn More",
+      "href": "https://www.tatacapital.com/home-loan.html"
+    },
+    {
+      "label": "Loan Against Property",
+      "href": "https://www.tatacapital.com/loan-against-property.html"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://www.tatacapital.com/online/loans/loan-against-property/apply-now-loan-against-property#!"
+    },
+    {
+      "label": "Learn More",
+      "href": "https://www.tatacapital.com/loan-against-property.html"
+    },
+    {
+      "label": "Business Loan",
+      "href": "https://www.tatacapital.com/business-loan.html"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://www.tatacapital.com/online/loans/business-loans/home#!"
+    },
+    {
+      "label": "Learn More",
+      "href": "https://www.tatacapital.com/business-loan.html"
+    },
+    {
+      "label": "Used Car Loan",
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan.html"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://www.tatacapital.com/online/loans/used-car-loans/apply-now-used-car-loan"
+    },
+    {
+      "label": "Learn More",
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan.html"
+    },
+    {
+      "label": "Two Wheeler Loan",
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan.html"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan#!"
+    },
+    {
+      "label": "Learn More",
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan.html"
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "4",
+      "href": null
+    },
+    {
+      "label": "5",
+      "href": null
+    },
+    {
+      "label": "6",
+      "href": null
+    },
+    {
+      "label": "7",
+      "href": null
+    },
+    {
+      "label": "Apply now!",
+      "href": "#"
+    },
+    {
+      "label": "Proceed",
+      "href": null
+    },
+    {
+      "label": "Track your application today",
+      "href": "https://www.tatacapital.com/online-tma/loans/tma/track-my-application#!"
+    },
+    {
+      "label": "Personal Loan",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "EMI Calculator",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Pre-Payment Calculator",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Eligibility Calculator",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Yr",
+      "href": null
+    },
+    {
+      "label": "Mo",
+      "href": null
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!"
+    },
+    {
+      "label": "Mobile Apps",
+      "href": null
+    },
+    {
+      "label": "Tia Chatbot",
+      "href": null
+    },
+    {
+      "label": "WhatsApp",
+      "href": null
+    },
+    {
+      "label": "SMS",
+      "href": null
+    },
+    {
+      "label": "Retail Customer Portal",
+      "href": "https://www.tatacapital.com/ways-to-service/retail-portal.html"
+    },
+    {
+      "label": "Corporate Customer Portal",
+      "href": "https://www.tatacapital.com/ways-to-service/corporate-portal.html"
+    },
+    {
+      "label": "My Wealth Account",
+      "href": "https://www.tatacapital.com/ways-to-service/wealth-portal.html"
+    },
+    {
+      "label": "Dropline Overdraft Loan",
+      "href": "https://retailonline.tatacapital.com/#/login"
+    },
+    {
+      "label": "Moneyfy",
+      "href": "https://www.tatacapitalmoneyfy.com/home-page"
+    },
+    {
+      "label": "1860 267 6060",
+      "href": "tel:1860%20267%206060"
+    },
+    {
+      "label": "1800-209- 0188",
+      "href": "tel:1800-209-%200188"
+    },
+    {
+      "label": "View all Contact Information",
+      "href": "https://www.tatacapital.com/contact-us.html"
+    },
+    {
+      "label": "Locate our Branches",
+      "href": "https://www.tatacapital.com/contact-us/branch-locator.html"
+    },
+    {
+      "label": "Know More",
+      "href": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+    },
+    {
+      "label": "View Projects",
+      "href": "https://www.tatacapital.com/sustainability.html"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "Read All",
+      "href": "https://www.tatacapital.com/contact-us/customer-testimonials.html?activeProduct=All"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Tax Benefits on Second Home Loan: What You Can Claim & How",
+      "href": "https://www.tatacapital.com/blog/loan-for-home/tax-benefit-on-second-home-loan/"
+    },
+    {
+      "label": "Share",
+      "href": null
+    },
+    {
+      "label": "How to Check RC (Registration Certificate) Status Online: Step-by-Step Guide",
+      "href": "https://www.tatacapital.com/blog/loan-for-vehicle/check-rc-status-online/"
+    },
+    {
+      "label": "Share",
+      "href": null
+    },
+    {
+      "label": "Equifax Credit Score: What It Means and How to Check Yours for Free",
+      "href": "https://www.tatacapital.com/blog/credit-score/equifax-credit-score/"
+    },
+    {
+      "label": "Share",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "Subscribe Now",
+      "href": null
+    },
+    {
+      "label": "Submit",
+      "href": null
+    },
+    {
+      "label": "About Us",
+      "href": "https://www.tatacapital.com/about-us.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://www.tatacapital.com/careers.html"
+    },
+    {
+      "label": "Media Center",
+      "href": "https://www.tatacapital.com/media-center.html"
+    },
+    {
+      "label": "CSR",
+      "href": "https://www.tatacapital.com/sustainability.html"
+    },
+    {
+      "label": "Blog",
+      "href": "https://www.tatacapital.com/blog/"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://www.tatacapital.com/contact-us.html"
+    },
+    {
+      "label": "Branch Locator",
+      "href": "https://www.tatacapital.com/contact-us/branch-locator.html"
+    },
+    {
+      "label": "Tata Capital Housing Finance Limited",
+      "href": "https://www.tatacapital.com/tchfl.html"
+    },
+    {
+      "label": "Tata Securities Limited",
+      "href": "https://www.tatacapital.com/tsl.html"
+    }
+  ],
+  "links": [
+    "https://play.google.com/store/apps/details?id=com.snapwork.tcl&hl=en_IN",
+    "https://www.tatacapital.com/blog/",
+    "https://www.tatacapital.com/contact-us/retail-service-faqs.html",
+    "https://www.tatacapital.com/",
+    "https://www.tatacapital.com/loans.html",
+    "https://www.tatacapital.com/personal-loan.html",
+    "https://www.tatacapital.com/home-loan.html",
+    "https://www.tatacapital.com/business-loan.html",
+    "https://www.tatacapital.com/vehicle-loan.html",
+    "https://www.tatacapital.com/loan-against-securities.html",
+    "https://www.tatacapital.com/loan-against-property.html",
+    "https://www.tatacapital.com/education-loan.html",
+    "https://www.tatacapital.com/tata-cards.html",
+    "https://www.tatacapital.com/micro-finance-loan.html",
+    "https://www.tatacapital.com/rural-individual-loan.html",
+    "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+    "https://www.tatacapital.com/personal-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/personal-loan/documents-required.html",
+    "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html",
+    "https://www.tatacapital.com/personal-loan/travel-loan.html",
+    "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html",
+    "https://www.tatacapital.com/personal-loan/marriage-loan.html",
+    "https://www.tatacapital.com/personal-loan/home-renovation-loan.html",
+    "https://www.tatacapital.com/personal-loan/emi-calculator.html",
+    "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html",
+    "https://www.tatacapital.com/personal-loan/eligibility-calculator.html",
+    "https://www.tatacapital.com/check-credit-score.html",
+    "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!",
+    "https://www.tatacapital.com/home-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/home-loan/document-required.html",
+    "https://www.tatacapital.com/home-loan/rera.html",
+    "https://www.tatacapital.com/home-loan/approved-housing-projects.html",
+    "https://www.tatacapital.com/home-loan/home-extension-loan.html",
+    "https://www.tatacapital.com/home-loan/affordable-housing-loan.html",
+    "https://www.tatacapital.com/home-loan/pmay.html",
+    "https://www.tatacapital.com/home-loan/quick-cash.html",
+    "https://www.tatacapital.com/home-loan/self-construction.html",
+    "https://www.tatacapital.com/home-loan/home-loan-balance-transfer.html",
+    "https://www.tatacapital.com/home-loan/top-up.html",
+    "https://www.tatacapital.com/home-loan/emi-calculator.html",
+    "https://www.tatacapital.com/home-loan/pmay-calculator.html",
+    "https://www.tatacapital.com/home-loan/balance-transfer-top-up-calculator.html",
+    "https://www.tatacapital.com/home-loan/home-loan-eligibility-calculator.html",
+    "https://www.tatacapital.com/home-loan/area-conversion-calculator.html",
+    "https://www.tatacapital.com/home-loan/stamp-duty-calculator.html",
+    "https://www.tatacapital.com/home-loan/loan-mitra.html",
+    "https://www.tatacapital.com/online/loans/business-loans/home#!",
+    "https://www.tatacapital.com/business-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/business-loan/documents-required.html",
+    "https://www.tatacapital.com/business-loan/hybrid-term-loan.html",
+    "https://www.tatacapital.com/business-loan/machinery-loan.html",
+    "https://www.tatacapital.com/business-loan/msme-loan-sme-loan.html",
+    "https://www.tatacapital.com/business-loan/small-business-loan.html",
+    "https://www.tatacapital.com/business-loan/emi-calculator.html",
+    "https://www.tatacapital.com/business-loan/pre-payment-calculator.html",
+    "https://www.tatacapital.com/business-loan/gst-calculator.html",
+    "https://www.tatacapital.com/business-loan/foreclosure-calculator.html",
+    "https://www.tatacapital.com/vehicle-loan/used-car-loan.html",
+    "https://www.tatacapital.com/vehicle-loan/used-car-loan/loan-on-car.html",
+    "https://www.tatacapital.com/vehicle-loan/car-loan.html",
+    "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan.html",
+    "https://www.tatacapital.com/marketplace/two-wheeler/",
+    "https://www.tatacapital.com/vehicle-loan/used-car-loan/emi-calculator.html",
+    "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan/emi-calculator.html",
+    "https://www.tatacapital.com/online/loans/used-car-loans/apply-now-used-car-loan",
+    "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan#!",
+    "https://www.las.tatacapital.com/online/loans/las/apply-now-las-loan#!",
+    "https://www.tatacapital.com/loan-against-securities/rates-and-charges.html",
+    "https://www.tatacapital.com/loan-against-securities/documents-required.html",
+    "https://www.tatacapital.com/online/loans/loan-against-property/apply-now-loan-against-property#!",
+    "https://www.tatacapital.com/loan-against-property/rates-and-charges.html",
+    "https://www.tatacapital.com/loan-against-property/documents-required.html",
+    "https://www.tatacapital.com/loan-against-property/emi-option.html",
+    "https://www.tatacapital.com/loan-against-property/hybrid-term-loan.html",
+    "https://www.tatacapital.com/business-loan/micro-loan-against-property.html",
+    "https://www.tatacapital.com/loan-against-property/emi-calculator.html",
+    "https://www.tatacapital.com/education-loan/apply-now-education-loan.html",
+    "https://www.tatacapital.com/education-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/education-loan/document-required.html",
+    "https://www.tatacapital.com/education-loan/emi-calculator.html",
+    "https://www.tatacapital.com/contact-us.html",
+    "https://www.tatacapital.com/micro-finance-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/micro-finance-loan/documents-required.html",
+    "https://www.tatacapital.com/micro-finance-loan/emi-calculator.html",
+    "https://www.tatacapital.com/rural-individual-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/rural-individual-loan/documents-required.html",
+    "https://www.tatacapital.com/rural-individual-loan/emi-calculator.html",
+    "https://www.tatacapital.com/corporate.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance.html",
+    "https://www.tatacapital.com/corporate/structured-products.html",
+    "https://www.tatacapital.com/corporate/term-loan.html",
+    "https://www.tatacapital.com/corporate/equipment-finance-leasing.html",
+    "https://www.tatacapital.com/corporate/construction-finance.html",
+    "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan.html",
+    "https://www.tatacapital.com/corporate/commercial-vehicle-leasing.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/channel-finance.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/invoice-discounting.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/purchase-order-funding.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/working-capital-demand-loan.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/channel-finance/sub-dealer-loan.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/factoring.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/reverse-factoring.html",
+    "https://www.tatacapital.com/corporate/working-capital-loan/operating-expense-loan-for-transporters.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance/project-structured-finance.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance/debt-syndication.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance/financial-advisory.html",
+    "https://www.tatacapital.com/corporate/cleantech-finance/cleantech-advisory.html",
+    "https://www.tatacapital.com/corporate/structured-products/structured-investments.html",
+    "https://www.tatacapital.com/corporate/structured-products/debt-syndication.html",
+    "https://www.tatacapital.com/corporate/structured-products/letter-of-credit.html",
+    "https://www.tatacapital.com/corporate/structured-products/lease-rental-discounting.html",
+    "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-finance.html",
+    "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-leasing.html",
+    "https://www.tatacapital.com/corporate/construction-finance/construction-equipment-finance.html",
+    "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/new-commercial-vehicle-financing.html",
+    "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/used-commercial-vehicle-financing.html",
+    "https://www.tatacapital.com/#",
+    "https://www.tatacapitalmoneyfy.com/",
+    "https://www.tatacapitalmoneyfy.com/sip-calculator",
+    "https://www.tatacapitalmoneyfy.com/compound-interest-calculator",
+    "https://www.tatacapitalmoneyfy.com/mutual-funds",
+    "https://www.tatacapitalmoneyfy.com/corporate-fixed-deposit?sourceName=website",
+    "https://www.tatacapitalmoneyfy.com/credit-card?sourceName=website",
+    "https://www.tatacapitalmoneyfy.com/loans?sourceName=website",
+    "https://www.tatacapital.com/wealth.html",
+    "https://www.tatacapital.com/wealth/request-callback.html",
+    "https://www.tatacapital.com/wealth/calculators/financial-goal-calculator.html",
+    "https://www.tatacapital.com/wealth/calculators/retirement-planning-calculator.html",
+    "https://www.tatacapital.com/wealth/knowledge-centre/blogs.html",
+    "https://www.tatacapital.com/wealth/knowledge-centre/reports.html",
+    "https://www.tatacapital.com/wealth/knowledge-centre/forms.html",
+    "https://www.tatacapital.com/insurance.html",
+    "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html",
+    "https://www.tatacapital.com/insurance/motor-insurance.html",
+    "https://www.tatacapital.com/insurance/life-insurance.html",
+    "https://www.tatacapital.com/insurance/health-insurance.html",
+    "https://www.tatacapital.com/insurance/travel-and-home-insurance.html",
+    "https://www.tatacapital.com/insurance/wellness-solutions.html",
+    "https://www.tatacapital.com/insurance/protection-plans.html",
+    "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan",
+    "https://onlinelaploans.tatacapital.com/online/loans/loan-against-property/",
+    "https://www.tatacapital.com/apply-now-credit-card-lead-form.html",
+    "https://www.tatacapital.com/insurance/motor-insurance/car-insurance/apply-now-car-insurance.html",
+    "https://www.tatacapital.com/insurance/motor-insurance/bike-insurance/apply-now-bike-insurance.html",
+    "https://www.tatacapital.com/insurance/life-insurance/term-insurance/apply-now-protection-and-health-solution.html",
+    "https://www.tatacapital.com/insurance/life-insurance/savings-and-investments/apply-now-traditional-life-insurance.html",
+    "https://www.tatacapital.com/insurance/health-insurance/medical-insurance/apply-now-medical-insurance.html",
+    "https://www.tatacapital.com/insurance/wellness-solutions/apply-now-for-wellness-solutions.html",
+    "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-home-insurance.html",
+    "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-travel-insurance.html",
+    "https://app.adjust.com/18oyrgga?engagement_type=fallback_click&fallback=https%3A%2F%2Fwww.tatacapital.com%2Fmoneyfy%2F&fallback_lp=https%3A%2F%2Fwww.tatacapital.com%2Fmoneyfy%2F",
+    "https://www.tatacapital.com/online/loans/new-car-loan/apply-now-new-car-loan",
+    "https://play.google.com/store/apps/details?id=com.tatacapital.moneyfy&referrer=adjust_reftag%3DcKAEox8iQCo4D%26utm_source%3DTata%2BCapital%2BWebsite%2Bwidget",
+    "https://retailonline.tatacapital.com/",
+    "https://corporateservices.tatacapital.com/#/login",
+    "https://www.tatacapitalmoneyfy.com/customer/login",
+    "https://www.tatacapital.com/corporate/landing-page.html",
+    "https://www.tatacapital.com/zidd.html?sourceName=ZIDDWebsite&subsource=ZIDDWebsite&LEAD_SUB_SOURCE_1=ZIDDWebsite&cid=digitalbranding:zidd:Sept26:ZIDDWebsite:Tata_Capital_Homepage:#!",
+    "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan?sourceName=hpBanner#!",
+    "https://www.tatacapital.com/online/loans/loan-against-property/apply-now-loan-against-property?subsource=hpBanner#!",
+    "https://www.tatacapital.com/pre-approved-offers.html",
+    "https://play.google.com/store/apps/details?id=com.tatacapital.moneyfy&hl=en",
+    "https://www.tatacard.com/",
+    "https://www.tatacapital.com/content/tata-capital/en/wealth.html",
+    "javascript:void(0)",
+    "javascript:;",
+    "https://www.tatacapital.com/online-tma/loans/tma/track-my-application#!",
+    "javascript:void(0);",
+    "https://play.google.com/store/apps/details?id=com.snapwork.tcl&hl=en_IN&pli=1",
+    "https://apps.apple.com/in/app/tata-capital-mobile-app/id1451688163",
+    "https://www.tatacapital.com/ways-to-service/tia-chatbot.html",
+    "https://www.tatacapital.com/ways-to-service/whatsapp.html",
+    "https://www.tatacapital.com/ways-to-service/sms-service.html",
+    "https://www.tatacapital.com/ways-to-service/retail-portal.html",
+    "https://www.tatacapital.com/ways-to-service/corporate-portal.html",
+    "https://www.tatacapital.com/ways-to-service/wealth-portal.html",
+    "https://retailonline.tatacapital.com/#/login",
+    "https://www.tatacapitalmoneyfy.com/home-page",
+    "tel:1860%20267%206060",
+    "tel:1800-209-%200188",
+    "https://www.tatacapital.com/contact-us/branch-locator.html",
+    "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+    "https://www.tatacapital.com/sustainability.html",
+    "https://www.tatacapital.com/contact-us/customer-testimonials.html?activeProduct=All",
+    "https://www.tatacapital.com/blog/loan-for-vehicle/check-rc-status-online/",
+    "https://www.tatacapital.com/blog/credit-score/equifax-credit-score/",
+    "https://www.tatacapital.com/blog/credit-score/credit-utilisation-ratio/",
+    "https://www.tatacapital.com/blog/loan-for-home/tax-benefit-on-second-home-loan/",
+    "https://www.tatacapital.com/about-us.html",
+    "https://www.tatacapital.com/careers.html",
+    "https://www.tatacapital.com/media-center.html",
+    "https://www.tatacapital.com/tchfl.html",
+    "https://www.tatacapital.com/tsl.html",
+    "https://www.tatacapitalhealthcarefund.com/",
+    "https://www.tatacapitalgrowthfund.com/",
+    "https://branches.tatacapital.com/",
+    "https://www.tatacapital.com/mastertc/retail.html",
+    "https://www.tatacapital.com/mastertc/retail/tcfsl-pre-31-december.html",
+    "https://www.tatacapital.com/vendor-feedback.html",
+    "https://www.tatacapital.com/corporate/rate-history.html",
+    "https://www.tatacapital.com/ways-to-service.html",
+    "https://www.tatacapital.com/partners.html",
+    "https://www.tatacapital.com/tata-capital-api.html",
+    "https://www.tatacapital.com/sarfaesi.html",
+    "https://www.tatacapital.com/content/dam/customer-frequently-asked-questions-21-jan-2025-01.pdf",
+    "https://www.tatacapital.com/about-us/investor-information-and-financials.html",
+    "https://www.tatacapital.com/tchfl/investor-relations.html",
+    "https://www.tatacapital.com/tcfsl/investor-relations.html",
+    "https://www.tatacapital.com/tccl/investor-relation.html",
+    "https://www.tatacapital.com/tmfl/investor-relation.html",
+    "https://www.tata.com/",
+    "https://www.tataaig.com/",
+    "https://www.tataaia.com/",
+    "https://www.tatamutualfund.com/",
+    "https://www.tatapensionfund.com/",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-AuditCommitteeCharter.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-AffirmativeActionPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-WhistleBlowerPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-CodeofConductforNon-ExecutiveDirectors.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-RemunerationPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-BoardDiversityPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-CodeofCorporateDisclosurePracticesandPolicyondeterminationoflegitimatepurposeforcommunicationofUPSI.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL%20ABAC%20Policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-VigilMechanism.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-csr-policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/footer/TCL_Committees%27%20Composition.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-notice-of-hours-of-work-rest-interval-weekly-holiday.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL-Fit%20and%20Proper%20policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL%20-%20Policy%20for%20Appointment%20of%20Statutory%20Auditors.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL_RPTPolicy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCL__Policyfordeterminingmaterialsubsidiaries.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/policy-on-archival-of-documents.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/investors-and-financial-reports/corporate-governance/Familiarisation%20Programme.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/Compensation%20Policy%20for%20KMPs%20and%20SM.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-internal-corporate-governance-guidelines-13-12-2023-v1.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-merged-customer-service-and-grievance-handling-revision-13-12-2023-v1.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-privacy-policy-aadhaar-v1.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/dividend-distribution-policy-13-12-2023-v1.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcfsl/regulatory-policies/Vendor%20termination%20list.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/policy-for-determining-interest-rates-processing-and-other-charges.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/examples-of-sma-npa-classification.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/list-of-recovery-agents-mfb.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tcl-policy-specifying-the-process-to-be-followed-by-investors-for-claiming-t-v1-29-02-2024-circulated.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/policy-for-determining-materiality-of-information-for-disclosure-to-stock-exchanges.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/website-updation-31-july-2026.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/TCHFL_NHB_Registration_Certificate.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/KYC%20Guidelines.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/GSTdetails.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/CSR%20Policy-TCHFL.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Draft_legal_disclaimer.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/List%20of%20Recovery%20Agents.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcfsl/regulatory-policies/RPT%20Policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/tchfl_Privacy_Commitment.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Guidelines_on_CG.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Anti%20Bribery%20and%20Anti%20Corruption%20Policy-TCHFL.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL%20Committees%20Composition.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL-Policy_on_Board_Diversity_and_Director_Attributes.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL-Remuneration_Policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL-Form_MGT-9.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL_-_Audit_Committee_Charter.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Affirmative_Action_Policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Code_of_Conduct_for_Non-Executive_Directors.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Code_of_Corporate_Disclosure_Practices_and_Policy_on_determination_of_legitimate_purpose.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/ChannelPartners.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tchfl/investor-information/general-information/VigilMechanismTCHFL.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/RestructuringPolicyforCOVID-19-relatedStressedAssetsorAdvances2.0.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL%20-%20Policy%20for%20Appointment%20of%20Statutory%20Auditor.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Examples_of_SMA_NPA_Classification_TCHFL.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL%20-%20Familiarisation%20Programme%20for%20Independent%20Directors.pdf",
+    "https://www.tatacapital.com/tchfl/partners.html",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/PolicyforuseofUnparliamentaryLanguagebyCustomers.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/TCHFL%20-%20Policy%20on%20Archival%20of%20Documents.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/policy-for-determining-interest-rates-processing-and-other-charges.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tchfl/tchfl-privacy-for-protecting-personal-data-of-aadhaar-number-holders.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/Compensation%20Policy%20for%20KMPs%20and%20SM.pdf",
+    "https://sachet.rbi.org.in/",
+    "https://www.tatacapital.com/content/dam/tata-capital/tchfl/release-of-property-documents-in-the-event-of-demise-of-property-owners.pdf",
+    "https://www.tatacapital.com/tchfl/sarfaesi.html",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/tcl/tchfl-policy-specifying-the-process-to-be-followed-by-investors-for-cl.pdf",
+    "https://www.tatacapital.com/mastertc/retail/tchfl-pre-31-december.html",
+    "https://www.tatacapital.com/mastertc/retail/tchfl.html",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/i-pmla-policy-jan-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/ii-tax-policy-on-current-taxes-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/iii-whistle-blower-policy-jan-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/iv-cyber-security-policy-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/v-conflict-o-interest-policy-january-2022.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/vi-outsourcing-policy.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/vii-surveilliance-policy-oct-2021.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/viii-abac-policy-jan-2022-clean.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital-web/tsl/ix-insider-trading-code-25.01.2022.pdf",
+    "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html",
+    "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html",
+    "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html",
+    "https://www.tatacapital.com/personal-loan/small-personal-loan.html",
+    "https://www.tatacapital.com/personal-loan/application-process.html",
+    "https://www.tatacapital.com/personal-loan/balance-transfer.html",
+    "https://www.tatacapital.com/business-loan/business-loan-for-women.html",
+    "https://www.tatacapital.com/emergency-credit-line-guarantee-scheme.html",
+    "https://www.tatacapital.com/emi-calculator.html",
+    "https://www.tatacapital.com/apr-calculator.html",
+    "https://www.tatacapital.com/vehicle-loan/used-car-loan/rates-and-charges.html",
+    "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan/rates-and-charges.html",
+    "https://apps.apple.com/in/app/tata-capital-loan-wealth-app/id1451688163",
+    "https://apps.apple.com/in/app/moneyfy-sip-mf-elss-loans/id1479549912",
+    "https://www.facebook.com/tatacapital/",
+    "https://x.com/tatacapital?lang=en",
+    "https://www.instagram.com/tatacapital/?hl=en",
+    "https://www.youtube.com/channel/UCCLXn_znjOupIWJ8502cUtg",
+    "https://www.linkedin.com/company/tata-capital/",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/footer/Legal_disclaimer.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/footer/privacy-policy-v1-06-08-2024.pdf",
+    "https://www.tatacapital.com/content/dam/tata-capital/pdf/footer/Fraud%20Advisory.pdf",
+    "https://www.tatacapital.com/site-map.html",
+    "https://app.adjust.net.in/nytxoi4",
+    "https://tatacap.go.link/b9vxo",
+    "tel:18602676060"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-header-images/tcl.svg",
+        "alt": "Header Logo",
+        "w": 133,
+        "h": 15
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_Wealth.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/zidd-Desk.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_PL.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_TWL.jpg",
+        "alt": "Source validator status icon",
+        "w": 1265,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_UCL_LOC.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_LAP.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_HL.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_Wealth.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/zidd-Desk.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_PL.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_TWL.jpg",
+        "alt": "Source validator status icon",
+        "w": 1265,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_UCL_LOC.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_LAP.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_HL.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/home-page/desktop/Desk_Wealth.jpg",
+        "alt": "Source validator status icon",
+        "w": 1264,
+        "h": 340
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/explore-our-product/personal-loan.svg",
+        "alt": "Personal loan",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/explore-our-product/home-loan.svg",
+        "alt": "Home loan",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/explore-our-product/lap.svg",
+        "alt": "Lap",
+        "w": 48,
+        "h": 49
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/explore-our-product/bussiness-loan.svg",
+        "alt": "Bussiness loan",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/explore-our-product/used-car-loan.svg",
+        "alt": "Used Car Loan",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/explore-our-product/two-wheeler-loan.svg",
+        "alt": "Two Wheeler Loan",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/preApprovedEF/pre-approved/_jcr_content/root/pre_approved_1067401/container-main/image.coreimg.png/1678367024170/instant-loan.png",
+        "alt": "pre-approved",
+        "w": 297,
+        "h": 480
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-instant-loan/tick.png",
+        "alt": "tick",
+        "w": 242,
+        "h": 152
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/tick-error.svg",
+        "alt": "tick-error",
+        "w": 60,
+        "h": 61
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/lead-form/dot-img.gif",
+        "alt": "dot-img",
+        "w": 22,
+        "h": 22
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/lead-form/loader-img.gif",
+        "alt": "loader-img",
+        "w": 78,
+        "h": 78
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/way-to-service/tab-graphics-top.svg",
+        "alt": "tab-graphics-top",
+        "w": 163,
+        "h": 119
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/way-to-service/tab-graphics-bottom.svg",
+        "alt": "tab-graphics-bottom",
+        "w": 97,
+        "h": 64
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/ways-to-services/mobile/manage-seamless-transaction.png",
+        "alt": "android",
+        "w": 286,
+        "h": 330
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/sacan-to-download.png",
+        "alt": "QR Code",
+        "w": 81,
+        "h": 80
+      },
+      {
+        "src": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/ways-to-serviceEF/ways-to-service/_jcr_content/root/ways_to_service_copy/loan-information-main-title/customcontainer_2007001535/wts_tabs/item_1670062797308/ways-to-service-teaser-buttons/customcontainer/image.coreimg.svg/1713180534575/gp-img.svg",
+        "alt": "Google play image",
+        "w": 136,
+        "h": 41
+      },
+      {
+        "src": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/ways-to-serviceEF/ways-to-service/_jcr_content/root/ways_to_service_copy/loan-information-main-title/customcontainer_2007001535/wts_tabs/item_1670062797308/ways-to-service-teaser-buttons/customcontainer/image_copy.coreimg.svg/1713180596087/as-img.svg",
+        "alt": "App Store",
+        "w": 137,
+        "h": 41
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-banner/ways-to-services/mobile/manage-seamless-transaction.png",
+        "alt": "android",
+        "w": 286,
+        "h": 330
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/sacan-to-download.png",
+        "alt": "QR Code",
+        "w": 81,
+        "h": 80
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/way-to-service/chat-bot.png",
+        "alt": "chat bot",
+        "w": 346,
+        "h": 447
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/way-to-service/chat-bot.png",
+        "alt": "chat bot",
+        "w": 346,
+        "h": 447
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/way-to-service/watsapp-tab.png",
+        "alt": "whatsapp",
+        "w": 346,
+        "h": 435
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/way-to-service/watsapp-tab.png",
+        "alt": "whatsapp",
+        "w": 346,
+        "h": 435
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/way-to-service/sms-mobile.png",
+        "alt": "sms",
+        "w": 300,
+        "h": 361
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/way-to-service/sms-mobile.png",
+        "alt": "sms",
+        "w": 300,
+        "h": 361
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/explore-our-product/wealth-management.svg",
+        "alt": "Service Portals",
+        "w": 48,
+        "h": 49
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/ways-to-service/personal-loan.svg",
+        "alt": "Contact us",
+        "w": 49,
+        "h": 48
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/explore-our-product/personal-loan.svg",
+        "alt": "Locate Us",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital/csr/strip-1.png",
+        "alt": "Sawaal Karo",
+        "w": 2218,
+        "h": 1418
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital/csr/strip-2-desktop.png",
+        "alt": "Strip Banner",
+        "w": 374,
+        "h": 227
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/star-fill.svg",
+        "alt": "star",
+        "w": 14,
+        "h": 14
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture5-1.jpg",
+        "alt": "loan for vehicle",
+        "w": 1919,
+        "h": 1171
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture4-1.jpg",
+        "alt": "credit score",
+        "w": 1981,
+        "h": 1321
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture3-1.jpg",
+        "alt": "credit score",
+        "w": 1948,
+        "h": 1297
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture6-1.jpg",
+        "alt": "loan for home",
+        "w": 1958,
+        "h": 1310
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture5-1.jpg",
+        "alt": "loan for vehicle",
+        "w": 1919,
+        "h": 1171
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture4-1.jpg",
+        "alt": "credit score",
+        "w": 1981,
+        "h": 1321
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture3-1.jpg",
+        "alt": "credit score",
+        "w": 1948,
+        "h": 1297
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture6-1.jpg",
+        "alt": "loan for home",
+        "w": 1958,
+        "h": 1310
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture5-1.jpg",
+        "alt": "loan for vehicle",
+        "w": 1919,
+        "h": 1171
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture4-1.jpg",
+        "alt": "credit score",
+        "w": 1981,
+        "h": 1321
+      },
+      {
+        "src": "https://www.tatacapital.com/blog/wp-content/uploads/2026/10/Picture3-1.jpg",
+        "alt": "credit score",
+        "w": 1948,
+        "h": 1297
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/error-icon-red.png",
+        "alt": "error-icon-red",
+        "w": 61,
+        "h": 60
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/lead-form/check-circle.svg",
+        "alt": "get-otp-img",
+        "w": 61,
+        "h": 60
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/lead-form/unsuccesful.svg",
+        "alt": "get-otp-img",
+        "w": 61,
+        "h": 61
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/lead-form/call-ring.svg",
+        "alt": "call-ring",
+        "w": 61,
+        "h": 61
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/error-icon-red.png",
+        "alt": "error-icon",
+        "w": 61,
+        "h": 60
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/download-app.svg",
+        "alt": "Download app",
+        "w": 13,
+        "h": 21
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/download-app-mobile.svg",
+        "alt": "Download app",
+        "w": 13,
+        "h": 22
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/credit-score.svg",
+        "alt": "Check credit score",
+        "w": 27,
+        "h": 15
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/img/TCL-Logo-OnlyText.svg",
+        "alt": "Logo",
+        "w": 300,
+        "h": 71
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/offers/arrow-up-right.svg",
+        "alt": "arrowright",
+        "w": 18,
+        "h": 21
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/tata-logo-blue.svg",
+        "alt": "tata-logo-blue",
+        "w": 188,
+        "h": 20
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/fraud-img1.svg",
+        "alt": "fraud-img",
+        "w": 49,
+        "h": 49
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/fraud-img2.svg",
+        "alt": "fraud-img",
+        "w": 49,
+        "h": 49
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/customer-care-icon.svg",
+        "alt": "customer-care-icon",
+        "w": 49,
+        "h": 49
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/tata-logo-blue.svg",
+        "alt": "tata-logo",
+        "w": 188,
+        "h": 20
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/chatbot-girl-opt.svg",
+        "alt": "tia-chatbot",
+        "w": 127,
+        "h": 127
+      },
+      {
+        "src": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/error-icon-red.png",
+        "alt": "",
+        "w": 61,
+        "h": 60
+      }
+    ],
+    "allImgCount": 289,
+    "cssBackgrounds": [
+      "https://www.tatacapital.com/content/dam/tata-capital-web/assets/img/bg-length-desktop.svg"
+    ],
+    "modals": [
+      "× Proceed to OTP Please review and accept the consent below to continue. Consent to communicate By clicking “Proceed to OTP”, you provide your explicit consent to Tata Capital Limited (“Company”), entities with which the Company has service arrangement and its agents, to contact you for the purpose of offering and promoting its loan products, financial services and related offerings. You agree to receive such communications through SMS, WhatsApp, voice calls, email and other digital channels even if my name appears on the Do no call/ Do Not Disturb registry, as may be applicable. You acknowledge that you may revoke your consent at any time through the prescribed opt-out / unsubscribe mechanisms made available by the Company. I have read and agree to the Terms & Conditions. Proceed to OTP Verify OTP Enter the OTP sent to Resend OTP in 00:30 OTP expired. Resend OTP Verify OTP ✓ Thank You Close Submission Failed Something went wrong. Please try again. Close"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 20,
+    "mainTextLen": 1936,
+    "realImageCount": 171,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "adobedc.demdex.net",
+        "path": "/ee/v1/identity/acquire",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://adobedc.demdex.net/ee/v1/identity/acquire",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/api/master/web/api/mdm/export/mitc-pdfs.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2442,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/api/master/web/api/mdm/export/mitc-pdfs.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://edge.adobedc.net/ee/or2/v1/interact",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "k.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://k.clarity.ms/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/989333712/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "mpc2-prod-28-is5qnl632q-ue.a.run.app",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://mpc2-prod-28-is5qnl632q-ue.a.run.app/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CNSqz5f16JcDFYMNhAgd-54A_g;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CNSqz5f16JcDFYMNhAgd-54A_g;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=5786527588722435072;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWt3V1Gpq-VhON_dpan4q-Od5QHSD_DU8RRmsg;_dc_time=1793609799;cid=CAQS4QEAQM4h3EcCrmNa1JUsifhKQj_kIes48YYdMbHUWwYweZrskmvaufhhhA_mpyolu0wgi3mx6JfkfpterpBDGY9BTedLwVfRQnz5YCHZf1TZF3tU7LHfixUf1rSXytxoEkZCXUvPMZllmBVpIAtwyxdlhGB3DSGF6riHjFr2NXvsfFXOe22erFpp6Px6Lz9COwpbUlii-21raTMl_ekcLuH0WfSqFqtqHDzfGbzxMvdJgrONIajb34vxFIWkRD9wGbSP6ETqWegBTOXi34l8Sj7sQHZK2cIqL65wAGS7AIEJQKU;eps=AHas8cCUL5Eajg4VGCpQz8UcX4Qj3Gunhsg1b1iQTgfYl9nPNpG816TtvIiLd8MjjmKlCu0eeuj-J2CLTfyYeqmxdiC5j8eESl9qul-xvuHyJhd9DA;dc_pre=CNSqz5f16JcDFYMNhAgd-54A_g;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 42,
+        "hits": 1,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=5786527588722435072;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWt3V1Gpq-VhON_dpan4q-Od5QHSD_DU8RRmsg;_dc_time=1793609799;cid=CAQS4QEAQM4h3EcCrmNa1JUsifhKQj_kIes48YYdMbHUWwYweZrskmvaufhhhA_mpyolu0wgi3mx6JfkfpterpBDGY9BTedLwVfRQnz5YCHZf1TZF3tU7LHfixUf1rSXytxoEkZCXUvPMZllmBVpIAtwyxdlhGB3DSGF6riHjFr2NXvsfFXOe22erFpp6Px6Lz9COwpbUlii-21raTMl_ekcLuH0WfSqFqtqHDzfGbzxMvdJgrONIajb34vxFIWkRD9wGbSP6ETqWegBTOXi34l8Sj7sQHZK2cIqL65wAGS7AIEJQKU;eps=AHas8cCUL5Eajg4VGCpQz8UcX4Qj3Gunhsg1b1iQTgfYl9nPNpG816TtvIiLd8MjjmKlCu0eeuj-J2CLTfyYeqmxdiC5j8eESl9qul-xvuHyJhd9DA;dc_pre=CNSqz5f16JcDFYMNhAgd-54A_g;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "mpc2-prod-23-is5qnl632q-ue.a.run.app",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://mpc2-prod-23-is5qnl632q-ue.a.run.app/events",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "smart-search.senseforth.com",
+        "path": "/PROD/CX-TCSmartSearch/getUniqueId",
+        "query": [
+          "source",
+          "time"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 48,
+        "hits": 1,
+        "example": "https://smart-search.senseforth.com/PROD/CX-TCSmartSearch/getUniqueId",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "smart-search.senseforth.com",
+        "path": "/PROD/CX-TCSmartSearch/logout",
+        "query": [
+          "apiuser",
+          "clearSession",
+          "location",
+          "nb_status",
+          "source"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 74,
+        "hits": 1,
+        "example": "https://smart-search.senseforth.com/PROD/CX-TCSmartSearch/logout",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/preApprovedEF/pre-approved.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 3072,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/preApprovedEF/pre-approved.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/customerTestimonialEF/customer-testimonial.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 4818,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/customerTestimonialEF/customer-testimonial.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/ways-to-serviceEF/ways-to-service.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 4684,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/ways-to-serviceEF/ways-to-service.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/newsLetterEF/news-letter.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 1861,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/newsLetterEF/news-letter.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/homepage-calculator/homepage-calculator.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 8667,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/homepage-calculator/homepage-calculator.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/financial-insights-ef/financialInsight.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 2706,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/financial-insights-ef/financialInsight.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/communitiesBoxEF/communitiesBox.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 2172,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/communitiesBoxEF/communitiesBox.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/header-ef/header-experience-fragment/master.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 301,
+        "bytes": 313,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/header-ef/header-experience-fragment/master.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/api/master/web/api/mdm/export/minmaxmaster.json",
+        "query": [
+          "calculator-label"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 295,
+        "hits": 6,
+        "example": "https://www.tatacapital.com/api/master/web/api/mdm/export/minmaxmaster.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/header-experience-fragment/master.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 21654,
+        "hits": 1,
+        "example": "https://www.tatacapital.com/header-experience-fragment/master.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "gum.criteo.com",
+        "path": "/sid/json",
+        "query": [
+          "ceid",
+          "domain",
+          "origin",
+          "sn",
+          "so",
+          "topUrl"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://gum.criteo.com/sid/json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "mug.criteo.com",
+        "path": "/sid",
+        "query": [
+          "cpp",
+          "cppv"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://mug.criteo.com/sid",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 7
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 6
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 4
+      },
+      {
+        "host": "smart-search.senseforth.com",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "www.clarity.ms",
+        "count": 1
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "dynamic.criteo.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [
+      {
+        "action": "https://www.tatacapital.com/",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 2,
+        "fieldNames": [],
+        "search": false
+      },
+      {
+        "action": "nullvoid(0);",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": false,
+        "fieldCount": 1,
+        "fieldNames": [
+          "mobile"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 8,
+    "triggers": [
+      {
+        "marker": "jsModalOnGetCall",
+        "href": "javascript:void(0)"
+      },
+      {
+        "marker": "js-bannerPopup",
+        "href": null
+      },
+      {
+        "marker": "js-bannerPopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 11,
+      "thirdPartyEndpoints": 16,
+      "thirdPartyScriptHosts": 9,
+      "inlineDataBlobs": 0,
+      "forms": 2,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html"
+}

@@ -1,0 +1,219 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-02T10:45:12.472Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-02T17:31:18.391Z",
+  "templates": [
+    {
+      "id": "article",
+      "representativeSlug": "experian-credit-score",
+      "pages": [
+        "experian-credit-score"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "calculator",
+      "representativeSlug": "calculator",
+      "pages": [
+        "calculator"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "calculator-tab",
+        "financial-insights",
+        "np"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "campaign",
+      "representativeSlug": "sawaal-karo-phir-loan-lo",
+      "pages": [
+        "sawaal-karo-phir-loan-lo"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "check-credit-score",
+      "representativeSlug": "check-credit-score",
+      "pages": [
+        "check-credit-score"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "banner-cntr-new",
+        "emi-option",
+        "faq",
+        "financial-insights",
+        "how-apply",
+        "non-product-short-lead-form",
+        "np",
+        "overviews-tab",
+        "personal-loan",
+        "related-video",
+        "table",
+        "what-personal"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "home-loan-app",
+      "representativeSlug": "home-loan-app",
+      "pages": [
+        "home-loan-app"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "banner-cntr-new",
+        "faq",
+        "financial-insights",
+        "np",
+        "overviews-tab",
+        "personal-loan",
+        "reasons"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "banner-cntr-new",
+        "calculator",
+        "communities",
+        "customer-say",
+        "explore",
+        "financial-insights",
+        "instant-loan",
+        "non-product-short-lead-form",
+        "strip-section",
+        "ways-to-service"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "partners",
+      "pages": [
+        "partners"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "personal-loan",
+      "representativeSlug": "personal-loan",
+      "pages": [
+        "personal-loan"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "calc-banner",
+        "cash-loans",
+        "check-loan-eligibility",
+        "customer-say",
+        "faq",
+        "financial-insights",
+        "find-right-loan",
+        "instant-slider",
+        "np",
+        "overviews-tab",
+        "personal-loan",
+        "related-video",
+        "what-personal"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "privacy-commitment",
+      "representativeSlug": "privacy-commitment",
+      "pages": [
+        "privacy-commitment"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "check-eligibility",
+        "non-product-short-lead-form",
+        "np",
+        "personal-loan"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "home-loan",
+      "pages": [
+        "home-loan"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

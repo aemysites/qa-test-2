@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "open sans",
+        "createdAt": "2026-11-02T09:52:34.523Z",
+        "reason": "replica run: Open Sans is the source site's brand font, captured verbatim (stardust/current/_computed-styles.json); no redesign permitted"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/css/canon.css"
+        ],
+        "createdAt": "2026-11-02T09:52:34.539Z",
+        "reason": "replica run: border+radius values lifted from the live tatacapital.com stylesheets; changing them would be an unregistered design delta"
+      }
+    ]
+  }
+}

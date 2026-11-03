@@ -1,0 +1,527 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-02T10:45:12.472Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-02T17:31:18.391Z",
+  "pages": [
+    {
+      "slug": "calculator",
+      "path": "/calculator",
+      "title": "Financial EMI Calculators Online | Tata Capital",
+      "templateId": "calculator",
+      "source": {
+        "migratedHtml": "stardust/migrated/calculator.html",
+        "metaJson": "stardust/migrated/calculator._meta.json",
+        "sourceHash": "sha256:21d5bc76e321e69b42539c471837426bd7e0da683c6799f983434e2a122eb49e",
+        "sourceUrl": "https://www.tatacapital.com/calculator.html"
+      },
+      "blocks": [
+        "np",
+        "calculator-tab",
+        "financial-insights"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/calculator",
+        "deployedAt": "2026-11-02T12:00:54.330Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.43,
+          "heightDelta": 46,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 6,
+            "hiddenButtons": 0,
+            "findings": 9,
+            "variable": [
+              "#beware-modal"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "check-credit-score",
+      "path": "/check-credit-score",
+      "title": "Check Your Credit Score and CIBIL Score for | Tata Capital",
+      "templateId": "check-credit-score",
+      "source": {
+        "migratedHtml": "stardust/migrated/check-credit-score.html",
+        "metaJson": "stardust/migrated/check-credit-score._meta.json",
+        "sourceHash": "sha256:8a138703723012702eacaa69e35e1e2839d39689bada6377e8a684029f4b3643",
+        "sourceUrl": "https://www.tatacapital.com/check-credit-score.html"
+      },
+      "blocks": [
+        "np",
+        "non-product-short-lead-form",
+        "banner-cntr-new",
+        "overviews-tab",
+        "personal-loan",
+        "table",
+        "emi-option",
+        "what-personal",
+        "how-apply",
+        "related-video",
+        "faq",
+        "financial-insights"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/check-credit-score",
+        "deployedAt": "2026-11-02T13:24:23.503Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 12.05,
+          "heightDelta": 21,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 54,
+            "variable": [
+              "#beware-modal"
+            ]
+          },
+          "reasons": [
+            "pixel 12.05% > 10%"
+          ],
+          "override": "accepted-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "experian-credit-score",
+      "path": "/experian-credit-score",
+      "title": "Experian Credit Score: Check Free Credit Report Online",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9b4280f74f4c709b0101a4b0c53e9f975fe35a7578905b133ce680d8302adfad",
+        "currentStatePath": "stardust/current/pages/experian-credit-score.json",
+        "sourceUrl": "https://www.tatacapital.com/experian-credit-score.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/experian-credit-score",
+        "deployedAt": "2026-11-02T14:15:04.522Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.88,
+          "heightDelta": -62,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 39,
+            "variable": [
+              "#beware-modal"
+            ]
+          },
+          "reasons": [
+            "pixel 11.88% > 10%"
+          ],
+          "override": "accepted-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "home-loan",
+      "path": "/home-loan",
+      "title": "Apply for Home Loan: Interest Rate @8%* p.a. | Tata Capital",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3f04b550633c5f5c7a4f9e35820fc492c11acaf8c423b3ede661d8235d0a14d2",
+        "currentStatePath": "stardust/current/pages/home-loan.json",
+        "sourceUrl": "https://www.tatacapital.com/home-loan.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/home-loan",
+        "deployedAt": "2026-11-02T15:36:45.486Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 44.2,
+          "heightDelta": 6495,
+          "clipped": 0,
+          "content": {
+            "missing": 58,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 9,
+            "hiddenButtons": 0,
+            "findings": 97,
+            "variable": [
+              "#beware-modal",
+              ".jsHomeLoanCitySlider"
+            ]
+          },
+          "reasons": [
+            "pixel 44.2% > 10%",
+            "Δh 6495px > 5% of 31072",
+            "content MISSING 58 / HIDDEN 0 (+1 control state)"
+          ],
+          "override": "accepted-capture-artefact",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "home-loan-app",
+      "path": "/home-loan-app",
+      "title": "Home Loan App India: Best Housing Finance App (Download for Android and iOS)",
+      "templateId": "home-loan-app",
+      "source": {
+        "migratedHtml": "stardust/migrated/home-loan-app.html",
+        "metaJson": "stardust/migrated/home-loan-app._meta.json",
+        "sourceHash": "sha256:878f30717da2dca740338555372651f2b542eeeaf5ae2100b67f68fc463202f6",
+        "sourceUrl": "https://www.tatacapital.com/home-loan-app.html"
+      },
+      "blocks": [
+        "np",
+        "banner-cntr-new",
+        "overviews-tab",
+        "personal-loan",
+        "reasons",
+        "faq",
+        "financial-insights"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/home-loan-app",
+        "deployedAt": "2026-11-02T14:53:04.843Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 44.89,
+          "heightDelta": 7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 5,
+            "hiddenButtons": 0,
+            "findings": 15,
+            "variable": [
+              "#beware-modal"
+            ]
+          },
+          "reasons": [
+            "pixel 44.89% > 10%"
+          ],
+          "override": "accepted-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Leading NBFC for Loans and Investments in India | Tata Capital",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:f9a6f16e55e67b107393286a19434b890b4e14f706845772c4d3cdef873adbd2",
+        "sourceUrl": "https://www.tatacapital.com/"
+      },
+      "blocks": [
+        "banner-cntr-new",
+        "explore",
+        "instant-loan",
+        "calculator",
+        "ways-to-service",
+        "strip-section",
+        "communities",
+        "customer-say",
+        "financial-insights",
+        "non-product-short-lead-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/",
+        "deployedAt": "2026-11-02T12:13:01.216Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 35.24,
+          "heightDelta": -497,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 45,
+            "variable": [
+              "#beware-modal"
+            ]
+          },
+          "reasons": [
+            "pixel 35.24% > 10%",
+            "Δh -497px > 5% of 8209"
+          ],
+          "override": "accepted-capture-artefact",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "partners",
+      "path": "/partners",
+      "title": "Our Partners | Tata Capital",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6f06b0a29bbbce816f41bdc985ae3ef035847eb88ae2f74b771e86d95c552b51",
+        "currentStatePath": "stardust/current/pages/partners.json",
+        "sourceUrl": "https://www.tatacapital.com/partners.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/partners",
+        "deployedAt": "2026-11-02T13:12:50.215Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.88,
+          "heightDelta": -64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 5,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              "#beware-modal"
+            ]
+          },
+          "reasons": [
+            "pixel 10.88% > 10%"
+          ],
+          "override": "accepted-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "personal-loan",
+      "path": "/personal-loan",
+      "title": "Personal Loan Online – Instant Approval Up to ₹35 Lakh | Tata Capital",
+      "templateId": "personal-loan",
+      "source": {
+        "migratedHtml": "stardust/migrated/personal-loan.html",
+        "metaJson": "stardust/migrated/personal-loan._meta.json",
+        "sourceHash": "sha256:d196371f04c9c9abe6e602780e7b89d8fb6ad2a3cf2b3962041be0d1d6a8984f",
+        "sourceUrl": "https://www.tatacapital.com/personal-loan.html"
+      },
+      "blocks": [
+        "np",
+        "calc-banner",
+        "overviews-tab",
+        "personal-loan",
+        "what-personal",
+        "cash-loans",
+        "find-right-loan",
+        "instant-slider",
+        "check-loan-eligibility",
+        "faq",
+        "customer-say",
+        "financial-insights",
+        "related-video"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/personal-loan",
+        "deployedAt": "2026-11-02T14:53:04.786Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 44.49,
+          "heightDelta": 3821,
+          "clipped": 0,
+          "content": {
+            "missing": 27,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 5,
+            "hiddenButtons": 0,
+            "findings": 62,
+            "variable": [
+              "#beware-modal",
+              ".jsHomeLoanCitySlider",
+              ".cashLoanReadMoreLess",
+              ".overviews-tab",
+              ".jsFaqLoadmoreList",
+              ".js-fi-slider"
+            ]
+          },
+          "reasons": [
+            "pixel 44.49% > 10%",
+            "Δh 3821px > 5% of 24164",
+            "content MISSING 27 / HIDDEN 0 (+1 control state)"
+          ],
+          "override": "accepted-capture-artefact",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "privacy-commitment",
+      "path": "/privacy-commitment",
+      "title": "Privacy Commitment | Tata Capital",
+      "templateId": "privacy-commitment",
+      "source": {
+        "migratedHtml": "stardust/migrated/privacy-commitment.html",
+        "metaJson": "stardust/migrated/privacy-commitment._meta.json",
+        "sourceHash": "sha256:3023a46b11b7523b357f3ea65c7133315ee5b5fed35ffdd91f6788efa5a62986",
+        "sourceUrl": "https://www.tatacapital.com/privacy-commitment.html"
+      },
+      "blocks": [
+        "np",
+        "non-product-short-lead-form",
+        "check-eligibility",
+        "personal-loan"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/privacy-commitment",
+        "deployedAt": "2026-11-02T13:50:00.699Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.48,
+          "heightDelta": -72,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": [
+              "#beware-modal"
+            ]
+          },
+          "reasons": [
+            "pixel 11.48% > 10%"
+          ],
+          "override": "accepted-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    },
+    {
+      "slug": "sawaal-karo-phir-loan-lo",
+      "path": "/sawaal-karo-phir-loan-lo",
+      "title": "Sawaal Karo, Phir Loan Lo – Make Smart Loan | Tata Capital",
+      "templateId": "campaign",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:683a175a2de7fc29a91aa6f908809b0571c301902e9123897505210acfc8d11c",
+        "currentStatePath": "stardust/current/pages/sawaal-karo-phir-loan-lo.json",
+        "sourceUrl": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--290ff49a--aemcoder.aem.page/sawaal-karo-phir-loan-lo",
+        "deployedAt": "2026-11-02T15:48:27.094Z",
+        "verifiedAt": "2026-11-02T17:31:18.391Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 37.39,
+          "heightDelta": -1793,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": [
+              "#beware-modal"
+            ]
+          },
+          "reasons": [
+            "pixel 37.39% > 10%",
+            "Δh -1793px > 5% of 5469"
+          ],
+          "override": "accepted-capture-artefact",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-02T17:11:37.128Z"
+        }
+      }
+    }
+  ]
+}

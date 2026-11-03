@@ -1,0 +1,669 @@
+{
+ "source": "http://localhost:8791/privacy-commitment-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "check-eligibility-box",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Privacy Commitment"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tata Capital Limited and its subsidiary and/or affiliate companies as defined under relevant laws including Tata Capital Housing Finance Limited and Tata Securities Limited (hereinafter referred to as “Tata Capital/we/our”), take privacy of its customers, or any other person visiting or using any website, portal, application or other platform provided by Tata Capital or availing the products and services vide the online application forms and questionnaires (hereinafter referred to as “User/you/your”) very seriously and are committed to protect your personal data. This Privacy Commitment sets out the way in which we collect, use, disclose, transfer, and store your personal data when you use our applications or digital platforms."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "You are advised to carefully read the Privacy Commitment before using this application or our other platforms."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Tata Capital will not be liable / responsible for any breach of privacy owing to User’s negligence."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Please note that our application and other digital platforms may contain links to third party applications / digital platforms which are provided for your convenience. We are only responsible for the privacy practices and security of our own digital platforms. We recommend that you check the privacy and security policies and procedures of each and every other application / digital platform that you visit."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What data do we collect from you and what do"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "we use it for?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A. Personal data is data that can be used to identify or contact a single person (such as name, address, email address, PAN Number, user name, location, employment details, telephone number, age, date of birth, gender and other KYC data you submit to our application, sensitive information such as information relating to your health life)."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "B. All personal data that we collect about you will be recorded, used, and protected by us in accordance with applicable data protection legislation and this Privacy Commitment. We may supplement the information that you provide with other information that we obtain from our dealings with you or which we receive from other organizations, for example, our sponsors and partners."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "C. We may collect such Personal data through telephonic conversations with any employees or representatives of Tata Capital or any of its customer service agents and/or any other mode of communication. You agree that any such communication whether written or oral may be recorded to comply with Tata Capital’s internal processes or any applicable law."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "D. You represent to us that you are above the age of 18 and are in contracting capacity to access our platform and share your personal information with us."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "E. Please note, if you don’t choose to provide us with the requested personal data, we will be unable to offer you our products or services."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "In broad terms, we use your personal data for the following purposes:"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "i. to administer and provide products and services you request or have expressed an interest in;"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "ii. to communicate with you in the event that any products or services you have requested are unavailable;"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "iii. for fraud screening and prevention purposes and to protect Tata Capital’s legal rights and comply with Tata Capital’s legal obligations;"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "iv. for record keeping purposes ,to comply with laws and regulations, and to comply with other legal processes and law enforcement requirements;"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "v. to carry out market research so that we can improve the products and services we offer;"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "vi. to track your activity on our digital platforms ;"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "vii. to create an individual profile for you so that we can understand and respect your preferences ;"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "viii. to personalize and improve your experience on our digital platforms and allow you to utilize digital platforms’ features by granting Tata Capital access to information from your device;"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "ix. to personalize and/ tailor any communications that we may send you ;"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "x. for profiling purposes to enable us to personalize and/or tailor any marketing communications that you may consent to receive from us;"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "xi. to inform you about important details like Tata Capital’s digital platforms, change in terms, conditions and policies and /or other administrative information important to meet your interests;"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "xii. to address your requests and queries and manage your relationship with Tata Capital;"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "xiii. to access your eligibility for our products or services and provide you with such products or services which you may have shown interest in or requested for;"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "xiv. to perform activities such as data analysis, audits, usage trends to determine the effectiveness of Tata Capital’s campaigns and as input into improving products and services;"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "xv. for security and business continuity and risk management;"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "xvi. for system or product development and planning, audit and administrative purposes;"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "xvii. to meet the legitimate interests to be pursued by Tata Capital or by a third party."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "F. When you sign up with us for an online account, register to receive marketing communications from us, fill in one of our forms (whether online or offline) or otherwise expressly provide us with your personal data, we may collect and store any personal data that you provide to us and may use it to personalize and improve your experience on our digital platforms, provide products and services you request from us, and carry out profiling and market research."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "G. We may also infer your country of location from the IP address you have used to access our digital platforms and we may analyze which marketing activity led to your taking specific action on our digital platforms (e.g. downloading the app)."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 26,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Offers and opportunities from"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "us and our partners"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We want you to be the first to know about new products and services, and occasional offers from our partners. We may share these offers with you only with your prior consent. You can unsubscribe from receiving these offers by emailing us. Please note, if you don’t choose to receive this information, we will be unable to keep you informed of new services, products, events or special offers that may interest you."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why do we process your"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "information?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A. We may process your personal information for legitimate interests, including providing you with services and for service improvement purposes."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "B. It may be deemed necessary to process personal information for the following purposes of legitimate interests by us such as :"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "i. To deliver services in respect to requests raised by you."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "ii. To ensure continued relationship with our customers, partners or suppliers."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "iii. To prevent misuse or fraudulent activities on our platforms."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "iv. To uphold performance of contracts of which the data principal is a part."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "v. Interests deemed to protect the vital interest of the data principal."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "vi. To maintain compliance with legal obligations to which Tata Capital is a subject."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "C. The company takes special consideration to ensure that the legitimate processing of information do not override the fundamental rights and freedoms of the end user"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Whom do we share your"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "personal data with?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A. Under certain conditions Tata Capital may share your information with third parties including but not limited to its group companies, vendors, service providers, data processors, banks, financial institutions, credit bureaus, telecommunication companies, statutory bodies etc. for customer verification, personalization of products and services, credit rating, data enrichment, marketing or promotion of the products or services of Tata Capital or of any other service provider. Tata Capital may use the personal data to improve its services to you and to keep you updated about its new products or other information that may be of interest to you."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "B. Tata Capital may share information in the course of normal business operations, such as providing services you have subscribed for, and any activity related to these services such as collection of fee. It may become necessary for Tata Capital to disclose your personal data to its agents and contractors in the course of normal business operations for the above referred purpose. However, these parties would be required to use the information obtained from Tata Capital for such purposes exclusively. Tata Capital will endeavor to take all reasonable steps to ensure that the confidentiality of your information is maintained by third parties to whom it discloses such information. Tata Capital may be required to disclose your personal data to the statutory authorities in connection with any legal process that may be initiated by such authorities in accordance with applicable laws."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "C. Tata Capital may occasionally invite selected third parties to participate in offers we feel would be attractive to customers of Tata Capital. Tata Capital may also share your information to provide you with superior services and a range of offers. Tata Capital may use this information to advise you of products, services and other marketing materials, which we think, may be of interest to you. Tata Capital may also invite visitors to this site to participate in market research and surveys and other similar activities. Tata Capital reserve the right to communicate your personal information to any third party that makes a legally compliant request for disclosure."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How long do we retain your"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "personal data?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A. You are responsible for providing Tata Capital with accurate and complete personal data. Please notify us of any changes to your personal data. Tata Capital shall take reasonable steps to ensure that your personal data is kept accurate, complete, and current."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "B. Tata Capital shall not retain such Information longer than permissible. Such information however may be retained for a longer period where we need the information for legal, regulatory, accounting or other legitimate purposes which may include but not be limited to filing/ addressing complaints, responding to any queries raised by any of our regulators/ customers/ governmental bodies, any legal claims etc."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "To determine the appropriate retention period for personal data, Tata Capital considers the amount, nature and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which it processes your personal data and whether it can achieve those purposes through other means, and the applicable legal requirements. In some circumstances Tata Capital may anonymize your personal data so that it can no longer be associated with you and use such information."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "C. Tata Capital only collects data from Users in accordance with the consents obtained from such Users and after informing them about the consequences of refusing to provide personal data or withdrawing consent for the identified purposes and maintains a record of such consents. This Privacy Commitment also covers the terms of the consents granted by you to Tata Capital for the information submitted by you. All information provided by you is purely voluntary and optional and you may choose not to provide the information. You may also withdraw your consent to collect/ provide/share/process the information by communicating to the email id given below in writing. However, in any of the above cases:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "(i) you may not be able to access some of the features or pages of the digital platform applications"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "(ii) you may not be able to avail some or all of our products or services or if you have already availed, such products or services may be withdrawn, curtailed or cancelled as per the terms thereof. In some cases, it is essential for the information to be collected/retained/stored/processed/shared either regulatorily, or as a matter of policy or for any of the purposes above and you are requested not to avail the products or services if you do not wish to provide the information or provide consent to collect/share/process the same since it may not be possible to delete/purge/return such information if you choose to withdraw consent. For any queries in this regard, you may contact the email ids mentioned later in this document."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "D. Tata Capital ensures that an appropriate data privacy commitment is provided to the Users at the time or before collecting their Personal Data including Sensitive Personal Data either by the terms of this Privacy Commitment or otherwise."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How do we safeguard your"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "personal data?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A. Tata Capital has put in place procedures to deal with any suspected data security breach and will comply with the legal requirements in this regard. Tata Capital is strongly committed to protecting the privacy of its Users and has taken all necessary and reasonable measures to protect the confidentiality of the customer information and its transmission through the world wide web and it shall not be held liable for disclosure of the confidential information when in accordance with its privacy policy or in terms of the agreements, if any, with the customers. Tata Capital uses procedural and technical safeguards to secure your information from unauthorized access and use, alteration and destruction. In addition, access to your personal data is limited to only those employees, agents, contractors and other third parties who have a need to know. They will only process your personal data on Tata Capital’s instructions and they are subject to a duty of confidentiality."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "B. In addition, like most platforms, Tata Capital uses small bits of data called “Cookies” stored on User’s computers to stimulate a continuous connection. “Cookies” let Tata Capital store information about your preferences and passwords and allow you to move to different pages of our secure site without having to re-enter your password information. Any information collected is stored in secure databases protected via a variety of access controls and is treated as confidential information by Tata Capital."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Therefore, you should be careful with usage of the username and password by maintaining confidentiality and ensure that you do not knowingly or accidentally share, provide and facilitate unauthorized use of it."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "C. Tata Capital will protect your Personal Information against unauthorized use, dissemination or publication in the same manner in which Tata Capital would protect its confidential information of like nature."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What are your privacy rights and"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "how can you exercise them?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A. We provide you with reasonable access to view and review your personal data and request correction and deletion where appropriate. In order to protect your privacy, we will take reasonable steps to verify your identity before granting access to your personal data."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "B. If you have any questions, comments or concerns about how we handle your personal data, then you may contact us as per the details mentioned in paragraph 10 below:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "C. You have the right to tell us if you:"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "i. would like to confirm whether the company processes data about you;"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "ii. would like to access your data;"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "iii. would like to correct or update your personal data;"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "iv. would like to port your data or would like a copy of the personal data which we hold about you;"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "v. would like to delete your personal data in our records; and"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "vi. would like to withdraw a consent provided earlier"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "D. You also have the right to file complaint to the authorities."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "E. To exercise any of the above listed rights you may contact the respective Privacy/Grievance Officers as per the aforementioned details. To assist us in dealing with your request, please provide your full name, address, date of birth, email address and some document for identification."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 12,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Changes to our"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "privacy commitment"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We may change our Privacy Commitment from time to time and post the updated version of the same. We encourage you to visit frequently to stay informed about how we use your personal data."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Prohibited Actions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "While visiting or using our application or digital platform., you agree not to, by any means (including hacking, cracking or defacing any portion of the website/applications/portals/platforms) indulge in illegal or unauthorized activities including the following:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "i. Restrict or inhibit any authorized user from using application or digital platform"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "ii. Use the application or digital platform for unlawful purposes"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "iii. Harvest or collect information about application or digital platform’s users without their express consent"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "iv. \"Frame\" or \"mirror\" any part of the application or digital platform without our prior authorization"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "v. Engage in spamming or flooding"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "vi. Transmit any software or other materials that contain any virus, time bomb, or other harmful or disruptive component"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "vii. Remove any copyright, trademark or other proprietary rights notices contained in the application or digital platform"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "viii. Use any device, application or process to retrieve, index, \"data mine\" or in any way reproduce or circumvent the navigational structure or presentation of the application or digital platform"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "ix. Permit or help anyone without access to the application or digital platform to use the application or digital platform through your username and password or otherwise."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 11,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Handling"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "privacy concerns"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "If you have any questions about this Privacy Commitment or if you believe that your personal data is not handled in accordance with the applicable law or this document, then you may contact us as at : Details of our Nodal Grievance Redressal Officers are as under:"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "privacy@tatacapital.com",
+     "href": "mailto:privacy@tatacapital.com"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Tata Capital Limited - Rajesh Kumar -"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "CCRO@tatacapital.com",
+     "href": "mailto:CCRO@tatacapital.com"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Tata Capital Housing Finance Limited - Ajai Shuklagro -"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "housing@tatacapital.com",
+     "href": "mailto:housing@tatacapital.com"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Tata Securities Limited – Mridula Punekar -"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Grievance.moneyfy@tatacapital.com",
+     "href": "mailto:Grievance.moneyfy@tatacapital.com"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Registered Office address of Tata Capital"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Limited and its subsidiaries-"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "11th Floor,"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Tower A, Peninsula Business Park,"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ganpatrao Kadam Marg,"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Lower Parel,"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Mumbai , Maharashtra - 400013"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": []
+  }
+ ]
+}

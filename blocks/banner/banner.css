@@ -1,0 +1,823 @@
+/* banner — source banner-cntr-new (inner-banner-new, inner-with-star) rules, scoped under the block */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.banner) .heading-h1 {
+  font-family: var(--f-light);
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: rgb(0 0 0);
+}
+
+:where(.banner) .heading-h1 span {
+  font-family: var(--f-semi);
+}
+
+:where(.banner) .btn-blue {
+  background-color: rgb(25 97 172);
+  color: rgb(255 255 255);
+  border-radius: 12px;
+  font-family: var(--f-semi);
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+:where(.banner) .btn-blue.btn-large {
+  padding: 16px 25px;
+  min-width: 135px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+:where(.banner) .btn-blue:hover {
+  background: rgb(22 92 164);
+  box-shadow: rgb(30 109 194 / 2%) 0 38px 15px, rgb(30 109 194 / 8%) 0 21px 13px, rgb(30 109 194 / 13%) 0 9px 9px, rgb(30 109 194 / 15%) 0 2px 5px, rgb(30 109 194 / 15%) 0 0 0;
+}
+
+:where(.banner) .btn-link {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  color: rgb(25 97 172);
+  font-family: var(--f-semi);
+  border-radius: 12px;
+  background: rgb(255 255 255);
+  transition: 0.2s;
+}
+
+:where(.banner) .btn-link.btn-big {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 16px 25px;
+}
+
+:where(.banner) .btn-link:hover {
+  color: rgb(15 81 151);
+  box-shadow: rgb(0 0 0 / 1%) 0 22px 13px, rgb(0 0 0 / 2%) 0 10px 10px, rgb(0 0 0 / 2%) 0 2px 5px, rgb(0 0 0 / 2%) 0 0 0;
+}
+
+:where(.banner) .btn-big {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px 30px;
+}
+
+:where(.banner) .row-flex {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+:where(.banner) .custom-container {
+  width: 100%;
+  max-width: 1294px;
+  margin: auto;
+  padding: 0 15px;
+  position: relative;
+  z-index: 10;
+}
+
+@media (width <= 767px) {
+  :where(.banner) .btn-big {
+    font-size: 14px;
+  }
+
+  :where(.banner) .heading-h1 {
+    font-size: 30px;
+  }
+
+  :where(.banner) .btn-blue.btn-large {
+    font-size: 14px;
+  }
+
+  :where(.banner) .btn-link.btn-big {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.banner) .banner-slider-new .banner-new-full .banner-captions {
+    padding-bottom: 0;
+  }
+
+  :where(.banner) .banner-slider-new .banner-new-full .main-title {
+    min-height: auto;
+  }
+
+  :where(.banner) .banner-slider-new .banner-new-full.banner-has-text-content .banner-captions .dsk-banner-cta {
+    position: static;
+  }
+}
+
+:where(.banner) .main-title h1,
+:where(.banner) .main-title .heading-h1 {
+  color: rgb(0 0 0);
+}
+
+@media (width <= 991px) {
+  :where(.banner) .main-title h1,
+  :where(.banner) .main-title .heading-h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.banner) .main-title h1,
+  :where(.banner) .main-title .heading-h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+:where(.banner) .main-title {
+  margin-bottom: 10px;
+}
+
+:where(.banner) .btn-holder .cta-gap {
+  margin-right: 15px;
+}
+
+:where(.banner) .btn-holder .cta-gap:last-child {
+  margin-right: 0;
+}
+
+:where(.banner) .banner-cntr-new {
+  position: relative;
+  z-index: 3;
+  padding-top: 26px;
+}
+
+@media (width <= 767px) {
+  :where(.banner) .banner-cntr-new {
+    padding-top: 12px;
+  }
+}
+
+:where(.banner) .banner-cntr-new.inner-banner-new {
+  padding-top: 0;
+}
+
+:where(.banner) .banner-new-box {
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+:where(.banner) .banner-slider-new {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+:where(.banner) .banner-list-info {
+  margin-top: 34px;
+}
+
+:where(.banner) .banner-slider-new .main-title {
+  min-height: 173px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+:where(.banner) .banner-slider-new .banner-img {
+  width: 100%;
+}
+
+:where(.banner) .banner-slider-new .banner-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  height: 340px;
+}
+
+:where(.banner) .banner-slider-new .banner-wrap {
+  position: relative;
+}
+
+:where(.banner) .banner-slider-new .banner-text-new {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 540px;
+  width: 100%;
+  padding: 40px 20px 50px 50px;
+}
+
+:where(.banner) .banner-slider-new .main-title {
+  margin-bottom: 4px;
+}
+
+:where(.banner) .banner-slider-new .banner-captions {
+  height: 100%;
+  position: relative;
+  padding-bottom: 100px;
+  z-index: 1;
+}
+
+:where(.banner) .banner-slider-new .banner-captions .dsk-banner-cta {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+:where(.banner) .banner-slider-new .banner-new-full .banner-text-new .main-title h1,
+:where(.banner) .banner-slider-new .banner-new-full .banner-text-new .main-title .heading-h1 {
+  color: rgb(255 255 255);
+}
+
+:where(.banner) .banner-slider-new .banner-new-full .btn-holder .btn-link {
+  background: rgb(255 255 255);
+}
+
+:where(.banner) .banner-slider-new .banner-new-full .banner-img {
+  position: relative;
+}
+
+:where(.banner) .banner-slider-new .banner-new-full .banner-img::before {
+  display: none;
+  content: "";
+  background: linear-gradient(90deg, rgb(51 51 51 / 0%) 7.59%, rgb(51 51 51) 100%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+}
+
+:where(.banner) .banner-slider-new .banner-new-full.banner-full-dark-text .main-title h1,
+:where(.banner) .banner-slider-new .banner-new-full.banner-full-dark-text .main-title .heading-h1 {
+  color: rgb(51 51 51);
+}
+
+:where(.banner) .inner-banner-new .banner-slider-new .banner-text-new {
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+:where(.banner) .inner-banner-new .banner-slider-new .main-title {
+  min-height: 104px;
+}
+
+:where(.banner) .inner-banner-new .banner-slider-new .banner-captions {
+  padding-bottom: 55px;
+}
+
+:where(.banner) .inner-banner-new .banner-slider-new .banner-captions .dsk-banner-cta {
+  bottom: 0;
+}
+
+:where(.banner) .inner-banner-new .banner-slider-new .banner-img img {
+  height: 340px;
+}
+
+:where(.banner) .inner-banner-new.inner-with-star .banner-slider-new .banner-text-new {
+  padding-top: 25px;
+}
+
+:where(.banner) .inner-banner-new.inner-with-star .banner-slider-new .main-title {
+  margin-bottom: 20px;
+  min-height: auto;
+}
+
+@media (width <= 1249px) {
+  :where(.banner) .banner-slider-new .banner-text-new {
+    max-width: 510px;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-text-new {
+    padding-top: 30px;
+  }
+}
+
+@media (width <= 1199px) {
+  :where(.banner) .banner-slider-new .banner-text-new {
+    padding-left: 32px;
+    padding-top: 60px;
+    max-width: 480px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-captions {
+    padding-bottom: 90px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-captions .dsk-banner-cta {
+    bottom: 25px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-new-full .banner-img::before {
+    background: linear-gradient(90deg, rgb(51 51 51 / 0%) 7.59%, rgb(51 51 51) 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-text-new {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-img img {
+    height: 370px;
+  }
+
+  :where(.banner) .banner-list-info {
+    margin-top: 16px;
+  }
+}
+
+@media (width <= 991px) {
+  :where(.banner) .banner-slider-new .main-title {
+    min-height: 72px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-text-new {
+    max-width: 370px;
+    padding-top: 45px;
+    padding-left: 25px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-captions {
+    padding-bottom: 58px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-captions .dsk-banner-cta {
+    bottom: 0;
+  }
+
+  :where(.banner) .banner-slider-new .banner-img img {
+    height: 300px;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-text-new {
+    padding-top: 50px;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .main-title {
+    min-height: 72px;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-img img {
+    height: 300px;
+  }
+
+  :where(.banner) .btn-holder .cta-gap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  :where(.banner) .banner-list-info .row-flex {
+    margin: 0 -10px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .banner-captions {
+    min-height: 460px;
+  }
+
+  :where(.banner) .btn-holder .cta-gap {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  :where(.banner) .btn-holder .cta-gap:first-child {
+    margin-top: 0;
+  }
+
+  :where(.banner) .banner-new-box {
+    border-radius: 24px;
+  }
+
+  :where(.banner) .banner-slider-new {
+    border-radius: 24px;
+  }
+
+  :where(.banner) .banner-slider-new .main-title {
+    min-height: auto;
+    display: block;
+  }
+
+  :where(.banner) .banner-slider-new .banner-img img {
+    border-radius: 24px;
+    height: auto;
+  }
+
+  :where(.banner) .banner-slider-new .banner-item-new {
+    height: auto;
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap {
+    background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(255 255 255) 0, rgb(255 255 255) 100%);
+    border-radius: 24px;
+    height: 100%;
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .banner-captions {
+    min-height: 430px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .banner-text-new {
+    position: relative;
+    padding: 0;
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .main-title {
+    position: relative;
+    z-index: 1;
+    padding: 25px 20px 0;
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .banner-img::before {
+    background: linear-gradient(rgb(51 51 51) 0, rgb(51 51 51 / 0%) 100%);
+    border-radius: 24px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .mob-banners {
+    position: absolute;
+    inset: 0;
+    margin-bottom: 0;
+    border-radius: 24px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .mob-banners picture {
+    height: 100%;
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .mob-banners img {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    object-fit: cover;
+  }
+
+  :where(.banner) .banner-slider-new .banner-wrap.banner-new-full .dsk-banner-cta {
+    padding: 0 20px 58px;
+  }
+
+  :where(.banner) .banner-slider-new .mob-banners {
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  :where(.banner) .banner-slider-new .banner-text-new {
+    position: static;
+    padding: 25px 20px 58px;
+    text-align: center;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  :where(.banner) .banner-slider-new .banner-captions {
+    padding-bottom: 112px;
+  }
+
+  :where(.banner) .banner-slider-new .banner-captions .dsk-banner-cta {
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  }
+
+  :where(.banner) .banner-slider-new .banner-captions .dsk-banner-cta .cta-gap {
+    width: 100%;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-img img {
+    height: auto;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .main-title {
+    min-height: auto;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .dsk-banner-cta {
+    margin-top: 25px;
+    position: static;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-captions {
+    padding-bottom: 0;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .mob-banners {
+    margin-bottom: 0;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-text-new {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-wrap.banner-new-full {
+    min-height: 400px;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-wrap.banner-new-full .banner-captions {
+    min-height: 400px;
+    padding-bottom: 125px;
+  }
+
+  :where(.banner) .inner-banner-new .banner-slider-new .banner-wrap.banner-new-full .banner-captions .dsk-banner-cta {
+    position: absolute;
+    padding-bottom: 25px;
+  }
+
+  :where(.banner) .banner-list-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 16px 22px;
+  }
+
+  :where(.banner) .banner-list-info .row-flex {
+    margin: 0 -4px;
+  }
+}
+
+/* EDS slotting: authored <h1>/<strong>, art-directed pictures, CTA paragraphs */
+.banner .main-title-inner h1 {
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+.banner .main-title-inner h1 strong {
+  font-family: var(--f-semi);
+  font-weight: normal;
+}
+
+.banner .dsk-banner-cta p {
+  margin: 0;
+  display: contents;
+}
+
+.banner .banner-img picture,
+.banner .banner-img img {
+  display: block;
+  width: 100%;
+}
+
+.banner .dsk-banners .pic-md {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .banner .banner-slider-new .mob-banners {
+    display: none;
+  }
+}
+
+@media (width >= 768px) and (width <= 1199px) {
+  .banner .dsk-banners .pic-xl {
+    display: none;
+  }
+
+  .banner .dsk-banners .pic-md {
+    display: block;
+  }
+}
+
+@media (width <= 767px) {
+  .banner .dsk-banners {
+    display: none;
+  }
+
+  .banner .dsk-banners.no-mob {
+    display: block;
+  }
+}
+
+/* authored CTA anchors: the global a:any-link colour outranks the source .btn-blue paint */
+.banner a.btn-blue:any-link {
+  color: #fff;
+}
+
+/* app variant (archetype-campaign): source home-loan-overview homepage-banner rules — ratings row, store badges */
+:where(.banner.app) .icon-star::before {
+  content: "\e907";
+}
+
+:where(.banner.app) .pd-t0i {
+  padding-top: 0 !important;
+}
+
+:where(.banner.app) .steps-downloads-store {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+:where(.banner.app) .steps-downloads-store a {
+  display: block;
+  width: 145px;
+  margin-left: 12px;
+}
+
+:where(.banner.app) .steps-downloads-store a:first-child {
+  margin-left: 0;
+}
+
+@media (width <= 767px) {
+  :where(.banner.app) .steps-downloads-store a {
+    width: 130px;
+  }
+}
+
+@media (width <= 359px) {
+  :where(.banner.app) .steps-downloads-store a {
+    width: 105px;
+  }
+}
+
+:where(.banner.app) .title-info p,
+:where(.banner.app) .title-info {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: rgb(51 51 51);
+}
+
+@media (width <= 991px) {
+  :where(.banner.app) .title-info p,
+  :where(.banner.app) .title-info {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.banner.app) .title-info p,
+  :where(.banner.app) .title-info {
+    font-size: 15px;
+  }
+}
+
+:where(.banner.app) .banner-slider-new.homepage-banner .banner-text-new {
+  max-width: 600px;
+}
+
+:where(.banner.app) .banner-slider-new .homeloans-contents .main-title {
+  min-height: initial;
+}
+
+:where(.banner.app) .banner-slider-new .title-info {
+  margin-bottom: 32px;
+}
+
+:where(.banner.app) .banner-slider-new .banner-new-full .banner-text-new .title-info {
+  color: white;
+}
+
+:where(.banner.app) .banner-slider-new .banner-new-full .banner-text-new .title-info p {
+  color: white;
+}
+
+:where(.banner.app) .banner-slider-new .banner-new-full.banner-full-dark-text .title-info {
+  color: rgb(51 51 51);
+}
+
+:where(.banner.app) .banner-slider-new .banner-new-full.banner-full-dark-text .title-info p {
+  color: rgb(51 51 51);
+}
+
+:where(.banner.app) .banner-list-news {
+  position: relative;
+  z-index: 1;
+}
+
+:where(.banner.app) .banner-list-news .banner-list-ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  margin-left: -7px;
+  margin-right: -7px;
+}
+
+:where(.banner.app) .banner-ratings-lists {
+  position: relative;
+  z-index: 1;
+}
+
+:where(.banner.app) .shops-ratings-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -16px -22px 15px;
+}
+
+:where(.banner.app) .shops-ratings-row .shops-cols {
+  padding: 0 22px;
+  border-left: 1px solid rgb(189 189 189);
+}
+
+:where(.banner.app) .shops-ratings-row .shops-cols:first-child {
+  border-left: 0;
+}
+
+:where(.banner.app) .shops-ratings-row .shops-ratings {
+  font-size: 20px;
+  line-height: 26px;
+  color: rgb(0 0 0);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+:where(.banner.app) .shops-ratings-row .shops-rating-review {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(79 79 79);
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+}
+
+@media (width <= 991px) {
+  :where(.banner.app) .banner-slider-new.homepage-banner .banner-text-new {
+    max-width: 525px;
+  }
+
+  :where(.banner.app) .banner-slider-new .homeloans-contents .banner-text-new {
+    max-width: 470px;
+  }
+
+  :where(.banner.app) .banner-list-news {
+    margin-top: -32px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.banner.app) .banner-slider-new.homepage-banner .banner-text-new {
+    max-width: 100%;
+  }
+
+  :where(.banner.app) .banner-slider-new .homeloans-contents .banner-text-new {
+    max-width: 100%;
+  }
+
+  :where(.banner.app) .banner-slider-new .banner-wrap.banner-new-full .title-info {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+  }
+
+  :where(.banner.app) .banner-slider-new .title-info {
+    margin-bottom: 12px;
+  }
+
+  :where(.banner.app) .banner-list-news {
+    padding: 0 20px;
+    max-width: 470px;
+    margin: 20px auto 0;
+  }
+
+  :where(.banner.app) .banner-ratings-lists {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  :where(.banner.app) .shops-ratings-row {
+    margin-top: 0;
+  }
+}
+
+/* app variant EDS slotting: authored rating <strong> moved into p.shops-ratings */
+.banner.app .shops-ratings .icon-star {
+  display: inline-block;
+}
+
+.banner.app .steps-downloads-store img {
+  width: 100%;
+  height: auto;
+}
+
+.banner.app ul.shops-ratings-row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner.app strong.shops-ratings {
+  display: block;
+}
+
+/* image variant (cluster-campaign, CSR landing hero): source `banner-pdt28` band spacing */
+.banner.image .banner-cntr-new.banner-pdt28 {
+  padding-top: 28px;
+}

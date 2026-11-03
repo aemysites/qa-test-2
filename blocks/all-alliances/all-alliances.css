@@ -1,0 +1,268 @@
+/* all-alliances — source `all-alliances-box` rules (tcl-about-us-clientlibs + the global
+   utilities it relies on), scoped under the block. Authored elements are styled through the
+   generated wrappers with descendant selectors (EW2). */
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+.all-alliances .space-tb40 {
+  padding: 40px 0;
+}
+
+.all-alliances .space-tb40.space-b80 {
+  padding-bottom: 80px;
+}
+
+.all-alliances .pd-t50 {
+  padding-top: 50px;
+}
+
+.all-alliances .tops-heads {
+  max-width: 862px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+/* source: <h1>Tata Capital <span><strong> - Partners</strong></span></h1> */
+.all-alliances .main-title :is(h1, h2) strong {
+  font-family: var(--f-semi);
+  font-weight: normal;
+}
+
+.all-alliances .tops-heads p {
+  margin-top: 10px;
+  color: #333;
+  letter-spacing: .02em;
+}
+
+.all-alliances .all-alliances-row {
+  padding-top: 25px;
+}
+
+.all-alliances .all-alliances-inner .all-alliances-row:first-child {
+  padding-top: 0;
+}
+
+.all-alliances .bg-div {
+  background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(255 255 255 / 88%) 0, #fff 100%);
+  border-radius: 30px;
+  box-shadow: -5px 0 10px rgb(0 0 0 / 1%), 5px 0 10px rgb(0 0 0 / 1%), 0 -5px 10px rgb(0 0 0 / 1%),
+    0 5px 10px rgb(0 0 0 / 1%);
+}
+
+.all-alliances .all-alliances-col {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all-alliances .left-col {
+  max-width: 120px;
+  padding: 7px;
+  height: 120px;
+  width: 100%;
+  background-color: #edf8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.all-alliances .left-col picture {
+  display: contents;
+}
+
+.all-alliances .left-col img {
+  max-width: 100%;
+  height: auto;
+}
+
+.all-alliances .right-col {
+  width: calc(100% - 120px);
+  position: relative;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.all-alliances .heading20 {
+  margin-bottom: 10px;
+}
+
+.all-alliances .heading20 :is(h2, h3, h4, h5, h6) {
+  font-family: var(--f-semi);
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: #000;
+}
+
+.all-alliances .text14i {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: .02em;
+  color: #000;
+}
+
+.all-alliances .text14i :is(p, li) {
+  color: inherit;
+}
+
+/* source: paragraphs separated by an empty `&nbsp;` paragraph (one blank line) */
+.all-alliances .text-para + .text-para {
+  margin-top: 1.4em;
+}
+
+/* source: links absolutely pinned to the card bottom, kept clear of the copy by trailing
+   `&nbsp;` paragraphs (DA drops them) — reproduced as a bottom-pinned flex item with the
+   same 20px clearance; short cards still sit on the 120px logo tile height */
+.all-alliances .view-details {
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.all-alliances .cmp-teaser__action-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all-alliances .btn-links {
+  font-family: var(--f-semi);
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--tc-blue);
+  display: inline-flex;
+  align-items: center;
+}
+
+.all-alliances .btn-links.link-with-arrow {
+  position: relative;
+  padding-right: 16px;
+}
+
+.all-alliances .btn-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.all-alliances .btn-links .arros {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  font-size: 11px;
+  transition: transform .3s ease-out;
+}
+
+.all-alliances .btn-links:hover .arros {
+  transform: translateX(3px);
+}
+
+.all-alliances .alliances-space + .alliances-space {
+  padding-left: 20px;
+}
+
+.all-alliances .alliances-space + .alliances-space.link-with-arrow {
+  padding-right: 16px;
+}
+
+@media (width <= 991px) {
+  .all-alliances .space-tb40 {
+    padding: 30px 0;
+  }
+
+  .all-alliances .space-tb40.space-b80 {
+    padding-bottom: 60px;
+  }
+
+  .all-alliances .pd-t50 {
+    padding-top: 50px;
+  }
+}
+
+@media (width <= 767px) {
+  .all-alliances .space-tb40 {
+    padding: 25px 0;
+  }
+
+  .all-alliances .space-tb40.space-b80 {
+    padding-bottom: 50px;
+  }
+
+  .all-alliances .pd-t50 {
+    padding-top: 50px;
+  }
+
+  .all-alliances .tops-heads {
+    margin-bottom: 34px;
+  }
+
+  .all-alliances .tops-heads p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* live 360: the 30px title sets on a 36px line (foundation h1 130% = 39px) */
+  .all-alliances .main-title :is(h1, h2) {
+    line-height: 36px;
+  }
+
+  .all-alliances .all-alliances-row {
+    padding-top: 20px;
+  }
+
+  .all-alliances .bg-div {
+    border-radius: 24px;
+  }
+
+  .all-alliances .all-alliances-col {
+    padding: 24px;
+  }
+
+  .all-alliances .left-col {
+    max-width: 100%;
+    height: 100px;
+    padding: 15px;
+  }
+
+  .all-alliances .left-col img {
+    width: auto;
+    height: 60px;
+  }
+
+  .all-alliances .right-col {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 15px;
+  }
+
+  .all-alliances .heading20 {
+    margin-bottom: 4px;
+  }
+
+  .all-alliances .heading20 :is(h2, h3, h4, h5, h6) {
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .all-alliances .text14i {
+    font-size: 13px;
+  }
+
+  .all-alliances .view-details {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .all-alliances .btn-links {
+    font-size: 14px;
+    line-height: 21.6px;
+  }
+
+  /* `spaced` cards: the source's two blank spacer lines show above the links on mobile */
+  .all-alliances .spaced .view-details {
+    padding-top: calc(20px + 36.4px);
+  }
+
+  .all-alliances .btn-links .arros {
+    font-size: 10px;
+    top: 7px;
+  }
+}

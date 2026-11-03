@@ -1,0 +1,456 @@
+/* home-banner — lifted from the gated prototype (index.css hero + smart search), scoped */
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+.home-banner .banner-cntr-new {
+  position: relative;
+  z-index: 3;
+  padding-top: 26px;
+  padding-bottom: 71px;
+}
+
+.home-banner .banner-new-box {
+  box-shadow: var(--tc-glass-shadow);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.home-banner .banner-slider-new {
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-banner .banner-slider-new .slick-track {
+  transition: transform .5s ease;
+}
+
+.home-banner .banner-item-new {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.home-banner .banner-wrap {
+  position: relative;
+}
+
+.home-banner .banner-img {
+  width: 100%;
+}
+
+.home-banner .banner-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  height: 340px;
+}
+
+.home-banner .mob-banners {
+  display: none;
+}
+
+.home-banner .banner-text-new {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 540px;
+  width: 100%;
+  padding: 40px 20px 50px 50px;
+  z-index: 2;
+}
+
+.home-banner .banner-captions {
+  height: 100%;
+  position: relative;
+  padding-bottom: 0;
+  z-index: 1;
+}
+
+.home-banner .banner-slider-new .main-title {
+  margin-bottom: 4px;
+  min-height: auto;
+}
+
+.home-banner .banner-slider-new .heading-h1 {
+  color: #fff;
+}
+
+.home-banner .banner-slider-new .title-info {
+  margin-bottom: 32px;
+}
+
+.home-banner .banner-slider-new .title-info p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: .02em;
+  color: #fff;
+}
+
+.home-banner .banner-slider-new .title-info b {
+  font-weight: normal;
+  font-family: var(--f-bold);
+}
+
+.home-banner .dsk-banner-cta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-banner .banner-no-text-content .dsk-banner-cta {
+  position: absolute;
+  left: 0;
+  bottom: 53px;
+}
+
+.home-banner .banner-no-text-content .cta-text {
+  display: none;
+}
+
+.home-banner .banner-new-box .slick-dots {
+  bottom: 40px;
+  left: 50px;
+  right: 50px;
+  text-align: left;
+  width: auto;
+  margin: 0 -5px;
+}
+
+.home-banner .banner-new-box .slick-dots li button {
+  background-color: rgb(255 255 255 / 50%);
+}
+
+.home-banner .banner-new-box .slick-dots li.slick-active button {
+  background-color: #333;
+}
+
+.home-banner .track-my-application-cls {
+  position: relative;
+  height: 0;
+  z-index: 5;
+}
+
+.home-banner .smart-search-banner {
+  position: relative;
+  top: -106px;
+  width: 1080px;
+  margin-left: 36px;
+}
+
+.home-banner .sf-bs-container {
+  width: min(1191px,80vw);
+  border-radius: 24px;
+  background: linear-gradient(91deg,#fffed8,#f8fbe1 26%,#d5ebe1 50%,#dceef7 78%,#d1e9fb);
+  border: .5px solid #fff;
+  padding: 14px 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 4px 0 25px rgb(25 97 172 / 20%);
+}
+
+.home-banner .sf-bs-shell {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  width: 100%;
+}
+
+.home-banner .sf-bs-headline {
+  margin: 0;
+  flex-shrink: 0;
+  max-width: 277px;
+  color: #333;
+  font-family: "Open Sans",sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.home-banner .sf-bs-headline strong {
+  font-weight: 700;
+}
+
+.home-banner .sf-bs-search-section {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-banner .sf-bs-input-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  border-radius: 32px;
+  border: 1px solid transparent;
+  padding: 8px;
+  gap: 12px;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(#fff,#fff) padding-box,conic-gradient(#d8e024,#81c784,#4cafe0,#1961ac,#d8e024) border-box;
+}
+
+.home-banner .sf-bs-search-badge {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.home-banner .sf-bs-search-disc {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-banner .sf-bs-search-glyph {
+  position: absolute;
+  left: 7.38px;
+  top: 8.78px;
+  width: 15.42px;
+  height: 15.23px;
+}
+
+.home-banner .sf-bs-search-star {
+  position: absolute;
+  left: 33.59%;
+  top: 15.59%;
+  width: 39.43%;
+  height: 39.43%;
+}
+
+.home-banner .sf-bs-input {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 30px;
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Open Sans",sans-serif;
+}
+
+.home-banner .sf-bs-input::placeholder {
+  color: #737373;
+}
+
+.home-banner .sf-bs-input-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.home-banner .sf-bs-lang-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-width: 50px;
+  height: 24px;
+  border-radius: 10px;
+  color: var(--tc-blue);
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.home-banner .sf-bs-lang-chevron {
+  width: 24px;
+  height: 24px;
+}
+
+@media (width <=767px) {
+  .home-banner .banner-cntr-new {
+    padding-top: 12px;
+    padding-bottom: 91px;
+  }
+
+  .home-banner .banner-new-box,
+  .home-banner .banner-slider-new {
+    border-radius: 24px;
+  }
+
+  .home-banner .banner-wrap {
+    background: #fff;
+    border-radius: 24px;
+    height: 430px;
+  }
+
+  .home-banner .banner-text-new {
+    position: relative;
+    padding: 0;
+    text-align: center;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .home-banner .banner-captions {
+    min-height: 430px;
+    padding-bottom: 0;
+  }
+
+  .home-banner .dsk-banners {
+    display: none;
+  }
+
+  .home-banner .mob-banners {
+    display: block;
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    border-radius: 24px;
+  }
+
+  .home-banner .mob-banners img {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    object-fit: cover;
+  }
+
+  .home-banner .banner-slider-new .main-title {
+    position: relative;
+    z-index: 1;
+    padding: 25px 20px 0;
+  }
+
+  .home-banner .banner-slider-new .heading-h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .home-banner .banner-slider-new .title-info {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    margin-bottom: 12px;
+  }
+
+  .home-banner .banner-slider-new .title-info p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .home-banner .dsk-banner-cta,
+  .home-banner .banner-no-text-content .dsk-banner-cta {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 20px 58px;
+    z-index: 2;
+  }
+
+  .home-banner .dsk-banner-cta .cta-gap {
+    width: 100%;
+  }
+
+  .home-banner .banner-new-box .slick-dots {
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    bottom: 25px;
+  }
+
+  .home-banner .smart-search-banner {
+    top: -128px;
+    width: auto;
+    margin: 0 15px;
+  }
+
+  .home-banner .sf-bs-container {
+    width: 100%;
+    padding: 14px 17px;
+    border-radius: 24px;
+  }
+
+  .home-banner .sf-bs-shell {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .home-banner .sf-bs-headline {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    max-width: none;
+    width: 100%;
+  }
+
+  .home-banner .sf-bs-lang-btn {
+    font-size: 14px;
+    min-width: 42px;
+  }
+
+  .home-banner .sf-bs-input-actions {
+    gap: 8px;
+  }
+}
+
+/* authored-structure adapters (EW2: style moved nodes through their wrappers) */
+.home-banner .banner-img picture {
+  display: block;
+}
+
+.home-banner .banner-slider-new .main-title p {
+  font: inherit;
+  font-family: var(--f-semi);
+  color: inherit;
+  margin: 0;
+}
+
+.home-banner .banner-slider-new .title-info strong {
+  font-weight: normal;
+  font-family: var(--f-bold);
+}
+
+.home-banner .sf-bs-headline p {
+  font: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+
+.home-banner .dsk-banner-cta p {
+  margin: 0;
+}
+
+.home-banner .dsk-banners .pic-md {
+  display: none;
+}
+
+@media (width <= 1199px) {
+  .home-banner .dsk-banners .pic-xl {
+    display: none;
+  }
+
+  .home-banner .dsk-banners .pic-md {
+    display: block;
+  }
+}
+
+/* authored anchors: the foundation a:any-link colour outranks .btn-blue */
+.home-banner a.btn-blue:any-link {
+  color: #fff;
+}
+
+.home-banner a.btn-blue.btn-yellow:any-link {
+  color: #333;
+}
+
+@media (width <= 767px) {
+  .home-banner .mob-banners picture {
+    height: 100%;
+  }
+
+  .home-banner .dsk-banner-cta p {
+    width: 100%;
+  }
+}

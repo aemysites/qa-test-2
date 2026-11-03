@@ -1,0 +1,349 @@
+/* faq — source faq-box rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.faq) .cmp-accordion__header {
+  margin: 0;
+}
+
+:where(.faq) .cmp-accordion__panel--hidden {
+  display: none;
+}
+
+:where(.faq) .text-center {
+  text-align: center !important;
+}
+
+:where(.faq) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.faq) .pd-b-0 {
+  padding-bottom: 0 !important;
+}
+
+:where(.faq) .d-none {
+  display: none !important;
+}
+
+:where(.faq) .heading36 {
+  font-family: var(--f-reg);
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: rgb(0 0 0);
+}
+
+:where(.faq) .heading36 h2 strong {
+  font-family: var(--f-bold);
+}
+
+:where(.faq) .btn-blue.btn-large {
+  padding: 16px 25px;
+  min-width: 135px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+:where(.faq) .pd-t30i {
+  padding-top: 30px !important;
+}
+
+:where(.faq) .faq-body-inner ul {
+  padding-left: 8px;
+}
+
+:where(.faq) .faq-body-inner ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 13px;
+}
+
+:where(.faq) .faq-body-inner ul li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgb(79 79 79);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+:where(.faq) .faq-body-inner ul li:last-child {
+  margin-bottom: 0;
+}
+
+:where(.faq) .bg-div {
+  background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(255 255 255 / 88%) 0, rgb(255 255 255) 100%);
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+}
+
+:where(.faq) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.faq) .space-tb40 {
+  padding: 40px 0;
+}
+
+:where(.faq) .tops-heads {
+  max-width: 862px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+@media (width <= 991px) {
+  :where(.faq) .heading36 {
+    font-size: 30px;
+  }
+
+  :where(.faq) .space-tb40 {
+    padding: 30px 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.faq) .space-tb40 {
+    padding: 25px 0;
+  }
+
+  :where(.faq) .bg-div {
+    border-radius: 24px;
+  }
+
+  :where(.faq) .container {
+    max-width: 100%;
+  }
+
+  :where(.faq) .tops-heads {
+    margin-bottom: 34px;
+  }
+
+  :where(.faq) .heading36 {
+    font-size: 22px;
+  }
+
+  :where(.faq) .btn-blue.btn-large {
+    font-size: 14px;
+  }
+
+  :where(.faq) .faq-body-inner ul li {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.faq) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.faq) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.faq) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.faq) .faq-box .faq-card {
+  padding: 10px 40px;
+}
+
+:where(.faq) .faq-box .faq-row {
+  border-bottom: 1px solid rgb(191 212 226);
+  padding: 30px 0;
+}
+
+:where(.faq) .faq-box .faq-row:last-child {
+  border-bottom: 0;
+}
+
+:where(.faq) .faq-box .faq-row .faq-body-inner {
+  padding-top: 20px;
+}
+
+:where(.faq) .faq-box .faq-row .faq-body-inner p {
+  color: rgb(51 51 51);
+  margin-bottom: 10px;
+}
+
+:where(.faq) .faq-box .faq-row .faq-body-inner .faq-body-inner ul li {
+  color: rgb(51 51 51);
+}
+
+:where(.faq) .faq-box .faq-row .cmp-accordion__header :is(h3, p) {
+  font-family: var(--f-semi);
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(51 51 51);
+  display: block;
+  padding-right: 20px;
+  position: relative;
+}
+
+:where(.faq) .faq-box .faq-row .cmp-accordion__header :is(h3, p)::before {
+  content: "\e90e";
+  font-family: icomoon, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+:where(.faq) .jsFaqLoadmoreList {
+  position: relative;
+}
+
+:where(.faq) .jsFaqLoadmoreList::after {
+  content: "";
+  height: 2px;
+  background-color: rgb(255 255 255);
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 0;
+  z-index: 1;
+}
+
+:where(.faq) .jsFaqLoadmoreList .faq-row:not(.is-visible) {
+  display: none;
+}
+
+@media (width <= 1199px) {
+  :where(.faq) .faq-box .faq-card {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.faq) .faq-box .faq-card {
+    padding: 4px 24px;
+  }
+
+  :where(.faq) .faq-box .faq-row {
+    padding: 20px 0;
+  }
+
+  :where(.faq) .faq-box .faq-row .cmp-accordion__header :is(h3, p) {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  :where(.faq) .jsFaqLoadmoreList::after {
+    left: 20px;
+    right: 20px;
+  }
+}
+
+:where(.faq) .faq-box .faq-row .cmp-accordion__header :is(h3, p) {
+  cursor: pointer;
+}
+
+@media (width <= 767px) {
+  :where(.faq) .faq-box .faq-row .faq-body-inner p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+
+:where(.faq) .faq-box .faq-row .cmp-accordion__header :is(h3, p)::before {
+  content: "\e90e";
+  font-family: icomoon, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+:where(.faq) .faq-box .faq-row .cmp-accordion__header :is(h3, p) {
+  font-family: var(--f-semi);
+  font-size: 20px;
+  line-height: 116%;
+  color: rgb(51 51 51);
+  display: block;
+  padding-right: 20px;
+  position: relative;
+}
+
+:where(.faq) .faq-box .faq-row .cmp-accordion__header :is(h3, p)::before {
+  content: "\e90e";
+  font-family: icomoon, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* EDS slotting: authored question/answer nodes, generated chevron toggle, open state */
+.faq .heading36 h2 strong {
+  font-weight: normal;
+}
+
+.faq .cmp-accordion__header {
+  position: relative;
+  cursor: pointer;
+}
+
+.faq .cmp-accordion__header :is(h3, p) {
+  margin: 0;
+  letter-spacing: normal;
+}
+
+.faq .cmp-accordion__icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%);
+  background: transparent;
+}
+
+.faq .faq-row.is-open .cmp-accordion__header :is(h3, p)::before {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.faq .faq-body-inner ul {
+  list-style: none;
+  margin: 0 0 10px;
+}
+
+/* live question ramp (the source sheet's later 20px rule is overridden on the live site) */
+.faq .faq-box .faq-row .cmp-accordion__header :is(h3, p) {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: .1px;
+}
+
+@media (width <= 767px) {
+  .faq .faq-box .faq-row .cmp-accordion__header :is(h3, p) {
+    line-height: 23px;
+  }
+}
+
+/* app variant (archetype-campaign): the campaign page sheet seats the title 25px above the card */
+@media (width >= 768px) {
+  :where(.faq.app) .tops-heads {
+    margin-bottom: 25px;
+  }
+}

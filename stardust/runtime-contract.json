@@ -1,0 +1,51 @@
+{
+  "runtime": "vanilla-eds",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "probedAt": "2026-11-02",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "notes": {
+    "blockDom": [
+      "div.<name>.block[data-block-name][data-block-status] inside div.<name>-wrapper;",
+      "the section gains .<name>-container"
+    ],
+    "sectionDom": [
+      "main > div.section[data-section-status], inline display:none until loaded;",
+      "default content runs are wrapped in div.default-content-wrapper"
+    ],
+    "cellNormalization": [
+      "wrapTextNodes: a cell whose first element is not P/PRE/UL/OL/PICTURE/TABLE/H1-6",
+      "(or a picture followed by more) is folded into one <p>"
+    ],
+    "buttonizationRule": [
+      "decorateButtons(main): p a[href] alone in its paragraph, no <img>, not a URL-display link,",
+      "inside <strong> (primary), <em> (secondary) or both (accent); sets a.title too"
+    ],
+    "fragments": [
+      "loadFragment(path) fetches <path>.plain.html, rewrites ./media_ src/srcset,",
+      "runs decorateMain (icons, auto-blocks, sections, blocks, buttons) + loadSections"
+    ],
+    "icons": [
+      ":name: arrives as span.icon.icon-<name> (case preserved); decorateIcons appends",
+      "img[src=/icons/<name>.svg][width=16][height=16]"
+    ],
+    "sectionMetadata": "rendered server-side; the client runtime has no section-metadata step",
+    "emptySection": [
+      "the pipeline consumes the metadata block and leaves an empty <div></div> section",
+      "(seen on /nav.plain.html and /drafts/foundation-shell)"
+    ],
+    "bodyGate": "body { display: none } + body.appear { display: block } (loadEager)",
+    "chromeReservation": [
+      "header { height: var(--nav-height) }; header .header / footer .footer hidden",
+      "until [data-block-status=loaded]"
+    ],
+    "fonts": [
+      "styles/fonts.css via loadFonts(): eager on desktop (>= 900px) or with the",
+      "fonts-loaded session flag, always in loadLazy"
+    ],
+    "autoBlocks": "/fragments/ links load as fragments; a[href*=\"/widgets/\"] become widget blocks"
+  }
+}

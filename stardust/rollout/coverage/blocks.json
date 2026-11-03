@@ -1,0 +1,597 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-02T10:45:29.753Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-02T15:36:46.196Z",
+  "blocks": [
+    {
+      "id": "banner-cntr-new",
+      "label": "banner-cntr-new",
+      "kind": "module",
+      "signature": "module:banner-cntr-new",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score",
+        "home-loan-app",
+        "index"
+      ],
+      "usedByPages": [
+        "check-credit-score",
+        "home-loan-app",
+        "index"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "calc-banner",
+      "label": "calc-banner",
+      "kind": "module",
+      "signature": "module:calc-banner",
+      "source": null,
+      "usedByTemplates": [
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "personal-loan"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "calc-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "calculator",
+      "label": "calculator",
+      "kind": "module",
+      "signature": "module:calculator",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "home-calculator",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "calculator-tab",
+      "label": "calculator-tab",
+      "kind": "module",
+      "signature": "module:calculator-tab",
+      "source": null,
+      "usedByTemplates": [
+        "calculator"
+      ],
+      "usedByPages": [
+        "calculator"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "calculator-tab",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cash-loans",
+      "label": "cash-loans",
+      "kind": "module",
+      "signature": "module:cash-loans",
+      "source": null,
+      "usedByTemplates": [
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "personal-loan"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cash-loans",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "check-eligibility",
+      "label": "check-eligibility",
+      "kind": "module",
+      "signature": "module:check-eligibility",
+      "source": null,
+      "usedByTemplates": [
+        "privacy-commitment"
+      ],
+      "usedByPages": [
+        "privacy-commitment"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "check-eligibility",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "check-loan-eligibility",
+      "label": "check-loan-eligibility",
+      "kind": "module",
+      "signature": "module:check-loan-eligibility",
+      "source": null,
+      "usedByTemplates": [
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "personal-loan"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "check-loan-eligibility",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "communities",
+      "label": "communities",
+      "kind": "module",
+      "signature": "module:communities",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "communities",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "customer-say",
+      "label": "customer-say",
+      "kind": "module",
+      "signature": "module:customer-say",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "index",
+        "personal-loan"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "customer-say",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "emi-option",
+      "label": "emi-option",
+      "kind": "module",
+      "signature": "module:emi-option",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score"
+      ],
+      "usedByPages": [
+        "check-credit-score"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "emi-option",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "explore",
+      "label": "explore",
+      "kind": "module",
+      "signature": "module:explore",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "explore",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq",
+      "label": "faq",
+      "kind": "module",
+      "signature": "module:faq",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score",
+        "home-loan-app",
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "check-credit-score",
+        "home-loan-app",
+        "personal-loan"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "faq",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "financial-insights",
+      "label": "financial-insights",
+      "kind": "module",
+      "signature": "module:financial-insights",
+      "source": null,
+      "usedByTemplates": [
+        "calculator",
+        "check-credit-score",
+        "home-loan-app",
+        "index",
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "calculator",
+        "check-credit-score",
+        "home-loan-app",
+        "index",
+        "personal-loan"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "financial-insights",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "find-right-loan",
+      "label": "find-right-loan",
+      "kind": "module",
+      "signature": "module:find-right-loan",
+      "source": null,
+      "usedByTemplates": [
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "personal-loan"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "find-right-loan",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "how-apply",
+      "label": "how-apply",
+      "kind": "module",
+      "signature": "module:how-apply",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score"
+      ],
+      "usedByPages": [
+        "check-credit-score"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "how-apply",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "instant-loan",
+      "label": "instant-loan",
+      "kind": "module",
+      "signature": "module:instant-loan",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "instant-loan",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "instant-slider",
+      "label": "instant-slider",
+      "kind": "module",
+      "signature": "module:instant-slider",
+      "source": null,
+      "usedByTemplates": [
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "personal-loan"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "instant-slider",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "non-product-short-lead-form",
+      "label": "non-product-short-lead-form",
+      "kind": "module",
+      "signature": "module:non-product-short-lead-form",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score",
+        "index",
+        "privacy-commitment"
+      ],
+      "usedByPages": [
+        "check-credit-score",
+        "index",
+        "privacy-commitment"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "lead-form",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "np",
+      "label": "np",
+      "kind": "module",
+      "signature": "module:np",
+      "source": null,
+      "usedByTemplates": [
+        "calculator",
+        "check-credit-score",
+        "home-loan-app",
+        "personal-loan",
+        "privacy-commitment"
+      ],
+      "usedByPages": [
+        "calculator",
+        "check-credit-score",
+        "home-loan-app",
+        "personal-loan",
+        "privacy-commitment"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "breadcrumb",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "overviews-tab",
+      "label": "overviews-tab",
+      "kind": "module",
+      "signature": "module:overviews-tab",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score",
+        "home-loan-app",
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "check-credit-score",
+        "home-loan-app",
+        "personal-loan"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "overviews-tab",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "personal-loan",
+      "label": "personal-loan",
+      "kind": "module",
+      "signature": "module:personal-loan",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score",
+        "home-loan-app",
+        "personal-loan",
+        "privacy-commitment"
+      ],
+      "usedByPages": [
+        "check-credit-score",
+        "home-loan-app",
+        "personal-loan",
+        "privacy-commitment"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "loan-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "reasons",
+      "label": "reasons",
+      "kind": "module",
+      "signature": "module:reasons",
+      "source": null,
+      "usedByTemplates": [
+        "home-loan-app"
+      ],
+      "usedByPages": [
+        "home-loan-app"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "reasons",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "related-video",
+      "label": "related-video",
+      "kind": "module",
+      "signature": "module:related-video",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score",
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "check-credit-score",
+        "personal-loan"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "related-video",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "strip-section",
+      "label": "strip-section",
+      "kind": "module",
+      "signature": "module:strip-section",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "strip-section",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "table",
+      "label": "table",
+      "kind": "module",
+      "signature": "module:table",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score"
+      ],
+      "usedByPages": [
+        "check-credit-score"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ways-to-service",
+      "label": "ways-to-service",
+      "kind": "module",
+      "signature": "module:ways-to-service",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "ways-to-service",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "what-personal",
+      "label": "what-personal",
+      "kind": "module",
+      "signature": "module:what-personal",
+      "source": null,
+      "usedByTemplates": [
+        "check-credit-score",
+        "personal-loan"
+      ],
+      "usedByPages": [
+        "check-credit-score",
+        "personal-loan"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "what-personal",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

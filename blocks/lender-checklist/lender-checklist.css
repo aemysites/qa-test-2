@@ -1,0 +1,439 @@
+/* lender-checklist — source csr-checklist-pdf / loan-against-prop-box rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.lender-checklist) .simplebar-wrapper {
+  overflow: hidden;
+  width: inherit;
+  height: inherit;
+  max-width: inherit;
+  max-height: inherit;
+}
+
+:where(.lender-checklist) .simplebar-mask {
+  direction: inherit;
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  inset: 0;
+  z-index: 0;
+  width: auto !important;
+  height: auto !important;
+}
+
+:where(.lender-checklist) .simplebar-offset {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  margin: 0;
+  direction: inherit !important;
+  box-sizing: inherit !important;
+  resize: none !important;
+}
+
+:where(.lender-checklist) .simplebar-content-wrapper {
+  direction: inherit;
+  position: relative;
+  display: block;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  scrollbar-width: none;
+  box-sizing: border-box !important;
+}
+
+:where(.lender-checklist) .simplebar-content-wrapper::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+:where(.lender-checklist) .simplebar-content::before,
+:where(.lender-checklist) .simplebar-content::after {
+  content: " ";
+  display: table;
+}
+
+:where(.lender-checklist) .simplebar-placeholder {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+:where(.lender-checklist) .simplebar-height-auto-observer-wrapper {
+  height: 100%;
+  width: 100%;
+  max-width: 1px;
+  position: relative;
+  float: left;
+  max-height: 1px;
+  overflow: hidden;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  flex-grow: inherit;
+  flex-shrink: 0;
+  flex-basis: 0;
+  box-sizing: inherit !important;
+}
+
+:where(.lender-checklist) .simplebar-height-auto-observer {
+  box-sizing: inherit;
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1000%;
+  width: 1000%;
+  min-height: 1px;
+  min-width: 1px;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+:where(.lender-checklist) .simplebar-track {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+:where(.lender-checklist) .simplebar-scrollbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  min-height: 10px;
+}
+
+:where(.lender-checklist) .simplebar-scrollbar::before {
+  position: absolute;
+  content: "";
+  background: black;
+  border-radius: 7px;
+  left: 2px;
+  right: 2px;
+  opacity: 0;
+  transition: opacity 0.2s linear 0.5s;
+}
+
+:where(.lender-checklist) .simplebar-track.simplebar-vertical {
+  top: 0;
+  width: 11px;
+}
+
+:where(.lender-checklist) .simplebar-scrollbar::before {
+  inset: 2px;
+}
+
+:where(.lender-checklist) .simplebar-track.simplebar-horizontal {
+  left: 0;
+  height: 11px;
+}
+
+:where(.lender-checklist) .simplebar-track.simplebar-horizontal .simplebar-scrollbar {
+  inset: 0 auto 0 0;
+  min-height: 0;
+  min-width: 10px;
+  width: auto;
+}
+
+:where(.lender-checklist) .icon-download-new::before {
+  content: "\e996";
+}
+
+:where(.lender-checklist) .icon-check::before {
+  content: "\e938";
+}
+
+:where(.lender-checklist) .text-center {
+  text-align: center !important;
+}
+
+:where(.lender-checklist) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.lender-checklist) .text14i {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgb(51 51 51);
+}
+
+:where(.lender-checklist) .all-icon32 {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgb(178 135 212);
+  font-size: 18px;
+  color: rgb(255 255 255);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+:where(.lender-checklist) .row-flex {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+:where(.lender-checklist) .row-flex.row-flex-30 {
+  margin: 0 -30px;
+}
+
+:where(.lender-checklist) .row-flex .col-sp30 {
+  padding: 0 30px;
+}
+
+:where(.lender-checklist) .row-flex .row-col-33 {
+  width: 33.33%;
+}
+
+:where(.lender-checklist) .pd-t50 {
+  padding-top: 50px !important;
+}
+
+:where(.lender-checklist) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.lender-checklist) .tops-heads {
+  max-width: 862px;
+  margin: 0 auto 25px;
+  text-align: center;
+}
+
+:where(.lender-checklist) .tops-heads p {
+  margin-top: 10px;
+  color: rgb(51 51 51);
+  letter-spacing: 0.02em;
+}
+
+:where(.lender-checklist) .simple-bar {
+  overflow: auto;
+}
+
+:where(.lender-checklist) .simplebar-scrollbar::before {
+  opacity: 1;
+  background: rgb(130 130 130 / 50%);
+}
+
+:where(.lender-checklist) .simplebar-track.simplebar-vertical {
+  width: 7px;
+}
+
+@media (width <= 767px) {
+  :where(.lender-checklist) .text14i {
+    font-size: 13px;
+  }
+
+  :where(.lender-checklist) .container {
+    max-width: 100%;
+  }
+
+  :where(.lender-checklist) .tops-heads {
+    margin-bottom: 34px;
+  }
+
+  :where(.lender-checklist) .tops-heads p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.lender-checklist) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.lender-checklist) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.lender-checklist) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.lender-checklist) .csr-checklist-pdf .row-col-33 {
+  width: 50% !important;
+}
+
+:where(.lender-checklist) .csr-checklist-pdf .csr-checklist-items {
+  display: flex;
+  align-items: center;
+}
+
+:where(.lender-checklist) .csr-checklist-pdf .test-icon {
+  margin-right: 17px;
+}
+
+:where(.lender-checklist) .csr-checklist-pdf .row-flex.row-flex-30 {
+  max-height: 200px;
+}
+
+:where(.lender-checklist) .csr-checklist-pdf .row-flex.row-flex-30 .simplebar-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+:where(.lender-checklist) .csr-checklist-pdf .btn-controls {
+  display: flex;
+  justify-content: center;
+}
+
+:where(.lender-checklist) .csr-checklist-pdf .btn-controls .downloadBtn {
+  font-family: var(--f-semi);
+  background: rgb(255 255 255);
+  color: rgb(25 97 172);
+  font-size: 18px;
+}
+
+:where(.lender-checklist) .csr-checklist-pdf .btn-controls span {
+  margin-left: 15px;
+}
+
+:where(.lender-checklist) .loan-against-form-wrap {
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 71%) 0, rgb(255 255 255 / 95%) 99.11%);
+  border-radius: 30px;
+  margin-bottom: 80px;
+  position: relative;
+  min-height: 368px;
+}
+
+:where(.lender-checklist) .loan-against-prop-box .tops-heads {
+  max-width: 100%;
+  position: relative;
+  padding: 0 60px;
+}
+
+:where(.lender-checklist) .loan-against-header {
+  background: linear-gradient(94.99deg, rgb(75 184 130 / 85%) -7.43%, rgb(82 169 126 / 91%) 37.99%, rgb(101 182 142) 102.12%);
+  border-radius: 30px 30px 0 0;
+  padding: 24px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+:where(.lender-checklist) .loan-against-header h4 {
+  color: rgb(255 255 255);
+  margin-right: 20px;
+}
+
+:where(.lender-checklist) .loan-against-body {
+  border-radius: 0 0 30px 30px;
+  padding: 25px 40px;
+}
+
+:where(.lender-checklist) .loan-against-body .form-textbox-new {
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgb(199 199 199 / 60%);
+}
+
+:where(.lender-checklist) .loan-against-body .btn-controls {
+  margin-top: 27px;
+}
+
+@media (width <= 991px) {
+  :where(.lender-checklist) .loan-against-body .row-flex .row-col-33 {
+    width: 50%;
+  }
+
+  :where(.lender-checklist) .loan-against-form-wrapper {
+    padding-top: 16px;
+  }
+
+  :where(.lender-checklist) .loan-against-form-wrapper:nth-child(1) {
+    padding-top: 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.lender-checklist) .loan-against-form-wrap {
+    border-radius: 24px;
+    margin-bottom: 50px;
+  }
+
+  :where(.lender-checklist) .loan-against-header {
+    border-radius: 24px 24px 0 0;
+    padding: 15px 16px;
+  }
+
+  :where(.lender-checklist) .loan-against-body {
+    border-radius: 0 0 24px 24px;
+    padding: 20px 16px;
+  }
+
+  :where(.lender-checklist) .csr-checklist-pdf .loan-against-body .row-flex {
+    margin: 0;
+  }
+
+  :where(.lender-checklist) .loan-against-body .row-flex .row-col-33 {
+    width: 100% !important;
+  }
+
+  :where(.lender-checklist) .loan-against-body .row-flex .col-sp30 {
+    padding: 0;
+  }
+
+  :where(.lender-checklist) .loan-against-body .btn-controls {
+    margin-top: 27px;
+  }
+
+  :where(.lender-checklist) .loan-against-prop-box .tops-heads {
+    padding: 0;
+  }
+}
+
+/* simplebar's custom scrollbar, drawn on the native scroller (no vendor JS) */
+.lender-checklist .csr-checklist-pdf .row-flex.row-flex-30 {
+  display: block;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(130 130 130 / 50%) transparent;
+}
+
+.lender-checklist .csr-checklist-pdf .row-flex.row-flex-30::-webkit-scrollbar {
+  width: 7px;
+}
+
+.lender-checklist .csr-checklist-pdf .row-flex.row-flex-30::-webkit-scrollbar-thumb {
+  background: rgb(130 130 130 / 50%);
+  border-radius: 7px;
+}
+
+/* the card title is authored as a heading of any level; the source sets it as an h4 */
+.lender-checklist .loan-against-header :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 20px 0 0;
+  color: #fff;
+}
+
+.lender-checklist .btn-controls .la-download {
+  margin: 0;
+}
+
+/* source body face: the live page inherits font-family OpenSans-Regular (a single-weight
+   family, so bold weights synthesise from it); the EDS body is the multi-weight "Open Sans" */
+.lender-checklist {
+  font-family: var(--f-reg);
+}

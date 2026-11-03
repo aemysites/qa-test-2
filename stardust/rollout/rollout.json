@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-02T10:45:12.472Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.tatacapital.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "290ff49a",
+      "ref": "main"
+    },
+    "liveHost": "main--290ff49a--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 10,
+    "discovered": 1000,
+    "capped": true,
+    "pageCap": 10
+  },
+  "lastRun": {
+    "at": "2026-11-02T17:31:18.391Z",
+    "pages": {
+      "total": 10,
+      "verified": 10,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 27,
+      "converted": 27,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

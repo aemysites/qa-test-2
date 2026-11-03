@@ -1,0 +1,185 @@
+/* strip-section — lifted from the gated prototype (index.css CSR strip), scoped */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, custom-property-pattern */
+
+.strip-section .strip-banner {
+  --stripRightWidth: 450px;
+  --stripPaddingY: 24px;
+  --stripPaddingX: 40px;
+  --stripImg: 162px;
+
+  background: linear-gradient(136.36deg,rgb(72 141 201 / 75%) 0,rgb(35 142 235 / 95%) 94.38%);
+  box-shadow: 0 5px 14px 0 rgb(31 137 230 / 30%);
+  padding: var(--stripPaddingY) var(--stripPaddingX);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.strip-section .strip-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.strip-section .strip-left,
+.strip-section .strip-right {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex: 1;
+}
+
+.strip-section .strip-right {
+  max-width: var(--stripRightWidth);
+  position: relative;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.strip-section .strip-overlay-img {
+  position: absolute;
+  left: 0;
+  height: calc(100% + var(--stripPaddingY) * 2);
+  z-index: -1;
+}
+
+.strip-section .strip-overlay-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.strip-section .strip-cta .btn {
+  padding: 15px 35px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 21.6px;
+  background-color: var(--tc-lime-2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #291d11;
+  font-family: var(--f-semi);
+}
+
+.strip-section .srtip-img {
+  max-width: var(--stripImg);
+}
+
+.strip-section .srtip-img img {
+  width: 100%;
+  height: auto;
+  max-height: 94px;
+  object-fit: contain;
+}
+
+.strip-section .strip-text h2 {
+  color: #fff;
+  font-size: clamp(20px,5vw,36px);
+  line-height: 130%;
+  font-family: var(--f-reg);
+}
+
+.strip-section .strip-text h2 strong {
+  font-weight: normal;
+  font-family: var(--f-bold);
+  display: block;
+}
+
+.strip-section .strip-desktop-mobile {
+  display: none;
+}
+
+@media (width <=1199px) {
+  .strip-section .strip-banner {
+    --stripImg: 125px;
+    --stripRightWidth: 380px;
+  }
+
+  .strip-section .strip-text h2 {
+    font-size: 28px;
+  }
+}
+
+@media (width <=991px) {
+  .strip-section .strip-banner {
+    --stripImg: 100px;
+    --stripRightWidth: 300px;
+  }
+
+  .strip-section .strip-text h2 {
+    font-size: 20px;
+  }
+}
+
+@media (width <=767px) {
+  .strip-section .strip-banner {
+    --stripImg: 112px;
+    --stripRightWidth: 100%;
+    --stripPaddingY: 20px;
+    --stripPaddingX: 24px;
+
+    padding-bottom: 0;
+  }
+
+  .strip-section .strip-left,
+  .strip-section .strip-right {
+    gap: 20px;
+    flex: 100%;
+    flex-direction: column;
+  }
+
+  .strip-section .strip-left {
+    padding-bottom: var(--stripPaddingY);
+  }
+
+  .strip-section .strip-overlay-img {
+    width: 100%;
+    height: 100%;
+    position: initial;
+    max-width: 320px;
+  }
+
+  .strip-section .strip-overlay-img img {
+    object-fit: contain;
+  }
+
+  .strip-section .strip-right .strip-cta {
+    position: absolute;
+    padding-bottom: var(--stripPaddingY);
+    width: 100%;
+    max-width: 248px;
+  }
+
+  .strip-section .strip-text h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .strip-section .strip-cta .btn {
+    width: 100%;
+    display: flex;
+    padding: 12px 25px;
+    font-size: 15px;
+  }
+
+  .strip-section .strip-desktop-img {
+    display: none;
+  }
+
+  .strip-section .strip-desktop-mobile {
+    display: block;
+  }
+}
+
+/* authored-structure adapters */
+.strip-section .strip-overlay-img > div {
+  height: 100%;
+}
+
+.strip-section .strip-overlay-img picture {
+  display: block;
+  height: 100%;
+}
+
+.strip-section .strip-cta p {
+  margin: 0;
+}
+

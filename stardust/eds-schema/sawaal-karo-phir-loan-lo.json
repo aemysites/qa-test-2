@@ -1,0 +1,1891 @@
+{
+ "source": "http://localhost:8791/sawaal-karo-phir-loan-lo-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "banner-cntr-new",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "csr"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "csr"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "reasons-box",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Tata Capital is committed to being a responsible financial partner, helping people make informed financial decisions."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "is an initiative to build financial awareness—encouraging you to pause, ask the right questions, and understand loans clearly, with simple tools and guides. No pressure. No jargon"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Sawaal Karo, Phir Loan Lo!"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "blog-video-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Know Before You Borrow!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Explore short videos, posts, and facts that help you understand what to look out for and borrow better."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Play video"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "That Travel Deal Looks Perfect… But Did You Check the Fine Print?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Play video"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Pre-Approved ≠ Ready: What to Check Before Taking a Business Loan"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Play video"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Dream Home Plans? Here’s what you should know before taking a Home Loan"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Play video"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Car Loan: What You Should Know Before You Say Yes!"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Play video"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Enticing interest rates? Check the fine print!"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Play video"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Is your lender legitimate? Here's how you can verify"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.blog-slider-col",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "media-resources-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "It All Starts With The"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "‘Sahi Sawaal’"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Choose your loan type and discover the ‘Sahi Sawaal’ you must ask,"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "and the answers you should know before borrowing."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Personal Loan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Personal Loan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Home Loan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Business Loan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Loan Against Property",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Used Car Loan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Two Wheeler Loan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Education Loan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Loan Against Securities",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "What is the interest rate on a personal loan?"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Personal loan interest rates vary based on your credit score, income, and lender. Always ask for the exact rate applicable to you, not just the “starting from” rate."
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "What will be my total repayment amount?"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Your total repayment includes principal + interest + fees. Ask for a breakup so you know how much extra you’ll pay over the loan amount."
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Are there any processing or hidden charges?"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Most personal loans have processing fees and other charges. Always confirm all fees in writing before accepting the loan."
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "What happens if I miss an EMI?"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Missing an EMI can lead to penalty charges and a drop in your credit score. Repeated delays can make future loans expensive or difficult."
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "Can I repay the loan early?"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Some lenders allow prepayment but charge a foreclosure penalty. Ask when prepayment is allowed and at what cost."
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "Are there charges for EMI bounce or cheque return?"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "EMI bounces usually attract penalties and negatively impact your credit score."
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "Will I receive a loan statement and repayment schedule?"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Always ask for a detailed amortization schedule and periodic statements."
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Is the interest rate fixed or floating?"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Fixed rates stay the same, while floating rates change with the market. Floating rates can go up or down, affecting your EMI."
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "How often does the floating interest rate change?"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Floating rates are usually linked to RBI benchmarks and may change multiple times during the loan tenure."
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "What is the total cost of the home loan?"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Over long tenures, interest can be much higher than the loan amount. Always ask for the total payable amount."
+    },
+    {
+     "role": "heading",
+     "order": 33,
+     "text": "Are there prepayment or foreclosure charges?"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Many home loans allow prepayment without charges, but this depends on the lender and loan type."
+    },
+    {
+     "role": "heading",
+     "order": 35,
+     "text": "What happens if I face financial difficulty in future?"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Ask about options like EMI restructuring, tenure extension, or temporary relief."
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "Why is RERA registration important for a home buyer?"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "RERA ensures transparency, timely possession, and legal protection. It also allows buyers to raise complaints if the builder delays or changes plans."
+    },
+    {
+     "role": "heading",
+     "order": 39,
+     "text": "Is my loan amount disbursed fully or in stages?"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "For under-construction properties, loans are usually disbursed in stages based on construction progress."
+    },
+    {
+     "role": "heading",
+     "order": 41,
+     "text": "Is the business loan secured or unsecured?"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Unsecured loans don’t need collateral but usually have higher interest rates."
+    },
+    {
+     "role": "heading",
+     "order": 43,
+     "text": "How is the interest calculated?"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Interest may be calculated on a monthly reducing balance or flat basis, which affects the total cost significantly."
+    },
+    {
+     "role": "heading",
+     "order": 45,
+     "text": "What is the repayment frequency?"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Some business loans require weekly or daily EMIs, which can impact cash flow."
+    },
+    {
+     "role": "heading",
+     "order": 47,
+     "text": "What happens if my business income fluctuates?"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Ask if the lender offers flexible EMIs or restructuring options during slow business periods."
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "Will my personal assets be at risk?"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "In some cases, lenders may ask for a personal guarantee, putting personal assets at risk."
+    },
+    {
+     "role": "heading",
+     "order": 51,
+     "text": "What is the minimum business vintage required?"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Some lenders require the business to be operational for a minimum number of years."
+    },
+    {
+     "role": "heading",
+     "order": 53,
+     "text": "Is the loan amount linked to my turnover or profit?"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Loan limits are often based on business revenue, profitability, and bank transactions."
+    },
+    {
+     "role": "heading",
+     "order": 55,
+     "text": "Can I use the loan for any business purpose?"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Some loans restrict usage to specific purposes like inventory or machinery."
+    },
+    {
+     "role": "heading",
+     "order": 57,
+     "text": "How much loan can I get against my property?"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Lenders usually offer 50–70% of the property’s market value."
+    },
+    {
+     "role": "heading",
+     "order": 59,
+     "text": "What happens if I fail to repay the loan?"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Since the loan is secured, the lender has the right to take possession of the property."
+    },
+    {
+     "role": "heading",
+     "order": 61,
+     "text": "Is the interest rate lower than a personal loan?"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Yes, LAP rates are generally lower than personal loans but higher than home loans."
+    },
+    {
+     "role": "heading",
+     "order": 63,
+     "text": "Are there any additional legal or valuation charges?"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Yes, lenders usually charge property valuation and legal verification fees."
+    },
+    {
+     "role": "heading",
+     "order": 65,
+     "text": "Can I prepay or foreclose the loan early?"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Most lenders allow this, but some may charge a penalty."
+    },
+    {
+     "role": "heading",
+     "order": 67,
+     "text": "Will I lose ownership of my property?"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "You retain ownership, but the property is mortgaged until the loan is fully repaid."
+    },
+    {
+     "role": "heading",
+     "order": 69,
+     "text": "What happens if I am unable to repay the loan?"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "The lender has the right to recover dues by selling the mortgaged property."
+    },
+    {
+     "role": "heading",
+     "order": 71,
+     "text": "Is the interest rate higher for a used car loan?"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Yes, used car loans generally have higher interest rates than new car loans."
+    },
+    {
+     "role": "heading",
+     "order": 73,
+     "text": "How is the car’s value decided?"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "The lender evaluates the car’s age, condition, and resale value."
+    },
+    {
+     "role": "heading",
+     "order": 75,
+     "text": "Who owns the car during the loan tenure?"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "The car is hypothecated to the lender until the loan is fully repaid."
+    },
+    {
+     "role": "heading",
+     "order": 77,
+     "text": "Are there prepayment charges?"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Some lenders charge penalties for early repayment. Always confirm this upfront."
+    },
+    {
+     "role": "heading",
+     "order": 79,
+     "text": "What if the car gets damaged or totalled?"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Insurance plays a key role. Ask whether comprehensive insurance is mandatory."
+    },
+    {
+     "role": "heading",
+     "order": 81,
+     "text": "What is the interest rate compared to a new car loan?"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Used car loans generally have higher interest rates."
+    },
+    {
+     "role": "heading",
+     "order": 83,
+     "text": "Is insurance mandatory for the loan?"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Comprehensive insurance is usually required throughout the loan tenure."
+    },
+    {
+     "role": "heading",
+     "order": 85,
+     "text": "What is the actual cost of the loan?"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Apart from EMIs, there may be processing fees, insurance, and documentation charges."
+    },
+    {
+     "role": "heading",
+     "order": 87,
+     "text": "Are zero down payment offers really free?"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Often, the cost is adjusted through higher interest or longer tenure."
+    },
+    {
+     "role": "heading",
+     "order": 89,
+     "text": "What happens if I miss an EMI?"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Late payments attract penalties and affect your credit score."
+    },
+    {
+     "role": "heading",
+     "order": 91,
+     "text": "Can I close the loan early?"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Prepayment may be allowed after a few months, sometimes with a fee."
+    },
+    {
+     "role": "heading",
+     "order": 93,
+     "text": "Who keeps the RC of the vehicle?"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "The RC is usually marked with lender hypothecation until loan closure."
+    },
+    {
+     "role": "heading",
+     "order": 95,
+     "text": "Is the EMI calculated on a flat rate or reducing balance?"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Flat rates appear cheaper but usually cost more overall than reducing balance interest."
+    },
+    {
+     "role": "heading",
+     "order": 97,
+     "text": "Is a down payment mandatory?"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Most lenders require a minimum down payment; confirm the exact amount"
+    },
+    {
+     "role": "heading",
+     "order": 99,
+     "text": "When do I have to start repaying the loan?"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Repayment usually starts after course completion, following a moratorium period."
+    },
+    {
+     "role": "heading",
+     "order": 101,
+     "text": "Is interest charged during the study period?"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Yes, interest accrues during the study period and may be added to the loan amount."
+    },
+    {
+     "role": "heading",
+     "order": 103,
+     "text": "Do my parents need to be co-borrowers?"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "In most cases, parents or guardians are mandatory co-borrowers."
+    },
+    {
+     "role": "heading",
+     "order": 105,
+     "text": "Are there tax benefits on education loans?"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "Yes, interest paid on education loans may be eligible for tax deduction under applicable laws."
+    },
+    {
+     "role": "heading",
+     "order": 107,
+     "text": "What happens if I don’t get a job immediately?"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Ask the lender about repayment flexibility or extension options."
+    },
+    {
+     "role": "heading",
+     "order": 109,
+     "text": "Are scholarships or grants adjusted against the loan amount?"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Inform the lender if you receive scholarships—they may reduce the loan amount."
+    },
+    {
+     "role": "heading",
+     "order": 111,
+     "text": "What happens if I pursue higher studies after completion?"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Ask if the moratorium can be extended for further education."
+    },
+    {
+     "role": "heading",
+     "order": 113,
+     "text": "Which securities can be pledged for LAS?"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "Most lenders accept equity shares, mutual funds, bonds, ETFs, and some insurance policies, subject to eligibility and lender policies."
+    },
+    {
+     "role": "heading",
+     "order": 115,
+     "text": "How much loan can I get against my securities?"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "The loan amount depends on the type of security. Typically, lenders offer 50–70% of the value, also known as the Loan-to-Value (LTV) ratio."
+    },
+    {
+     "role": "heading",
+     "order": 117,
+     "text": "What interest rate is charged on LAS?"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "LAS interest rates are generally lower than personal loans because the loan is secured. The exact rate depends on the type of security and market conditions."
+    },
+    {
+     "role": "heading",
+     "order": 119,
+     "text": "Will I lose ownership of my investments?"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "No. You remain the owner, but the securities are pledged with the lender until the loan is repaid."
+    },
+    {
+     "role": "heading",
+     "order": 121,
+     "text": "Can I continue to earn returns on my investments?"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "Yes. You may continue to earn dividends, interest, or bonuses, but selling or switching investments is restricted until loan closure."
+    },
+    {
+     "role": "heading",
+     "order": 123,
+     "text": "What happens if the market value of my securities falls?"
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "If the value drops sharply, the lender may ask for additional collateral or partial repayment. This is called a margin call."
+    },
+    {
+     "role": "heading",
+     "order": 125,
+     "text": "What is a margin call and why is it important?"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "A margin call is a request by the lender to maintain the required security value. Ignoring it can lead to forced selling of your investments."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 118,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-sp20",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 9,
+      "imgs": 1,
+      "textRuns": 9
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "quiz-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Loan-"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ready?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A quick Loan IQ check before you hit apply."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Paying more than the minimum due on your credit card helps reduce interest burden."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "No"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Yes"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Your credit score can increase even if your income stays the same."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "No"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Yes"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "3"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "If a loan app asks for access to your contacts to verify your identity, it’s safe to allow it."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "No"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Yes"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "A loan with a lower interest rate can still be more expensive than a loan with a higher interest rate."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "No"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Yes"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "5"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "If a friend or family member defaults on a loan you co-signed, your credit score stays unaffected."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "No"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Yes"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "OR"
+    },
+    {
+     "role": "eyebrow",
+     "order": 24,
+     "text": "No"
+    },
+    {
+     "role": "eyebrow",
+     "order": 25,
+     "text": "Yes"
+    }
+   ],
+   "imgCount": 17,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "quiz-result-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Great Start,"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "keep it up!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Take the next step towards your financial goals with Tata Capital."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Key Takeaways"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "loan-affordability-calculator-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Calculate your"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Loan Affordability"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Understand whether a new loan fits comfortably within your budget."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Your Current Finances"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "Step 1/2"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Your Current Finances"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Step 1/2"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Monthly Income"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "88,000"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "10,000"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "2,000,000"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "88,000"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "₹10,000"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "₹20,00,000"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Monthly Expenses"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "21,000"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "5,000"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "3,000,000"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "21,000"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "₹5,000"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "₹30,00,000"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Existing Loan EMIs"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Add another Loan"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Loan 1"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Type of loan"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Home Loan"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Business Loan"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Vehicle Loan"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Education Loan"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Loan Against Property"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Loan Against Securities"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Other Loans"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Monthly EMI"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "12,000"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "1,000"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "1,000,000"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "12,000"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "₹1,000"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "₹10,00,000"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Next"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "New Loan Details"
+    },
+    {
+     "role": "eyebrow",
+     "order": 49,
+     "text": "Step 2/2"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Type of loan"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Personal Loan"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Home Loan"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Business Loan"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Vehicle Loan"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Education Loan"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Loan Against Property"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Loan Against Securities"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Other Loans"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Loan Amount"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "300000"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "₹10,000"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "₹10,00,00,000"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Loan Duration"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "5"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Yr"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Mo"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "1 Year"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "30 Years"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Rate of Interest"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "12"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "4% p.a"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "29% p.a"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Monthly Income Breakdown"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Financial chart 1"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Created with Highcharts 9.0.1"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "New Loan EMI"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "₹8,000"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Total Monthly Income"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "₹88,000"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Monthly Expenses"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "₹21,000"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Existing EMI"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "₹12,000"
+    },
+    {
+     "role": "eyebrow",
+     "order": 85,
+     "text": "Upcoming Step:"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Enter your New Loan details to unlock:"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Estimated Monthly EMI"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Remaining Monthly Surplus"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Financial Risk Assessment"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Estimated Monthly Repayment"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "New EMI (Approx)"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "₹8,000"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "/month"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "You can comfortably afford this loan"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Your income comfortably covers all obligations with a healthy surplus remaining."
+    }
+   ],
+   "imgCount": 17,
+   "editableTexts": 31,
+   "repeats": [
+    {
+     "unitSelector": "DIV.loan-affordabilty-calculator-details",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 9
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.loan-affordabilty-calculator-details",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.loan-affordability-graph-bottom",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "loan-against-prop-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Does Your Lender Check"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "All The Boxes?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The right lender makes all the difference. Use this checklist to verify your lender,"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "spot red flags, and identify potential loan fraud before you borrow."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Lender Checklist"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Always check if the lender is registered with the RBI. If the lender is not on the official RBI list, do not proceed."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "RBI Registration -"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "A genuine lender has a secure (HTTPS) website and verified office address. Missing or unclear contact details are a major warning sign."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Official Website & Contact Details -"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Be cautious of instant approvals, no-documentation loans, or very low interest rates. Real lenders always conduct proper eligibility and credit checks."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Unrealistic Loan Promises -"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Legitimate lenders never ask for fees before loan approval. Any upfront payment request is a strong sign of fraud."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Upfront Payment Demand -"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Loan communication should come from official emails or verified accounts. Personal numbers or free email IDs usually indicate scams."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Communication from Official Channels -"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Fraudsters use urgency to force quick decisions. Genuine lenders give you time to review and decide."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Pressure to Act Immediately -"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Lenders do not need access to contacts, photos, or social media. If an app asks for intrusive permissions, uninstall it immediately."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Excessive Phone or App Permissions -"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Always check reviews on app stores and social platforms. Repeated complaints about fraud or harassment are a red flag."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Online Reviews & Complaints -"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "A valid loan must have a written agreement with all charges clearly stated. Never proceed if terms are unclear or undocumented."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Clear & Transparent Loan Agreement -"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Download loan apps only from official app stores. Avoid APK files, WhatsApp links, or unknown downloads."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Secure App or Website -"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Credible lenders usually have verified social media pages. No digital footprint or complaint channel calls for caution."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Verified Social Media Presence -"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "A sanction letter should clearly mention loan amount, interest, and charges. Refusal to share official documents is a serious warning."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Proper Sanction Letter -"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "No lender will ever ask for OTPs, PINs, or passwords. Sharing these details can lead to financial loss."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Confidential Banking Details -"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "A genuine lender provides a clear complaint and escalation process. Absence of a grievance mechanism means you should avoid the lender."
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Grievance Redressal System -"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Download",
+     "href": "/content/dam/tata-capital/csr/revisedchecklist.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 18,
+   "repeats": [
+    {
+     "unitSelector": "DIV.row-col-33",
+     "count": 14,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "financial-insights-wrap",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Read These Before You"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Read the Fine Print"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Previous"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "loan for home"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Tax Benefits on Second Home Loan: What You Can C laim & How ...",
+     "href": "https://www.tatacapital.com/blog/loan-for-home/tax-benefit-on-second-home-loan/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "28 October, 2026"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "loan for vehicle"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "How to Check RC (Registration Certificate) Statu s Online: Step-by-Step Guide ...",
+     "href": "https://www.tatacapital.com/blog/loan-for-vehicle/check-rc-status-online/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "28 October, 2026"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "credit score"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Equifax Credit Score: What It Means and How to C heck Yours for Free ...",
+     "href": "https://www.tatacapital.com/blog/credit-score/equifax-credit-score/"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "28 October, 2026"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "credit score"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Credit Utilisation Ratio: Meaning, Ideal Limit & amp; How to Improve It ...",
+     "href": "https://www.tatacapital.com/blog/credit-score/credit-utilisation-ratio/"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "28 October, 2026"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Next"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "2"
+    }
+   ],
+   "imgCount": 16,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

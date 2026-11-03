@@ -1,0 +1,29 @@
+{
+  "/sawaal-karo-phir-loan-lo-footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T15:30:44.240Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/sawaal-karo-phir-loan-lo-nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T15:52:21.016Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/sawaal-karo-phir-loan-lo": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T15:27:40.086Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

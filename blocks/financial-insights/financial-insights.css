@@ -1,0 +1,413 @@
+/* financial-insights — source financial-insights-wrap rules, scoped under the block.
+   Authored elements (heading, tag, title, date) are styled by element through generated
+   wrappers (EW2/EW3). */
+/* stylelint-disable selector-class-pattern, no-descending-specificity */
+
+.financial-insights .space-tb40 {
+  padding: 40px 0;
+}
+
+.financial-insights .financial-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.financial-insights .fi-head :is(h1, h2, h3) {
+  width: 100%;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.financial-insights .fi-head :is(h2, h3) strong {
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+/* slider */
+.financial-insights .slick-list {
+  position: relative;
+  overflow: hidden;
+}
+
+.financial-insights .slick-track {
+  display: flex;
+  align-items: stretch;
+}
+
+.financial-insights .is-static .slick-track {
+  justify-content: center;
+}
+
+.financial-insights .financial-insights-slider {
+  flex: 0 0 auto;
+  width: 33.333%;
+  padding: 0 12px;
+}
+
+.financial-insights .slick-dots {
+  display: none;
+  transform: translateY(-50px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.financial-insights .slider-dots .slick-dots {
+  display: block;
+}
+
+.financial-insights .slick-arrow[hidden] {
+  display: none;
+}
+
+/* card */
+.financial-insights .financial-insights-item {
+  position: relative;
+}
+
+.financial-insights .fi-thumbnail-img {
+  height: 212px;
+  width: 100%;
+}
+
+.financial-insights .fi-thumbnail-img :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.financial-insights .fi-thumbnail-img img {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.financial-insights .fi-overlay-card {
+  display: block;
+  width: calc(100% - 50px);
+  min-height: 178px;
+  padding: 25px 20px 56px 25px;
+  margin: 0 auto;
+  position: relative;
+  background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(255 255 255 / 94%) 0,
+    rgb(255 255 255 / 92%) 100%);
+  box-shadow: -5px 0 10px rgb(0 0 0 / 1%), 5px 0 10px rgb(0 0 0 / 1%), 0 -5px 10px rgb(0 0 0 / 1%),
+    0 5px 10px rgb(0 0 0 / 1%);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  transform: translateY(-60px);
+  transition: all .3s ease-in-out;
+}
+
+.financial-insights .fi-overlay-card:hover {
+  background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(18 104 179 / 86%) 0,
+    rgb(16 141 250 / 95%) 100%);
+  box-shadow: 0 45px 45px rgb(15 157 245 / 2%), 0 70px 42px rgb(15 157 245 / 7%),
+    0 31px 31px rgb(15 157 245 / 12%), 0 8px 17px rgb(15 157 245 / 14%);
+}
+
+.financial-insights .fi-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.financial-insights .fi-insight-tag {
+  padding: 4px 10px;
+  background: #f4faff;
+  border-radius: 5px;
+  color: #1268b3;
+  line-height: 1.3;
+  font-size: 14px;
+  font-family: var(--f-semi);
+  text-transform: capitalize;
+}
+
+.financial-insights .fi-insight-tag.is-empty {
+  visibility: hidden;
+}
+
+.financial-insights .fi-insight-tag p,
+.financial-insights .time-stamp p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.financial-insights .arrow-icon {
+  font-size: 10px;
+  color: #fff;
+  margin-right: 6px;
+  opacity: 0;
+}
+
+/* the source title link is inline: its margin never adds height */
+.financial-insights .fi-card-mid {
+  margin-bottom: 11px;
+  text-decoration: none;
+}
+
+.financial-insights .fi-card-mid :is(h2, h3, h4, h5, h6) {
+  font-family: var(--f-semi);
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: normal;
+  color: #333;
+}
+
+.financial-insights .fi-card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  padding: 0 25px;
+}
+
+.financial-insights .time-stamp {
+  font-family: var(--f-reg);
+  font-size: 12px;
+  line-height: 18px;
+  color: #8b8b8b;
+  width: calc(100% - 82px);
+  padding-right: 8px;
+}
+
+.financial-insights .financial-insights-item:hover .fi-overlay-card {
+  transform: translateY(-50%);
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+  cursor: pointer;
+}
+
+.financial-insights .financial-insights-item:hover .arrow-icon {
+  opacity: 1;
+}
+
+.financial-insights .financial-insights-item:hover .fi-card-mid :is(h2, h3, h4, h5, h6),
+.financial-insights .financial-insights-item:hover .time-stamp {
+  color: #fff;
+}
+
+/* share */
+.financial-insights .share-bundle {
+  position: relative;
+}
+
+.financial-insights .btn-white {
+  background: radial-gradient(48.39% 149.81% at 48.36% 50.79%, rgb(255 255 255 / 80%) 0,
+    rgb(255 255 255 / 67%) 100%, rgb(255 255 255 / 86%) 100%);
+  border-radius: 10px;
+  outline: 0;
+  padding: 10px;
+  font-family: var(--f-bold);
+  font-size: 12px;
+  line-height: 14px;
+  color: #333;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.financial-insights .btn-white span {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.financial-insights .share-bundle-menu {
+  padding: 10px 15px;
+  background: radial-gradient(48.39% 149.81% at 48.36% 50.79%, rgb(255 255 255 / 80%) 0,
+    rgb(255 255 255 / 67%) 100%, rgb(255 255 255 / 86%) 100%);
+  border-radius: 12px;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  border: 1px solid #fff;
+  display: none;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+
+.financial-insights .share-bundle-menu.active {
+  display: flex;
+}
+
+.financial-insights .share-bundle-menu .social-btn {
+  background-color: transparent;
+  height: 22px;
+  font-size: 12px;
+  line-height: 22px;
+  margin-right: 16px;
+  font-family: var(--f-reg);
+  border: 0;
+  outline: 0;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.financial-insights .share-bundle-menu .social-btn:last-child {
+  margin-right: 0;
+}
+
+.financial-insights .share-bundle-menu .social-btn .icon {
+  color: #333;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+@media (width <= 1199px) {
+  .financial-insights .fi-overlay-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 193px;
+  }
+
+  .financial-insights .fi-card-bottom {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+}
+
+@media (width <= 991px) {
+  .financial-insights .space-tb40 {
+    padding: 30px 0;
+  }
+
+  .financial-insights .fi-head :is(h1, h2, h3) {
+    margin-bottom: 30px;
+  }
+
+  .financial-insights .mob-px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .financial-insights .financial-insights-slider {
+    padding: 0 7px;
+  }
+
+  .financial-insights .fi-thumbnail-img {
+    height: 190px;
+  }
+
+  .financial-insights .fi-overlay-card {
+    width: calc(100% - 40px);
+    transform: translateY(-35px);
+    min-height: inherit;
+  }
+
+  .financial-insights .fi-overlay-card:hover {
+    box-shadow: none;
+  }
+
+  .financial-insights .financial-insights-item:hover .fi-overlay-card {
+    transform: translateY(-35px);
+  }
+
+  .financial-insights .fi-card-mid {
+    margin-bottom: 24px;
+  }
+
+  .financial-insights .fi-card-mid :is(h2, h3, h4, h5, h6) {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .financial-insights .fi-insight-tag {
+    line-height: 16px;
+    font-size: 12px;
+  }
+
+  .financial-insights .time-stamp {
+    font-size: 10px;
+  }
+
+  .financial-insights .btn-white {
+    font-family: var(--f-semi);
+  }
+
+  .financial-insights .share-bundle-menu {
+    top: calc(100% + 2px);
+  }
+
+  .financial-insights .slick-dots {
+    transform: translateY(-25px);
+  }
+}
+
+@media (width <= 767px) {
+  .financial-insights .space-tb40 {
+    padding: 25px 0;
+  }
+
+  .financial-insights .slick-list {
+    padding-left: 10px;
+  }
+
+  .financial-insights .slick-arrow {
+    display: none;
+  }
+
+  .financial-insights .share-bundle-menu .social-btn {
+    margin-right: 13px;
+  }
+}
+
+@media (width <= 359px) {
+  .financial-insights .fi-overlay-card {
+    width: calc(100% - 20px);
+  }
+
+  .financial-insights .share-bundle-menu .social-btn {
+    margin-right: 8px;
+  }
+}
+
+/* `home` variant (archetype-landing, additive): the home source spaces its slider 30px above
+   the next band and seats the dots inside the slider foot (index.css .js-fi-slider,
+   .financial-insights-slider-dots .slick-dots) */
+.financial-insights.home .js-fi-slider {
+  margin-bottom: 30px;
+}
+
+.financial-insights.home .slick-dots {
+  top: calc(100% - 25px);
+  bottom: auto;
+  transform: none;
+}
+
+@media (width <= 991px) {
+  .financial-insights.home .fi-overlay-card {
+    width: calc(100% - 50px);
+    padding: 25px 20px 56px 25px;
+    transform: translateY(-60px);
+    min-height: 178px;
+  }
+}
+
+/* clip variant (archetype-campaign): source truncated card titles */
+.financial-insights.clip .remaining-content {
+  display: none;
+}
+
+/* variant flush (program pages): the source band has no bottom padding */
+.financial-insights.flush .financial-insights-wrap {
+  padding-bottom: 0;
+}
+
+/* variant framed (cluster-program, home-loan blogs): the source slider is the positioning box
+   for its arrows and dots, 30px above the band foot */
+.financial-insights.framed .js-fi-slider {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* variant top-flush (cluster-campaign, CSR landing page): the source band is
+   `space-tb40 padding-top-0` */
+.financial-insights.top-flush .financial-insights-wrap {
+  padding-top: 0;
+}

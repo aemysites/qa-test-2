@@ -1,0 +1,345 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-02T10:45:29.805Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-02T10:45:29.805Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "experian-credit-score",
+    "calculator",
+    "sawaal-karo-phir-loan-lo",
+    "check-credit-score",
+    "home-loan-app",
+    "index",
+    "partners",
+    "personal-loan",
+    "privacy-commitment",
+    "home-loan"
+  ],
+  "steps": [
+    {
+      "slug": "experian-credit-score",
+      "path": "/experian-credit-score",
+      "templateId": "article",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "calculator",
+      "path": "/calculator",
+      "templateId": "calculator",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "np",
+          "edsBlockName": "np"
+        },
+        {
+          "id": "calculator-tab",
+          "edsBlockName": "calculator-tab"
+        },
+        {
+          "id": "financial-insights",
+          "edsBlockName": "financial-insights"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "sawaal-karo-phir-loan-lo",
+      "path": "/sawaal-karo-phir-loan-lo",
+      "templateId": "campaign",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "check-credit-score",
+      "path": "/check-credit-score",
+      "templateId": "check-credit-score",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "non-product-short-lead-form",
+          "edsBlockName": "non-product-short-lead-form"
+        },
+        {
+          "id": "banner-cntr-new",
+          "edsBlockName": "banner-cntr-new"
+        },
+        {
+          "id": "overviews-tab",
+          "edsBlockName": "overviews-tab"
+        },
+        {
+          "id": "personal-loan",
+          "edsBlockName": "personal-loan"
+        },
+        {
+          "id": "table",
+          "edsBlockName": "table"
+        },
+        {
+          "id": "emi-option",
+          "edsBlockName": "emi-option"
+        },
+        {
+          "id": "what-personal",
+          "edsBlockName": "what-personal"
+        },
+        {
+          "id": "how-apply",
+          "edsBlockName": "how-apply"
+        },
+        {
+          "id": "related-video",
+          "edsBlockName": "related-video"
+        },
+        {
+          "id": "faq",
+          "edsBlockName": "faq"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "np",
+          "edsBlockName": "np",
+          "convertedBy": "calculator"
+        },
+        {
+          "id": "financial-insights",
+          "edsBlockName": "financial-insights",
+          "convertedBy": "calculator"
+        }
+      ]
+    },
+    {
+      "slug": "home-loan-app",
+      "path": "/home-loan-app",
+      "templateId": "home-loan-app",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "reasons",
+          "edsBlockName": "reasons"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "np",
+          "edsBlockName": "np",
+          "convertedBy": "calculator"
+        },
+        {
+          "id": "banner-cntr-new",
+          "edsBlockName": "banner-cntr-new",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "overviews-tab",
+          "edsBlockName": "overviews-tab",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "personal-loan",
+          "edsBlockName": "personal-loan",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "faq",
+          "edsBlockName": "faq",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "financial-insights",
+          "edsBlockName": "financial-insights",
+          "convertedBy": "calculator"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "explore",
+          "edsBlockName": "explore"
+        },
+        {
+          "id": "instant-loan",
+          "edsBlockName": "instant-loan"
+        },
+        {
+          "id": "calculator",
+          "edsBlockName": "calculator"
+        },
+        {
+          "id": "ways-to-service",
+          "edsBlockName": "ways-to-service"
+        },
+        {
+          "id": "strip-section",
+          "edsBlockName": "strip-section"
+        },
+        {
+          "id": "communities",
+          "edsBlockName": "communities"
+        },
+        {
+          "id": "customer-say",
+          "edsBlockName": "customer-say"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "banner-cntr-new",
+          "edsBlockName": "banner-cntr-new",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "financial-insights",
+          "edsBlockName": "financial-insights",
+          "convertedBy": "calculator"
+        },
+        {
+          "id": "non-product-short-lead-form",
+          "edsBlockName": "non-product-short-lead-form",
+          "convertedBy": "check-credit-score"
+        }
+      ]
+    },
+    {
+      "slug": "partners",
+      "path": "/partners",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "personal-loan",
+      "path": "/personal-loan",
+      "templateId": "personal-loan",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "calc-banner",
+          "edsBlockName": "calc-banner"
+        },
+        {
+          "id": "cash-loans",
+          "edsBlockName": "cash-loans"
+        },
+        {
+          "id": "find-right-loan",
+          "edsBlockName": "find-right-loan"
+        },
+        {
+          "id": "instant-slider",
+          "edsBlockName": "instant-slider"
+        },
+        {
+          "id": "check-loan-eligibility",
+          "edsBlockName": "check-loan-eligibility"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "np",
+          "edsBlockName": "np",
+          "convertedBy": "calculator"
+        },
+        {
+          "id": "overviews-tab",
+          "edsBlockName": "overviews-tab",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "personal-loan",
+          "edsBlockName": "personal-loan",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "what-personal",
+          "edsBlockName": "what-personal",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "faq",
+          "edsBlockName": "faq",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "customer-say",
+          "edsBlockName": "customer-say",
+          "convertedBy": "index"
+        },
+        {
+          "id": "financial-insights",
+          "edsBlockName": "financial-insights",
+          "convertedBy": "calculator"
+        },
+        {
+          "id": "related-video",
+          "edsBlockName": "related-video",
+          "convertedBy": "check-credit-score"
+        }
+      ]
+    },
+    {
+      "slug": "privacy-commitment",
+      "path": "/privacy-commitment",
+      "templateId": "privacy-commitment",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "check-eligibility",
+          "edsBlockName": "check-eligibility"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "np",
+          "edsBlockName": "np",
+          "convertedBy": "calculator"
+        },
+        {
+          "id": "non-product-short-lead-form",
+          "edsBlockName": "non-product-short-lead-form",
+          "convertedBy": "check-credit-score"
+        },
+        {
+          "id": "personal-loan",
+          "edsBlockName": "personal-loan",
+          "convertedBy": "check-credit-score"
+        }
+      ]
+    },
+    {
+      "slug": "home-loan",
+      "path": "/home-loan",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    }
+  ]
+}

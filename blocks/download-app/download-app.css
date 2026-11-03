@@ -1,0 +1,277 @@
+/* download-app — source download-app-box / get-loans-box rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.download-app) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.download-app) .bg-div {
+  background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(255 255 255 / 88%) 0, rgb(255 255 255) 100%);
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+}
+
+:where(.download-app) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.download-app) .space-tb40 {
+  padding: 40px 0;
+}
+
+:where(.download-app) .space-tb40.space-b80 {
+  padding-bottom: 80px;
+}
+
+:where(.download-app) .steps-downloads-store {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+:where(.download-app) .steps-downloads-store a {
+  display: block;
+  width: 145px;
+  margin-left: 12px;
+}
+
+:where(.download-app) .steps-downloads-store a:first-child {
+  margin-left: 0;
+}
+
+@media (width <= 991px) {
+  :where(.download-app) .space-tb40 {
+    padding: 30px 0;
+  }
+
+  :where(.download-app) .space-tb40.space-b80 {
+    padding-bottom: 60px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.download-app) .space-tb40 {
+    padding: 25px 0;
+  }
+
+  :where(.download-app) .space-tb40.space-b80 {
+    padding-bottom: 50px;
+  }
+
+  :where(.download-app) .bg-div {
+    border-radius: 24px;
+  }
+
+  :where(.download-app) .container {
+    max-width: 100%;
+  }
+
+  :where(.download-app) .steps-downloads-store a {
+    width: 130px;
+  }
+}
+
+@media (width <= 359px) {
+  :where(.download-app) .steps-downloads-store a {
+    width: 105px;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.download-app) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.download-app) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.download-app) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.download-app) .get-loans-box {
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+  padding: 40px;
+  position: relative;
+  min-height: 342px;
+  margin-top: -40px;
+}
+
+:where(.download-app) .get-loans-box .get-loans-inner {
+  max-width: 566px;
+  position: relative;
+  z-index: 1;
+}
+
+:where(.download-app) .get-loans-box .get-loans-inner h2 {
+  margin-bottom: 12px;
+  color: rgb(255 255 255);
+}
+
+:where(.download-app) .get-loans-box .get-loans-inner p {
+  font-size: 17px;
+  line-height: 28px;
+  color: rgb(255 255 255);
+}
+
+:where(.download-app) .get-loans-box .get-loans-img {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+}
+
+:where(.download-app) .get-loans-box .gets-loans-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+:where(.download-app) .get-loans-box .gets-loans-row .get-loan-lefts {
+  width: 96px;
+}
+
+:where(.download-app) .get-loans-box .gets-loans-row .get-loan-center {
+  width: 63px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+:where(.download-app) .get-loans-box .gets-loans-row .get-loan-center::before,
+:where(.download-app) .get-loans-box .gets-loans-row .get-loan-center::after {
+  content: "";
+  width: 1px;
+  height: 31px;
+  background-color: rgb(255 255 255);
+  position: absolute;
+  left: 50%;
+}
+
+:where(.download-app) .get-loans-box .gets-loans-row .get-loan-center::before {
+  top: 0;
+}
+
+:where(.download-app) .get-loans-box .gets-loans-row .get-loan-center::after {
+  bottom: 0;
+}
+
+:where(.download-app) .get-loans-box .gets-loans-row .get-loan-right {
+  display: flex;
+  align-items: center;
+}
+
+:where(.download-app) .get-loans-box .gets-loans-row .ortext {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(255 255 255);
+  padding: 8px 0;
+  width: 15px;
+  margin: auto;
+}
+
+@media (width <= 1199px) {
+  :where(.download-app) .get-loans-box {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: initial;
+  }
+
+  :where(.download-app) .get-loans-box .get-loans-img {
+    max-width: 400px;
+  }
+}
+
+@media (width <= 991px) {
+  :where(.download-app) .get-loans-box {
+    padding: 30px 30px 0;
+    margin-top: -30px;
+  }
+
+  :where(.download-app) .get-loans-box .get-loans-img {
+    max-width: 400px;
+    position: static;
+    margin: auto;
+  }
+
+  :where(.download-app) .get-loans-box .get-loans-inner {
+    max-width: 100%;
+  }
+
+  :where(.download-app) .get-loans-box .gets-loans-row {
+    margin-bottom: 30px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.download-app) .get-loans-box {
+    padding: 24px 24px 0;
+  }
+
+  :where(.download-app) .get-loans-box .get-loans-img {
+    max-width: 280px;
+  }
+
+  :where(.download-app) .get-loans-box .get-loans-inner {
+    max-width: 100%;
+  }
+
+  :where(.download-app) .get-loans-box .get-loans-inner p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  :where(.download-app) .get-loans-box .gets-loans-row .get-loan-lefts {
+    width: 70px;
+  }
+
+  :where(.download-app) .get-loans-box .gets-loans-row .get-loan-center {
+    width: 40px;
+  }
+
+  :where(.download-app) .get-loans-box .gets-loans-row .get-loan-center::before,
+  :where(.download-app) .get-loans-box .gets-loans-row .get-loan-center::after {
+    height: 20px;
+  }
+}
+
+@media (width <= 479px) {
+  :where(.download-app) .get-loans-box .steps-downloads-store {
+    display: block;
+  }
+
+  :where(.download-app) .get-loans-box .steps-downloads-store a {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  :where(.download-app) .get-loans-box .steps-downloads-store a:first-child {
+    margin-top: 0;
+  }
+}
+
+/* EDS slotting: pictures, the divider paragraph, badge images */
+.download-app .get-loan-lefts picture,
+.download-app .get-loans-box > picture {
+  display: contents;
+}
+
+.download-app .get-loan-lefts img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.download-app .steps-downloads-store img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,92 @@
+{
+  "/personal-loan": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:30:38.952Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/calculator": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:30:55.369Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/check-credit-score": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:30:55.370Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/experian-credit-score": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:30:55.370Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/home-loan-app": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:30:55.370Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/home-loan": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:31:01.832Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:31:01.914Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/partners": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:31:02.304Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privacy-commitment": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:31:02.893Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/sawaal-karo-phir-loan-lo": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-02T17:31:07.909Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

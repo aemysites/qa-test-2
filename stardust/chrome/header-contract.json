@@ -1,0 +1,3278 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.tatacapital.com/",
+ "at": "2026-11-02T09:05:06.841Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "#container-7eb568edea>div>header",
+   "controls": [
+    {
+     "name": "Blogs",
+     "key": "blogs",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-7eb568edea>div>header>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>p:nth-of-type(1)>a",
+     "href": "https://www.tatacapital.com/blog/",
+     "expanded": null,
+     "rect": [
+      97,
+      9,
+      55,
+      14
+     ],
+     "actions": {}
+    },
+    {
+     "name": "SUPPORT",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-7eb568edea>div>header>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>p:nth-of-type(2)>a",
+     "href": "https://www.tatacapital.com/contact-us/retail-service-faqs.html",
+     "expanded": null,
+     "rect": [
+      161,
+      11,
+      65,
+      12
+     ],
+     "actions": {}
+    },
+    {
+     "name": "English हिन्दी বাংলা ગુજરાતી मराठी ಕನ್ನಡ తెలుగు தமிழ்",
+     "key": "english हनद বল ગજરત मरठ ಕನನಡ తలగ தமழ",
+     "role": "input",
+     "kind": "locale",
+     "sel": "#P9LngDdl",
+     "expanded": null,
+     "rect": [
+      235,
+      8,
+      67,
+      21
+     ],
+     "actions": {},
+     "search": {
+      "probe": "tata",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": null
+     }
+    },
+    {
+     "name": "Open navigation menu",
+     "key": "open navigation menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#container-7eb568edea>div>header>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(1)>div>div",
+     "expanded": "false",
+     "rect": [
+      37,
+      67,
+      22,
+      22
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Loans For You",
+          "href": "https://www.tatacapital.com/loans.html"
+         },
+         {
+          "text": "Loans for Business",
+          "href": "https://www.tatacapital.com/corporate.html"
+         },
+         {
+          "text": "Investment",
+          "href": "https://www.tatacapital.com/#"
+         },
+         {
+          "text": "Insurance",
+          "href": "https://www.tatacapital.com/insurance.html"
+         },
+         {
+          "text": "Apply",
+          "href": "https://www.tatacapital.com/#"
+         },
+         {
+          "text": "Quick Pay",
+          "href": "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Open navigation menu",
+         "Offers",
+         "Accessibility Widget"
+        ],
+        "options": 0,
+        "rect": [
+         8,
+         67,
+         367,
+         762
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "iamanimated",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.chatbot-open-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.second-sub-bar"
+        },
+        {
+         "kind": "transition",
+         "prop": "margin-top",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.mob-header"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.mob-header"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.third-sub-bar"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.first-sub-bar"
+        }
+       ],
+       "shot": "390-001-Open-navigation-menu-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Investment",
+       "key": "investment",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#container-14dde439e0>div>div>div>div>div>div>div:nth-of-type(3)>div:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        45,
+        260,
+        71,
+        18
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Apply",
+       "key": "apply",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#container-14dde439e0>div>div>div>div>div>div>div:nth-of-type(5)>div:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        45,
+        364,
+        35,
+        18
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Offers",
+       "key": "offers",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#container-14dde439e0>div>div>div>div>div>div>span",
+       "expanded": null,
+       "rect": [
+        15,
+        400,
+        360,
+        52
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://www.tatacapital.com/content/tata-capital-web/en/pre-approved-offers.html"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.tatacapital.com/content/tata-capital-web/en/pre-approved-offers.html"
+        }
+       }
+      },
+      {
+       "name": "Accessibility Widget",
+       "key": "accessibility widget",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#toggleButton>button",
+       "expanded": null,
+       "rect": [
+        8,
+        772,
+        56,
+        56
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "range"
+          ],
+          "buttons": [
+           "Reset"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           108,
+           390,
+           736
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-002-Accessibility-Widget-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "range"
+          ],
+          "buttons": [
+           "Reset"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           108,
+           390,
+           736
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [],
+         "shot": "390-003-Accessibility-Widget-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": true
+       },
+       "children": [
+        {
+         "name": "15",
+         "key": "15",
+         "role": "input",
+         "kind": "input",
+         "sel": "#bigTextRange",
+         "expanded": null,
+         "rect": [
+          32,
+          462,
+          326,
+          24
+         ],
+         "actions": {},
+         "search": {
+          "probe": "tata",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": null
+         }
+        },
+        {
+         "name": "Reset",
+         "key": "reset",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#bigTextRangeReset",
+         "expanded": null,
+         "rect": [
+          28,
+          496,
+          52,
+          29
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "header logo",
+     "key": "header logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#container-7eb568edea>div>header>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(1)>a",
+     "href": "https://www.tatacapital.com/",
+     "expanded": null,
+     "rect": [
+      37,
+      66,
+      110,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open Smart Search",
+     "key": "open smart search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#container-7eb568edea>div>header>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>button",
+     "expanded": null,
+     "rect": [
+      230,
+      63,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 4,
+       "panel": {
+        "links": [
+         {
+          "text": "Check Eligibility See how much amount you qualify for",
+          "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "EMI Calculator Estimate your monthly repayments",
+          "href": "https://www.tatacapital.com/emi-calculator.html?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "Apply for a Loan Start your application",
+          "href": "https://www.tatacapital.com/loans.html?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "Talk to an expert Get personalized guidance",
+          "href": "https://www.tatacapital.com/contact-us/retail-service-faqs.html?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "Compare Products Find the right options for you",
+          "href": "https://www.tatacapital.com/?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "Track Application Check your loan status",
+          "href": "https://www.tatacapital.com/online-tma/loans/tma/track-my-application?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch#!"
+         }
+        ],
+        "headings": [
+         "Quick actions"
+        ],
+        "images": 13,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Open navigation menu",
+         "Close search",
+         "Personal Loan",
+         "Home Loan",
+         "Business Loan",
+         "Accessibility Widget"
+        ],
+        "options": 0,
+        "rect": [
+         2,
+         31,
+         388,
+         813
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "sf-bs-lift-in",
+         "ms": 600,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sf-bs-container"
+        },
+        {
+         "kind": "animation",
+         "prop": "sf-bs-disc-pulse",
+         "ms": 2000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "img.sf-search-smarter-header__disc"
+        },
+        {
+         "kind": "animation",
+         "prop": "sf-bs-star-twinkle",
+         "ms": 2000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "img.sf-search-smarter-header__star"
+        },
+        {
+         "kind": "animation",
+         "prop": "iamanimated",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.chatbot-open-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.btn-blue"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "button.chatbot-open-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.btn-blue"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.btn"
+        }
+       ],
+       "shot": "390-004-Open-Smart-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 4,
+       "panel": {
+        "links": [
+         {
+          "text": "Check Eligibility See how much amount you qualify for",
+          "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "EMI Calculator Estimate your monthly repayments",
+          "href": "https://www.tatacapital.com/emi-calculator.html?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "Apply for a Loan Start your application",
+          "href": "https://www.tatacapital.com/loans.html?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "Talk to an expert Get personalized guidance",
+          "href": "https://www.tatacapital.com/contact-us/retail-service-faqs.html?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "Compare Products Find the right options for you",
+          "href": "https://www.tatacapital.com/?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch"
+         },
+         {
+          "text": "Track Application Check your loan status",
+          "href": "https://www.tatacapital.com/online-tma/loans/tma/track-my-application?sourceName=CTA_AISearch&subsource=CTA_AISearch_Chat&LEAD_SUB_SOURCE_1=CTA_AISearch#!"
+         }
+        ],
+        "headings": [
+         "Quick actions",
+         "People also ask"
+        ],
+        "images": 14,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Close search",
+         "Personal Loan",
+         "Home Loan",
+         "What is a Business Loan?",
+         "Why should I apply for a Tata Capital Business Loan?"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         31,
+         341,
+         813
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "sf-bs-lift-in",
+         "ms": 600,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sf-bs-container"
+        },
+        {
+         "kind": "animation",
+         "prop": "sf-bs-disc-pulse",
+         "ms": 2000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "img.sf-search-smarter-header__disc"
+        },
+        {
+         "kind": "animation",
+         "prop": "sf-bs-star-twinkle",
+         "ms": 2000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "img.sf-search-smarter-header__star"
+        },
+        {
+         "kind": "animation",
+         "prop": "iamanimated",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.chatbot-open-btn"
+        }
+       ],
+       "shot": "390-005-Open-Smart-Search-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Close search",
+       "key": "close search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        348,
+        38,
+        19,
+        19
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 25,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 3,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           47,
+           583,
+           296,
+           48
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "sf-bs-star-twinkle",
+           "ms": 2000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "img.sf-bs-search-star"
+          },
+          {
+           "kind": "animation",
+           "prop": "sf-bs-disc-pulse",
+           "ms": 2000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "img.sf-bs-search-disc"
+          }
+         ],
+         "shot": "390-006-Close-search-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 25,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 3,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           47,
+           583,
+           296,
+           48
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "sf-bs-disc-pulse",
+           "ms": 2000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "img.sf-bs-search-disc"
+          },
+          {
+           "kind": "animation",
+           "prop": "sf-bs-star-twinkle",
+           "ms": 2000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "img.sf-bs-search-star"
+          }
+         ],
+         "shot": "390-007-Close-search-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "Ask about loans, EMI, eligibility, investments...",
+       "key": "ask about loans emi eligibility investments",
+       "role": "input",
+       "kind": "input",
+       "sel": "#sf-banner-input",
+       "expanded": null,
+       "rect": [
+        46,
+        83,
+        257,
+        30
+       ],
+       "actions": {},
+       "search": {
+        "probe": "tata",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": null
+       }
+      },
+      {
+       "name": "Personal Loan",
+       "key": "personal loan",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>div>div>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        90,
+        129,
+        123,
+        34
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 27,
+         "panel": {
+          "links": [],
+          "headings": [
+           "Showing related results for you"
+          ],
+          "images": 7,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Close search",
+           "EN",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           12,
+           31,
+           366,
+           744
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "sf-chat-thinking-shimmer",
+           "ms": 1600,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.sf-chat-thinking-sheen"
+          }
+         ],
+         "shot": "390-008-Personal-Loan-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 27,
+         "panel": {
+          "links": [],
+          "headings": [
+           "Showing related results for you"
+          ],
+          "images": 7,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Close search",
+           "EN",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           12,
+           31,
+           366,
+           744
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "sf-chat-thinking-shimmer",
+           "ms": 1600,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.sf-chat-thinking-sheen"
+          }
+         ],
+         "shot": "390-009-Personal-Loan-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Close search",
+         "key": "close search",
+         "role": "toggle",
+         "kind": "search",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(1)>div>button",
+         "expanded": null,
+         "rect": [
+          338,
+          59,
+          16,
+          16
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 12,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 4,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "EN"
+            ],
+            "options": 0,
+            "rect": [
+             47,
+             583,
+             296,
+             48
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "sf-bs-disc-pulse",
+             "ms": 2000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "img.sf-bs-search-disc"
+            },
+            {
+             "kind": "animation",
+             "prop": "sf-bs-star-twinkle",
+             "ms": 2000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "img.sf-bs-search-star"
+            },
+            {
+             "kind": "animation",
+             "prop": "sf-bs-border-rotate",
+             "ms": 4000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "div.sf-bs-input-bar"
+            }
+           ],
+           "shot": "390-010-Close-search-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 12,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 4,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "EN"
+            ],
+            "options": 0,
+            "rect": [
+             47,
+             583,
+             296,
+             48
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": false,
+           "motion": [],
+           "shot": "390-011-Close-search-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": false,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "EN",
+           "key": "en",
+           "role": "toggle",
+           "kind": "locale",
+           "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div>div>div>div>div:nth-of-type(2)>div>button",
+           "expanded": "false",
+           "rect": [
+            292,
+            595,
+            42,
+            24
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 0,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [
+               "radio",
+               "radio"
+              ],
+              "buttons": [],
+              "options": 0,
+              "rect": [
+               194,
+               627,
+               140,
+               95
+              ]
+             },
+             "expanded": "true",
+             "focus": "trigger",
+             "scrollLock": false,
+             "motion": [],
+             "shot": "390-012-EN-click.png"
+            },
+            "key": {
+             "opened": true,
+             "hidden": 0,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [
+               "radio",
+               "radio"
+              ],
+              "buttons": [],
+              "options": 0,
+              "rect": [
+               194,
+               627,
+               140,
+               95
+              ]
+             },
+             "expanded": "true",
+             "focus": "trigger",
+             "scrollLock": false,
+             "motion": [],
+             "shot": "390-013-EN-key.png",
+             "tabReachesPanel": true
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": true,
+            "toggle": true
+           }
+          }
+         ]
+        },
+        {
+         "name": "Tell us more so we can guide you better...",
+         "key": "tell us more so we can guide you better",
+         "role": "input",
+         "kind": "input",
+         "sel": "#sf-chat-followup-input",
+         "expanded": null,
+         "rect": [
+          82,
+          660,
+          160,
+          30
+         ],
+         "actions": {},
+         "search": {
+          "probe": "tata",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": null
+         }
+        },
+        {
+         "name": "EN",
+         "key": "en",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>button",
+         "expanded": "false",
+         "rect": [
+          254,
+          663,
+          50,
+          24
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "Send message",
+         "key": "send message",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>button",
+         "expanded": null,
+         "rect": [
+          320,
+          659,
+          32,
+          32
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        }
+       ]
+      },
+      {
+       "name": "Home Loan",
+       "key": "home loan",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>div>div>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        203,
+        129,
+        105,
+        34
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 27,
+         "panel": {
+          "links": [],
+          "headings": [
+           "Showing related results for you"
+          ],
+          "images": 7,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Close search",
+           "EN",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           12,
+           31,
+           366,
+           744
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "sf-chat-thinking-shimmer",
+           "ms": 1600,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.sf-chat-thinking-sheen"
+          }
+         ],
+         "shot": "390-014-Home-Loan-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 27,
+         "panel": {
+          "links": [],
+          "headings": [
+           "Showing related results for you"
+          ],
+          "images": 7,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Close search",
+           "EN",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           12,
+           31,
+           366,
+           744
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "sf-chat-thinking-shimmer",
+           "ms": 1600,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.sf-chat-thinking-sheen"
+          }
+         ],
+         "shot": "390-015-Home-Loan-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Close search",
+         "key": "close search",
+         "role": "toggle",
+         "kind": "search",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(1)>div>button",
+         "expanded": null,
+         "rect": [
+          338,
+          59,
+          16,
+          16
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 12,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 4,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "EN"
+            ],
+            "options": 0,
+            "rect": [
+             47,
+             583,
+             296,
+             48
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": false,
+           "motion": [],
+           "shot": "390-016-Close-search-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 12,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 4,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "EN"
+            ],
+            "options": 0,
+            "rect": [
+             47,
+             583,
+             296,
+             48
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "sf-bs-disc-pulse",
+             "ms": 2000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "img.sf-bs-search-disc"
+            },
+            {
+             "kind": "animation",
+             "prop": "sf-bs-star-twinkle",
+             "ms": 2000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "img.sf-bs-search-star"
+            },
+            {
+             "kind": "animation",
+             "prop": "sf-bs-border-rotate",
+             "ms": 4000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "div.sf-bs-input-bar"
+            }
+           ],
+           "shot": "390-017-Close-search-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": false,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "EN",
+           "key": "en",
+           "role": "toggle",
+           "kind": "locale",
+           "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div>div>div>div>div:nth-of-type(2)>div>button",
+           "expanded": "false",
+           "rect": [
+            292,
+            595,
+            42,
+            24
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 0,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [
+               "radio",
+               "radio"
+              ],
+              "buttons": [],
+              "options": 0,
+              "rect": [
+               194,
+               627,
+               140,
+               95
+              ]
+             },
+             "expanded": "true",
+             "focus": "trigger",
+             "scrollLock": false,
+             "motion": [],
+             "shot": "390-018-EN-click.png"
+            },
+            "key": {
+             "opened": true,
+             "hidden": 0,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [
+               "radio",
+               "radio"
+              ],
+              "buttons": [],
+              "options": 0,
+              "rect": [
+               194,
+               627,
+               140,
+               95
+              ]
+             },
+             "expanded": "true",
+             "focus": "trigger",
+             "scrollLock": false,
+             "motion": [],
+             "shot": "390-019-EN-key.png",
+             "tabReachesPanel": true
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": true,
+            "toggle": true
+           }
+          }
+         ]
+        },
+        {
+         "name": "Tell us more so we can guide you better...",
+         "key": "tell us more so we can guide you better",
+         "role": "input",
+         "kind": "input",
+         "sel": "#sf-chat-followup-input",
+         "expanded": null,
+         "rect": [
+          82,
+          660,
+          160,
+          30
+         ],
+         "actions": {},
+         "search": {
+          "probe": "tata",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": null
+         }
+        },
+        {
+         "name": "EN",
+         "key": "en",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>button",
+         "expanded": "false",
+         "rect": [
+          254,
+          663,
+          50,
+          24
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "Send message",
+         "key": "send message",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>button",
+         "expanded": null,
+         "rect": [
+          320,
+          659,
+          32,
+          32
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        }
+       ]
+      },
+      {
+       "name": "Business Loan",
+       "key": "business loan",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>div>div>button:nth-of-type(3)",
+       "expanded": null,
+       "rect": [
+        297,
+        129,
+        124,
+        34
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 27,
+         "panel": {
+          "links": [],
+          "headings": [
+           "Showing related results for you"
+          ],
+          "images": 7,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Close search",
+           "EN",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           12,
+           31,
+           366,
+           744
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "sf-chat-thinking-shimmer",
+           "ms": 1600,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.sf-chat-thinking-sheen"
+          }
+         ],
+         "shot": "390-020-Business-Loan-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 27,
+         "panel": {
+          "links": [],
+          "headings": [
+           "Showing related results for you"
+          ],
+          "images": 7,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Close search",
+           "EN",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           12,
+           31,
+           366,
+           744
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "sf-chat-thinking-shimmer",
+           "ms": 1600,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.sf-chat-thinking-sheen"
+          }
+         ],
+         "shot": "390-021-Business-Loan-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Close search",
+         "key": "close search",
+         "role": "toggle",
+         "kind": "search",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(1)>div>button",
+         "expanded": null,
+         "rect": [
+          338,
+          59,
+          16,
+          16
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 12,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 4,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "EN"
+            ],
+            "options": 0,
+            "rect": [
+             47,
+             583,
+             296,
+             48
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "animation",
+             "prop": "sf-bs-disc-pulse",
+             "ms": 2000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "img.sf-bs-search-disc"
+            },
+            {
+             "kind": "animation",
+             "prop": "sf-bs-star-twinkle",
+             "ms": 2000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "img.sf-bs-search-star"
+            },
+            {
+             "kind": "animation",
+             "prop": "sf-bs-border-rotate",
+             "ms": 4000,
+             "delay": 0,
+             "easing": "linear",
+             "target": "div.sf-bs-input-bar"
+            }
+           ],
+           "shot": "390-022-Close-search-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 12,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 4,
+            "inputs": [
+             "text"
+            ],
+            "buttons": [
+             "EN"
+            ],
+            "options": 0,
+            "rect": [
+             47,
+             583,
+             296,
+             48
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": false,
+           "motion": [],
+           "shot": "390-023-Close-search-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": false,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "EN",
+           "key": "en",
+           "role": "toggle",
+           "kind": "locale",
+           "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div>div>div>div>div:nth-of-type(2)>div>button",
+           "expanded": "false",
+           "rect": [
+            292,
+            595,
+            42,
+            24
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 0,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [
+               "radio",
+               "radio"
+              ],
+              "buttons": [],
+              "options": 0,
+              "rect": [
+               194,
+               627,
+               140,
+               95
+              ]
+             },
+             "expanded": "true",
+             "focus": "trigger",
+             "scrollLock": false,
+             "motion": [],
+             "shot": "390-024-EN-click.png"
+            },
+            "key": {
+             "opened": true,
+             "hidden": 0,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [
+               "radio",
+               "radio"
+              ],
+              "buttons": [],
+              "options": 0,
+              "rect": [
+               194,
+               627,
+               140,
+               95
+              ]
+             },
+             "expanded": "true",
+             "focus": "trigger",
+             "scrollLock": false,
+             "motion": [],
+             "shot": "390-025-EN-key.png",
+             "tabReachesPanel": true
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": true,
+            "toggle": true
+           }
+          }
+         ]
+        },
+        {
+         "name": "Tell us more so we can guide you better...",
+         "key": "tell us more so we can guide you better",
+         "role": "input",
+         "kind": "input",
+         "sel": "#sf-chat-followup-input",
+         "expanded": null,
+         "rect": [
+          82,
+          660,
+          160,
+          30
+         ],
+         "actions": {},
+         "search": {
+          "probe": "tata",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": null
+         }
+        },
+        {
+         "name": "EN",
+         "key": "en",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>button",
+         "expanded": "false",
+         "rect": [
+          254,
+          663,
+          50,
+          24
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        },
+        {
+         "name": "Send message",
+         "key": "send message",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#customcontainer-99e40bfe7a>div>div>div>div>div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div:nth-of-type(2)>button",
+         "expanded": null,
+         "rect": [
+          320,
+          659,
+          32,
+          32
+         ],
+         "actions": {
+          "click": null,
+          "key": null
+         }
+        }
+       ]
+      },
+      {
+       "name": "Accessibility Widget",
+       "key": "accessibility widget",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#toggleButton>button",
+       "expanded": null,
+       "rect": [
+        2,
+        766,
+        67,
+        67
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "range"
+          ],
+          "buttons": [
+           "Reset"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           108,
+           390,
+           736
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-026-Accessibility-Widget-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "range"
+          ],
+          "buttons": [
+           "Reset"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           108,
+           390,
+           736
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-027-Accessibility-Widget-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "15",
+         "key": "15",
+         "role": "input",
+         "kind": "input",
+         "sel": "#bigTextRange",
+         "expanded": null,
+         "rect": [
+          32,
+          462,
+          326,
+          24
+         ],
+         "actions": {},
+         "search": {
+          "probe": "tata",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": null
+         }
+        },
+        {
+         "name": "Reset",
+         "key": "reset",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#bigTextRangeReset",
+         "expanded": null,
+         "rect": [
+          32,
+          498,
+          43,
+          24
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Why should I apply for a Tata Capital Business Loan?"
+            ],
+            "options": 0,
+            "rect": [
+             59,
+             805,
+             257,
+             39
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "font-size",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "button.btn-blue"
+            },
+            {
+             "kind": "transition",
+             "prop": "line-height",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "button.btn-blue"
+            },
+            {
+             "kind": "transition",
+             "prop": "font-size",
+             "ms": 200,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.btn-blue"
+            },
+            {
+             "kind": "transition",
+             "prop": "font-size",
+             "ms": null,
+             "delay": null,
+             "easing": null,
+             "target": "button.chatbot-open-btn"
+            },
+            {
+             "kind": "transition",
+             "prop": "font-size",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease",
+             "target": "a.btn"
+            }
+           ],
+           "shot": "390-028-Reset-click.png"
+          },
+          "key": null
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": false,
+          "toggle": true
+         },
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#container-7eb568edea>div>header>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>ul>li:nth-of-type(2)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      265,
+      68,
+      16,
+      17
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Download Moneyfy App",
+          "href": "https://play.google.com/store/apps/details?id=com.tatacapital.moneyfy&referrer=adjust_reftag%3DcKAEox8iQCo4D%26utm_source%3DTata%2BCapital%2BWebsite%2Bwidget"
+         },
+         {
+          "text": "Apply for Home Loan",
+          "href": "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!"
+         },
+         {
+          "text": "Apply Now",
+          "href": "https://www.tatacapital.com/apply-now-credit-card-lead-form.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         15,
+         126,
+         360,
+         354
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-029-toggle-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#updatesList>div>div",
+       "expanded": null,
+       "rect": [
+        331,
+        146,
+        14,
+        16
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Open navigation menu",
+           "Accessibility Widget"
+          ],
+          "options": 0,
+          "rect": [
+           2,
+           67,
+           67,
+           767
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 400,
+           "delay": 0,
+           "easing": "ease",
+           "target": "button"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.btn-blue"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "button.btn-blue"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.updates-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "button.chatbot-open-btn"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.btn"
+          }
+         ],
+         "shot": "390-030-toggle-click.png"
+        },
+        "key": null
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Accessibility Widget",
+         "key": "accessibility widget",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#toggleButton>button",
+         "expanded": null,
+         "rect": [
+          2,
+          766,
+          67,
+          67
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "range"
+            ],
+            "buttons": [
+             "Open navigation menu",
+             "Reset"
+            ],
+            "options": 0,
+            "rect": [
+             28,
+             67,
+             330,
+             458
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [],
+           "shot": "390-031-Accessibility-Widget-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "range"
+            ],
+            "buttons": [
+             "Reset"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             108,
+             390,
+             736
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [],
+           "shot": "390-032-Accessibility-Widget-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": true,
+          "outside": false,
+          "toggle": true
+         },
+         "children": [
+          {
+           "name": "15",
+           "key": "15",
+           "role": "input",
+           "kind": "input",
+           "sel": "#bigTextRange",
+           "expanded": null,
+           "rect": [
+            32,
+            462,
+            326,
+            24
+           ],
+           "actions": {},
+           "search": {
+            "probe": "tata",
+            "typeahead": {
+             "links": 0,
+             "options": 0
+            },
+            "submit": null
+           }
+          },
+          {
+           "name": "Reset",
+           "key": "reset",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#bigTextRangeReset",
+           "expanded": null,
+           "rect": [
+            32,
+            498,
+            43,
+            24
+           ],
+           "actions": {
+            "click": null,
+            "key": null
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#container-7eb568edea>div>header>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>ul>li:nth-of-type(3)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      301,
+      68,
+      16,
+      17
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Sign In"
+        ],
+        "options": 0,
+        "rect": [
+         15,
+         126,
+         360,
+         138
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-033-toggle-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Sign In",
+       "key": "sign in",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#js-google-signin",
+       "expanded": null,
+       "rect": [
+        35,
+        208,
+        320,
+        36
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Open navigation menu",
+           "Accessibility Widget"
+          ],
+          "options": 0,
+          "rect": [
+           8,
+           67,
+           56,
+           762
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "iamanimated",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "button.chatbot-open-btn"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "button.btn-blue"
+          },
+          {
+           "kind": "transition",
+           "prop": "box-shadow",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "button.btn-blue"
+          }
+         ],
+         "shot": "390-034-Sign-In-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Open navigation menu",
+           "Accessibility Widget"
+          ],
+          "options": 0,
+          "rect": [
+           8,
+           67,
+           56,
+           762
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "iamanimated",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "button.chatbot-open-btn"
+          }
+         ],
+         "shot": "390-035-Sign-In-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Accessibility Widget",
+         "key": "accessibility widget",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#toggleButton>button",
+         "expanded": null,
+         "rect": [
+          8,
+          772,
+          56,
+          56
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 2,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "range"
+            ],
+            "buttons": [
+             "Reset"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             108,
+             390,
+             736
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "background-color",
+             "ms": null,
+             "delay": null,
+             "easing": null,
+             "target": "button.btn-blue"
+            },
+            {
+             "kind": "transition",
+             "prop": "box-shadow",
+             "ms": null,
+             "delay": null,
+             "easing": null,
+             "target": "button.btn-blue"
+            }
+           ],
+           "shot": "390-036-Accessibility-Widget-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 2,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "range"
+            ],
+            "buttons": [
+             "Reset"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             108,
+             390,
+             736
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [],
+           "shot": "390-037-Accessibility-Widget-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": true,
+          "outside": false,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "15",
+           "key": "15",
+           "role": "input",
+           "kind": "input",
+           "sel": "#bigTextRange",
+           "expanded": null,
+           "rect": [
+            32,
+            462,
+            326,
+            24
+           ],
+           "actions": {},
+           "search": {
+            "probe": "tata",
+            "typeahead": {
+             "links": 0,
+             "options": 0
+            },
+            "submit": null
+           }
+          },
+          {
+           "name": "Reset",
+           "key": "reset",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#bigTextRangeReset",
+           "expanded": null,
+           "rect": [
+            28,
+            496,
+            52,
+            29
+           ],
+           "actions": {
+            "click": null,
+            "key": null
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#google-signin>div:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        305,
+        142,
+        40,
+        20
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Open navigation menu",
+           "Accessibility Widget"
+          ],
+          "options": 0,
+          "rect": [
+           2,
+           67,
+           67,
+           767
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "button.btn-blue"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.btn-blue"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 400,
+           "delay": 0,
+           "easing": "ease",
+           "target": "button"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.btn"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "button.chatbot-open-btn"
+          },
+          {
+           "kind": "animation",
+           "prop": "iamanimated",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "button.chatbot-open-btn"
+          }
+         ],
+         "shot": "390-038-toggle-click.png"
+        },
+        "key": null
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Accessibility Widget",
+         "key": "accessibility widget",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#toggleButton>button",
+         "expanded": null,
+         "rect": [
+          2,
+          766,
+          67,
+          67
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "range"
+            ],
+            "buttons": [
+             "Open navigation menu",
+             "Reset"
+            ],
+            "options": 0,
+            "rect": [
+             28,
+             67,
+             330,
+             458
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [],
+           "shot": "390-039-Accessibility-Widget-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 0,
+           "panel": {
+            "links": [],
+            "headings": [],
+            "images": 0,
+            "inputs": [
+             "range"
+            ],
+            "buttons": [
+             "Open navigation menu",
+             "Reset"
+            ],
+            "options": 0,
+            "rect": [
+             28,
+             67,
+             330,
+             458
+            ]
+           },
+           "expanded": null,
+           "focus": "trigger",
+           "scrollLock": false,
+           "motion": [],
+           "shot": "390-040-Accessibility-Widget-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": true,
+          "focusReturn": true,
+          "outside": false,
+          "toggle": true
+         },
+         "children": [
+          {
+           "name": "15",
+           "key": "15",
+           "role": "input",
+           "kind": "input",
+           "sel": "#bigTextRange",
+           "expanded": null,
+           "rect": [
+            32,
+            462,
+            326,
+            24
+           ],
+           "actions": {},
+           "search": {
+            "probe": "tata",
+            "typeahead": {
+             "links": 0,
+             "options": 0
+            },
+            "submit": null
+           }
+          },
+          {
+           "name": "Reset",
+           "key": "reset",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#bigTextRangeReset",
+           "expanded": null,
+           "rect": [
+            32,
+            498,
+            43,
+            24
+           ],
+           "actions": {
+            "click": null,
+            "key": null
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#container-7eb568edea>div>header>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>ul>li:nth-of-type(4)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      337,
+      69,
+      16,
+      17
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Retail Customer Login",
+          "href": "https://retailonline.tatacapital.com/"
+         },
+         {
+          "text": "Corporate Customer Login",
+          "href": "https://corporateservices.tatacapital.com/#/login"
+         },
+         {
+          "text": "Moneyfy",
+          "href": "https://www.tatacapitalmoneyfy.com/customer/login"
+         },
+         {
+          "text": "Motors Finance Login",
+          "href": "https://www.tatacapital.com/corporate/landing-page.html"
+         },
+         {
+          "text": "Wealth Management Services",
+          "href": "https://www.tatacapital.com/wealth.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         15,
+         126,
+         360,
+         274
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-041-toggle-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 119,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1008,
+     "top": -1008,
+     "height": 102,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 102,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 119,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 41,
+   "truncated": "depth 4 at Open Smart Search > Personal Loan > Close search > EN",
+   "loads": 175
+  },
+  "1440": {
+   "root": "#headerStactionEF",
+   "controls": [
+    {
+     "name": "Download Now",
+     "key": "download now",
+     "role": "link",
+     "kind": "link",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(1)>div>div>p>a",
+     "href": "https://play.google.com/store/apps/details?id=com.snapwork.tcl&hl=en_IN",
+     "expanded": null,
+     "rect": [
+      551,
+      17,
+      119,
+      16
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Apply Now",
+          "href": "https://www.tatacapital.com/online/loans/loan-against-property/apply-now-loan-against-property?subsource=hpBanner#!"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         88,
+         149,
+         1264,
+         340
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 400,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.slick-track"
+        }
+       ],
+       "shot": "1440-001-Download-Now-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": false,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Blogs",
+     "key": "blogs",
+     "role": "link",
+     "kind": "link",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>p:nth-of-type(1)>a",
+     "href": "https://www.tatacapital.com/blog/",
+     "expanded": null,
+     "rect": [
+      1061,
+      17,
+      61,
+      14
+     ],
+     "actions": {}
+    },
+    {
+     "name": "SUPPORT",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>p:nth-of-type(2)>a",
+     "href": "https://www.tatacapital.com/contact-us/retail-service-faqs.html",
+     "expanded": null,
+     "rect": [
+      1141,
+      17,
+      76,
+      14
+     ],
+     "actions": {}
+    },
+    {
+     "name": "English हिन्दी বাংলা ગુજરાતી मराठी ಕನ್ನಡ తెలుగు தமிழ்",
+     "key": "english हनद বল ગજરત मरठ ಕನನಡ తలగ தமழ",
+     "role": "input",
+     "kind": "locale",
+     "sel": "#P9LngDdl",
+     "expanded": null,
+     "rect": [
+      1236,
+      13,
+      75,
+      24
+     ],
+     "actions": {},
+     "search": {
+      "probe": "tata",
+      "typeahead": {
+       "links": 29,
+       "options": 0
+      },
+      "submit": null
+     }
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(1)>a",
+     "href": "https://www.tatacapital.com/",
+     "expanded": null,
+     "rect": [
+      100,
+      77,
+      163,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Loans for You",
+     "key": "loans for you",
+     "role": "link",
+     "kind": "link",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(2)>ul>li:nth-of-type(1)>a",
+     "href": "https://www.tatacapital.com/loans.html",
+     "expanded": null,
+     "rect": [
+      301,
+      77,
+      98,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Loans for Business",
+     "key": "loans for business",
+     "role": "link",
+     "kind": "link",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(2)>ul>li:nth-of-type(2)>a",
+     "href": "https://www.tatacapital.com/corporate.html",
+     "expanded": null,
+     "rect": [
+      419,
+      77,
+      129,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Investment",
+     "key": "investment",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(2)>ul>li:nth-of-type(3)>a",
+     "expanded": null,
+     "rect": [
+      568,
+      77,
+      83,
+      47
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Insurance",
+     "key": "insurance",
+     "role": "link",
+     "kind": "link",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(2)>ul>li:nth-of-type(5)>a",
+     "href": "https://www.tatacapital.com/insurance.html",
+     "expanded": null,
+     "rect": [
+      672,
+      77,
+      74,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Apply",
+     "key": "apply",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(2)>ul>li:nth-of-type(6)>a",
+     "expanded": null,
+     "rect": [
+      766,
+      77,
+      47,
+      47
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Offers",
+     "key": "offers",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(2)>ul>li:nth-of-type(7)>div",
+     "expanded": null,
+     "rect": [
+      833,
+      77,
+      39,
+      47
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Quick Pay",
+     "key": "quick pay",
+     "role": "link",
+     "kind": "link",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(2)>ul>li:nth-of-type(8)>a",
+     "href": "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html",
+     "expanded": null,
+     "rect": [
+      892,
+      77,
+      62,
+      47
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search...",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>ul>li:nth-of-type(1)>div>button",
+     "expanded": null,
+     "rect": [
+      1023,
+      68,
+      95,
+      35
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>ul>li:nth-of-type(2)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      1135,
+      75,
+      21,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>ul>li:nth-of-type(3)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      1180,
+      75,
+      21,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Login",
+     "key": "login",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "#headerStactionEF>header>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>ul>li:nth-of-type(4)>div:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      1213,
+      68,
+      111,
+      34
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 123,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 123,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 123,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 123,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 1,
+   "truncated": null,
+   "loads": 36
+  }
+ },
+ "probe": "tata"
+}

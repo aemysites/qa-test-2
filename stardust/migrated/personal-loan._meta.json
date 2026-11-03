@@ -1,0 +1,2095 @@
+{
+  "slug": "personal-loan",
+  "type": "program",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "np",
+    "calc-banner",
+    "overviews-tab",
+    "personal-loan",
+    "what-personal",
+    "cash-loans",
+    "find-right-loan",
+    "instant-slider",
+    "check-loan-eligibility",
+    "faq",
+    "customer-say",
+    "financial-insights",
+    "related-video"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "container",
+    "customcontainer",
+    "experiencefragment"
+  ],
+  "canonShas": {
+    "header": "329081c3c7f1",
+    "footer": "9571718422f9",
+    "css": "e9af4a6d8720"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Personal Loan Online – Instant Approval Up to ₹35 Lakh | Tata Capital",
+    "description": "Apply for instant personal loan up to ₹35L @10.99%* p.a. from Tata Capital. 100% paperless, low interest, flexible tenure, zero foreclosure. Check eligibility and apply online.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Personal Loan Online – Instant Approval Up to ₹35 Lakh | Tata Capital",
+    "description": "Apply for instant personal loan up to ₹35L @10.99%* p.a. from Tata Capital. 100% paperless, low interest, flexible tenure, zero foreclosure. Check eligibility and apply online.",
+    "url": "https://www.tatacapital.com/personal-loan.html"
+  },
+  "migratedAt": "2026-11-02T10:44:43Z",
+  "designMdSha": "04392099c935",
+  "designJsonSha": "380c30f45c8b",
+  "sourceCurrentSha": "182cf45477ff",
+  "sourceProposedSha": "f1f6d0c440eb",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 53,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.tatacapital.com/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/contact-us/retail-service-faqs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loans.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-securities.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/education-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tata-cards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/micro-finance-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/travel-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/marriage-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/home-renovation-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/document-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/rera.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/approved-housing-projects.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/home-extension-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/affordable-housing-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/pmay.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/quick-cash.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/self-construction.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/home-loan-balance-transfer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/top-up.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/pmay-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/balance-transfer-top-up-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/home-loan-eligibility-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/area-conversion-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/stamp-duty-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/loan-mitra.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/business-loans/home#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/hybrid-term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/machinery-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/msme-loan-sme-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/small-business-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/pre-payment-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/gst-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/foreclosure-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan/loan-on-car.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/car-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/marketplace/two-wheeler/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/used-car-loans/apply-now-used-car-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-securities.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-securities/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-securities/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/loan-against-property/apply-now-loan-against-property#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property/emi-option.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property/hybrid-term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/micro-loan-against-property.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/education-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/education-loan/apply-now-education-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/education-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/education-loan/document-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/education-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/micro-finance-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/micro-finance-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/micro-finance-loan/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/micro-finance-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/cleantech-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/structured-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/commercial-vehicle-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan/channel-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan/invoice-discounting.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan/purchase-order-funding.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan/working-capital-demand-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan/channel-finance/sub-dealer-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan/factoring.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan/reverse-factoring.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan/operating-expense-loan-for-transporters.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/cleantech-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/cleantech-finance/project-structured-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/cleantech-finance/debt-syndication.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/cleantech-finance/financial-advisory.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/cleantech-finance/cleantech-advisory.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/structured-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-securities.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/structured-products/structured-investments.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/structured-products/debt-syndication.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/structured-products/letter-of-credit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/structured-products/lease-rental-discounting.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/construction-equipment-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/new-commercial-vehicle-financing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/new-commercial-vehicle-financing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/used-commercial-vehicle-financing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/used-commercial-vehicle-financing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/commercial-vehicle-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth/request-callback.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth/calculators/financial-goal-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth/calculators/retirement-planning-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth/knowledge-centre/blogs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth/knowledge-centre/reports.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth/knowledge-centre/forms.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/health-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/wellness-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/protection-plans.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/car-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/used-car-loans/apply-now-used-car-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/business-loans/home#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/apply-now-credit-card-lead-form.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance/car-insurance/apply-now-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance/bike-insurance/apply-now-bike-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance/term-insurance/apply-now-protection-and-health-solution.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance/savings-and-investments/apply-now-traditional-life-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/health-insurance/medical-insurance/apply-now-medical-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/wellness-solutions/apply-now-for-wellness-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-home-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-travel-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/health-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/wellness-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/protection-plans.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/marketplace/two-wheeler/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/used-car-loans/apply-now-used-car-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/new-car-loan/apply-now-new-car-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/business-loans/home#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/loan-against-property/apply-now-loan-against-property#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/apply-now-credit-card-lead-form.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance/car-insurance/apply-now-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance/bike-insurance/apply-now-bike-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance/term-insurance/apply-now-protection-and-health-solution.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance/savings-and-investments/apply-now-traditional-life-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/health-insurance/medical-insurance/apply-now-medical-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/wellness-solutions/apply-now-for-wellness-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-home-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-travel-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/apply-now-credit-card-lead-form.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/landing-page.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loans.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/car-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-securities.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/education-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tata-cards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/micro-finance-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/cleantech-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/structured-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing/equipment-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/new-commercial-vehicle-financing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan/used-commercial-vehicle-financing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/commercial-vehicle-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/health-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/wellness-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/protection-plans.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/home-loans/apply-now-home-loan?sourceName=Website&cidparameter=#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/two-wheeler-loan/apply-now-two-wheeler-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/marketplace/two-wheeler/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/used-car-loans/apply-now-used-car-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/new-car-loan/apply-now-new-car-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/business-loans/home#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/apply-now-credit-card-lead-form.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance/car-insurance/apply-now-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/motor-insurance/bike-insurance/apply-now-bike-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance/term-insurance/apply-now-protection-and-health-solution.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/life-insurance/savings-and-investments/apply-now-traditional-life-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/health-insurance/medical-insurance/apply-now-medical-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/wellness-solutions/apply-now-for-wellness-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-home-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance/travel-and-home-insurance/apply-now-travel-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/wealth.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/payment/tcl-payments/#/pay-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/contact-us/customer-testimonials.html?activeProduct=Personal%20Loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/application-process.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/balance-transfer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/travel-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/marriage-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/home-renovation-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/small-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/application-process.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/balance-transfer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/travel-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/marriage-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/home-renovation-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/small-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/2-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/3-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/4-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/5-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/6-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/7-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/8-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/9-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/10-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/15-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/20-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/25-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/30-lakhs-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/marriage-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/travel-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/home-renovation-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-visakhapatnam.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-ahmedabad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-surat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-delhi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-bangalore.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-mumbai.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-hyderabad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-pune.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-chennai.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-gurgaon.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-kolkata.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-jaipur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-chandigarh.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-in-lucknow.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/pre-approved-offers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/online/loans/personal-loans/apply-now-personal-loan#!",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/whatsapp.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/contact-us/customer-testimonials.html?activeProduct=Personal%20Loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/blog/personal-use-loan/types-of-collateral-for-secured-personal-loan/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/blog/personal-use-loan/personal-loan-for-investment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/blog/personal-use-loan/personal-loan-festive-season/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/blog/personal-use-loan/types-of-unsecured-loans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/about-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/careers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/media-center.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/sustainability.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/contact-us/branch-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tchfl.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tsl.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/mastertc/retail.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/mastertc/retail/tcfsl-pre-31-december.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vendor-feedback.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/rate-history.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/ways-to-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/partners.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.tatacapital.com/tata-capital-api.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/sarfaesi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/customer-frequently-asked-questions-21-jan-2025-01.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/about-us/investor-information-and-financials.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tchfl/investor-relations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tcfsl/investor-relations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tccl/investor-relation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tmfl/investor-relation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-AuditCommitteeCharter.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-AffirmativeActionPolicy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-WhistleBlowerPolicy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-CodeofConductforNon-ExecutiveDirectors.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-RemunerationPolicy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-BoardDiversityPolicy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-CodeofCorporateDisclosurePracticesandPolicyondeterminationoflegitimatepurposeforcommunicationofUPSI.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL%20ABAC%20Policy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-VigilMechanism.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/tcl-csr-policy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/footer/TCL_Committees%27%20Composition.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/tcl-notice-of-hours-of-work-rest-interval-weekly-holiday.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-Fit%20and%20Proper%20policy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL%20-%20Policy%20for%20Appointment%20of%20Statutory%20Auditors.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL_RPTPolicy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL__Policyfordeterminingmaterialsubsidiaries.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/policy-on-archival-of-documents.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/investors-and-financial-reports/corporate-governance/Familiarisation%20Programme.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/Compensation%20Policy%20for%20KMPs%20and%20SM.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/tcl-internal-corporate-governance-guidelines-13-12-2023-v1.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/tcl-merged-customer-service-and-grievance-handling-revision-13-12-2023-v1.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/tcl-privacy-policy-aadhaar-v1.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/dividend-distribution-policy-13-12-2023-v1.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcfsl/regulatory-policies/Vendor%20termination%20list.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/policy-for-determining-interest-rates-processing-and-other-charges.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/examples-of-sma-npa-classification.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/list-of-recovery-agents-mfb.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/tcl-policy-specifying-the-process-to-be-followed-by-investors-for-claiming-t-v1-29-02-2024-circulated.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/policy-for-determining-materiality-of-information-for-disclosure-to-stock-exchanges.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/website-updation-31-july-2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCHFL_NHB_Registration_Certificate.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/KYC%20Guidelines.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/GSTdetails.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/CSR%20Policy-TCHFL.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/Draft_legal_disclaimer.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/List%20of%20Recovery%20Agents.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcfsl/regulatory-policies/RPT%20Policy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/tchfl_Privacy_Commitment.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tchfl/investor-relations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/Guidelines_on_CG.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/Anti%20Bribery%20and%20Anti%20Corruption%20Policy-TCHFL.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/TCHFL%20Committees%20Composition.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/TCL-WhistleBlowerPolicy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/TCHFL-Policy_on_Board_Diversity_and_Director_Attributes.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/TCHFL-Remuneration_Policy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/TCHFL-Form_MGT-9.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/TCHFL_-_Audit_Committee_Charter.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/Affirmative_Action_Policy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/Code_of_Conduct_for_Non-Executive_Directors.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/Code_of_Corporate_Disclosure_Practices_and_Policy_on_determination_of_legitimate_purpose.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/ChannelPartners.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tchfl/investor-information/general-information/VigilMechanismTCHFL.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/RestructuringPolicyforCOVID-19-relatedStressedAssetsorAdvances2.0.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/TCHFL%20-%20Policy%20for%20Appointment%20of%20Statutory%20Auditor.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/Examples_of_SMA_NPA_Classification_TCHFL.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/TCHFL%20-%20Familiarisation%20Programme%20for%20Independent%20Directors.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tchfl/partners.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/PolicyforuseofUnparliamentaryLanguagebyCustomers.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/TCHFL%20-%20Policy%20on%20Archival%20of%20Documents.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/policy-for-determining-interest-rates-processing-and-other-charges.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tchfl/tchfl-privacy-for-protecting-personal-data-of-aadhaar-number-holders.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/Compensation%20Policy%20for%20KMPs%20and%20SM.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/tchfl/release-of-property-documents-in-the-event-of-demise-of-property-owners.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tchfl/sarfaesi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/tcl/tchfl-policy-specifying-the-process-to-be-followed-by-investors-for-cl.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/mastertc/retail/tchfl-pre-31-december.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/mastertc/retail/tchfl.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/i-pmla-policy-jan-2022.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/ii-tax-policy-on-current-taxes-2022.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/iii-whistle-blower-policy-jan-2022.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/iv-cyber-security-policy-2022.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/v-conflict-o-interest-policy-january-2022.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/vi-outsourcing-policy.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/vii-surveilliance-policy-oct-2021.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/viii-abac-policy-jan-2022-clean.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital-web/tsl/ix-insider-trading-code-25.01.2022.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/hybrid-term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/marriage-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/loan-for-medical-emergency.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/travel-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/home-renovation-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-government-employees.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-salaried.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/personal-loan-for-women.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/small-personal-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/documents-required.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/application-process.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/balance-transfer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/quick-cash.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/home-extension-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/affordable-housing-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/pmay.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/rera.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/business-loan-for-women.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/machinery-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/msme-loan-sme-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/marketplace/two-wheeler/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-securities.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/tata-cards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/emergency-credit-line-guarantee-scheme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/micro-finance-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/education-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/working-capital-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/term-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/structured-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/equipment-finance-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/commercial-vehicle-loan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/construction-finance/construction-equipment-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/corporate/cleantech-finance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/pre-payment-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/eligibility-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/pmay-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/balance-transfer-top-up-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/home-loan-eligibility-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/area-conversion-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/stamp-duty-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/foreclosure-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/pre-payment-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/gst-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/apr-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/micro-finance-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan/emi-calculator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/personal-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/home-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/business-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-property/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/used-car-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/vehicle-loan/two-wheeler-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/loan-against-securities/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/rural-individual-loan/rates-and-charges.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/footer/Legal_disclaimer.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/footer/privacy-policy-v1-06-08-2024.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/tata-capital/pdf/footer/Fraud%20Advisory.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tatacapital.com/site-map.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "personal-loan.html",
+  "outputPathDefault": null,
+  "sidecar": "personal-loan._meta.json",
+  "driverVersion": "1"
+}

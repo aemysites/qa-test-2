@@ -1,0 +1,16 @@
+# Canon notes (home archetype)
+
+Shared files: `stardust/prototypes/css/canon.css` (fonts → `../fonts/`, tokens, base type, buttons, slider dots/arrows, form fields, full icomoon glyph map, HEADER, FOOTER, newsletter, short-lead-form, sticky actions, chat + a11y triggers), `stardust/prototypes/js/canon.js` (header affix, mega menus, header dropdowns, mobile drawer, footer tabs/accordions, lazy `data-src` loader, short-lead-form UI validation), `stardust/prototypes/fonts/*`, `stardust/prototypes/media/*`. Home-only: `css/index.css`, `js/index.js`.
+
+Reuse decisions for later archetypes:
+- Header markup: `<header class="header-section" id="headerStactionEF" role="banner">` > `.header-inner` > `.header-top` + `.header-navbar` (logo, `ul.header-menu` with `.mega` panels, `ul.login-search-menu`), plus `.mob-drawer` (mobile menu). Affix: `.header-inner.affix` once scrollY >= `.header-top` height (lifted from source `header_fixed()`), header padding-top = navbar + top height.
+- Footer: `<footer class="footer" role="contentinfo">` with top links, subsidiaries, three policy groups (desktop tabs + `.tab-accordian` mobile titles + hidden `.tab-panel`), follow box, copyright. Footer logos/social icons use `src=media/src-validator.png data-src=…` exactly like the live lazy loader (content-diff parity).
+- Content root: wrap main in `<main id="main-content">`; gate with `--main "#main-content" --dismiss "#beware-modal .popover-modal-close"`.
+- content-diff counts hidden DOM: every hidden tab panel/modal must exist (generator `stardust/.work/tools/build_index.py` `faithful()`); live `<a href="javascript:void(0)">` controls must stay links, live `<div>` controls (Offers, Login) stay divs.
+- 360 live captures render lazy-loaded sections unstyled (see progress residuals).
+
+# Non-home archetypes (personal-loan, check-credit-score, home-loan-app, calculator, privacy-commitment)
+- Generator: `stardust/.work/tools/build_page.py <slug> '<root>'` reuses build_index.py header()/footer()/floating() (canon chrome) and re-serialises the captured content root (AEM aem-Grid classes stripped, scripts/data-*/handlers/slick clones dropped, inline style reduced to display/visibility/background-image + slick-* state). CSS: `lift_css.mjs` keeps only source rules whose every class/id occurs in the recreated main (chrome stays in canon.css); then appends `fix/_shared.css` (mobile one-card slider emulation, slick arrows hidden, main overflow-x clip) and `fix/<slug>.css`. Media: `dl_media.py <slug>` → prototypes/media/<slug>/.
+- Content roots: only personal-loan has `#main-content`; others use the AEM content container id (check-credit-score `#container-1c14734b62`, home-loan-app `#container-3c7d84fc08`, calculator `#container-913ae61886`, privacy-commitment `#container-4e092f5633`) — the prototype's `<main>` carries the same id.
+- Generator lessons (apply before regenerating CCS/HLA/personal-loan, which were gated with the earlier version): keep classless `<div>`s (they are flex children — unwrapping broke calculator cards), keep the `responsivegrid` class (resets `.container` padding on AEM wrappers), keep inline `display:` (FAQ load-more rows are shown via inline display:block).
+- Live 360 captures: lazy sections render unstyled/stacked and source JS slicks desktop flex rows into carousels; canon.css untouched by these archetypes.

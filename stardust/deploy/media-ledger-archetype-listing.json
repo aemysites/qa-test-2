@@ -1,0 +1,26 @@
+{
+  "media/calculator/2.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/2.jpg",
+    "size": 107042,
+    "sha256": "9bf2531fe2781a15c3d32fefff69da70aa0d117a1899a1443a144300797db2ca",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/290ff49a/media/calculator/2.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-02T11:30:32.361Z"
+  },
+  "media/calculator/3.webp": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/archetype-listing/media/3.webp",
+    "size": 39240,
+    "sha256": "908e74c373fbb8c23fcffaa4b1d6686a5d44b39306e4c34988dac71d2da439a0",
+    "contentType": "image/webp",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/290ff49a/media/calculator/3.webp",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-02T11:30:33.023Z"
+  }
+}

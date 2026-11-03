@@ -1,0 +1,239 @@
+/* reasons — source why-to-choose-us / reasons-box rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.reasons) .icon-flexi-rupee::before {
+  content: "\ea42";
+}
+
+:where(.reasons) .icon-dynamic-loan::before {
+  content: "\e96e";
+}
+
+:where(.reasons) .icon-monthly-income::before {
+  content: "\e9cd";
+}
+
+:where(.reasons) .icon-quick-processing::before {
+  content: "\e9f1";
+}
+
+:where(.reasons) .icon-ROI::before {
+  content: "\e9fd";
+}
+
+:where(.reasons) .icon-work-experience::before {
+  content: "\ea26";
+}
+
+:where(.reasons) .text-center {
+  text-align: center !important;
+}
+
+:where(.reasons) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.reasons) .mg-b15 {
+  margin-bottom: 15px !important;
+}
+
+:where(.reasons) .heading36 {
+  font-family: var(--f-reg);
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: rgb(0 0 0);
+}
+
+:where(.reasons) .heading36 span {
+  font-family: var(--f-bold);
+}
+
+:where(.reasons) .heading20 {
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(51 51 51);
+  letter-spacing: normal;
+}
+
+:where(.reasons) .all-icon {
+  width: 47px;
+  min-width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: rgb(178 135 212);
+  font-size: 20px;
+  color: rgb(255 255 255);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+:where(.reasons) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.reasons) .space-tb40 {
+  padding: 40px 0;
+}
+
+@media (width <= 991px) {
+  :where(.reasons) .heading36 {
+    font-size: 30px;
+  }
+
+  :where(.reasons) .space-tb40 {
+    padding: 30px 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.reasons) .space-tb40 {
+    padding: 25px 0;
+  }
+
+  :where(.reasons) .all-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    font-size: 19px;
+  }
+
+  :where(.reasons) .container {
+    max-width: 100%;
+  }
+
+  :where(.reasons) .heading36 {
+    font-size: 22px;
+  }
+
+  :where(.reasons) .heading20 {
+    font-size: 16px;
+    line-height: 130%;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.reasons) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.reasons) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.reasons) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.reasons) .heading20 {
+  letter-spacing: normal;
+}
+
+:where(.reasons) .reasons-box .reasons-list .reasons-col {
+  position: relative;
+  padding-left: 67px;
+  min-height: 47px;
+}
+
+:where(.reasons) .reasons-box .reasons-list .reasons-col .reasons-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+:where(.reasons) .reasons-box .reasons-list .reasons-col .reasons-icon .all-icon {
+  background-color: rgb(178 135 212);
+}
+
+:where(.reasons) .reasons-box .reasons-list .reasons-col .heading20 {
+  margin-bottom: 12px;
+}
+
+:where(.reasons) .reasons-box .reasons-list .reasons-col p {
+  color: rgb(79 79 79);
+  letter-spacing: 0.02em;
+}
+
+@media (width <= 767px) {
+  :where(.reasons) .reasons-box .reasons-list .reasons-col {
+    padding-left: 50px;
+    min-height: 40px;
+  }
+
+  :where(.reasons) .reasons-box .reasons-list .reasons-col p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+:where(.reasons) .reasons-box .reasons-list .reasons-list-container .why-to-choose-us-reasonlist:first-child {
+  margin-top: 0;
+}
+
+:where(.reasons) .reasons-box .reasons-list .reasons-list-container .why-to-choose-us-reasonlist {
+  margin-top: 20px;
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 67%) 99.11%);
+  backdrop-filter: blur(9px);
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+:where(.reasons) .why-to-choose-us-reasonlist.teaser h3 {
+  font-family: var(--f-semi);
+}
+
+/* EDS slotting: authored <h2> tail; <li> teasers inside the source <ul> wrapper */
+.reasons .heading36 strong {
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+.reasons .reasons-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reasons .reasons-list li {
+  list-style: none;
+}
+
+/* spaced variant: the source intro ends in `<br>&nbsp;` (one blank line) the pipeline drops */
+.reasons.spaced .tc-rte p:last-child::after {
+  content: "";
+  display: block;
+  height: 1lh;
+}
+
+/* footnote variant (cluster-program, home-loan features): source `.text > .cmp-text p` under
+   the cards, opening with a <br> blank line */
+.reasons.footnote .reasons-list-container > .text p {
+  margin: 0;
+  padding-top: 21.6px;
+  font-size: 15px;
+  line-height: 21.6px;
+  color: rgb(51 51 51);
+}
+
+/* csr variant (cluster-campaign, CSR landing statement band): source `padding-bottom-0` and
+   the `mg-b25` head container (classes set by the block JS) */
+.reasons.csr .reasons-box.padding-bottom-0 {
+  padding-bottom: 0;
+}
+
+.reasons.csr .cmp-container.mg-b25 {
+  margin-bottom: 25px;
+}

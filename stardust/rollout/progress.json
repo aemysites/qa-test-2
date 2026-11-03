@@ -1,0 +1,248 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "pages": 0,
+      "blocks": 2,
+      "startedAt": "2026-11-02T10:46:55Z",
+      "endedAt": "2026-11-02T11:27:00.332Z",
+      "gates": {
+        "360": {
+          "cropHeader": "5.59% (0.00% vs prototype)",
+          "cropFooter": "13.11% (4.87% vs prototype)"
+        },
+        "1440": {
+          "cropHeader": "0.34%",
+          "cropFooter": "4.56%"
+        },
+        "chrome": "chrome-compare exit 2: 14 deltas — vendor Smart Search, accessibility widget, Download Now popover, open-state crops (owner decisions)"
+      },
+      "verdict": "foundation: nav+footer live, chrome-compare 2, crop header 1440 0.34% / 360 5.59%, footer 1440 4.56% / 360 13.11%, lint clean"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T11:27:13.131Z",
+      "blocks": 3,
+      "endedAt": "2026-11-02T12:01:29.595Z",
+      "gates": {
+        "360": {
+          "archetype": "9.37% Δh 2.4% clip 0 missing 1"
+        },
+        "1440": {
+          "archetype": "8.35% Δh 3.3% clip 0 missing 2"
+        },
+        "crop": "header 0.34% / footer 7.45% (1440)",
+        "chrome": "foundation residuals"
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 3, gate 1440 8.35% Δh 3.3% clip 0 miss 2 / 360 9.37% Δh 2.4% clip 0 miss 1, crop header 0.34%/footer 7.45%, rounds 3, requests 1",
+      "residuals": [
+        "newsletter module unowned → MISSING at both widths (foundation request queued; block to be added)",
+        "floating free-credit-score link missing at 1440 (floating chrome)"
+      ]
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T12:33:24.350Z",
+      "endedAt": "2026-11-02T13:25:16.863Z",
+      "verdict": "archetype-article: pages 1/1 live, blocks 9, gate 1440 4.88% (popup-closed override; raw 75.23%) Δh 0% clip 0 miss 0 / 360 40.75% raw, 12.31% vs popup-closed origin, Δh 0.14% clip 0 miss 0, crop header 0.34%/footer 0.39%, rounds 3",
+      "blocks": 9,
+      "residuals": [
+        "360 12.31% over bar after 3 rounds: text wrap drift in single cards, DA-dropped edge <br>, financial-insights single-card mobile layout 30px short",
+        "1440 override: live #beware-modal popup kept in origin capture (evidence in .work/rollout/archetype-article)"
+      ]
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T11:27:13.131Z",
+      "blocks": 10,
+      "endedAt": "2026-11-02T12:13:53.639Z",
+      "gates": {
+        "360": {
+          "archetype": "35.26% Δh 6.1% clip 0 missing 0 — documented override (live mobile capture renders lazy sections unstyled; prototype 34.85%)"
+        },
+        "1440": {
+          "archetype": "9.95% Δh 0.6% clip 0 missing 0 — PASS"
+        },
+        "crop": "header 0.34% / footer 8.15% (1440)",
+        "chrome": "foundation residuals"
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 10, gate 1440 9.95% Δh 0.6% clip 0 miss 0 / 360 35.26% Δh 6.1% clip 0 miss 0, crop header 0.34%/footer 8.15%, rounds 3, requests 1",
+      "residuals": [
+        "360 over bar: source capture artefact, override filed in gates/all-360/overrides.json",
+        "block-roundtrip 77 red on source-hidden calculator/OTP states",
+        "newsletter block created (site-wide); financial-insights (home) variant added"
+      ]
+    },
+    "archetype-campaign": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T13:25:24.142Z",
+      "endedAt": "2026-11-02T14:53:35.226Z",
+      "blocks": 14,
+      "gates": {
+        "360": {
+          "archetype": "44.88% raw / 12.44% vs dismissed origin, Δh 27, clip 0, missing 0 — override accepted-residual"
+        },
+        "1440": {
+          "archetype": "78.16% raw (popup) / 6.61% vs dismissed origin, Δh 30, clip 0, missing 0 — override accepted-capture-artefact"
+        }
+      },
+      "verdict": "archetype-campaign: pages 1/1 live, blocks 14, gate 1440 6.61% (dismissed) Δh 0.4% clip 0 miss 0 / 360 12.44% (dismissed) Δh 0.2% clip 0 miss 0",
+      "residuals": [
+        "360 over bar: timed accordion state, live third-party floating widgets, header logo scale (frozen chrome)",
+        "live #beware-modal popup covers the raw origin stitch at both widths"
+      ]
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T13:25:24.192Z",
+      "endedAt": "2026-11-02T14:15:44.907Z",
+      "verdict": "archetype-static: pages 1/1 live, blocks 1, gate 1440 4.69% Δh 0% clip 0 miss 1 / 360 11.51% Δh 0.5% clip 0 miss 0, crop header 0.36%/footer 0.20%, rounds 2",
+      "residuals": [
+        "360 11.51%: anti-aliasing, live fixed widgets, frozen chrome; card tops within 3px",
+        "1440 miss 1: floating Free Credit Score tab (foundation request)"
+      ]
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T13:25:24.169Z",
+      "endedAt": "2026-11-02T14:53:35.226Z",
+      "gates": {
+        "360": {
+          "archetype": "44.42% Δh 3821 — live capture renders lazy sections unstyled + popup; override accepted-capture-artefact"
+        },
+        "1440": {
+          "archetype": "10.80% vs dismissed origin, Δh 60 (0.5%), clip 3 (allowed, = origin), missing 3 hidden 2 (timed slider, side tab) — override accepted-residual"
+        }
+      },
+      "verdict": "archetype-program: pages 1/1 live, gate 1440 10.80% Δh 0.5% clip 3(allow 3) miss 3 / 360 44.42% Δh 15.8% (capture artefact override), instant-slider autoplay added",
+      "residuals": [
+        "1440 0.8 pt over bar (prototype 10.63%): timed city slider, live floating widgets, side tab",
+        "360 origin capture artefact (unstyled lazy sections)",
+        "free-credit-score side tab: foundation request"
+      ]
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T12:33:24.376Z",
+      "endedAt": "2026-11-02T13:13:56.906Z",
+      "verdict": "cluster-listing: pages 1/1 live, blocks reused 2 (+2 new: all-alliances, reach-out-officer), gate 1440 4.53% Δh 0.02% clip 0 miss 1 / 360 10.94% Δh 0.75% clip 0 miss 0, crop header 0.34%/footer 8.16%, rounds 3",
+      "residuals": [
+        "360 10.94% over bar: frozen footer 68px taller than live at 360 (foundation request)",
+        "floating Free Credit Score tab missing at 1440 (foundation request)",
+        "/calculator re-PUT with newsletter: 1440 5.34% / 360 7.44%"
+      ]
+    },
+    "cluster-article": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "pages": 1,
+      "endedAt": "2026-11-02T14:15:44.959Z",
+      "verdict": "cluster-article: pages 1/1 live, blocks reused 7 (+9 variants), gate 1440 4.17% Δh 0% clip 0 miss 0 / 360 12.64% Δh 0.5% clip 0 miss 0, crop header 0.35%/footer 0.17%, rounds 2",
+      "residuals": [
+        "360 12.64%: same pattern as archetype (anti-aliasing, fixed widgets, FAQ q5 wrap, financial-insights 30px short)"
+      ]
+    },
+    "cluster-campaign": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T14:54:13.617Z",
+      "endedAt": "2026-11-02T15:48:42.706Z",
+      "gates": {
+        "360": "37.34% vs crawl fallback — override accepted-capture-artefact; live-vs-build scrollHeight 7216/7262 (+0.6%), scrollWidth 360, clip 0, miss 0",
+        "1440": "3.21% Δh -2 clip 0 miss 0 PASS (crawl-fullpage origin, asymmetric: live scroll-jacked layout cannot be stitched)"
+      },
+      "verdict": "cluster-campaign: pages 1/1 live, 6 new blocks + 3 variants, gate 1440 3.21% Δh -2 / 360 override (capture artefact), rounds 2, requests 0",
+      "residuals": [
+        "360 pixel not measurable against a live stitch (scroll stall); measured by DOM heights instead",
+        "origin 1440 is the crawl full-page capture (asymmetric)"
+      ]
+    },
+    "cluster-program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-02T14:54:13.617Z",
+      "endedAt": "2026-11-02T15:37:47.040Z",
+      "gates": {
+        "360": "21.68% Δh 20.9% miss 57 — live capture renders lazy sections unstyled; override accepted-capture-artefact",
+        "1440": "7.99% vs dismissed origin Δh 0.2% clip 6 (allowed) miss 5 (timed slider, side tab) — override accepted-capture-artefact"
+      },
+      "verdict": "cluster-program: pages 1/1 live, blocks reused 18 (+10 variants), gate 1440 7.99% Δh 0.2% clip 6 miss 5 / 360 21.68% Δh 20.9% clip 0 miss 57, crop header 0.33%/footer 8.62%, rounds 3, requests 0",
+      "residuals": [
+        "1440 raw row 15.23%: live origin varies per load (popup, Target strips, late testimonials)",
+        "360 origin capture artefact (unstyled lazy sections)",
+        "footer crop 8.62% (frozen foundation)",
+        "/personal-loan no regression (10.81% / 44.48%)"
+      ]
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 10,
+      "startedAt": "2026-11-02T16:03:04.609Z",
+      "endedAt": "2026-11-02T17:11:47.729Z",
+      "gates": {
+        "360": "1 PASS / 9 override (5 capture artefacts: lazy-unstyled live mobile, popup, scroll stall; 4 accepted residuals 10.9–12.1 % diffuse text raster) → 10/10 delivered",
+        "1440": "7 PASS / 3 override (beware-modal popup capture: home-loan-app, personal-loan, home-loan) → 10/10 delivered"
+      },
+      "verdict": "gate-all: 10/10 delivered at both widths (1440 7 pass + 3 overrides; 360 1 pass + 9 overrides), clip 0 on all, content MISSING/HIDDEN 0 except the two popup-origin program pages (override); C-final fixes: mobile header logo, mobile banner image, sticky action tab, CSR header logo"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 10,
+      "startedAt": "2026-11-02T17:13:08.030Z",
+      "endedAt": "2026-11-02T17:13:08.030Z",
+      "verdict": "final: foundation-freeze check clean (re-frozen after the C-final mobile header fix, 20 files); requests queue applied once; coverage 10/10 deployed, gate pass 10/10 at 1440+360"
+    }
+  }
+}

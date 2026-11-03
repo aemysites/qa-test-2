@@ -1,0 +1,1409 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 10,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.tatacapital.com/content/dam/tata-capital/images/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 10,
+    "pagesWithSameSiteData": 10,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 10,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/api/master/web/api/mdm/export/mitc-pdfs.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/api/master/web/api/mdm/export/mitc-pdfs.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://edge.adobedc.net/ee/or2/v1/interact",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "smart-search.senseforth.com",
+        "path": "/PROD/CX-TCSmartSearch/getUniqueId",
+        "query": [
+          "source",
+          "time"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://smart-search.senseforth.com/PROD/CX-TCSmartSearch/getUniqueId",
+        "pages": 9,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "smart-search.senseforth.com",
+        "path": "/PROD/CX-TCSmartSearch/logout",
+        "query": [
+          "apiuser",
+          "clearSession",
+          "location",
+          "nb_status",
+          "source"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://smart-search.senseforth.com/PROD/CX-TCSmartSearch/logout",
+        "pages": 9,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/header-ef/header-experience-fragment/master.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/header-ef/header-experience-fragment/master.html",
+        "pages": 9,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/header-experience-fragment/master.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/header-experience-fragment/master.html",
+        "pages": 9,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/989333712/",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "mpc2-prod-28-is5qnl632q-ue.a.run.app",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://mpc2-prod-28-is5qnl632q-ue.a.run.app/events",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "mpc2-prod-23-is5qnl632q-ue.a.run.app",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://mpc2-prod-23-is5qnl632q-ue.a.run.app/events",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "gum.criteo.com",
+        "path": "/sid/json",
+        "query": [
+          "ceid",
+          "domain",
+          "origin",
+          "sn",
+          "so",
+          "topUrl"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://gum.criteo.com/sid/json",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "mug.criteo.com",
+        "path": "/sid",
+        "query": [
+          "cpp",
+          "cppv"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://mug.criteo.com/sid",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "k.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://k.clarity.ms/collect",
+        "pages": 4,
+        "examples": [
+          "index",
+          "experian-credit-score",
+          "partners"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "adobedc.demdex.net",
+        "path": "/ee/v1/identity/acquire",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://adobedc.demdex.net/ee/v1/identity/acquire",
+        "pages": 3,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 3,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/api/master/web/api/mdm/export/minmaxmaster.json",
+        "query": [
+          "calculator-label"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/api/master/web/api/mdm/export/minmaxmaster.json",
+        "pages": 3,
+        "examples": [
+          "index",
+          "home-loan",
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "q.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://q.clarity.ms/collect",
+        "pages": 3,
+        "examples": [
+          "check-credit-score",
+          "home-loan-app",
+          "sawaal-karo-phir-loan-lo"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "e.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://e.clarity.ms/collect",
+        "pages": 3,
+        "examples": [
+          "calculator",
+          "home-loan",
+          "privacy-commitment"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/api/master/web/api/mdm/export/stampdutymaster.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/api/master/web/api/mdm/export/stampdutymaster.json",
+        "pages": 2,
+        "examples": [
+          "calculator",
+          "home-loan-app"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CNSqz5f16JcDFYMNhAgd-54A_g;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CNSqz5f16JcDFYMNhAgd-54A_g;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=5786527588722435072;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWt3V1Gpq-VhON_dpan4q-Od5QHSD_DU8RRmsg;_dc_time=1793609799;cid=CAQS4QEAQM4h3EcCrmNa1JUsifhKQj_kIes48YYdMbHUWwYweZrskmvaufhhhA_mpyolu0wgi3mx6JfkfpterpBDGY9BTedLwVfRQnz5YCHZf1TZF3tU7LHfixUf1rSXytxoEkZCXUvPMZllmBVpIAtwyxdlhGB3DSGF6riHjFr2NXvsfFXOe22erFpp6Px6Lz9COwpbUlii-21raTMl_ekcLuH0WfSqFqtqHDzfGbzxMvdJgrONIajb34vxFIWkRD9wGbSP6ETqWegBTOXi34l8Sj7sQHZK2cIqL65wAGS7AIEJQKU;eps=AHas8cCUL5Eajg4VGCpQz8UcX4Qj3Gunhsg1b1iQTgfYl9nPNpG816TtvIiLd8MjjmKlCu0eeuj-J2CLTfyYeqmxdiC5j8eESl9qul-xvuHyJhd9DA;dc_pre=CNSqz5f16JcDFYMNhAgd-54A_g;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=5786527588722435072;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWt3V1Gpq-VhON_dpan4q-Od5QHSD_DU8RRmsg;_dc_time=1793609799;cid=CAQS4QEAQM4h3EcCrmNa1JUsifhKQj_kIes48YYdMbHUWwYweZrskmvaufhhhA_mpyolu0wgi3mx6JfkfpterpBDGY9BTedLwVfRQnz5YCHZf1TZF3tU7LHfixUf1rSXytxoEkZCXUvPMZllmBVpIAtwyxdlhGB3DSGF6riHjFr2NXvsfFXOe22erFpp6Px6Lz9COwpbUlii-21raTMl_ekcLuH0WfSqFqtqHDzfGbzxMvdJgrONIajb34vxFIWkRD9wGbSP6ETqWegBTOXi34l8Sj7sQHZK2cIqL65wAGS7AIEJQKU;eps=AHas8cCUL5Eajg4VGCpQz8UcX4Qj3Gunhsg1b1iQTgfYl9nPNpG816TtvIiLd8MjjmKlCu0eeuj-J2CLTfyYeqmxdiC5j8eESl9qul-xvuHyJhd9DA;dc_pre=CNSqz5f16JcDFYMNhAgd-54A_g;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=5332556967763;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117628656~118897920~118897930~120213116~120385423~120412526~120420415~120469145~120469153~121191155~121246026~121246034~123636746~123691370;epver=2;dc_random=1793609798_-MD6dPgKv4t8t70ZgQN-6mEXPNSkQEBt8g;~oref=https%3A%2F%2Fwww.tatacapital.com%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/preApprovedEF/pre-approved.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/preApprovedEF/pre-approved.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/customerTestimonialEF/customer-testimonial.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/customerTestimonialEF/customer-testimonial.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/ways-to-serviceEF/ways-to-service.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/ways-to-serviceEF/ways-to-service.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/newsLetterEF/news-letter.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/newsLetterEF/news-letter.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/homepage-calculator/homepage-calculator.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/homepage-calculator/homepage-calculator.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/financial-insights-ef/financialInsight.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/financial-insights-ef/financialInsight.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/communitiesBoxEF/communitiesBox.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/communitiesBoxEF/communitiesBox.html",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=3916046997047;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609800_MkU7t928AMM9LdjhaJ3nfxxVqRpxxqqX4w;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcheck-credit-score.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=3916046997047;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609800_MkU7t928AMM9LdjhaJ3nfxxVqRpxxqqX4w;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcheck-credit-score.html",
+        "pages": 1,
+        "examples": [
+          "check-credit-score"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=4606989788587637258;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWvJxP0TTxnNCYqIO7VxDPsz4KHpB8pA4SpKBHg-C_ineQ;_dc_time=1793609800;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=3916046997047;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609800_MkU7t928AMM9LdjhaJ3nfxxVqRpxxqqX4w;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcheck-credit-score.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=4606989788587637258;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWvJxP0TTxnNCYqIO7VxDPsz4KHpB8pA4SpKBHg-C_ineQ;_dc_time=1793609800;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=3916046997047;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609800_MkU7t928AMM9LdjhaJ3nfxxVqRpxxqqX4w;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcheck-credit-score.html",
+        "pages": 1,
+        "examples": [
+          "check-credit-score"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "pages": 1,
+        "examples": [
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=COWvqJn16JcDFdoNhAgdUtsgoA;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=COWvqJn16JcDFdoNhAgdUtsgoA;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "pages": 1,
+        "examples": [
+          "calculator"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=17111583580504066844;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWsHd6U5LnyEBaY6WwToWBFYR1SEvHTCi0JZwA;_dc_time=1793609802;cid=CAQS4QEAQM4h3GIO9uKSZuRCvL8hqAajOeiHRBEHSSqqPQ5sdLLYzT20c7oEHisio5rPM1HFq71mX25ZPyAhy4-n3QOrlApoonmsRq1ShUm_rvifNAGwQUnoN9EaFj8emWDs8yq-3VeFzX45lPgHI6Irii2R8hyjQUa5KtwFwSmlAi4R1VU31i2AWGHE7t6cdeSMgjatSwcAc8IQ--rMDn7ICjQGLDhd28mkMvSfIoGjpza7BDcnCBaMeDI6sl9dYJOXUm7Q-LozC40I6Tj0Hh_6DNRN1gizWQHeY-3IAcEcGUgkx2Q;eps=AHas8cABEgT9m1QCiqMMVR7WGWhWNXtw_7fWaL65Ac6vJ0Gse3prfZlO8mOakwGiP8Vs1Oqji3yexc5uOde8qPLWk7rTXrVccYp3hJHX9SpFnHA63A;dc_pre=COWvqJn16JcDFdoNhAgdUtsgoA;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=17111583580504066844;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWsHd6U5LnyEBaY6WwToWBFYR1SEvHTCi0JZwA;_dc_time=1793609802;cid=CAQS4QEAQM4h3GIO9uKSZuRCvL8hqAajOeiHRBEHSSqqPQ5sdLLYzT20c7oEHisio5rPM1HFq71mX25ZPyAhy4-n3QOrlApoonmsRq1ShUm_rvifNAGwQUnoN9EaFj8emWDs8yq-3VeFzX45lPgHI6Irii2R8hyjQUa5KtwFwSmlAi4R1VU31i2AWGHE7t6cdeSMgjatSwcAc8IQ--rMDn7ICjQGLDhd28mkMvSfIoGjpza7BDcnCBaMeDI6sl9dYJOXUm7Q-LozC40I6Tj0Hh_6DNRN1gizWQHeY-3IAcEcGUgkx2Q;eps=AHas8cABEgT9m1QCiqMMVR7WGWhWNXtw_7fWaL65Ac6vJ0Gse3prfZlO8mOakwGiP8Vs1Oqji3yexc5uOde8qPLWk7rTXrVccYp3hJHX9SpFnHA63A;dc_pre=COWvqJn16JcDFdoNhAgdUtsgoA;src=10028466;type=invmedia;cat=tata_0;rcb=18;ord=3750765359307;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;dc_random=1793609802_7PBtMniu1gi5FiZk7cxeo2pf2goA4nEhRw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fcalculator.html",
+        "pages": 1,
+        "examples": [
+          "calculator"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=3;ord=5243588745725;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~117628656~118897920~118897930~119793972~120213116~120385422~120420415~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609812_ebN7phiaZ8Ggc4itHviob9llLHX-HlHusw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fexperian-credit-score.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=3;ord=5243588745725;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~117628656~118897920~118897930~119793972~120213116~120385422~120420415~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609812_ebN7phiaZ8Ggc4itHviob9llLHX-HlHusw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fexperian-credit-score.html",
+        "pages": 1,
+        "examples": [
+          "experian-credit-score"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CKDgoZ716JcDFSUNhAgd3eksgw;src=10028466;type=invmedia;cat=tata_0;rcb=3;ord=5243588745725;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~117628656~118897920~118897930~119793972~120213116~120385422~120420415~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609812_ebN7phiaZ8Ggc4itHviob9llLHX-HlHusw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fexperian-credit-score.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CKDgoZ716JcDFSUNhAgd3eksgw;src=10028466;type=invmedia;cat=tata_0;rcb=3;ord=5243588745725;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~117628656~118897920~118897930~119793972~120213116~120385422~120420415~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609812_ebN7phiaZ8Ggc4itHviob9llLHX-HlHusw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fexperian-credit-score.html",
+        "pages": 1,
+        "examples": [
+          "experian-credit-score"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=14564752055779101174;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWtZ_gpHTYDWwvW4KC-Jtxb2g5sUP6NnHyYH8g;_dc_time=1793609813;cid=CAQS4QEAQM4h3JeKSQ8Fo3F0VUQvBDfXIMC2kwKBCXMvzhdvawIQUMbHeYXNsoprZYIicbWXWQx-hUAfWcMonAQvlLePVkM4HEHEzRItkb40dZrXHAxQJp3ZWoJJeS37RvXS3faFh1v2stgb98_d6HpPdt982lWEGOA6FX3WZHaR1oKAJ1I8vpjBqozeALE3jeF4uKg2BBkqaAmljUAVxi2pdfpVzaPs0NhEUO9F3-cepRXo1w9pYDWWS_a-23eJUK0IuoDeYNgzqoRvEVmR-F9K3XpxUXDUXBwhK7BXRLuxuAj0kw4;eps=AHas8cCqh0oHfIfFajzKboW-y-pZQyDkMXHZyRQMDKC3dSiKEZ4czNneAz6n2WM3eoPOjN-ZqJKYq_NKAAKcXYvAL24EerD34GCIpAXaQU2381UYsA;dc_pre=CKDgoZ716JcDFSUNhAgd3eksgw;src=10028466;type=invmedia;cat=tata_0;rcb=3;ord=5243588745725;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~117628656~118897920~118897930~119793972~120213116~120385422~120420415~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609812_ebN7phiaZ8Ggc4itHviob9llLHX-HlHusw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fexperian-credit-score.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=14564752055779101174;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWtZ_gpHTYDWwvW4KC-Jtxb2g5sUP6NnHyYH8g;_dc_time=1793609813;cid=CAQS4QEAQM4h3JeKSQ8Fo3F0VUQvBDfXIMC2kwKBCXMvzhdvawIQUMbHeYXNsoprZYIicbWXWQx-hUAfWcMonAQvlLePVkM4HEHEzRItkb40dZrXHAxQJp3ZWoJJeS37RvXS3faFh1v2stgb98_d6HpPdt982lWEGOA6FX3WZHaR1oKAJ1I8vpjBqozeALE3jeF4uKg2BBkqaAmljUAVxi2pdfpVzaPs0NhEUO9F3-cepRXo1w9pYDWWS_a-23eJUK0IuoDeYNgzqoRvEVmR-F9K3XpxUXDUXBwhK7BXRLuxuAj0kw4;eps=AHas8cCqh0oHfIfFajzKboW-y-pZQyDkMXHZyRQMDKC3dSiKEZ4czNneAz6n2WM3eoPOjN-ZqJKYq_NKAAKcXYvAL24EerD34GCIpAXaQU2381UYsA;dc_pre=CKDgoZ716JcDFSUNhAgd3eksgw;src=10028466;type=invmedia;cat=tata_0;rcb=3;ord=5243588745725;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~117628656~118897920~118897930~119793972~120213116~120385422~120420415~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609812_ebN7phiaZ8Ggc4itHviob9llLHX-HlHusw;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fexperian-credit-score.html",
+        "pages": 1,
+        "examples": [
+          "experian-credit-score"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=9;ord=8193206663840;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793609814_hSmgdubaqVvve0J4DiZpNCqEGMMNhR5o7Q;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fhome-loan.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=9;ord=8193206663840;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793609814_hSmgdubaqVvve0J4DiZpNCqEGMMNhR5o7Q;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fhome-loan.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=COrJ95716JcDFeoOhAgdrNQk7Q;src=10028466;type=invmedia;cat=tata_0;rcb=9;ord=8193206663840;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793609814_hSmgdubaqVvve0J4DiZpNCqEGMMNhR5o7Q;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fhome-loan.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=COrJ95716JcDFeoOhAgdrNQk7Q;src=10028466;type=invmedia;cat=tata_0;rcb=9;ord=8193206663840;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793609814_hSmgdubaqVvve0J4DiZpNCqEGMMNhR5o7Q;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fhome-loan.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=9813818885653744088;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWuOUTtCf63ZSTyrcmTz6lX7UakX3RJmV6J2SA;_dc_time=1793609814;cid=CAQS4QEAQM4h3KauZMoFfkGrExloZ6L7S3GEEF9WiVIVSuW8RgFRph8F1DmHy4WlJ_5xd8NLflptQ99SMzuNf2Qpxu9zUlk3J8puEroEP2X_FRmdXqcB9LfLJx6TedXPXkZMGmlvAopH3vIAa-Hn7cBdzec6Z2AQdYRnBsUkkVtJKuJQvwgHZSNeM2ga8CTBs_vE-dDe9DwHTAzkhPAbPl9b6T08w1l1V2-lgcc-vH3yHpc352tfTtlKiYxUsCEf_cie7bKMFwU2hxHQCySKAQ5149ItP6Jcj71zLa1azkEkhHd8EXM;eps=AHas8cB-r_KWSyL_vBGQyx9Ok660-ZLt14fhJYhRvAnGy5nQSiJEv9FHCilevc57Ymmqb1zP4CTWtyz_wtMQguU5Qdfc4c4YF_GqDNkFodn_GPoJJQ;dc_pre=COrJ95716JcDFeoOhAgdrNQk7Q;src=10028466;type=invmedia;cat=tata_0;rcb=9;ord=8193206663840;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793609814_hSmgdubaqVvve0J4DiZpNCqEGMMNhR5o7Q;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fhome-loan.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=9813818885653744088;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWuOUTtCf63ZSTyrcmTz6lX7UakX3RJmV6J2SA;_dc_time=1793609814;cid=CAQS4QEAQM4h3KauZMoFfkGrExloZ6L7S3GEEF9WiVIVSuW8RgFRph8F1DmHy4WlJ_5xd8NLflptQ99SMzuNf2Qpxu9zUlk3J8puEroEP2X_FRmdXqcB9LfLJx6TedXPXkZMGmlvAopH3vIAa-Hn7cBdzec6Z2AQdYRnBsUkkVtJKuJQvwgHZSNeM2ga8CTBs_vE-dDe9DwHTAzkhPAbPl9b6T08w1l1V2-lgcc-vH3yHpc352tfTtlKiYxUsCEf_cie7bKMFwU2hxHQCySKAQ5149ItP6Jcj71zLa1azkEkhHd8EXM;eps=AHas8cB-r_KWSyL_vBGQyx9Ok660-ZLt14fhJYhRvAnGy5nQSiJEv9FHCilevc57Ymmqb1zP4CTWtyz_wtMQguU5Qdfc4c4YF_GqDNkFodn_GPoJJQ;dc_pre=COrJ95716JcDFeoOhAgdrNQk7Q;src=10028466;type=invmedia;cat=tata_0;rcb=9;ord=8193206663840;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793609814_hSmgdubaqVvve0J4DiZpNCqEGMMNhR5o7Q;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fhome-loan.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/how-to-apply-for-home-loan-in-just-5-steps/how-to-apply-for-home-loan-in-just-5-steps.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/how-to-apply-for-home-loan-in-just-5-steps/how-to-apply-for-home-loan-in-just-5-steps.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/housing-loan-blogs/housing-loan-blogs.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/housing-loan-blogs/housing-loan-blogs.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/apply-via-whatsapp/apply-via-whatsapp.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/apply-via-whatsapp/apply-via-whatsapp.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/popular-faq/popular-faq.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/popular-faq/popular-faq.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/features-and-benefits-home-loan/features-and-benefits-home-loan.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/features-and-benefits-home-loan/features-and-benefits-home-loan.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/get-home-loan-your-city/get-home-loan-your-city.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/get-home-loan-your-city/get-home-loan-your-city.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/home-loans-for-different-budgets/home-loans-for-different-budgets.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/home-loans-for-different-budgets/home-loans-for-different-budgets.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/newsletter/newsletter.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/newsletter/newsletter.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/more-home-loan-products-for-you/more-home-loan-products-for-you.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/more-home-loan-products-for-you/more-home-loan-products-for-you.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/house-loan-repayment-options/house-loan-repayment-options.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/house-loan-repayment-options/house-loan-repayment-options.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/related-hl-video/related-hl-video.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/related-hl-video/related-hl-video.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/other-available-house-loan/other-available-house-loan.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/other-available-house-loan/other-available-house-loan.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/what-our-customers-say-about-us/what-our-customers-say-about-us.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/home-loan/what-our-customers-say-about-us/what-our-customers-say-about-us.html",
+        "pages": 1,
+        "examples": [
+          "home-loan"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=5;ord=1925455353579;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609832_L53_TVgRkpqiW8VtcxPsB2FWMGcey7_ULg;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fsawaal-karo-phir-loan-lo.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=5;ord=1925455353579;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609832_L53_TVgRkpqiW8VtcxPsB2FWMGcey7_ULg;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fsawaal-karo-phir-loan-lo.html",
+        "pages": 1,
+        "examples": [
+          "sawaal-karo-phir-loan-lo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CMil0Kf16JcDFQQMhAgdGLsp0Q;src=10028466;type=invmedia;cat=tata_0;rcb=5;ord=1925455353579;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609832_L53_TVgRkpqiW8VtcxPsB2FWMGcey7_ULg;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fsawaal-karo-phir-loan-lo.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CMil0Kf16JcDFQQMhAgdGLsp0Q;src=10028466;type=invmedia;cat=tata_0;rcb=5;ord=1925455353579;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609832_L53_TVgRkpqiW8VtcxPsB2FWMGcey7_ULg;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fsawaal-karo-phir-loan-lo.html",
+        "pages": 1,
+        "examples": [
+          "sawaal-karo-phir-loan-lo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=14603033012799565526;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWvW_4tqEi43hy9KqNl-fqseseaG4LJWoXz1Ig;_dc_time=1793609832;cid=CAQS4QEAQM4h3M4dv2heTtwUSWjVrpUZtvtxoo6-Q-ukgJ2F4SYr2AqUZiL6s-H5_mBbam_ROoUW6dvJv06o9Jg6a9cnY56HCfT0cUHbTCeKLXJx1HbnekhCGT1xsm0EO5eXVT_XpWQJTtH8UuAg0vdj9njZ9WUp5ojJhkNxUdDSLdLx0e-MVuewpcTOHukptxJcZgrge8OlZR9VUtMSCk8B6LTBIfWXLzNKHsR4wH3JCRZbGOnxh0XTWQkn_g0ye9Rr13fmg9akh6rAO09kry3WKakMxcgfYbKFDN-7DDc6zVrXP_k;eps=AHas8cAmcN7Bo1SFUpYI9saYY3hi1nCkSjT-RSqJkHnBZL5nODFUAEBKGeOMAenStuVzICJDJSHPPWQ4GdnqEjw8bpuGlRKfq2hwmyhCV1yYLdwCtA;dc_pre=CMil0Kf16JcDFQQMhAgdGLsp0Q;src=10028466;type=invmedia;cat=tata_0;rcb=5;ord=1925455353579;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609832_L53_TVgRkpqiW8VtcxPsB2FWMGcey7_ULg;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fsawaal-karo-phir-loan-lo.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=14603033012799565526;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWvW_4tqEi43hy9KqNl-fqseseaG4LJWoXz1Ig;_dc_time=1793609832;cid=CAQS4QEAQM4h3M4dv2heTtwUSWjVrpUZtvtxoo6-Q-ukgJ2F4SYr2AqUZiL6s-H5_mBbam_ROoUW6dvJv06o9Jg6a9cnY56HCfT0cUHbTCeKLXJx1HbnekhCGT1xsm0EO5eXVT_XpWQJTtH8UuAg0vdj9njZ9WUp5ojJhkNxUdDSLdLx0e-MVuewpcTOHukptxJcZgrge8OlZR9VUtMSCk8B6LTBIfWXLzNKHsR4wH3JCRZbGOnxh0XTWQkn_g0ye9Rr13fmg9akh6rAO09kry3WKakMxcgfYbKFDN-7DDc6zVrXP_k;eps=AHas8cAmcN7Bo1SFUpYI9saYY3hi1nCkSjT-RSqJkHnBZL5nODFUAEBKGeOMAenStuVzICJDJSHPPWQ4GdnqEjw8bpuGlRKfq2hwmyhCV1yYLdwCtA;dc_pre=CMil0Kf16JcDFQQMhAgdGLsp0Q;src=10028466;type=invmedia;cat=tata_0;rcb=5;ord=1925455353579;npa=0;auiddc=1578574812.1793609800;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1h1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609832_L53_TVgRkpqiW8VtcxPsB2FWMGcey7_ULg;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fsawaal-karo-phir-loan-lo.html",
+        "pages": 1,
+        "examples": [
+          "sawaal-karo-phir-loan-lo"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=4086930689883;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609831_L-mGV6xGvUDHhpK_3LANy_LH2M9ValXeUQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fprivacy-commitment.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=4086930689883;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609831_L-mGV6xGvUDHhpK_3LANy_LH2M9ValXeUQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fprivacy-commitment.html",
+        "pages": 1,
+        "examples": [
+          "privacy-commitment"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CP_FmKf16JcDFYwNhAgdmjMVzg;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=4086930689883;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609831_L-mGV6xGvUDHhpK_3LANy_LH2M9ValXeUQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fprivacy-commitment.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CP_FmKf16JcDFYwNhAgdmjMVzg;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=4086930689883;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609831_L-mGV6xGvUDHhpK_3LANy_LH2M9ValXeUQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fprivacy-commitment.html",
+        "pages": 1,
+        "examples": [
+          "privacy-commitment"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=12120136264049385195;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWsdipwh5govZkBX1LwI9KSXczJSss_QDPKzuQ;_dc_time=1793609832;cid=CAQS4QEAQM4h3AtROaZpPMwffGuI8_nz1Syt0g8MDujBhePyitIpmbaLogEzmPC3lHoMlTlyK0ceBc9XVO0W6LxJeWoT6bLIi7Ho6huEI-va7DinmQWP9-yHaTQltZPgG2kii4dqcbllQaraww8JqMORMaTh8Y4gQo_F2tXRHrzr7WDUj9IDuu2K9kZkOANUwFcD60A6VNFgq-WUiIBHa2S1upmRDYYuNZPnZgWwz1dsDzEdR1xrqBAp3nS5-Vmnkc47raeIrUyQaCqbOP3hVHu4FgQIZiPmHRMNST_mzD5QgmKxnM0;eps=AHas8cCmobtk0v9s-LE-mMWJ72I4s8FQMkjcfYJvET5Cot1hvLX3orArGtgHT3Y88S2KHkI0ZDtPb5ZPs11v_fbzUGA1Y2z4uq1FSRbpaBkTEQi_Zw;dc_pre=CP_FmKf16JcDFYwNhAgdmjMVzg;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=4086930689883;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609831_L-mGV6xGvUDHhpK_3LANy_LH2M9ValXeUQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fprivacy-commitment.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=12120136264049385195;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWsdipwh5govZkBX1LwI9KSXczJSss_QDPKzuQ;_dc_time=1793609832;cid=CAQS4QEAQM4h3AtROaZpPMwffGuI8_nz1Syt0g8MDujBhePyitIpmbaLogEzmPC3lHoMlTlyK0ceBc9XVO0W6LxJeWoT6bLIi7Ho6huEI-va7DinmQWP9-yHaTQltZPgG2kii4dqcbllQaraww8JqMORMaTh8Y4gQo_F2tXRHrzr7WDUj9IDuu2K9kZkOANUwFcD60A6VNFgq-WUiIBHa2S1upmRDYYuNZPnZgWwz1dsDzEdR1xrqBAp3nS5-Vmnkc47raeIrUyQaCqbOP3hVHu4FgQIZiPmHRMNST_mzD5QgmKxnM0;eps=AHas8cCmobtk0v9s-LE-mMWJ72I4s8FQMkjcfYJvET5Cot1hvLX3orArGtgHT3Y88S2KHkI0ZDtPb5ZPs11v_fbzUGA1Y2z4uq1FSRbpaBkTEQi_Zw;dc_pre=CP_FmKf16JcDFYwNhAgdmjMVzg;src=10028466;type=invmedia;cat=tata_0;rcb=10;ord=4086930689883;npa=0;auiddc=86292832.1793609802;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121246026~121246034~123691370~123814946;epver=2;dc_random=1793609831_L-mGV6xGvUDHhpK_3LANy_LH2M9ValXeUQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fprivacy-commitment.html",
+        "pages": 1,
+        "examples": [
+          "privacy-commitment"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=9736269123253;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117628656~118012008~118897920~118897930~120213116~120385422~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609839_1Iq-nRxAUQeKYV_rpccxyhBxXtNUBIo6OQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fpersonal-loan.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=9736269123253;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117628656~118012008~118897920~118897930~120213116~120385422~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609839_1Iq-nRxAUQeKYV_rpccxyhBxXtNUBIo6OQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fpersonal-loan.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CM2wgav16JcDFbtb4QYdJHIB2g;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=9736269123253;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117628656~118012008~118897920~118897930~120213116~120385422~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609839_1Iq-nRxAUQeKYV_rpccxyhBxXtNUBIo6OQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fpersonal-loan.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CM2wgav16JcDFbtb4QYdJHIB2g;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=9736269123253;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117628656~118012008~118897920~118897930~120213116~120385422~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609839_1Iq-nRxAUQeKYV_rpccxyhBxXtNUBIo6OQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fpersonal-loan.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=14361318020766943908;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWvTi-1mvrHhJMVIoqCfo0dxrd_cg_L-lTg1jQ;_dc_time=1793609839;cid=CAQS4QEAQM4h3BCY_bhm1yUhSsCGjW2v2jDX3VXUpwvXYcp8Q_2stXdNpzO12l-QZNi667T5bQHIhLqfCodUksqvxO_v8BZIUF6qHLgIvAP2tA7BFWDZ4Vx6Nd0-hspEv_YGcJivlOIQZFcB4sz8nVz-TaVNwTWVu379XKhP3tLBxRsB8dhGvqZk_gaJwPGVQB_SZrc_7fnKg4JXUitJ-_GiZ1PRoWd92fokd2ITA4evQ_nPtKEOqHhdo-NpObB6HEDUYHqyslG1hb6QmS8AS63qIOYGSWXPkdFyg0kRmon6HJCoCvc;eps=AHas8cC3hPCmI2YAYPPz0XvQuz5M_79xQ4cTGMepN5EuLbHmgglmnmflF_il29ZWgxEjm7k_QU9c3ETvM31-4IP2Ys0bb8kHo1rn9KBGDH-ZgKlkig;dc_pre=CM2wgav16JcDFbtb4QYdJHIB2g;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=9736269123253;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117628656~118012008~118897920~118897930~120213116~120385422~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609839_1Iq-nRxAUQeKYV_rpccxyhBxXtNUBIo6OQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fpersonal-loan.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=14361318020766943908;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWvTi-1mvrHhJMVIoqCfo0dxrd_cg_L-lTg1jQ;_dc_time=1793609839;cid=CAQS4QEAQM4h3BCY_bhm1yUhSsCGjW2v2jDX3VXUpwvXYcp8Q_2stXdNpzO12l-QZNi667T5bQHIhLqfCodUksqvxO_v8BZIUF6qHLgIvAP2tA7BFWDZ4Vx6Nd0-hspEv_YGcJivlOIQZFcB4sz8nVz-TaVNwTWVu379XKhP3tLBxRsB8dhGvqZk_gaJwPGVQB_SZrc_7fnKg4JXUitJ-_GiZ1PRoWd92fokd2ITA4evQ_nPtKEOqHhdo-NpObB6HEDUYHqyslG1hb6QmS8AS63qIOYGSWXPkdFyg0kRmon6HJCoCvc;eps=AHas8cC3hPCmI2YAYPPz0XvQuz5M_79xQ4cTGMepN5EuLbHmgglmnmflF_il29ZWgxEjm7k_QU9c3ETvM31-4IP2Ys0bb8kHo1rn9KBGDH-ZgKlkig;dc_pre=CM2wgav16JcDFbtb4QYdJHIB2g;src=10028466;type=invmedia;cat=tata_0;rcb=2;ord=9736269123253;npa=0;auiddc=1535030496.1793609799;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6as1v9190796251za200zb9151690047zd9151690047xecxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tag_exp=115616986~115938466~115938468~117628656~118012008~118897920~118897930~120213116~120385422~120469145~120469153~121191155~121246026~121246034~123691370;epver=2;dc_random=1793609839_1Iq-nRxAUQeKYV_rpccxyhBxXtNUBIo6OQ;~oref=https%3A%2F%2Fwww.tatacapital.com%2Fpersonal-loan.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/get-personal-loan-in-your-city/get-personal-loan-in-your-city.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/get-personal-loan-in-your-city/get-personal-loan-in-your-city.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/more-personal-loan-products-for-you/more-personal-loan-products-for-you.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/more-personal-loan-products-for-you/more-personal-loan-products-for-you.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/what-our-customers-say-about-us/what-our-customers-say-about-us.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/what-our-customers-say-about-us/what-our-customers-say-about-us.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/faqs-on-personal-loan/faqs-on-personal-loan.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/faqs-on-personal-loan/faqs-on-personal-loan.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/how-to-apply-for-a-instant-personal-loan-in-just-6-steps/how-to-apply-for-a-instant-personal-loan-in-just-6-steps.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/how-to-apply-for-a-instant-personal-loan-in-just-6-steps/how-to-apply-for-a-instant-personal-loan-in-just-6-steps.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/instant-personal-loan-eligibility-criteria/instant-personal-loan-eligibility-criteria.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/instant-personal-loan-eligibility-criteria/instant-personal-loan-eligibility-criteria.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/related-videos/related-videos.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/related-videos/related-videos.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/apply-via-whatsapp/apply-via-whatsapp.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/apply-via-whatsapp/apply-via-whatsapp.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/features-and-benefits-of-tata-capital-personal-loan/features-and-benefits-of-tata-capital-personal-loan.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/features-and-benefits-of-tata-capital-personal-loan/features-and-benefits-of-tata-capital-personal-loan.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/how-to-apply-for-personal-loan-online/how-to-apply-for-personal-loan-online.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/how-to-apply-for-personal-loan-online/how-to-apply-for-personal-loan-online.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/personal-loans-for-different-budgets/personal-loans-for-different-budgets.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/personal-loans-for-different-budgets/personal-loans-for-different-budgets.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/personal-loan-blogs/personal-loan-blogs.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/personal-loan-blogs/personal-loan-blogs.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.tatacapital.com",
+        "path": "/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/newsletter/newsletter.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.tatacapital.com/content/experience-fragments/tata-capital-web/en/component-ef/personal-loan/newsletter/newsletter.html",
+        "pages": 1,
+        "examples": [
+          "personal-loan"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "smart-search.senseforth.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "www.clarity.ms",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "dynamic.criteo.com",
+        "pages": 8,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      },
+      {
+        "host": "sslwidget.criteo.com",
+        "pages": 3,
+        "examples": [
+          "experian-credit-score",
+          "home-loan",
+          "personal-loan"
+        ]
+      },
+      {
+        "host": "widget.as.criteo.com",
+        "pages": 2,
+        "examples": [
+          "home-loan",
+          "personal-loan"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 10,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "calculator"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "nullvoid(0);",
+        "method": "get",
+        "sameOrigin": false,
+        "search": false,
+        "fieldNames": [
+          "mobile"
+        ],
+        "pages": 5,
+        "examples": [
+          "index",
+          "check-credit-score",
+          "experian-credit-score"
+        ]
+      },
+      {
+        "action": "https://www.tatacapital.com/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ]
+  }
+}

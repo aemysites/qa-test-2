@@ -1,0 +1,859 @@
+{
+ "source": "http://localhost:8791/calculator-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "calculator-tab-box",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Calculators"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Plan your finances wisely with our easy-to-use calculators."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "All",
+     "href": "javascript:void(0);"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Loans",
+     "href": "javascript:void(0);"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Wealth",
+     "href": "javascript:void(0);"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Area Conversion",
+     "href": "javascript:void(0);"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Home Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Calculate the monthly EMI for your home loan."
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Home Loan Eligibility Calculator"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Determine your home loan eligibility amount."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Home Loan Balance Top Up Calculator"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Calculate the extra amount you can borrow on your home loan."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Home Loan Stamp Duty Calculator"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Calculate stamp duty with Tata Capitals."
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "PMAY Calculator"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Calculate the monthly EMI PMAY"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Business Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Use the Business loan calculator and plan your finances effectively."
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Business Loan Foreclosure Calculator"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Calculate the total cost to foreclose your business loan."
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Business Loan Pre Payment Calculator"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Calculate the Pre Payment charges for your Business Loan."
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Personal Loan Eligibility Calculator"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Determine your personal loan eligibility amount."
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "Personal Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Calculate the monthly EMI for your personal loan."
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "Personal Loan Pre Payment Calculator"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Plan your repayment strategy and save on interest. Try our calculator now!"
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "Loan Against Property Calculator"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Calculate the loan amount you can get against your property."
+    },
+    {
+     "role": "heading",
+     "order": 30,
+     "text": "Two Wheeler Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Calculate the monthly EMI for your two-wheeler loan."
+    },
+    {
+     "role": "heading",
+     "order": 32,
+     "text": "Used Car Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Calculate the monthly EMI for your used car loan."
+    },
+    {
+     "role": "heading",
+     "order": 34,
+     "text": "Car Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Calculate your monthly car loan EMI based on the loan amount, interest rate, and tenure."
+    },
+    {
+     "role": "heading",
+     "order": 36,
+     "text": "Education Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Get a quick estimate of your education loan EMI at Tata Capital."
+    },
+    {
+     "role": "heading",
+     "order": 38,
+     "text": "APR Calculator"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Use our APR Calculator to quickly calculate the Annual Percentage Rate of a loan."
+    },
+    {
+     "role": "heading",
+     "order": 40,
+     "text": "Area Conversion Calculator"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Tata Capitals land area unit converter helps you convert between multiple units."
+    },
+    {
+     "role": "heading",
+     "order": 42,
+     "text": "GST Calculator"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Calculate GST amount online by entering the net price and GST rate."
+    },
+    {
+     "role": "heading",
+     "order": 44,
+     "text": "Micro Finance Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Calculate your EMI in minutes with Tata Capital’s easy to use Micro Finance Loan EMI Calculator."
+    },
+    {
+     "role": "heading",
+     "order": 46,
+     "text": "Rural Individual Loan EMI Calculator"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Use Tata Capita's rural individual loan EMI calculator to easily calculate your monthly EMI."
+    },
+    {
+     "role": "heading",
+     "order": 48,
+     "text": "Retirement Planning Calculator"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Check your eligibility for the Retirement Planning"
+    },
+    {
+     "role": "heading",
+     "order": 50,
+     "text": "Financial Goal Calculator"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Check your eligibility for the Financial Goal"
+    },
+    {
+     "role": "heading",
+     "order": 52,
+     "text": "Investment Calculator"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Check your eligibility for the Investment"
+    },
+    {
+     "role": "heading",
+     "order": 54,
+     "text": "IRR Calculator"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Check your eligibility for the IRR"
+    },
+    {
+     "role": "heading",
+     "order": 56,
+     "text": "Human Life Value Calculator"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Check your eligibility for the Human Life Value"
+    },
+    {
+     "role": "heading",
+     "order": 58,
+     "text": "Inflation Impact Calculator"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Check your eligibility for the Inflation Impact"
+    },
+    {
+     "role": "heading",
+     "order": 60,
+     "text": "Acre to Bigha Calculator"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Convert Acre to Bigha online using Tata Capitals Acre to Bigha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 62,
+     "text": "Acre to Cent Calculator"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Convert Acre to Cent online using Tata Capitals Acre to Cent calculator."
+    },
+    {
+     "role": "heading",
+     "order": 64,
+     "text": "Acre to Gaj Calculator"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Convert Acre to Gaj online using Tata Capitals Acre to Gaj calculator."
+    },
+    {
+     "role": "heading",
+     "order": 66,
+     "text": "Acre to Guntha Calculator"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Convert Acre to Guntha online using Tata Capitals Acre to Guntha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 68,
+     "text": "Acre to Hectare Calculator"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Convert Acre to Hectare online using Tata Capitals Acre to Hectare calculator."
+    },
+    {
+     "role": "heading",
+     "order": 70,
+     "text": "Acre to Square Feet Calculator"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Convert Acre to Square Feet online using Tata Capitals Acre to Square Feet calculator."
+    },
+    {
+     "role": "heading",
+     "order": 72,
+     "text": "Bigha to Gaj Calculator"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Convert Bigha to Gaj online using Tata Capitals Bigha to Gaj calculator."
+    },
+    {
+     "role": "heading",
+     "order": 74,
+     "text": "Bigha to Hectare Calculator"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Convert Bigha to Hectare online using Tata Capitals Bigha to Hectare calculator."
+    },
+    {
+     "role": "heading",
+     "order": 76,
+     "text": "Bigha to Marla Calculator"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Convert Bigha to Marla online using Tata Capitals Bigha to Marla calculator."
+    },
+    {
+     "role": "heading",
+     "order": 78,
+     "text": "Bigha to Square Feet Calculator"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Convert Bigha to Square Feet online using Tata Capitals Bigha to Square Feet calculator."
+    },
+    {
+     "role": "heading",
+     "order": 80,
+     "text": "Acre to Ground Calculator"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Convert Acre to Ground online using Tata Capitals Acre to Ground calculator."
+    },
+    {
+     "role": "heading",
+     "order": 82,
+     "text": "Acre to Marla Calculator"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Convert Acre to Marla online using Tata Capitals Acre to Marla calculator."
+    },
+    {
+     "role": "heading",
+     "order": 84,
+     "text": "Bigha to Acre Calculator"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Convert Bigha to Acre online using Tata Capitals Bigha to Acre calculator."
+    },
+    {
+     "role": "heading",
+     "order": 86,
+     "text": "Bigha to Guntha Calculator"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Convert Bigha to Guntha online using Tata Capitals Bigha to Guntha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 88,
+     "text": "Cent to Acre Calculator"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Convert Cent to Acre online using Tata Capitals Cent to Acre calculator."
+    },
+    {
+     "role": "heading",
+     "order": 90,
+     "text": "Cent to Gaj Calculator"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Convert Cent to Gaj online using Tata Capitals Cent to Gaj calculator."
+    },
+    {
+     "role": "heading",
+     "order": 92,
+     "text": "Cent to Ground Calculator"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "Convert Cent to Ground online using Tata Capitals Cent to Ground calculator."
+    },
+    {
+     "role": "heading",
+     "order": 94,
+     "text": "Cent to Guntha Calculator"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Convert Cent to Guntha online using Tata Capitals Cent to Guntha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 96,
+     "text": "Cent to Hectare Calculator"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Convert Cent to Hectare online using Tata Capitals Cent to Hectare calculator."
+    },
+    {
+     "role": "heading",
+     "order": 98,
+     "text": "Gaj to Bigha Calculator"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Convert Gaj to Bigha online using Tata Capitals Gaj to Bigha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 100,
+     "text": "Gaj to Cent Calculator"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "Convert Gaj to Cent online using Tata Capitals Gaj to Cent calculator."
+    },
+    {
+     "role": "heading",
+     "order": 102,
+     "text": "Gaj to Guntha Calculator"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "Convert Gaj to Guntha online using Tata Capitals Gaj to Guntha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 104,
+     "text": "Gaj to Hectare Calculator"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "Convert Gaj to Hectare online using Tata Capitals Gaj to Hectare calculator."
+    },
+    {
+     "role": "heading",
+     "order": 106,
+     "text": "Ground to Cent Calculator"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "Convert Ground to Cent online using Tata Capitals Ground to Cent calculator."
+    },
+    {
+     "role": "heading",
+     "order": 108,
+     "text": "Guntha to Acre Calculator"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Convert Guntha to Acre online using Tata Capitals Guntha to Acre calculator."
+    },
+    {
+     "role": "heading",
+     "order": 110,
+     "text": "Guntha to Gaj Calculator"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Convert Guntha to Gaj online using Tata Capitals Guntha to Gaj calculator."
+    },
+    {
+     "role": "heading",
+     "order": 112,
+     "text": "Guntha to Hectare Calculator"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Convert Guntha to Hectare online using Tata Capitals Guntha to Hectare calculator."
+    },
+    {
+     "role": "heading",
+     "order": 114,
+     "text": "Hectare to Cent Calculator"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Convert Hectare to Cent online using Tata Capitals Hectare to Cent calculator."
+    },
+    {
+     "role": "heading",
+     "order": 116,
+     "text": "Hectare to Gaj Calculator"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "Convert Hectare to Gaj online using Tata Capitals Hectare to Gaj calculator."
+    },
+    {
+     "role": "heading",
+     "order": 118,
+     "text": "Hectare to Guntha Calculator"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Convert Hectare to Guntha online using Tata Capitals Hectare to Guntha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 120,
+     "text": "Hectare to Marla Calculator"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "Convert Hectare to Marla online using Tata Capitals Hectare to Marla calculator."
+    },
+    {
+     "role": "heading",
+     "order": 122,
+     "text": "Hectare to Square Feet Calculator"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "Convert Hectare to Square Feet online using Tata Capitals Hectare to Square Feet calculator."
+    },
+    {
+     "role": "heading",
+     "order": 124,
+     "text": "Cent to Square Feet"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "Convert Cent to Square Feet online using Tata Capitals Cent to Square Feet calculator."
+    },
+    {
+     "role": "heading",
+     "order": 126,
+     "text": "Gaj to Acre"
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "Convert Gaj to Acre online using Tata Capitals Gaj to Acre calculator."
+    },
+    {
+     "role": "heading",
+     "order": 128,
+     "text": "Gaj to Marla"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Convert Gaj to Marla online using Tata Capitals Gaj to Marla calculator."
+    },
+    {
+     "role": "heading",
+     "order": 130,
+     "text": "Gaj to Square Feet"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "Convert Gaj to Square Feet online using Tata Capitals Gaj to Square Feet calculator."
+    },
+    {
+     "role": "heading",
+     "order": 132,
+     "text": "Ground to Acre"
+    },
+    {
+     "role": "body",
+     "order": 133,
+     "text": "Convert Ground to Acre online using Tata Capitals Ground to Acre calculator."
+    },
+    {
+     "role": "heading",
+     "order": 134,
+     "text": "Guntha to Square Feet"
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "Convert Guntha to Square Feet online using Tata Capitals Guntha to Square Feet calculator."
+    },
+    {
+     "role": "heading",
+     "order": 136,
+     "text": "Hectare to Acre"
+    },
+    {
+     "role": "body",
+     "order": 137,
+     "text": "Convert Hectare to Acre online using Tata Capitals Hectare to Acre calculator."
+    },
+    {
+     "role": "heading",
+     "order": 138,
+     "text": "Hectare to Bigha"
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "Convert Hectare to Bigha online using Tata Capitals Hectare to Bigha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 140,
+     "text": "Ground to Square Feet"
+    },
+    {
+     "role": "body",
+     "order": 141,
+     "text": "Convert Ground to Square Feet online using Tata Capitals Ground to Square Feet calculator."
+    },
+    {
+     "role": "heading",
+     "order": 142,
+     "text": "Guntha to Bigha"
+    },
+    {
+     "role": "body",
+     "order": 143,
+     "text": "Convert Guntha to Bigha online using Tata Capitals Guntha to Bigha calculator."
+    },
+    {
+     "role": "heading",
+     "order": 144,
+     "text": "Guntha to Cent"
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "Convert Guntha to Cent online using Tata Capitals Guntha to Cent calculator."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 143,
+   "repeats": [
+    {
+     "unitSelector": "LI.tab-item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.calculator-list-li",
+     "count": 70,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "financial-insights-wrap",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Calculator"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Blogs"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "#Calculator"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "How To Calculate EMI Using Personal Loan EMI Calculator On Tata Capital App",
+     "href": "https://www.tatacapital.com/blog/personal-use-loan/calculate-personal-loan-emi-on-tata-capital-app/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "17/02/2025"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "#Calculator"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Commercial Property Loan Calculator: How to Calculate Your Loan EMI Amount",
+     "href": "https://www.tatacapital.com/blog/loan-on-property/commercial-property-loan-calculator-how-to-calculate-your-loan-amount/"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "17/12/2024"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "1"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

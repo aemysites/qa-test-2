@@ -1,0 +1,775 @@
+/* what-personal — source what-personal-box rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.what-personal) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.what-personal) .heading36 h2 {
+  font-family: var(--f-reg);
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: rgb(0 0 0);
+}
+
+:where(.what-personal) .heading36 h2 strong {
+  font-weight: normal;
+  font-family: var(--f-bold);
+}
+
+:where(.what-personal) h3 span {
+  font-family: var(--f-semi);
+}
+
+:where(.what-personal) h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(51 51 51);
+  letter-spacing: normal;
+}
+
+:where(.what-personal) .text14i {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgb(51 51 51);
+}
+
+:where(.what-personal) .all-icon {
+  width: 47px;
+  min-width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: rgb(178 135 212);
+  font-size: 20px;
+  color: rgb(255 255 255);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+:where(.what-personal) .bg-div {
+  background: radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgb(255 255 255 / 88%) 0, rgb(255 255 255) 100%);
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+}
+
+:where(.what-personal) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.what-personal) .space-tb40 {
+  padding: 40px 0;
+}
+
+:where(.what-personal) .tops-heads {
+  max-width: 862px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+:where(.what-personal) .tops-heads p {
+  margin-top: 10px;
+  color: rgb(51 51 51);
+  letter-spacing: 0.02em;
+}
+
+@media (width <= 991px) {
+  :where(.what-personal) .heading36 h2 {
+    font-size: 30px;
+  }
+
+  :where(.what-personal) .space-tb40 {
+    padding: 30px 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.what-personal) .text14i {
+    font-size: 13px;
+  }
+
+  :where(.what-personal) .space-tb40 {
+    padding: 25px 0;
+  }
+
+  :where(.what-personal) .all-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    font-size: 19px;
+  }
+
+  :where(.what-personal) .bg-div {
+    border-radius: 24px;
+  }
+
+  :where(.what-personal) .container {
+    max-width: 100%;
+  }
+
+  :where(.what-personal) .container.mob-pd0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  :where(.what-personal) .tops-heads {
+    margin-bottom: 34px;
+  }
+
+  :where(.what-personal) .tops-heads p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  :where(.what-personal) .heading36 h2 {
+    font-size: 22px;
+  }
+
+  :where(.what-personal) h3 {
+    font-size: 16px;
+    line-height: 130%;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.what-personal) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.what-personal) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.what-personal) .container {
+    max-width: 1140px;
+  }
+}
+
+@media (width <= 991px) {
+  :where(.what-personal) .what-personal-box {
+    padding-bottom: 60px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.what-personal) .what-personal-box {
+    padding-bottom: 50px;
+  }
+}
+
+:where(.what-personal) .instant-personal-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -30px;
+}
+
+:where(.what-personal) .instant-personal-slider .instant-per-row {
+  width: 33.33%;
+}
+
+:where(.what-personal) .instant-personal-slider .instant-per-col {
+  padding: 30px 15px 0;
+  height: 100%;
+}
+
+:where(.what-personal) .instant-personal-slider .instant-per-div {
+  height: 100%;
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 67%) 99.11%);
+  padding: 25px;
+  min-height: 182px;
+}
+
+:where(.what-personal) .instant-personal-slider .instant-per-div .instant-top {
+  position: relative;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+:where(.what-personal) .instant-personal-slider.take-per-slider .instant-per-row {
+  width: 50%;
+}
+
+:where(.what-personal) .instant-personal-slider.take-per-slider .instant-per-div {
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 71%) 0, rgb(255 255 255 / 95%) 99.11%), linear-gradient(134.06deg, rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 67%) 99.11%);
+}
+
+:where(.what-personal) .instant-personal-slider.take-per-slider .instant-per-div .all-icon {
+  margin-right: 20px;
+}
+
+:where(.what-personal) .instant-personal-slider.take-per-slider .instant-per-div .instant-top {
+  min-height: 47px;
+}
+
+@media (width <= 1199px) {
+  :where(.what-personal) .instant-personal-slider .instant-per-div .instant-top h3 {
+    font-size: 18px;
+  }
+}
+
+@media (width <= 991px) {
+  :where(.what-personal) .instant-personal-slider {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -20px;
+  }
+
+  :where(.what-personal) .instant-personal-slider.flex-slider {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  :where(.what-personal) .instant-personal-slider .instant-per-col {
+    padding: 20px 10px 0;
+  }
+
+  :where(.what-personal) .instant-personal-slider .instant-per-div .instant-top h3 {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.what-personal) .instant-personal-slider {
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: -14px;
+  }
+
+  :where(.what-personal) .instant-personal-slider .instant-per-col {
+    padding: 14px 7px 0;
+  }
+
+  :where(.what-personal) .instant-personal-slider .instant-per-div {
+    padding: 24px;
+  }
+
+  :where(.what-personal) .instant-personal-slider .instant-per-div .instant-top {
+    min-height: 37px;
+  }
+
+  :where(.what-personal) .instant-personal-slider .instant-per-div .instant-top h3 {
+    font-size: 16px;
+  }
+}
+
+:where(.what-personal) .instant-per-row > .cmp-teaser {
+  height: 100%;
+}
+
+:where(.what-personal) h3 {
+  letter-spacing: normal;
+}
+
+:where(.what-personal) h3 {
+  display: block;
+  margin: 0;
+}
+
+:where(.what-personal) h3 {
+  display: block;
+  margin: 0;
+  font-family: var(--f-semi);
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 130%;
+}
+
+/* EDS slotting: authored headings inherit the wrapper's ramp */
+.what-personal .tops-heads .component-title h2 {
+  text-align: center;
+}
+
+/* variant slider (program pages): source multipurpose-slider — 4 per view, arrows + dots */
+:where(.what-personal.slider) .slick-prev,
+:where(.what-personal.slider) .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+:where(.what-personal.slider) .slick-prev:hover,
+:where(.what-personal.slider) .slick-prev:focus,
+:where(.what-personal.slider) .slick-next:hover,
+:where(.what-personal.slider) .slick-next:focus {
+  color: transparent;
+  outline: 0;
+  background: transparent;
+}
+
+:where(.what-personal.slider) .slick-prev:hover::before,
+:where(.what-personal.slider) .slick-prev:focus::before,
+:where(.what-personal.slider) .slick-next:hover::before,
+:where(.what-personal.slider) .slick-next:focus::before {
+  opacity: 1;
+}
+
+:where(.what-personal.slider) .slick-prev.slick-disabled::before {
+  opacity: 0.25;
+}
+
+:where(.what-personal.slider) .slick-prev::before,
+:where(.what-personal.slider) .slick-next::before {
+  font-family: slick, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+:where(.what-personal.slider) .slick-prev {
+  left: -25px;
+}
+
+:where(.what-personal.slider) .slick-prev::before {
+  content: "←";
+}
+
+:where(.what-personal.slider) .slick-next {
+  right: -25px;
+}
+
+:where(.what-personal.slider) .slick-next::before {
+  content: "→";
+}
+
+:where(.what-personal.slider) .slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+:where(.what-personal.slider) .slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+:where(.what-personal.slider) .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+:where(.what-personal.slider) .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+:where(.what-personal.slider) .slick-dots li button:hover,
+:where(.what-personal.slider) .slick-dots li button:focus {
+  outline: 0;
+}
+
+:where(.what-personal.slider) .slick-dots li button:hover::before,
+:where(.what-personal.slider) .slick-dots li button:focus::before {
+  opacity: 1;
+}
+
+:where(.what-personal.slider) .slick-dots li button::before {
+  font-family: slick, sans-serif;
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+}
+
+:where(.what-personal.slider) .slick-dots li.slick-active button::before {
+  opacity: 0.75;
+  color: black;
+}
+
+:where(.what-personal.slider) .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:where(.what-personal.slider) .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+:where(.what-personal.slider) .slick-list:focus {
+  outline: 0;
+}
+
+:where(.what-personal.slider) .slick-slider .slick-track,
+:where(.what-personal.slider) .slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+:where(.what-personal.slider) .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:where(.what-personal.slider) .slick-track::before,
+:where(.what-personal.slider) .slick-track::after {
+  display: table;
+  content: "";
+}
+
+:where(.what-personal.slider) .slick-track::after {
+  clear: both;
+}
+
+:where(.what-personal.slider) .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+:where(.what-personal.slider) .slick-initialized .slick-slide {
+  display: block;
+}
+
+:where(.what-personal.slider) .slick-dots {
+  display: none;
+}
+
+:where(.what-personal.slider) .slider-dots .slick-dots {
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: block;
+}
+
+:where(.what-personal.slider) .slider-dots .slick-dots li {
+  width: auto;
+  height: auto;
+  margin: 0 5px;
+}
+
+:where(.what-personal.slider) .slider-dots .slick-dots li button {
+  width: 9px;
+  height: 9px;
+  background-color: rgb(51 51 51 / 10%);
+  border-radius: 50%;
+  transition: 0.4s;
+  padding: 2px;
+}
+
+:where(.what-personal.slider) .slider-dots .slick-dots li button::before {
+  content: none;
+}
+
+:where(.what-personal.slider) .slider-dots .slick-dots li.slick-active button {
+  background-color: rgb(51 51 51);
+}
+
+:where(.what-personal.slider) .slider-arrows .slick-arrow {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 85%) 0, rgb(255 255 255 / 90%) 99.11%);
+  border-radius: 16px;
+}
+
+:where(.what-personal.slider) .slider-arrows .slick-arrow::before {
+  font-family: icomoon, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(51 51 51);
+}
+
+:where(.what-personal.slider) .slider-arrows .slick-arrow.slick-disabled {
+  pointer-events: none;
+}
+
+:where(.what-personal.slider) .slider-arrows .slick-prev {
+  left: -15px;
+}
+
+:where(.what-personal.slider) .slider-arrows .slick-prev::before {
+  content: "\e906";
+}
+
+:where(.what-personal.slider) .slider-arrows .slick-next {
+  right: -15px;
+}
+
+:where(.what-personal.slider) .slider-arrows .slick-next::before {
+  content: "\e905";
+}
+
+:where(.what-personal.slider) .flex-slider .slick-track {
+  display: flex;
+}
+
+:where(.what-personal.slider) .flex-slider .slick-track .slick-slide {
+  height: auto;
+  min-height: inherit;
+}
+
+:where(.what-personal.slider) .slick-slide:focus {
+  outline: 0;
+}
+
+@media (width <= 767px) {
+  :where(.what-personal.slider) .slider-arrows .slick-arrow {
+    width: 30px;
+    height: 30px;
+    bottom: -46px;
+  }
+
+  :where(.what-personal.slider) .slider-arrows .slick-arrow::before {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  :where(.what-personal.slider) .slider-arrows .slick-prev {
+    margin-left: -85px;
+  }
+
+  :where(.what-personal.slider) .slider-arrows .slick-next {
+    margin-right: -85px;
+  }
+}
+
+:where(.what-personal.slider) .instant-personal-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -30px;
+}
+
+:where(.what-personal.slider) .instant-personal-slider .slick-dots {
+  bottom: -30px;
+}
+
+:where(.what-personal.slider) .instant-personal-slider .instant-per-row {
+  width: 33.33%;
+}
+
+:where(.what-personal.slider) .instant-personal-slider .instant-per-col {
+  padding: 30px 15px 0;
+  height: 100%;
+}
+
+:where(.what-personal.slider) .instant-personal-slider .instant-per-div {
+  height: 100%;
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 67%) 99.11%);
+  padding: 25px;
+  min-height: 182px;
+}
+
+:where(.what-personal.slider) .instant-personal-slider .instant-per-div .instant-top {
+  position: relative;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+:where(.what-personal.slider) .instant-personal-slider.multipurpose-slider {
+  margin: 0;
+  display: block;
+}
+
+:where(.what-personal.slider) .instant-personal-slider.multipurpose-slider .instant-per-col {
+  padding-top: 0;
+}
+
+:where(.what-personal.slider) .instant-personal-slider.multipurpose-slider .instant-per-row {
+  width: 25%;
+}
+
+:where(.what-personal.slider) .instant-personal-slider.multipurpose-slider .instant-per-div {
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 71%) 0, rgb(255 255 255 / 95%) 99.11%), linear-gradient(134.06deg, rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 67%) 99.11%);
+}
+
+:where(.what-personal.slider) .instant-personal-slider.multipurpose-slider .instant-per-div .heading20 {
+  margin-bottom: 12px;
+}
+
+:where(.what-personal.slider) .instant-personal-slider.multipurpose-slider .instant-per-div .instant-top {
+  min-height: 47px;
+}
+
+:where(.what-personal.slider) .instant-personal-slider.multipurpose-slider .instant-per-div p {
+  line-height: 20px;
+}
+
+@media (width <= 991px) {
+  :where(.what-personal.slider) .instant-personal-slider {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -20px;
+  }
+
+  :where(.what-personal.slider) .instant-personal-slider.flex-slider {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  :where(.what-personal.slider) .instant-personal-slider .instant-per-col {
+    padding: 20px 10px 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.what-personal.slider) .instant-personal-slider {
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: -14px;
+  }
+
+  :where(.what-personal.slider) .instant-personal-slider .slick-list {
+    padding-left: 10px !important;
+  }
+
+  :where(.what-personal.slider) .instant-personal-slider .instant-per-col {
+    padding: 14px 7px 0;
+  }
+
+  :where(.what-personal.slider) .instant-personal-slider .instant-per-div {
+    padding: 24px;
+  }
+
+  :where(.what-personal.slider) .instant-personal-slider .instant-per-div .instant-top {
+    min-height: 37px;
+  }
+}
+
+:where(.what-personal.slider) .instant-per-row > .cmp-teaser {
+  height: 100%;
+}
+
+:where(.what-personal.slider) .key-feature-card-title {
+  display: block;
+  margin: 0;
+}
+
+:where(.what-personal.slider) .key-feature-card-title {
+  display: block;
+  margin: 0;
+  font-family: var(--f-semi);
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 130%;
+}
+
+@media (width <= 767px) {
+  :where(.what-personal.slider) .slick-track {
+    transform: none !important;
+  }
+
+  :where(.what-personal.slider) .jsMultiPurposeSlider .slick-track {
+    display: block !important;
+    width: auto !important;
+  }
+
+  :where(.what-personal.slider) .jsMultiPurposeSlider .slick-slide {
+    float: none;
+    margin-bottom: 16px;
+    width: auto !important;
+    display: block !important;
+  }
+
+  :where(.what-personal.slider) .jsMultiPurposeSlider .slick-arrow,
+  :where(.what-personal.slider) .jsMultiPurposeSlider .slick-dots {
+    display: none !important;
+  }
+
+  :where(.what-personal.slider) .slick-arrow {
+    display: none !important;
+  }
+}
+
+.what-personal.slider .instant-personal-slider {
+  display: block;
+  flex-wrap: nowrap;
+}
+
+.what-personal.slider .instant-personal-slider .instant-per-row {
+  width: auto;
+}
+
+/* card body lists (cluster-program, home-loan repayment options): source card <ul> is unstyled
+   (no bullets, no indent, 15px/21.6px) after a one-line &nbsp; spacer */
+.what-personal .instant-per-div ul {
+  margin: 21.6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.what-personal .instant-per-div ul li {
+  font-size: 15px;
+  line-height: 21.6px;
+}
+
+/* variant stack (cluster-program, home-loan repayment options): one card per row ≤767px */
+@media (width <= 767px) {
+  .what-personal.stack .instant-personal-slider.take-per-slider .instant-per-row {
+    width: 100%;
+  }
+}

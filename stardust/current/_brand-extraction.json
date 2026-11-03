@@ -1,0 +1,2032 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-02T09:10:38.502Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/assets/css/*.css"
+    ],
+    "aggregationScope": "all 10 extracted pages @1440+360"
+  },
+  "origins": [
+    {
+      "origin": "https://www.tatacapital.com",
+      "role": "primary",
+      "pages": 10
+    }
+  ],
+  "logo": {
+    "path": "stardust/current/assets/logo.svg",
+    "source": "https://www.tatacapital.com/content/dam/tata-capital-web/tc-header-images/tcl.svg",
+    "selector": "header img[alt=\"Header Logo\"]",
+    "note": "white+lime wordmark on the blue header bar"
+  },
+  "favicon": {
+    "path": "stardust/current/assets/favicon.ico"
+  },
+  "palette": [
+    {
+      "hex": "#333333",
+      "roles": [
+        "text",
+        "heading"
+      ],
+      "weight": 3780,
+      "bgArea": 123527,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "header > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > p:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "header > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > p:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div > p",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff",
+      "roles": [
+        "background"
+      ],
+      "weight": 1500,
+      "bgArea": 183582968,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/experian-credit-score.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > div > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#1961ac",
+      "roles": [
+        "primary"
+      ],
+      "weight": 688,
+      "bgArea": 3465094,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/partners.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/partners.html",
+          "selector": "nav > ul > li:nth-of-type(1) > a",
+          "prop": "link"
+        }
+      ]
+    },
+    {
+      "hex": "#707070",
+      "roles": [
+        "border"
+      ],
+      "weight": 211,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/experian-credit-score.html",
+          "selector": "#tablefixed-top-left2 > table > thead > tr > th:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/check-credit-score.html",
+          "selector": "main > section > div > div > table > thead > tr > th:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#e0e0e0",
+      "roles": [
+        "surface"
+      ],
+      "weight": 149,
+      "bgArea": 27442334,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div:nth-of-type(3) > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "div > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#b369ab",
+      "roles": [
+        "secondary"
+      ],
+      "weight": 79,
+      "bgArea": 88240,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "#page-e7e8d9e8b2 > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "body > div:nth-of-type(2) > div > div:nth-of-type(1) > button",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/check-credit-score.html",
+          "selector": "body > div:nth-of-type(3) > div > div:nth-of-type(1) > button",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#d9e051",
+      "roles": [
+        "accent"
+      ],
+      "weight": 27,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(1) > div > button",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(1) > div > button",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/check-credit-score.html",
+          "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(1) > div > button",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#000000",
+      "roles": [],
+      "weight": 871,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "#about-product-big-div-05ebf14b4a > div:nth-of-type(2) > div > div > div:nth-of-type(1) > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "#customcontainer-1b1d96e4f8 > div:nth-of-type(1) > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/check-credit-score.html",
+          "selector": "#customcontainer-69a3d68a3f > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > h2",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#b287d4",
+      "roles": [],
+      "weight": 271,
+      "bgArea": 495699,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "div:nth-of-type(1) > section > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > ul > li:nth-of-type(4) > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "#timeline-container > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#eaf4f2",
+      "roles": [],
+      "weight": 119,
+      "bgArea": 1770705,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div:nth-of-type(3) > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "div > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div > div > div:nth-of-type(1) > ul > div > div > div > li:nth-of-type(2)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#3333331a",
+      "roles": [],
+      "weight": 85,
+      "bgArea": 6885,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "#slick-slide-control31",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "#slick-slide-control10",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "#slick-slide-control00",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#bfd4e2",
+      "roles": [],
+      "weight": 85,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "#timeline-container > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > span",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "#timeline-container > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > span",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "#timeline-container > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > span",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#96969666",
+      "roles": [],
+      "weight": 78,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.tatacapital.com/check-credit-score.html",
+          "selector": "div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#edf8ff",
+      "roles": [],
+      "weight": 77,
+      "bgArea": 4237560,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/partners.html",
+          "selector": "div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "#policies-codes1 > div:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "#policies-codes1 > div:nth-of-type(2)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#d8e024",
+      "roles": [],
+      "weight": 41,
+      "bgArea": 59696,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "selector": "#quizSliderArea > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > div > div > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(4) > div:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(4) > div:nth-of-type(2)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#126fb3",
+      "roles": [],
+      "weight": 37,
+      "bgArea": 7680,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/partners.html",
+          "selector": "div > div > div > div > div > div > p:nth-of-type(1) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.tatacapital.com/partners.html",
+          "selector": "div > div > div > div > div > div > p:nth-of-type(1) > a",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#4f4f4f",
+      "roles": [],
+      "weight": 33,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "#why-to-choose-us-reasonlist-31c77cf9f5 > div > p:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "#customcontainer-2e09dc0f5e > div:nth-of-type(1) > li > div > p:nth-of-type(2)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#c7c7c799",
+      "roles": [],
+      "weight": 28,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "selector": "div > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#bdc9d3",
+      "roles": [],
+      "weight": 23,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > h3:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "div > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > h3:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "#wts-tabs-06b6ad53f1 > div:nth-of-type(1) > button:nth-of-type(2)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#8b8b8b",
+      "roles": [],
+      "weight": 22,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "#slick-slide30 > div > div:nth-of-type(2) > div:nth-of-type(3) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "#slick-slide00 > div > div:nth-of-type(2) > div:nth-of-type(3) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "#slick-slide30 > div > div:nth-of-type(2) > div:nth-of-type(3) > span",
+          "prop": "text"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "OpenSans-SemiBold",
+        "count": 462,
+        "headings": 308,
+        "text": 0,
+        "buttons": 154
+      },
+      {
+        "family": "OpenSans-Regular",
+        "count": 256,
+        "headings": 225,
+        "text": 31,
+        "buttons": 0
+      },
+      {
+        "family": "Open Sans",
+        "count": 173,
+        "headings": 6,
+        "text": 165,
+        "buttons": 2
+      },
+      {
+        "family": "OpenSans-Light",
+        "count": 171,
+        "headings": 171,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "family": "OpenSans-Bold",
+        "count": 48,
+        "headings": 0,
+        "text": 0,
+        "buttons": 48
+      },
+      {
+        "family": "Arial",
+        "count": 11,
+        "headings": 0,
+        "text": 0,
+        "buttons": 11
+      },
+      {
+        "family": "OpenSansItalic",
+        "count": 2,
+        "headings": 0,
+        "text": 2,
+        "buttons": 0
+      }
+    ],
+    "headingFamily": "OpenSans-SemiBold",
+    "bodyFamily": "Open Sans",
+    "levels": {
+      "h1": {
+        "fontSize": 40,
+        "fontWeight": "400",
+        "count": 8,
+        "score": 113.14
+      },
+      "h2": {
+        "fontSize": 34,
+        "fontWeight": "400",
+        "count": 112,
+        "score": 359.82
+      },
+      "h3": {
+        "fontSize": 20,
+        "fontWeight": "400",
+        "count": 141,
+        "score": 237.49
+      },
+      "h4": {
+        "fontSize": 34,
+        "fontWeight": "400",
+        "count": 2,
+        "score": 48.08
+      },
+      "h5": {
+        "fontSize": 20,
+        "fontWeight": "400",
+        "count": 6,
+        "score": 48.99
+      },
+      "h6": {
+        "fontSize": 18,
+        "fontWeight": "400",
+        "count": 4,
+        "score": 36
+      }
+    },
+    "sizes": [
+      {
+        "px": 40,
+        "count": 8,
+        "headings": 8,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 36,
+        "count": 1,
+        "headings": 1,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 34,
+        "count": 114,
+        "headings": 114,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 32,
+        "count": 1,
+        "headings": 1,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 30,
+        "count": 8,
+        "headings": 8,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 28,
+        "count": 1,
+        "headings": 1,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 26,
+        "count": 77,
+        "headings": 77,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 1,
+        "headings": 1,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 22,
+        "count": 107,
+        "headings": 107,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 20,
+        "count": 157,
+        "headings": 147,
+        "text": 6,
+        "buttons": 4
+      },
+      {
+        "px": 18,
+        "count": 5,
+        "headings": 4,
+        "text": 1,
+        "buttons": 0
+      },
+      {
+        "px": 16,
+        "count": 276,
+        "headings": 221,
+        "text": 7,
+        "buttons": 48
+      },
+      {
+        "px": 15,
+        "count": 70,
+        "headings": 10,
+        "text": 57,
+        "buttons": 3
+      },
+      {
+        "px": 14,
+        "count": 120,
+        "headings": 10,
+        "text": 41,
+        "buttons": 69
+      },
+      {
+        "px": 13.33,
+        "count": 11,
+        "headings": 0,
+        "text": 0,
+        "buttons": 11
+      },
+      {
+        "px": 13,
+        "count": 87,
+        "headings": 0,
+        "text": 86,
+        "buttons": 1
+      },
+      {
+        "px": 12,
+        "count": 79,
+        "headings": 0,
+        "text": 0,
+        "buttons": 79
+      }
+    ],
+    "weights": [
+      {
+        "weight": "400",
+        "count": 1099,
+        "headings": 708,
+        "text": 186,
+        "buttons": 205
+      },
+      {
+        "weight": "600",
+        "count": 22,
+        "headings": 0,
+        "text": 12,
+        "buttons": 10
+      },
+      {
+        "weight": "100",
+        "count": 2,
+        "headings": 2,
+        "text": 0,
+        "buttons": 0
+      }
+    ],
+    "files": [
+      {
+        "family": "OpenSans-Regular",
+        "path": "stardust/current/assets/fonts/OpenSans-Regular.woff2",
+        "source": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/fonts/open-sans-optimize/OpenSans-Regular.woff2",
+        "license": "OFL (Open Sans) — self-hostable"
+      },
+      {
+        "family": "OpenSans-Semibold",
+        "path": "stardust/current/assets/fonts/OpenSans-Semibold.woff2",
+        "source": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/fonts/open-sans-optimize/OpenSans-Semibold.woff2",
+        "license": "OFL (Open Sans) — self-hostable"
+      },
+      {
+        "family": "OpenSans-Bold",
+        "path": "stardust/current/assets/fonts/OpenSans-Bold.woff2",
+        "source": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/fonts/open-sans-optimize/OpenSans-Bold.woff2",
+        "license": "OFL (Open Sans) — self-hostable"
+      },
+      {
+        "family": "OpenSans-Light",
+        "path": "stardust/current/assets/fonts/OpenSans-Light.woff2",
+        "source": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/fonts/open-sans-optimize/OpenSans-Light.woff2",
+        "license": "OFL (Open Sans) — self-hostable"
+      },
+      {
+        "family": "OpenSansItalic",
+        "path": "stardust/current/assets/fonts/OpenSansItalic.woff2",
+        "source": "https://www.tatacapital.com/content/dam/tata-capital-web/assets/fonts/open-sans-optimize/OpenSansItalic.woff2",
+        "license": "OFL (Open Sans) — self-hostable"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "note": "40/34/26/22/20/16/14/13/12 px — not a modular ratio"
+    }
+  },
+  "iconFont": {
+    "families": [
+      "icomoon"
+    ],
+    "file": "stardust/current/assets/fonts/icomoon.woff",
+    "glyphs": [
+      {
+        "class": "all-icon32 icon-EMI-calculator bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E975",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-cal-eligibility bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E94B",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-calc-time bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+EA40",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-debt-consolidation bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E966",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-home-enovation bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E992",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-insurance-life bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E9A4",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-loan-travel bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E9C1",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-medical-bag bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+EA44",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "icon-blog",
+        "pseudo": "::before",
+        "codepoint": "U+E921",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "icon-download2 download2icon",
+        "pseudo": "::before",
+        "codepoint": "U+EA55",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "icon-headphone",
+        "pseudo": "::before",
+        "codepoint": "U+E93B",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "menu-tab-btn",
+        "pseudo": "::before",
+        "codepoint": "U+E923",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "menu-tab-btn active",
+        "pseudo": "::before",
+        "codepoint": "U+E923",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "nav-link nav-link-dropdown",
+        "pseudo": "::before",
+        "codepoint": "U+E90E",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "need-know-link",
+        "pseudo": "::after",
+        "codepoint": "U+E905",
+        "fontFamily": "icomoon",
+        "count": 18,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-channel-financing bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E956",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-find-dealer bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E986",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-house-person bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+EA37",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-invoice-discount bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E9AD",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-plot-construction bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E9E0",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-property-cost bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E9E8",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-purchase-funding bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E9EB",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-quick-cash bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+E9EF",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-withdrawals bg-light-purple head-icons",
+        "pseudo": "::before",
+        "codepoint": "U+EA24",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "menu-tab-btn animated-header-btn",
+        "pseudo": "::before",
+        "codepoint": "U+E923",
+        "fontFamily": "icomoon",
+        "count": 9,
+        "sources": [
+          "https://www.tatacapital.com/",
+          "https://www.tatacapital.com/calculator.html",
+          "https://www.tatacapital.com/check-credit-score.html"
+        ]
+      },
+      {
+        "class": "all-icon32 icon-check",
+        "pseudo": "::before",
+        "codepoint": "U+E938",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "faq-heading cmp-accordion__button faq-accordion-button",
+        "pseudo": "::before",
+        "codepoint": "U+E90E",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "hpc-dropdown-heading dropdown-heading csrLoanDropdown",
+        "pseudo": "::before",
+        "codepoint": "U+E90E",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-EMI-calculator",
+        "pseudo": "::before",
+        "codepoint": "U+E975",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-arrow-left",
+        "pseudo": "::before",
+        "codepoint": "U+E906",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-arrow-right",
+        "pseudo": "::before",
+        "codepoint": "U+E905",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-arrow-right arros",
+        "pseudo": "::before",
+        "codepoint": "U+E905",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-arrow-up-right arrow-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E926",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-close",
+        "pseudo": "::before",
+        "codepoint": "U+E910",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-copy icon",
+        "pseudo": "::before",
+        "codepoint": "U+E928",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-download-new",
+        "pseudo": "::before",
+        "codepoint": "U+E996",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-facebook",
+        "pseudo": "::before",
+        "codepoint": "U+E901",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-handsome-loan",
+        "pseudo": "::before",
+        "codepoint": "U+E990",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-linkedin",
+        "pseudo": "::before",
+        "codepoint": "U+E90C",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      },
+      {
+        "class": "icon-play",
+        "pseudo": "::before",
+        "codepoint": "U+E930",
+        "fontFamily": "icomoon",
+        "count": 2,
+        "sources": [
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+          "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html"
+        ]
+      }
+    ],
+    "license": "site-owned icomoon set"
+  },
+  "motifs": {
+    "radius": {
+      "mode": "30px",
+      "pill": "50%",
+      "values": [
+        {
+          "value": "50%",
+          "count": 509,
+          "area": 737552,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(1) > div > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#slick-slide-control00"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#slick-slide-control01"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#slick-slide-control02"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(1) > div > button"
+            }
+          ]
+        },
+        {
+          "value": "30px",
+          "count": 282,
+          "area": 58907472,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#main-content > div:nth-of-type(4) > div > div:nth-of-type(2) > section > div > div"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "div > div:nth-of-type(4) > div > div > div > div:nth-of-type(1) > ul > li:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#main-content > div:nth-of-type(1) > div > div:nth-of-type(1) > section > div > article"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#jsNewBannerSlider"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "div > div > section > div > div > div > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "24px",
+          "count": 229,
+          "area": 28854143,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#main-content > div:nth-of-type(1) > div > div:nth-of-type(1) > section > div > article"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#jsNewBannerSlider"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#slick-slide02 > div"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#customcontainer-99e40bfe7a > div > div > div > div > div"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "#customcontainer-35da27d9a7 > div:nth-of-type(1) > section > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 129,
+          "area": 2602438,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "main > section > div > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "main > section > div > div:nth-of-type(2) > div > div > div > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#customerTestimonalEF > section > div:nth-of-type(2) > div > div > div:nth-of-type(2) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.tatacapital.com/home-loan-app.html",
+              "selector": "div > div > div:nth-of-type(2) > section > div > div:nth-of-type(2) > div > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.tatacapital.com/home-loan-app.html",
+              "selector": "div > div > div:nth-of-type(2) > section > div > div:nth-of-type(2) > div > button:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "12px",
+          "count": 124,
+          "area": 1277006,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#slick-slide02 > div > div:nth-of-type(1) > div > div:nth-of-type(5) > a"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#wts-tabs-teaser-ef-24ad7b81de > div:nth-of-type(2) > div > div:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#wts-tabs-teaser-ef-24ad7b81de > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(4) > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#preApprovedLoanForm > div:nth-of-type(3) > button"
+            }
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 98,
+          "area": 8548902,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "div > div > div > div > div > div:nth-of-type(2) > div > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#TC-icon"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#hpc-home-loan-a9ecb98f54 > div > ul > li:nth-of-type(1) > a"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#hpc-home-loan-a9ecb98f54 > div > ul > li:nth-of-type(2) > a"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "div:nth-of-type(1) > section > div > div:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 82,
+          "area": 6198304,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "div > section > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "section > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#wts-tabs-06b6ad53f1 > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(3)"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > div > div"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "#slick-slide00 > div > div:nth-of-type(1) > img"
+            }
+          ]
+        },
+        {
+          "value": "10px 10px 0px 0px",
+          "count": 44,
+          "area": 1741040,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#page-e7e8d9e8b2 > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "body > div:nth-of-type(2) > div > div:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/check-credit-score.html",
+              "selector": "body > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/experian-credit-score.html",
+              "selector": "#page-83f1ad8fe0 > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/home-loan-app.html",
+              "selector": "#page-4d1b33f6b6 > div:nth-of-type(3) > div > div:nth-of-type(1) > button"
+            }
+          ]
+        },
+        {
+          "value": "6px",
+          "count": 37,
+          "area": 54336,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#P9LngDdl"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "#P9LngDdl"
+            },
+            {
+              "url": "https://www.tatacapital.com/check-credit-score.html",
+              "selector": "#P9LngDdl"
+            }
+          ]
+        },
+        {
+          "value": "14px",
+          "count": 33,
+          "area": 2139840,
+          "sources": [
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#policies-codes1 > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#policies-codes2 > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tatacapital.com/",
+              "selector": "#policies-codes > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "#policies-codes1 > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tatacapital.com/calculator.html",
+              "selector": "#policies-codes2 > div:nth-of-type(2)"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.01) -5px 0px 10px 0px, rgba(0, 0, 0, 0.01) 5px 0px 10px 0px, rgba(0, 0, 0, 0.01) 0px -5px 10px 0px, rgba(0, 0, 0, 0.01) 0px 5px 10px 0px",
+        "count": 580,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#main-content > div:nth-of-type(1) > div > div:nth-of-type(1) > section > div > article"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "div:nth-of-type(1) > div > div > section > div > div > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#explore-our-product-card-cc63cc6cd3"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#explore-our-product-card-d9aadbe0b0"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#customcontainer-35da27d9a7 > div:nth-of-type(1) > section > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 3.6px 36px 0px",
+        "count": 16,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "div > div:nth-of-type(4) > div > div > div > div:nth-of-type(1) > ul > li:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "div > div:nth-of-type(4) > div > div > div > div:nth-of-type(1) > ul > li:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#container-27ad31fec8 > div > div > div:nth-of-type(1) > ul > li:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#container-27ad31fec8 > div > div > div:nth-of-type(1) > ul > li:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "#experiencefragment-c2aedd22bf > div > div > div > div:nth-of-type(1) > ul > li:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.08) 0px 4px 25px 0px",
+        "count": 12,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+            "selector": "#videos > div > div:nth-of-type(2) > div:nth-of-type(1) > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+            "selector": "#videos > div > div:nth-of-type(2) > div:nth-of-type(2) > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/sawaal-karo-phir-loan-lo.html",
+            "selector": "#videos > div > div:nth-of-type(2) > div:nth-of-type(3) > div"
+          }
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgba(255, 255, 255, 0.88) 0px, rgb(255, 255, 255) 100%)",
+        "count": 270,
+        "area": 59114458,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "div:nth-of-type(1) > div > div > section > div > div > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#communitiesBoxEF > section > div > div > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "#customcontainer-69a3d68a3f > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "#about-product-big-div-3e2a6ffe12"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "div > div > div:nth-of-type(6) > section > div > div > div > div:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(134.06deg, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.67) 99.11%)",
+        "count": 195,
+        "area": 12009063,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#customcontainer-35da27d9a7 > div:nth-of-type(1) > section > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#customcontainer-35da27d9a7 > div:nth-of-type(1) > section > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#customcontainer-35da27d9a7 > div:nth-of-type(1) > section > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "#who-can-take-loan-tabs-edd50f4a90 > div:nth-of-type(2) > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "div:nth-of-type(20) > section > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > button"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(134.06deg, rgba(18, 104, 179, 0.71) 0px, rgba(16, 141, 250, 0.95) 99.11%)",
+        "count": 95,
+        "area": 4679167,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "div > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(1) > button"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#communitiesBoxEF > section > div > div > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "div:nth-of-type(1) > section > div > div:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#quick-links-drawer-09cdb9cd07"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#customcontainer-e4c3e8d01b > div > div > div"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(134.06deg, rgba(255, 255, 255, 0.71) 0px, rgba(255, 255, 255, 0.95) 99.11%), linear-gradient(134.06deg, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.67) 99.11%)",
+        "count": 38,
+        "area": 3712210,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "div:nth-of-type(8) > section > div:nth-of-type(2) > ul > div > li:nth-of-type(1) > div > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "div:nth-of-type(8) > section > div:nth-of-type(2) > ul > div > li:nth-of-type(2) > div > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "div:nth-of-type(8) > section > div:nth-of-type(2) > ul > div > li:nth-of-type(3) > div > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "section > div:nth-of-type(2) > div > ul > div > li:nth-of-type(1) > div > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/check-credit-score.html",
+            "selector": "#key-features-card-ee2fd38ec3 > div"
+          }
+        ]
+      },
+      {
+        "value": "radial-gradient(48.39% 149.81% at 48.36% 50.79%, rgba(255, 255, 255, 0.8) 0px, rgba(255, 255, 255, 0.67) 100%, rgba(255, 255, 255, 0.86) 100%)",
+        "count": 33,
+        "area": 94347,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#slick-slide30 > div > div:nth-of-type(2) > div:nth-of-type(3) > div > button"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#slick-slide31 > div > div:nth-of-type(2) > div:nth-of-type(3) > div > button"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#slick-slide32 > div > div:nth-of-type(2) > div:nth-of-type(3) > div > button"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#slick-slide00 > div > div:nth-of-type(2) > div:nth-of-type(2) > div > button"
+          },
+          {
+            "url": "https://www.tatacapital.com/calculator.html",
+            "selector": "#slick-slide01 > div > div:nth-of-type(2) > div:nth-of-type(2) > div > button"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(134.06deg, rgba(255, 255, 255, 0.85) 0px, rgba(255, 255, 255, 0.9) 99.11%)",
+        "count": 28,
+        "area": 66800,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "main > section > div > div:nth-of-type(2) > div > div > div > button:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "main > section > div > div:nth-of-type(2) > div > div > div > button:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#customerTestimonalEF > section > div:nth-of-type(2) > div > div > div:nth-of-type(2) > button:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/home-loan-app.html",
+            "selector": "div > div > div:nth-of-type(2) > section > div > div:nth-of-type(2) > div > button:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/home-loan-app.html",
+            "selector": "div > div > div:nth-of-type(2) > section > div > div:nth-of-type(2) > div > button:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "radial-gradient(50.79% 52.48% at 48.36% 50.79%, rgba(255, 255, 255, 0.4) 0px, rgba(255, 255, 255, 0.72) 100%)",
+        "count": 21,
+        "area": 2272483,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#explore-our-product-card-cc63cc6cd3"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#explore-our-product-card-d9aadbe0b0"
+          },
+          {
+            "url": "https://www.tatacapital.com/",
+            "selector": "#explore-our-product-card-5d1daa95aa"
+          },
+          {
+            "url": "https://www.tatacapital.com/home-loan.html",
+            "selector": "#slick-slide00 > div > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/home-loan.html",
+            "selector": "#slick-slide01 > div > div"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(134.06deg, rgb(241, 249, 255) 0px, rgb(245, 251, 255) 99.11%)",
+        "count": 16,
+        "area": 86234,
+        "sources": [
+          {
+            "url": "https://www.tatacapital.com/home-loan.html",
+            "selector": "article > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/home-loan.html",
+            "selector": "article > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.tatacapital.com/home-loan.html",
+            "selector": "#years > div > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/personal-loan.html",
+            "selector": "article > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div"
+          },
+          {
+            "url": "https://www.tatacapital.com/personal-loan.html",
+            "selector": "article > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+          }
+        ]
+      }
+    ]
+  },
+  "hover": [
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(25, 97, 172)",
+        "boxShadow": "none"
+      },
+      "to": {
+        "backgroundColor": "rgb(22, 92, 164)",
+        "boxShadow": "rgba(30, 109, 194, 0.02) 0px 38px 15px 0px, rgba(30, 109, 194, 0.08) 0px 21px 13px 0px, rgba(30, 109, 194, 0.13) 0px 9px 9px 0px, rgba(30, 109, 194, 0.15) 0px 2px 5px 0px, rgba(30, 109, 194, 0.15) 0px 0px 0px 0px"
+      },
+      "count": 10,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "#slick-slide02 > div > div:nth-of-type(1) > div > div:nth-of-type(5) > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "#slick-slide02 > div > div:nth-of-type(1) > div > div:nth-of-type(5) > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/experian-credit-score.html",
+          "selector": "#about-product-big-div-c0e77ecf82 > div:nth-of-type(3) > div > div > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/experian-credit-score.html",
+          "selector": "#about-product-big-div-c0e77ecf82 > div:nth-of-type(3) > div > div > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "#jsFaqLoadMore"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(216, 224, 36)"
+      },
+      "to": {
+        "backgroundColor": "rgb(210, 219, 39)"
+      },
+      "count": 8,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(4) > div:nth-of-type(2)"
+        },
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(4) > div:nth-of-type(2)"
+        },
+        {
+          "url": "https://www.tatacapital.com/experian-credit-score.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(4) > div:nth-of-type(2)"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(4) > div:nth-of-type(2)"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > ul > li:nth-of-type(4) > div:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(255, 255, 255)"
+      },
+      "to": {
+        "color": "rgb(216, 224, 36)"
+      },
+      "count": 7,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/partners.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "boxShadow": "none"
+      },
+      "to": {
+        "boxShadow": "rgba(0, 0, 0, 0.01) 0px 22px 13px 0px, rgba(0, 0, 0, 0.02) 0px 10px 10px 0px, rgba(0, 0, 0, 0.02) 0px 2px 5px 0px, rgba(0, 0, 0, 0.02) 0px 0px 0px 0px"
+      },
+      "count": 5,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "#form-subscribe > div:nth-of-type(2) > div > button"
+        },
+        {
+          "url": "https://www.tatacapital.com/calculator.html",
+          "selector": "#form-subscribe > div:nth-of-type(2) > div > button"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "#form-subscribe > div:nth-of-type(2) > div > button"
+        },
+        {
+          "url": "https://www.tatacapital.com/partners.html",
+          "selector": "#newsletter-btn-56ed3c1a23"
+        },
+        {
+          "url": "https://www.tatacapital.com/partners.html",
+          "selector": "#newsletter-btn-56ed3c1a23"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "boxShadow": "none"
+      },
+      "to": {
+        "boxShadow": "rgba(30, 109, 194, 0.02) 0px 38px 15px 0px, rgba(30, 109, 194, 0.08) 0px 21px 13px 0px, rgba(30, 109, 194, 0.13) 0px 9px 9px 0px, rgba(30, 109, 194, 0.15) 0px 2px 5px 0px, rgba(30, 109, 194, 0.15) 0px 0px 0px 0px"
+      },
+      "count": 3,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "div:nth-of-type(9) > section > div > div > div > div > form > button"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan-app.html",
+          "selector": "div > section > div > div > div > div:nth-of-type(2) > div > a"
+        },
+        {
+          "url": "https://www.tatacapital.com/home-loan.html",
+          "selector": "#white-blue-button-7c8eab0e74"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "color": "rgb(25, 97, 172)",
+        "borderColor": "rgb(25, 97, 172)",
+        "boxShadow": "none"
+      },
+      "to": {
+        "color": "rgb(15, 81, 151)",
+        "borderColor": "rgb(15, 81, 151)",
+        "boxShadow": "rgba(0, 0, 0, 0.01) 0px 22px 13px 0px, rgba(0, 0, 0, 0.02) 0px 10px 10px 0px, rgba(0, 0, 0, 0.02) 0px 2px 5px 0px, rgba(0, 0, 0, 0.02) 0px 0px 0px 0px"
+      },
+      "count": 1,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/personal-loan.html",
+          "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(51, 51, 51)"
+      },
+      "to": {
+        "color": "rgb(25, 97, 172)"
+      },
+      "count": 1,
+      "sources": [
+        {
+          "url": "https://www.tatacapital.com/",
+          "selector": "#explore-our-product-card-cc63cc6cd3 > div:nth-of-type(1) > h5 > a"
+        }
+      ]
+    }
+  ],
+  "voice": {
+    "heroHeadline": "A Personal Loan",
+    "metaDescription": "Tata Capital is a trusted NBFC in India providing loans, investment solutions, and financial services with seamless digital processes and quick approvals.",
+    "ctaSamples": [
+      "Apply Now",
+      "Learn More",
+      "Download Now"
+    ],
+    "bodySample": "Quick and easy finances at competitive interest rates.",
+    "heroImage": null,
+    "heroMedium": null
+  },
+  "systemComponents": [
+    {
+      "id": "site-header",
+      "pages": 10,
+      "evidence": "nav CTAs Loans for You / Loans for Business / Investment / Insurance / Offers / Quick Pay / Login on 9-10 pages"
+    },
+    {
+      "id": "site-footer",
+      "pages": 10,
+      "evidence": "h4 Follow Us on 10/10; footer link set on 8+"
+    },
+    {
+      "id": "newsletter",
+      "pages": 4,
+      "evidence": "h2 Subscribe to our newsletter on 4 pages"
+    },
+    {
+      "id": "share-bar",
+      "pages": 8,
+      "evidence": "Share CTA on 8 pages"
+    },
+    {
+      "id": "lead-popup",
+      "pages": "several",
+      "evidence": "floating mobile-number popup seen in vision check"
+    }
+  ]
+}

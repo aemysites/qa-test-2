@@ -1,0 +1,256 @@
+{
+ "types": {
+  "landing": {
+   "slug": "index",
+   "prototype": "stardust/prototypes/index-proposed.html",
+   "iterations": {
+    "1440": 3,
+    "360": 1
+   },
+   "gates": {
+    "1440": {
+     "pixel": "9.29%",
+     "heightDelta": "+31px (live 6412 vs build 6381)",
+     "contentDiff": "iter1 332 red/57 lost; last probe 61 red/19 lost before stardust/replica/accepted.json (24 clone/typewriter entries) — not re-run",
+     "visualDiff": "12 advisory (iter1)",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL (height delta > 8px; pixel passes)"
+    },
+    "360": {
+     "pixel": "34.85%",
+     "heightDelta": "-526px",
+     "contentDiff": "iter1 142 red/47 lost (pre-fix)",
+     "visualDiff": "11 advisory (iter1)",
+     "clipped": 0,
+     "overflow": "ok (fixed from +7px)",
+     "verdict": "FAIL"
+    }
+   },
+   "capProbe": "not run (budget)",
+   "residuals": [
+    "1440 ways-to-service Mobile Apps panel ~21px shorter than live capture (live store badges lazy-load taller); remaining ~10px offset in testimonials/insights — fix identified (.ul-ratings margin-top) but not applied/gated",
+    "360: live stitched capture renders lazy experience-fragment sections (instant loan, ways, testimonials, insights, newsletter) without component CSS and hides the calculator; prototype implements the styled responsive design from source media rules — permanent capture-state mismatch, flag for delivery",
+    "content-diff: slick loop clones (8 hero, testimonial/insight clones) duplicate CTAs/icons/sr-only text on live; accepted in stardust/replica/accepted.json, owner review needed",
+    "smart-search placeholder/aria-label is a live typewriter animation (nondeterministic)",
+    "third-party accessibility widget (tpaw) and chat bot: only trigger buttons replicated",
+    "header mega menus / calculator hidden tabs / modals rendered as clean hidden markup (text-complete, not pixel-styled when opened); Pre-Payment/Eligibility/Home Loan calculators not functional",
+    "chrome-parity header deltas (live probed in affix state) unresolved; crop-compare chrome bands not run"
+   ],
+   "motion": {
+    "observed": [],
+    "implemented": [
+     "hero autoplay 5s",
+     "carousel arrows/dots",
+     "ways tabs",
+     "EMI calculator",
+     "header affix at scrollTop>=header-top",
+     "mega menu hover",
+     "footer tab panels",
+     "lazy images"
+    ],
+    "dead": [],
+    "status": "deferred: budget"
+   },
+   "captureState": [
+    {
+     "what": "hero carousel slide 1 at rest",
+     "restoreAtDelivery": "autoplay rotation (implemented, 5s)"
+    }
+   ],
+   "dismiss": "#beware-modal .popover-modal-close",
+   "mainSelector": "#main-content"
+  },
+  "program": {
+   "slug": "personal-loan",
+   "prototype": "stardust/prototypes/personal-loan-proposed.html",
+   "css": "stardust/prototypes/css/personal-loan.css",
+   "generator": "stardust/.work/tools/build_page.py (+ fix/<slug>.css, lift_css.mjs)",
+   "iterations": {
+    "1440": 2,
+    "360": 2
+   },
+   "gates": {
+    "1440": {
+     "pixel": "10.63%",
+     "heightDelta": "+42px (live 12439 vs build 12481)",
+     "contentDiff": "172 findings, 4 red / 0 nothing-lost",
+     "clipped": 3,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    },
+    "360": {
+     "pixel": "31.00%",
+     "heightDelta": "-2951px (live 24164 vs build 21213)",
+     "contentDiff": "468 findings, 15 red / 10 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    }
+   },
+   "residuals": [
+    "360: live capture renders lazy component sections unstyled/stacked (features, types, city lists, profiles) while build applies lifted component CSS + mobile un-slick override - build 2951px shorter; same capture-state mismatch as home",
+    "1440: pixel 10.63% (just over bar), height -42px (build taller ~30-75px from features/docs/apply sections); 4 structural red incl. hero h1 Personal Loan not matched",
+    "360 content-diff 15 red / 10 nothing-lost: live mobile DOM differs (blog dates e.g. 16 Oct, 2026; slick Previous/Next labels)",
+    "carousels rendered in captured initial (desktop) slick state without JS; mobile slide widths approximated"
+   ],
+   "motion": "deferred: budget",
+   "mainSelector": "#main-content",
+   "dismiss": "#beware-modal .popover-modal-close"
+  },
+  "article": {
+   "slug": "check-credit-score",
+   "prototype": "stardust/prototypes/check-credit-score-proposed.html",
+   "css": "stardust/prototypes/css/check-credit-score.css",
+   "generator": "stardust/.work/tools/build_page.py (+ fix/<slug>.css, lift_css.mjs)",
+   "iterations": {
+    "1440": 2,
+    "360": 2
+   },
+   "gates": {
+    "1440": {
+     "pixel": "75.47%",
+     "heightDelta": "+11px (live 10655 vs build 10666)",
+     "contentDiff": "20 findings, 0 red / 0 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    },
+    "360": {
+     "pixel": "39.50%",
+     "heightDelta": "+459px (live 15425 vs build 15884)",
+     "contentDiff": "303 findings, 7 red / 6 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    }
+   },
+   "residuals": [
+    "1440 pixel 75.47%: live stitched capture kept the beware-modal + backdrop over the page (dismiss --dismiss #beware-modal .popover-modal-close did not take on this page; live capture cached so iter2 identical) - capture artifact, height within 11px, content-diff 0 red / 0 lost",
+    "360: build +459px taller - hero/first section +190px then per-card drift in benefits/myths lists; mobile one-card slider emulation (scroll-snap row) for jsDocumentRequiredSlider",
+    "360 content-diff 7 red / 6 nothing-lost from live mobile DOM differences (slick-initialised clones on mobile)"
+   ],
+   "motion": "deferred: budget",
+   "mainSelector": "#container-1c14734b62",
+   "dismiss": "#beware-modal .popover-modal-close"
+  },
+  "campaign": {
+   "slug": "home-loan-app",
+   "prototype": "stardust/prototypes/home-loan-app-proposed.html",
+   "css": "stardust/prototypes/css/home-loan-app.css",
+   "generator": "stardust/.work/tools/build_page.py (+ fix/<slug>.css, lift_css.mjs)",
+   "iterations": {
+    "1440": 1,
+    "360": 2
+   },
+   "gates": {
+    "1440": {
+     "pixel": "8.97%",
+     "heightDelta": "-32px (live 7967 vs build 7935)",
+     "contentDiff": "113 findings, 44 red / 15 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter1"
+    },
+    "360": {
+     "pixel": "26.68%",
+     "heightDelta": "+1193px (live 10946 vs build 12139)",
+     "contentDiff": "324 findings, 7 red / 22 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    }
+   },
+   "residuals": [
+    "1440 pixel PASS 8.97% but height -32px (build shorter) and content-diff 44 red: blog cards copy/share icon glyphs + blog CTAs (live feed/slick clones differ from capture)",
+    "360: build +1193px taller - each key-feature reasons card ~60px taller than live, accumulates; overflow fixed via shared mobile slider rules",
+    "no sticky-actions widget on this page (omitted)"
+   ],
+   "motion": "deferred: budget",
+   "mainSelector": "#container-3c7d84fc08",
+   "dismiss": "#beware-modal .popover-modal-close"
+  },
+  "listing": {
+   "slug": "calculator",
+   "prototype": "stardust/prototypes/calculator-proposed.html",
+   "css": "stardust/prototypes/css/calculator.css",
+   "generator": "stardust/.work/tools/build_page.py (+ fix/<slug>.css, lift_css.mjs)",
+   "iterations": {
+    "1440": 2,
+    "360": 2
+   },
+   "gates": {
+    "1440": {
+     "pixel": "8.18%",
+     "heightDelta": "-53px (live 6428 vs build 6375)",
+     "contentDiff": "35 findings, 0 red / 15 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    },
+    "360": {
+     "pixel": "16.68%",
+     "heightDelta": "+665px (live 12594 vs build 13259)",
+     "contentDiff": "316 findings, 7 red / 20 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    }
+   },
+   "residuals": [
+    "1440 PASS on pixel (8.18%) but build 53px shorter than live (tail sections after calculator grid)",
+    "360: build +665px taller - each calculator card ~18-37px taller than live (mobile card padding/heading wrap), accumulates over ~70 cards",
+    "content-diff 1440: 15 nothing-lost = canon header build-only aria-labels (shared with all pages); 360: 7 red / 20 lost from live mobile DOM"
+   ],
+   "motion": "deferred: budget",
+   "mainSelector": "#container-913ae61886",
+   "dismiss": "#beware-modal .popover-modal-close"
+  },
+  "static": {
+   "slug": "privacy-commitment",
+   "prototype": "stardust/prototypes/privacy-commitment-proposed.html",
+   "css": "stardust/prototypes/css/privacy-commitment.css",
+   "generator": "stardust/.work/tools/build_page.py (+ fix/<slug>.css, lift_css.mjs)",
+   "iterations": {
+    "1440": 2,
+    "360": 2
+   },
+   "gates": {
+    "1440": {
+     "pixel": "6.70%",
+     "heightDelta": "-23px (live 8656 vs build 8633)",
+     "contentDiff": "35 findings, 0 red / 15 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    },
+    "360": {
+     "pixel": "12.35%",
+     "heightDelta": "+106px (live 14051 vs build 14157)",
+     "contentDiff": "313 findings, 8 red / 18 nothing-lost",
+     "clipped": 0,
+     "overflow": "ok",
+     "verdict": "FAIL",
+     "iter": "iter2"
+    }
+   },
+   "residuals": [
+    "1440 PASS on pixel (6.70%), height -23px (build shorter)",
+    "360: pixel 12.35%, build +106px taller - hero/first section +61px then paragraph wrap drift",
+    "content-diff 1440: 15 nothing-lost = canon header build-only aria-labels; 360: 8 red / 18 lost from live mobile DOM"
+   ],
+   "motion": "deferred: budget",
+   "mainSelector": "#container-4e092f5633",
+   "dismiss": "#beware-modal .popover-modal-close"
+  }
+ }
+}

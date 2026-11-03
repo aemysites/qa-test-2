@@ -1,0 +1,364 @@
+/* how-apply — source how-apply-box rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.how-apply) .cmp-tabs__tablist {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+}
+
+:where(.how-apply) .cmp-tabs__tab {
+  box-sizing: border-box;
+  border-bottom: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+:where(.how-apply) .cmp-tabs__tab--active {
+  border-color: inherit;
+}
+
+:where(.how-apply) .cmp-tabs__tabpanel {
+  display: none;
+}
+
+:where(.how-apply) .cmp-tabs__tabpanel--active {
+  display: block;
+}
+
+:where(.how-apply) .text-center {
+  text-align: center !important;
+}
+
+:where(.how-apply) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.how-apply) .mx-944 {
+  max-width: 944px;
+  margin: auto;
+}
+
+:where(.how-apply) .how-apply-desc li {
+  position: relative;
+  padding-left: 15px;
+}
+
+:where(.how-apply) .how-apply-desc li::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: rgb(25 97 172);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 0;
+}
+
+:where(.how-apply) .how-apply-desc li::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: rgb(99 99 99);
+  position: absolute;
+  border-radius: 50%;
+  top: 6px;
+  left: 0;
+}
+
+:where(.how-apply) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.how-apply) .space-tb40 {
+  padding: 40px 0;
+}
+
+@media (width <= 991px) {
+  :where(.how-apply) .space-tb40 {
+    padding: 30px 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.how-apply) .space-tb40 {
+    padding: 25px 0;
+  }
+
+  :where(.how-apply) .container {
+    max-width: 100%;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.how-apply) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.how-apply) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.how-apply) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.how-apply) .has-arrow {
+  position: relative;
+  padding-right: 15px;
+  color: rgb(18 111 179);
+  font-size: 16px;
+  font-family: var(--f-semi);
+  display: inline-block;
+}
+
+:where(.how-apply) .has-arrow::before {
+  content: "\e905";
+  font-family: icomoon, sans-serif;
+  position: absolute;
+  font-size: 10px;
+  line-height: 10px;
+  right: 0;
+  top: 50%;
+  display: inline-block;
+  transform: translateY(-50%);
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(134.06deg, rgb(255 255 255 / 71%) 0, rgb(255 255 255 / 95%) 99.11%), linear-gradient(134.06deg, rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 67%) 99.11%);
+  backdrop-filter: blur(9px);
+  border-radius: 30px;
+  margin-bottom: 0;
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-left {
+  padding: 90px 40px 40px;
+  width: 265px;
+  background: 0 center;
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-left .tablinks {
+  padding: 10px 20px;
+  font-family: var(--f-semi);
+  font-size: 14px;
+  line-height: 19px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: rgb(25 97 172 / 50%);
+  background: 0 center;
+  border: 0;
+  width: 171px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-left .tablinks:nth-last-child(1) {
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-left .tablinks:nth-child(1) {
+  border-radius: 10px;
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-left .tablinks:hover {
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+  color: rgb(255 255 255);
+  box-shadow: rgb(15 157 245 / 2%) 0 25px 25px, rgb(15 157 245 / 7%) 0 70px 42px, rgb(15 157 245 / 12%) 0 31px 31px, rgb(15 157 245 / 14%) 0 8px 17px, rgb(15 157 245 / 14%) 0 0 0;
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-content-wrap {
+  width: calc(100% - 265px);
+  left: 0;
+  padding-left: 0;
+  background: 0 center;
+  backdrop-filter: none;
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-content-wrap .tab-content {
+  padding: 25px 50px 25px 10px;
+  min-height: 100%;
+  justify-content: space-between;
+}
+
+:where(.how-apply) .how-apply-desc {
+  width: 100%;
+}
+
+:where(.how-apply) .how-apply-desc li {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgb(51 51 51);
+  margin-bottom: 10px;
+}
+
+:where(.how-apply) .how-apply-desc li::before {
+  top: 10px;
+}
+
+@media (width <= 991px) {
+  :where(.how-apply) .how-apply-box .how-apply-tabs {
+    align-items: center;
+    background: 0 center;
+    backdrop-filter: none;
+    border-radius: 30px;
+    box-shadow: none;
+  }
+
+  :where(.how-apply) .how-apply-box .how-apply-tabs .tab-left {
+    padding: 0 11px 30px;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
+  :where(.how-apply) .how-apply-box .how-apply-tabs .tab-left::-webkit-scrollbar {
+    display: none;
+  }
+
+  :where(.how-apply) .how-apply-box .how-apply-tabs .tab-left .tablinks {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0;
+    width: initial;
+    min-width: fit-content;
+  }
+
+  :where(.how-apply) .how-apply-box .how-apply-tabs .tab-left .tablinks:hover {
+    background: transparent;
+    box-shadow: none;
+    color: rgb(25 97 172 / 50%);
+  }
+
+  :where(.how-apply) .how-apply-box .how-apply-tabs .tab-content-wrap {
+    width: 100%;
+    left: 0;
+    background: linear-gradient(134.06deg, rgb(255 255 255 / 71%) 0, rgb(255 255 255 / 95%) 99.11%), linear-gradient(134.06deg, rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 67%) 99.11%);
+    backdrop-filter: blur(9px);
+    border-radius: 24px;
+  }
+
+  :where(.how-apply) .how-apply-box .how-apply-tabs .tab-content-wrap .tab-content {
+    padding: 24px;
+    background: linear-gradient(134.06deg, rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 67%) 99.11%);
+    box-shadow: rgb(0 0 0 / 1%) -5px 0 10px, rgb(0 0 0 / 1%) 5px 0 10px, rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+    backdrop-filter: blur(9px);
+    border: 1px solid rgb(255 255 255);
+    border-radius: 35px;
+  }
+
+  :where(.how-apply) .how-apply-desc li {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+  :where(.how-apply) .how-apply-desc li::before {
+    top: 8px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.how-apply) .how-apply-box .how-apply-tabs {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+
+  :where(.how-apply) .how-apply-box .how-apply-tabs .tab-content-wrap {
+    background: transparent;
+    backdrop-filter: blur(0);
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-left .tablinks.cmp-tabs__tab--active {
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+  color: rgb(255 255 255);
+  box-shadow: rgb(15 157 245 / 2%) 0 25px 25px, rgb(15 157 245 / 7%) 0 70px 42px, rgb(15 157 245 / 12%) 0 31px 31px, rgb(15 157 245 / 14%) 0 8px 17px, rgb(15 157 245 / 14%) 0 0 0;
+}
+
+:where(.how-apply) .how-apply-box .how-apply-tabs .tab-left {
+  height: max-content;
+}
+
+/* EDS slotting: authored <h2> (source h2 carried two trailing <br>s = one blank h2 line),
+   tab labels moved into link tabs, steps list styled by element (EW3) */
+.how-apply .heading-row h2 {
+  margin-bottom: 44px;
+}
+
+.how-apply .heading-row h2 strong {
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+.how-apply .tab-left .tablinks {
+  display: block;
+}
+
+.how-apply .tab-left .tablinks p {
+  margin: 0;
+}
+
+.how-apply .white-blue-button p {
+  margin: 0;
+}
+
+@media (width <= 767px) {
+  .how-apply .heading-row h2 {
+    margin-bottom: 29px;
+  }
+}
+
+/* authored CTA anchors: the global a:any-link colour outranks the source .btn-blue paint */
+.how-apply a.btn-blue:any-link {
+  color: #fff;
+}
+
+/* nested source containers carry no gutter on the live grid */
+.how-apply .customcontainer.container,
+.how-apply .how-apply-list.container {
+  padding: 0;
+}
+
+.how-apply .how-apply-box .tops-heads {
+  display: none;
+  margin: 0 auto 40px;
+}
+
+@media (width <= 991px) {
+  .how-apply .how-apply-box .tops-heads {
+    display: block;
+  }
+}
+
+@media (width <= 767px) {
+  .how-apply .how-apply-box .tops-heads {
+    margin-bottom: 34px;
+  }
+}

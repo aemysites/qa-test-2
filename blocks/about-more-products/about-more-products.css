@@ -1,0 +1,553 @@
+/* about-more-products — source personal-loan-cntr rules (page sheet), scoped under the block at source specificity */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.about-more-products) .cmp-image__image {
+  width: 100%;
+}
+
+:where(.about-more-products) .slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+:where(.about-more-products) .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+:where(.about-more-products) .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+:where(.about-more-products) .slick-dots li button:hover,
+:where(.about-more-products) .slick-dots li button:focus {
+  outline: 0;
+}
+
+:where(.about-more-products) .slick-dots li button:hover::before,
+:where(.about-more-products) .slick-dots li button:focus::before {
+  opacity: 1;
+}
+
+:where(.about-more-products) .slick-dots li button::before {
+  font-family: slick, sans-serif;
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+}
+
+:where(.about-more-products) .slick-dots li.slick-active button::before {
+  opacity: 0.75;
+  color: black;
+}
+
+:where(.about-more-products) .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:where(.about-more-products) .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+:where(.about-more-products) .slick-list:focus {
+  outline: 0;
+}
+
+:where(.about-more-products) .slick-slider .slick-track,
+:where(.about-more-products) .slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+:where(.about-more-products) .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:where(.about-more-products) .slick-track::before,
+:where(.about-more-products) .slick-track::after {
+  display: table;
+  content: "";
+}
+
+:where(.about-more-products) .slick-track::after {
+  clear: both;
+}
+
+:where(.about-more-products) .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+:where(.about-more-products) .slick-slide img {
+  display: block;
+}
+
+:where(.about-more-products) .slick-initialized .slick-slide {
+  display: block;
+}
+
+:where(.about-more-products) .text-center {
+  text-align: center !important;
+}
+
+:where(.about-more-products) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.about-more-products) .bg-wgite {
+  background-color: rgb(255 255 255) !important;
+}
+
+:where(.about-more-products) .heading36 {
+  font-family: var(--f-reg);
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: rgb(0 0 0);
+}
+
+:where(.about-more-products) .heading36 span {
+  font-family: var(--f-bold);
+}
+
+:where(.about-more-products) .btn-link {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  color: rgb(25 97 172);
+  font-family: var(--f-semi);
+  border-radius: 12px;
+  background: rgb(255 255 255);
+  transition: 0.2s;
+}
+
+:where(.about-more-products) .btn-link.btn-big {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 16px 25px;
+}
+
+:where(.about-more-products) .btn-link:hover {
+  color: rgb(15 81 151);
+  box-shadow: rgb(0 0 0 / 1%) 0 22px 13px, rgb(0 0 0 / 2%) 0 10px 10px, rgb(0 0 0 / 2%) 0 2px 5px, rgb(0 0 0 / 2%) 0 0 0;
+}
+
+:where(.about-more-products) .btn-big {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px 30px;
+}
+
+:where(.about-more-products) .slick-dots {
+  display: none;
+}
+
+:where(.about-more-products) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+:where(.about-more-products) .slick-slide:focus {
+  outline: 0;
+}
+
+:where(.about-more-products) .space-tb40 {
+  padding: 40px 0;
+}
+
+:where(.about-more-products) .tops-heads {
+  max-width: 862px;
+  margin: 0 auto 25px;
+  text-align: center;
+}
+
+@media (width <= 991px) {
+  :where(.about-more-products) .heading36 {
+    font-size: 30px;
+  }
+
+  :where(.about-more-products) .space-tb40 {
+    padding: 30px 0;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.about-more-products) .btn-big {
+    font-size: 14px;
+  }
+
+  :where(.about-more-products) .space-tb40 {
+    padding: 25px 0;
+  }
+
+  :where(.about-more-products) .container {
+    max-width: 100%;
+  }
+
+  :where(.about-more-products) .container.mob-pd0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  :where(.about-more-products) .tops-heads {
+    margin-bottom: 34px;
+  }
+
+  :where(.about-more-products) .heading36 {
+    font-size: 22px;
+  }
+
+  :where(.about-more-products) .btn-link.btn-big {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.about-more-products) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.about-more-products) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.about-more-products) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.about-more-products) .personal-loan-cntr {
+  position: relative;
+  z-index: 1;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .slick-dots {
+  bottom: -50px;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 36px;
+  position: relative;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item img {
+  display: inline-block;
+  width: 100%;
+  border-radius: 20px;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .per-loan-outers {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 72px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .personal-loan-detail {
+  padding: 16px;
+  border-radius: 20px;
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 94%) 0, rgb(16 141 250) 99.11%);
+  overflow: hidden;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .btn-holder {
+  margin-top: auto;
+  text-align: center;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .btn-holder .btn-link {
+  border-radius: 12px;
+  text-transform: none;
+  width: 100%;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item:hover .per-loan-outers {
+  bottom: 0;
+  left: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 0px);
+  padding-bottom: 36px;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item:hover .personal-loan-detail {
+  overflow: auto;
+  height: 100%;
+  padding: 30px 20px;
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item:hover .text {
+  color: rgb(255 255 255);
+  margin-bottom: 10px;
+  height: calc(100% - 57px);
+  overflow: auto;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .personal-wrapper {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .media-holder {
+  height: 340px;
+  position: relative;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .media-holder img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .media-holder img.mob-img {
+  display: none;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .text {
+  padding-bottom: 15px;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .text::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 0;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .text::-webkit-scrollbar-track {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .text::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  outline: 0;
+  border-radius: 4px;
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .text p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: rgb(255 255 255);
+}
+
+@media (width <= 1199px) {
+  :where(.about-more-products) .personal-loan-pro-box .item:hover .personal-loan-detail {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.about-more-products) .personal-loan-pro-box .slick-list {
+    padding-left: 8px !important;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item {
+    padding-bottom: 0;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item .per-loan-outers {
+    height: 280px;
+    margin-top: -80px;
+    position: relative;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    bottom: auto;
+    left: auto;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item .personal-loan-detail {
+    position: relative;
+    height: 280px;
+    background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+    box-shadow: rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+    color: rgb(255 255 255);
+    border: 1px solid rgb(255 255 255);
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item:hover .per-loan-outers {
+    height: 280px;
+    bottom: auto;
+    left: auto;
+    width: calc(100% - 40px);
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item:hover .personal-loan-detail {
+    padding: 16px;
+    height: 280px;
+    background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+    box-shadow: rgb(0 0 0 / 1%) 0 -5px 10px, rgb(0 0 0 / 1%) 0 5px 10px;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item .text p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item .media-holder {
+    height: 250px;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item .media-holder img.dsk-img {
+    display: none;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item .media-holder img.mob-img {
+    display: block;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item .btn-holder .btn-link {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (width <= 359px) {
+  :where(.about-more-products) .personal-loan-pro-box .item .per-loan-outers {
+    height: 290px;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item .personal-loan-detail {
+    height: 290px;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item:hover .per-loan-outers {
+    height: 290px;
+  }
+
+  :where(.about-more-products) .personal-loan-pro-box .item:hover .personal-loan-detail {
+    height: 290px;
+  }
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item .text .hThree {
+  min-height: 42px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(255 255 255);
+}
+
+:where(.about-more-products) .hThree {
+  font-size: 16px;
+  line-height: 130%;
+  font-family: var(--f-semi);
+}
+
+:where(.about-more-products) .personal-loan-pro-box .item:hover .text .hThree {
+  min-height: auto;
+}
+
+@media (width <= 767px) {
+  :where(.about-more-products) .personal-loan-pro-box .item .text .hThree {
+    min-height: auto;
+  }
+}
+
+:where(.about-more-products) .cmp-image__image {
+  max-width: none;
+}
+
+@media (width <= 767px) {
+  :where(.about-more-products) .slick-track {
+    transform: none !important;
+  }
+
+  :where(.about-more-products) .js-personal-loan-slider .slick-track {
+    display: block !important;
+    width: auto !important;
+  }
+
+  :where(.about-more-products) .js-personal-loan-slider .slick-slide {
+    float: none;
+    margin-bottom: 16px;
+    width: auto !important;
+    display: block !important;
+  }
+
+  :where(.about-more-products) .js-personal-loan-slider .slick-dots {
+    display: none !important;
+  }
+}
+
+/* EDS slotting */
+.about-more-products .heading36 strong {
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+.about-more-products .media-holder picture {
+  display: contents;
+}
+
+.about-more-products .btn-holders-btns p {
+  margin: 0;
+}

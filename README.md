@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--qa-test-2--aemysites.aem.page/
-- Live: https://main--qa-test-2--aemysites.aem.live/
+- Preview: https://main--290ff49a--aemcoder.aem.page/
+- Live: https://main--290ff49a--aemcoder.aem.live/
 
 ## Documentation
 
@@ -31,4 +31,4 @@ npm run lint
 1. Add the [AEM Code Sync GitHub App](https://github.com/apps/aem-code-sync) to the repository
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
-1. Open the `qa-test-2` directory in your favorite IDE and start coding :)
+1. Open the `290ff49a` directory in your favorite IDE and start coding :)

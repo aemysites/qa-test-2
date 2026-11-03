@@ -1,0 +1,63 @@
+/* breadcrumb — source np-box rules, scoped under the block; list styled by element (EW3) */
+/* stylelint-disable selector-class-pattern */
+
+.breadcrumb .np-box {
+  padding: 14px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumb .np-box ul,
+.breadcrumb .np-box ol {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb .np-box li {
+  font-size: 12px;
+  line-height: 16px;
+  color: #1961ac;
+  font-family: var(--f-bold);
+  padding: 0 5px;
+  position: relative;
+}
+
+.breadcrumb .np-box li::before {
+  content: "-";
+  position: absolute;
+  left: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 8px;
+}
+
+.breadcrumb .np-box li:first-child::before {
+  display: none;
+}
+
+.breadcrumb .np-box li p {
+  display: inline;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.breadcrumb .np-box a {
+  font-family: var(--f-reg);
+  display: block;
+  color: #1961ac;
+  text-decoration: none;
+}
+
+.breadcrumb .np-box li p a {
+  display: inline;
+}
+
+@media (width <= 767px) {
+  .breadcrumb .np-box {
+    padding: 10px 0;
+  }
+}

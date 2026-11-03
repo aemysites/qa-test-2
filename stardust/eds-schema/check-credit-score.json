@@ -1,0 +1,1906 @@
+{
+ "source": "http://localhost:8791/check-credit-score-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "banner-cntr-new",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Check free"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "CIBIL Score"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "CHECK CREDIT SCORE"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Check Credit Report",
+     "href": "https://www.tatacapital.com/check-cibil-score.html"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Existing Customer",
+     "href": "https://retailonline.tatacapital.com/partner/int/creditscore/website/index.html#/?src=website&isExistingCustomer=true"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "CHECK CREDIT SCORE"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "overviews-tab-box",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Back",
+     "href": "https://www.tatacapital.com/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Check Free Credit Score",
+     "href": "https://www.tatacapital.com/check-cibil-score.html"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "×"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Apply Now"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Sending OTP to"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Select Product"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Product Type"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Loan on existing car"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Loan to buy a pre-owned car"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Verify OTP"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "OTP sent to"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Resend OTP in 00:30"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "OTP expired."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Resend OTP"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Verify & Submit"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Thank you for your"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "application"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "×"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Loan Application - Terms & Conditions and Declarations"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "I/We declare that all the details furnished in this application form are true, correct and upto date in all respects and that I/We have not withheld any information whatsoever. I/We undertake to inform of any changes therein, Immediately"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Tata Capital Limited(\"The Company\"/\"TCL\")"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Select All"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "I/We expressly authorise/consent to the Company, entities with which the Company has service arrangements and its agents to contact me/us in the manner and for the purposes and on the terms set out hereinafter."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "I/We hereby consent to receiving information from Central KYC Registry through SMS/ Email on the above registered number/ Email address."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "I/We authorise the Company, their agents and entities with which the Company has service arrangements, to exchange, share or part with all the information and details as set out hereinafter and for the purposes and on the terms set out hereinafter."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "In addition to consenting to the above, I/We agree to have read & understood the and confirm the same."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Loan Application - Terms & Conditions and Declaration"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Proceed to OTP"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Ok"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Terms and Conditions - Loan Facility"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Terms and Conditions:"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "1. This application is not for citizens, residents, persons or entities accessing from the European Union and no services shall be provided to any person or entity in the European Union."
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "2. This Application Form shall not be construed to imply automatic approval of your loan / facility by Tata Capital Limited (“the Company”). The sanction of the loan, loan amount and disbursal is at the sole discretion of the company and no commitment has been given regarding the same."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "3. The loan facility shall be disbursed by the Company to the applicant/s and/or such other person as instructed by the applicant and the amount disbursed by the Company to such person shall be valid binding and effectual discharge from the applicant/s."
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "4. Payment of non-refundable processing fee, if any, is a pre-requisite together with this loan application."
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "5. Wherever PAN is not available, Form-60 to be provided."
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "6. The Terms and Conditions mentioned above are an indicative list of terms and conditions of our loan products. These Terms and Conditions are further described in other financing documents (such as Specific Agreements, Master Terms and Conditions, other loan documents) under relevant sections / schedules and therefore should be read in conjunction with such financing documents."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "7. This Application Form should not be construed as giving rise to any binding obligation on the part of the Tata Capital Limited to provide the financial assistance/ facilities opted for by the applicant."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Please also visit the Company's website www.tatacapital.com for the Fair Practices Code and Policy for determination of Interest Rates, Processing and other charges adopted by the Company."
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Declarations"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "1. I/ We certify that I/ We are citizens of India. I / We declare that I / We am / are not citizens, residents, persons or entities accessing from the European Union."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "2. I/ We declare that no cash/ bearer cheque has been collected from me/ us upfront or otherwise towards processing of this Loan Application Form by any executive/ representative of the Company. All payment instruments being issued for the purpose of this loan application/ loan payments/ repayment have to be issued in favour of the Company only."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "3. I/We declare that all the details furnished in this application form are true, correct and up-to-date in all respects and that I/We have not withheld any information whatsoever. I / We undertake to inform the Company of any changes therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I /we am / are aware that I may be held liable for it."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "4. I/We hereby confirm and duly undertake that the loan is being taken for the purpose as stated in the Application Form. I/We also confirm that the loan is not being used for investment in stocks and shares, speculative activities or any purposes linked to capital market activities/ illegal activities."
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "5. I/We hereby confirm that no insolvency proceeding or suits for recovery of outstanding dues or monies whatsoever or for attachment of my/ our assets or properties, and/ or any criminal proceedings have been initiated and/ or are pending against me/ us and that I/We have never been adjudicated insolvent by any court or other authority nor has any receiver, administrator, administrative receiver, trustees or similar officer been appointed for my/our assets."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "6. I/We understand and acknowledge that the Company shall have the absolute discretion, without assigning any reasons (unless required by applicable law), to reject my application and any costs, losses, damages or expenses, or other consequence caused by reason of such rejection, or any delay in notifying me/us of such rejection of our application."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "7. I/ We understand and am aware that the charges paid to the Company towards out of pocket expenses and/ or log-in/ processing fees are non-refundable to me/ us and upon the application being withdrawn by us or being rejected by the Company for any reason whatsoever, we will not be entitled for refund either in part or in full."
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "8. Processing fee along with applicable taxes/ Insurance Premium (in case I have opted for insurance cover) will be deducted from the disbursement amount and the amount disbursed shall be net of fee/ charges/ premium amount."
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "9. Government Taxes, Stamp duty and other statutory charges will be as per applicable laws."
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "10. No Discount/ free gift or any other commitment whatsoever are made /binding except what is documented in the loan agreement or any other finance document."
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "11. I/ We hereby confirm and duly undertake that the loan is being taken for purpose as stated in the application. I / We also confirm that I / We shall not use the loan for any improper/illegal or unlawful purpose/ activities."
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "12. I/we have been informed that incomplete/ defective application will not be processed, and the Company shall not be responsible in any manner for the resulting delay or otherwise. The Company may request for additional documents other than those collected with the application."
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "13. I/ We hereby consent to the Company to carry out the KYC and other requisite checks by such processes as may be permissible under law including authentication/ verification of documents or details submitted for KYC purpose, accessing and procuring data from databases maintained by statutory or other authorities constituted by law, for the purpose of granting the Loan Facility referred in this form."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "14. I/We hereby understand that TCL may, if required, seek information or documents in addition to what is mentioned in its KYC-PMLA Policy and I/We hereby consent to the same and agree to provide such information or documents."
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "15. The loan terms as sanctioned are valid for a period of 30 days only. In case of delay beyond 30 days in accepting the loan offer for whatsoever reasons, there may be revision/s in the loan terms, and you are requested to kindly seek clarifications, if required."
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "16. I/We authorize the Company, their agents and entities with which the Company has service arrangements, to exchange, share or part with all the information and details (including personal sensitive data or information and any information that requires a consent under the Information Technology Act, 2008 and/or any other statute) relating to my/our existing loans and/or repayment history to bank, financial institutions, credit bureaus, information utilities, agencies, entities with which the Company has service arrangements, statutory bodies etc. as may be required or as they may deem fit and shall not hold the Company or its agents/representatives/such entities liable for use/sharing of this information."
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "17. I/ We expressly authorize/consent to the Company, and its agents, to contact me / us, through e-mails, telephones, messages, SMS, Whatsapp or other applications or otherwise even if my / our names appear in the Do Not Call or Do Not Disturb Register to inform me / us about the marketing schemes, promotional schemes, various financial and other products and/or offerings of other services, loyalty programs or any other aspect offered by them. I / We agree to the use of e-mails, messages, SMS, Whatsapp and/or other applications for communication or sharing of information or documents, agree to abide by the terms and conditions of such applications and agree to the risks associated with such applications or sharing of information through them. I / We agree that this consent shall continue to be valid even if the loan applied for has been rejected or closed."
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "18. I/ We hereby consent to receiving information from Central KYC Registry through SMS/ Email on the above registered number/ Email address."
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "19. I/We hereby provide our consent to the Company to obtain and/ or submit my/ our information from/ to Credit Information Company and/or information utility and/or such institution set up under the provisions of law from time to time, as and when required. I/We also authorise the Company to carry out multiple bureau checks wherever required."
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "20. I/We declare that am/ we is/ are not a Director/relative of a Director of TCL or we are not a firm in which any Director/ relative of a Director of TCL is interested as a partner/ manager/ employee/ guarantor or we are not a company in which any Director/ relative of a Director of TCL is interested as a major shareholder, director, manager, employee or guarantor. I/we am/are also not a senior officer(s)/relative of a senior officer of TCL. If the declaration is found to be false, then TCL will be entitled to revoke and / or recall the credit facility."
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "21. The Company has adopted the Tata Code of Conduct (“TCoC”) and all our employees and representatives are bound by the same. A copy of the TCoC is available on www.tatacapital.com. In case you notice any violation or potential violation of the TCoC by any of our employees or representatives, you may write to us at ethics@tatacapital.com intimating us of the same."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "22. I/ We hereby consent to voluntarily submit to the Company at my/ our own discretion, the physical copy of Aadhaar card/ physical e-Aadhaar/ offline electronic Aadhaar xml as issued by the Unique Identification Authority of India (“UIDAI”) after masking the Aadhaar number for the purpose of establishing my/ our identity/ address proof in line with the Directions/ guidelines issued by the Regulatory and Statutory bodies from time to time. I/ We further give my/ our consent to the Company for verification of my/ our Aadhaar to establish the genuineness in such manner as permitted by UIDAI or under any law from time to time. The consent and purpose of collecting Aadhaar has been explained to me/ us in local language. The Company has informed me/ us that my/ our Aadhaar submitted to the Company shall not be used for any other purpose other than as per the requirements of law."
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "23. I /We hereby declare that the mobile number as submitted by me/us in this application is the same as the one available and registered with the Unique Identification Authority of India (“UIDAI”). I / We undertake to inform the Company of any changes therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I /We am / are aware that I may be held liable for it."
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "24. The Company/ its Group Companies reserve the right to retain the photographs and documents submitted with the application and will not return the same to me/ us."
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "25. I/We understand that the purchase of any insurance products is purely voluntary and is not linked to availment of any other facility from the Company."
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "26. I/We hereby expressly authorize the Company to send me/ us communications regarding insurance products of the Company through any of the modes of communication referred above."
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "27. I/ We hereby consent to the Company to carry out the KYC and other requisite checks by such processes as may be permissible under law including verification of documents or details submitted for KYC purpose, accessing and procuring data from databases maintained by statutory or other authorities constituted by law, for the purpose of granting the Loan Facility referred in this form."
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "28. More particularly, I/ We hereby consent to the Company updating/furnishing my/our KYC data on the Centralised KYC Registry (CKYCR) or such other database or repository as may be prescribed from time to time as also access, download and procure data therefrom and rely upon the same for the purpose of KYC checks and it shall be my/our responsibility to ensure that the data is correct and updated and to immediately intimate in writing in case of any changes to the data. The Company may also verify the data in such manner as it deems fit and seek additional information or perform enhanced due diligence. I consent to receive information/intimation from the Company/CKYCR through SMS/Email on the above registered number/Email address notwithstanding my/our names and / or numbers appearing in the Do Not Call or Do Not Disturb registry."
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "29. I/ We am/ are aware of the Fair Practices Code and Policy for determination of Interest Rates, Processing and other charges adopted by the Company which are placed on the Company's website ."
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "www.tatacapital.com",
+     "href": "https://www.tatacapital.com"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "30. I/We hereby declare that I/We have understood and read the terms & conditions given above."
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Continue"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 49,
+   "repeats": [
+    {
+     "unitSelector": "DIV.subnav-apply-popup",
+     "count": 2,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 13
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What is a"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Credit Score?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A credit score is a 3-digit numerical value depicting your creditworthiness; your ability to manage and repay debt. The value calculated by Experian Credit Information Company of India Private Limited ranges between 300 and 900. It considers your credit report, which includes factors such as credit utilization, types of credit used, payment history, length of credit history, and recent credit inquiries."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Lenders assess the score to understand the risk associated with sanctioning a loan to you. The higher your credit score, the lower the risk, the better the interest rates and loan terms. Maintaining a score over 750 boosts your financial health and positively influences loan approvals."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What is the Importance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "of a CIBIL Score?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The Credit Information Bureau (India) Limited (CIBIL) calculates and issues your CIBIL score, and it ranges from 300 to 900. Financial institutions like banks and NBFCs refer to this score when assessing loan or credit card applications."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "A higher score signifies a stronger credit profile and increases the chances of quicker approvals, better interest rates, and higher loan amounts. Conversely, a low score may lead to application rejections or borrowing at unfavorable terms."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Credit Score Range Table"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Understanding what a good credit score in India is starts with knowing the credit score range in India and what each band means for your borrowing power. Here's a quick breakdown:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Score band"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Category"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "What it means"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "<300"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "No score/no history"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "You haven't built a credit profile yet"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "300-550"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Very low credit score"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Credit access is very limited; most applications will be rejected"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "551-620"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Low credit score"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "You may qualify for some products, but at higher interest rates"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "621-700"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Fair credit score"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Eligible for a range of credit products with standard terms"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "701-759"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Good credit score"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Strong profile; likely to receive competitive rates and offers"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "760+"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Excellent credit score"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Best rates and highest approval likelihood across all products"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Changing language may refresh or navigate to another page."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Enable captions/subtitles from player controls when available. Audio description and sign-language interpretation availability depends on the source media."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Enable captions/subtitles from player controls when available. Audio description and sign-language interpretation availability depends on the source media."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "TR.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What is a Good"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Credit Score?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A credit score above 700 is considered good, and above 760 is considered excellent. Maintaining a good credit score helps you easily secure loans or credit cards with favorable terms. You must pay your debts on time and manage your credit products, such as personal or home loans, responsibly to build and maintain a good credit score."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "emi-option-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How a Credit Score"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "is Calculated?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Credit bureaus, licensed by the Reserve Bank of India (RBI), calculate an individual’s credit score after considering the following factors:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Credit Utilisation"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "The sanctioned debt amount contributes 30% to your score. Spending more than your salary or exhausting a credit card’s monthly limit can negatively impact your credit score."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Credit Type and Repayment Duration"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "The type of loan you apply for affects 10% of your score. By applying for secured and non-secured loans, you can maintain a credit balance. Likewise, repayment contributes 15% to your score."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Credit Enquiries"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Each time you apply for a loan, it reflects on your credit report. So taking multiple loans in short intervals can hurt your credit profile. Similarly, each rejection also reflects on your credit report. Hence, it is advised to apply for a loan only when you are sure of being able to repay it in a timely manner."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "what-personal-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Benefits of a Good"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Credit Score"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A good credit score improves loan eligibility, and loan approval chances and increases your likelihood of landing competitive loan terms. Check your online credit score for free with Tata Capital."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The various benefits of a credit score above 750 are:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Higher Chances of Approval"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "A high credit score reflects your creditworthiness and clean credit history to potential lenders. This credit score means lenders trust your ability to repay the loan amount. High online credit score results in quick approval, faster loan processing, and a speedy fund disbursal."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Better Interest Rates"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "High credit score benefits also include being able to negotiate better terms. A high online credit score can help you qualify for attractive loan interest rates, reducing your overall repayment amount."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Higher Loan Amount"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Since a good credit score indicates dependable credit behaviour, you can bag a bigger loan amount at competitive interest rates."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Pre-approved Loan Offer"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "If you have a sound financial background, high credit score, and a disciplined credit report free of loan defaults, lenders can also pitch your pre-approved loan offers. Besides, since the lending institution performs a credit score check online and pre-approves you a loan amount, your online credit score will land attractive interest rates and flexible loan tenures."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why Your Credit Score Matters"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "for Loan Approval"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "When you apply for a loan or credit card, lenders don't just look at your income. They also perform a CIBIL score check."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "A strong score signals responsible credit behavior, making lenders more confident in your ability to repay. It directly influences your interest rate, loan amount, and approval speed. A low score, on the other hand, can lead to rejections or unfavorable terms."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "This is why it helps to know how to check your credit score online and stay on top of any changes before making a major credit application."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How to"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Improve Your Credit Score?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "If you don’t have a good credit score, you can bring your credit score up in a matter of months with disciplined credit and repayment behaviour. Check your online credit score and maintain a healthy credit score through-"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Consistently pay your loan Equated Monthly Instalments (EMIs) and credit card bills on time. A credit report free of EMI defaults and late payments perks up your credit score."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Regularly check your online credit score for any discrepancies and understand your potential loan eligibility."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Your online credit score should have a healthy mix of unsecured and secured credit. Here, the fewer unsecured loans you have active, the better your credit score."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Your credit utilisation on your credit card must be 30%-35% or lower than your current credit limit. However, not using your card at all can also lower your credit score."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Before applying for a new loan, check your credit history online. Credit score can reduce if you service multiple loans simultaneously and apply for new credit as well."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Common Mistakes"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "That Lower Credit Score"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "If you want to learn how to improve your credit score quickly, make sure to avoid these mistakes and protect your borrowing power:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Late or missed payments have the most significant impact on your score. Timely payments are non-negotiable."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Payment history:"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Using more than 30% of your available credit is a common misstep. Keeping utilization low is the key to maintaining a good CIBIL score."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Credit utilization:"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Closing old accounts shortens your credit history, which can hurt your score. Older accounts signal stability to lenders."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Credit history:"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Applying for multiple loans or cards in a short period triggers several hard inquiries, which can drag your score down. Do a free credit score check without affecting your score to monitor your standing without adding inquiries."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Multiple credit inquiries:"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Relying too heavily on one type of credit, like only credit cards, limits your profile. A diverse mix of loans and cards reflects responsible credit management."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Credit mix:"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Most of these mistakes are reversible. Regularly doing a CIBIL score check helps you catch issues early and course-correct before they affect your next loan or card application."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How Often Should You"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Check Credit Score?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Checking your score regularly is a healthy financial habit and does not hurt your score. You should check your credit score at least once every three to four months, or before applying for any loan or credit card."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "If you've recently missed a payment or closed an account, check sooner. You can learn how to check your credit score online at any time through bureau websites or lender platforms. Staying informed helps you spot errors, track progress, and avoid surprises during loan applications."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Is Checking"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Credit Score Safe?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Performing an instant credit score check is completely safe and very convenient nowadays."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "When you check your credit score in India, it counts as a soft inquiry and has no impact on your score whatsoever. You can do a free credit score check without affecting your score as many times as you need. Only hard inquiries, which are triggered when a lender pulls your score after a loan application, can temporarily affect your score. So, there's no reason to hold back."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "The more regularly you perform free credit score checks, the better positioned you are to catch discrepancies and maintain a healthy credit profile."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "how-apply-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How to"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Check Credit Score Online?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "New Customer"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Existing Customer"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "As a new customer, to get online credit score, input your first name and last name, date of birth, gender, email ID, PAN number, mobile number, address, state, city, and pin code."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "In the credit score check online process, confirm that all your details are correct. Click on ‘Submit’. Get your online credit score and credit report for free with Tata Capital."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Check Free Credit Score",
+     "href": "https://www.tatacapital.com/check-cibil-score.html"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "As an existing customer, find your credit score; check your report online as well by providing your registered mobile number. Use the OTP to check your online credit score."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Existing Customer",
+     "href": "https://retailonline.tatacapital.com/partner/int/creditscore/website/index.html#/?src=website&isExistingCustomer=true"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.customcontainer",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Difference Between Credit Score and"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Credit Report"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "While a credit score is a three-digit number that represents your creditworthiness, a credit report documents your entire credit history. Here's how the two differ:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Feature"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Credit score"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Credit report"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Definition"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "A three-digit number that represents your creditworthiness"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "A detailed record of your credit history"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Range"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Typically ranges from 300 to 900"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Does not have a specific range"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Purpose"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Used by lenders to assess the risk of lending money to a borrower"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Provides a comprehensive overview of your financial and credit history"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Duration"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "A highlight of your creditworthiness at a specific time"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "A complete history of your credit behaviour over the years"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "TR.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.sticky-cell",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "what-personal-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Credit Bureaus"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "in India"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A credit bureau is an agency creating credit scores by collecting and analysing credit data, including credit cards used, loans taken, overdraft facilities, etc., associated with people or business entities."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "TransUnion CIBIL Limited"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "CIBIL is India’s first Credit Information Company (CIC). CIBIL bureau collates and maintains records of every individual’s repayment habits and credit behaviour for loans and credit cards. It then creates credit scores and Credit Information Reports (CIR). The CIBIL report and online Credit score help lenders make lending decisions."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Experian Credit Information Company of India Private Limited"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Experian is a Dublin-based credit bureau using different methods to create a credit report. This credit score check online reveals an individual’s loan and credit history collated from India’s member banks and other financial establishments."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Equifax Credit Information Services Private Limited (ECIS)"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "One of the oldest credit bureaus in the US, Equifax offers credit scores and reports for individuals and businesses. It ties up with India’s financial institutions to create credit scores and credit reports."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "CRIF High Mark"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "This credit bureau specialises in scoring, analytics, and credit management solutions. It makes credit reports with information from banks, NBFCs, Income Tax Department, etc. The online Credit score report from CRIF High Mark is available at a fee."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Myths About"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Credit Score"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Misconceptions around credit scores can lead to poor financial decisions. Here are the most common ones, debunked:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "It doesn't. A self-initiated CIBIL score check is a soft inquiry with zero impact on your score. You can learn how to check your credit score for free in India at any time through credit bureau websites or at Tata Capital. It has no impact on your score."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Checking your score lowers it:"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Income isn't factored in at all. Repayment behavior is what determines your score."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "A high income means a high score:"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "It usually does the opposite, as older accounts strengthen your credit history."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Closing old credit cards helps:"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Paying in full every month is far better for your score than carrying debt."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "You need to carry a balance to build credit:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How Long Does It Take to"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Improve a Credit Score?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "There's no fixed timeline, but consistent habits can show meaningful results within three to six months. More significant improvements, especially after defaults or high debt periods, can take six to twelve months of disciplined behavior."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "If you're wondering how to improve your credit score quickly, start with the basics: clear any overdue payments, bring credit utilization below 30%, and avoid applying for new credit unnecessarily."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Do a free credit score check periodically to track your progress and adjust your habits based on what's affecting your score most."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "personal-loan-box",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why Check Your Credit"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Score with Tata Capital?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Tata Capital makes it simple and completely free to stay on top of your credit health. With Tata Capital’s free CIBIL score checker, you get instant access to your score without any hidden charges or sign-up fees."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Whether you're a first-time borrower or an existing customer, you can access your CIBIL score via the Tata Capital website in a few easy steps using your PAN and basic details. You also get a free credit report alongside your score, helping you understand exactly where you stand and what to work on before your next loan application."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "related-video-cntr",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Credit Scores"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Related Videos"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "#checkcreditscore"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Know more about Credit Score!"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "A Credit Score is calculated on your credit history: number of open accounts, total levels of debt, repayment history, and other factors. This is then used by financers to evaluate the probability an individual will be able to repay loans in a timely manner."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Want to know more? Watch this video."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "0:54"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Copy"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.social-btn",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "faq-box",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "FAQs"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "How and where are credit scores used?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Your credit score is calculated based on your credit history, repayment records, and other credit information in your credit report."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "So before approving a loan, lenders use your score to measure your creditworthiness as a borrower. Telecom companies use your report and score to verify your details and gauge your ability to pay post-paid bills timely."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Why is PAN card required for checking credit score?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Your PAN is unique and linked to all your financial transactions. Credit bureaus use your PAN as a unique identifier to locate your credit information in their records. This is why you need to provide your PAN to check your credit score online."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Enter your PAN and get your free credit score check online with Tata Capital."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Can credit score inquiries affect the score?"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Yes, some types of inquiries can affect your score."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "When you apply for a credit card or a loan, lenders perform a credit check, which reflects in your credit report as a hard inquiry. Hard inquiries can decrease your credit score."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "However, employer credit checks and self credit checks are soft inquiries and do not affect your score."
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "What are the important factors to maintain a good credit score?"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Tips for a good credit score:"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Avoid having too many loans and active credit cards simultaneously."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Pay your credit card bills timely."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Keep your credit utilisation under 30% of your credit limit."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Be consistent and punctual with your EMI repayments."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Check your credit score online and report regularly, and notify credit bureaus about any mistakes."
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "What is the difference between Credit Score provided by Experian Credit Information Company of India Private Limited & Credit Score provided by TransUnion CIBIL Limited?"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "The credit score is set by the Reserve bank of India (RBI), ranging from 300 to 900, with 900 being the highest. There are various credit bureaus, Experian and CIBIL TransUnion being among them."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Experian and CIBIL TransUnion are well-known credit information companies approved by the Securities and Exchange Board (SEBI). They provide detailed credit reports that aid various lenders and borrowers in making informed decisions. A credit score of 750 and above is considered suitable for CIBIL and Experian."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Some points of distinction:"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "CIBIL caters primarily to domestic money lenders; hence, preferred by most financial institutions in India. International financial institutions like HSBC and Morgan Stanley favour Experian score. Being an Indian-based establishment, Credit scores are given more priority by Indian lenders."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "CIBIL and Experian provide the status and detailed credit reports of a company and individual. However, since 90% of the companies and financial institutions are linked with CIBIL, you have a better chance of getting your loan approved with a positive Credit score."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Both use different algorithms to compute the credit score. For instance, CIBIL uses the algorithm Empirica, which collects data on payment history, credit type, credit utilisation, and credit exposures. In contrast, Experian uses the FIFO (First In, First Out) to calculate the credit score."
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "Who computes the Credit Score?"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Credit scores are computed by credit bureaus in India. These include Equifax, CRIF High Mark, CIBIL TransUnion and Experian. Financial institutions and lenders rely on the scores attributed by these credit bureaus to ascertain a borrower’s creditworthiness."
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Why should I check my Credit Score?"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "You should check your credit score online to ascertain your current credit position. Since financial institutions and lenders rely on your credit score to determine your creditworthiness, ensuring your credit score is error-free and accurately reflects your creditworthiness is crucial to a successful loan application."
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "Is credit score of 750 considered good?"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Yes, a credit score of 750 is generally considered good. It reflects strong creditworthiness, increasing your chances of loan approvals and favourable terms from lenders."
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Can anyone check my credit score?"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "No, only authorized entities, such as lenders, financial institutions, or you yourself, can check the credit score. Unauthorized individuals cannot access your credit score without your consent."
+    },
+    {
+     "role": "heading",
+     "order": 33,
+     "text": "What is the minimum credit score to get any loan?"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "The minimum credit score to secure a loan varies with financial institutions. Be sure to discuss this with your chosen lender."
+    },
+    {
+     "role": "heading",
+     "order": 35,
+     "text": "Why does my credit score keep changing?"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Your credit score changes due to factors like payment history, credit utilization, new credit inquiries, account age, and credit mix."
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "How is my credit score determined?"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Your credit score is calculated based on payment history, credit usage, etc."
+    },
+    {
+     "role": "heading",
+     "order": 39,
+     "text": "How to Download CIBIL Report?"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Here’s what you need to do to download a CIBIL report:"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Visit the official CIBIL website ( )."
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "www.cibil.com",
+     "href": "http://www.cibil.com"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Log in to your account or register as a new user."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Complete the identity verification (KYC process)."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Navigate to the dashboard to view your credit report."
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Download the CIBIL report in PDF format from your account."
+    },
+    {
+     "role": "heading",
+     "order": 47,
+     "text": "Why do lenders check your CIBIL score before approving your loan?"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Lenders check your CIBIL score before approving a loan to assess your creditworthiness and repayment history. A high score indicates responsible credit behavior, reducing the risk of default. It helps lenders decide loan approval, set interest rates, and determine your loan eligibility."
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "Who calculates credit scores?"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Credit bureaus like CIBIL, Experian, Equifax, and CRIF High Mark calculate credit scores. They analyze your credit history, repayment behavior, and financial activity to generate your credit score."
+    },
+    {
+     "role": "heading",
+     "order": 51,
+     "text": "How often is my credit score updated?"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Credit bureaus typically update your score once a month, after receiving the latest repayment and account data from your lenders and financial institutions. You must check your score with your PAN and phone number periodically to keep track of how your score changes with each update."
+    },
+    {
+     "role": "heading",
+     "order": 53,
+     "text": "How long does negative information stay on a credit report?"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Most negative information, including missed payments and defaults, stays on your credit report for up to seven years, depending on the bureau's reporting guidelines."
+    },
+    {
+     "role": "heading",
+     "order": 55,
+     "text": "How can I improve my credit score quickly?"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Pay all dues on time, reduce credit card utilization, avoid multiple loan applications, and regularly check your credit score to track improvements and catch errors early."
+    },
+    {
+     "role": "heading",
+     "order": 57,
+     "text": "Which loans affect credit score the most?"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Unsecured loans like personal loans and credit cards have the most impact. Multiple active unsecured loans or frequent defaults on these can significantly lower your score."
+    },
+    {
+     "role": "heading",
+     "order": 59,
+     "text": "What information is included in a credit report?"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "A credit report includes your personal details, account history, repayment behavior, credit inquiries, and any defaults or settlements recorded by lenders and financial institutions."
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Read Less"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 45,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-accordion__item",
+     "count": 20,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "financial-insights-wrap",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Credit Score"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Blogs"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "#creditcard"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "All you need to know about cibil score",
+     "href": "https://www.tatacapital.com/blog/whats-trending/all-you-need-to-know-about-cibil-score/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Copy"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "1"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

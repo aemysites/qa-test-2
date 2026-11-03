@@ -1,0 +1,324 @@
+/* table — source table-box / table-main rules, scoped under the block */
+/* stylelint-disable selector-class-pattern, no-descending-specificity, no-duplicate-selectors */
+
+:where(.table) .main-content {
+  overflow: hidden;
+}
+
+:where(.table) .w-100 {
+  width: 100%;
+}
+
+:where(.table) .table-block {
+  max-height: 600px;
+  overflow: auto !important;
+}
+
+:where(.table) .table-section {
+  margin-bottom: 30px;
+}
+
+:where(.table) .table-main {
+  border-collapse: collapse;
+}
+
+:where(.table) .table-main th,
+:where(.table) .table-main td {
+  text-align: left;
+  padding: 16px 20px;
+  border-right: 1px solid rgb(112 112 112);
+}
+
+:where(.table) .table-main th:nth-last-child(1),
+:where(.table) .table-main td:nth-last-child(1) {
+  border-right: 0;
+}
+
+:where(.table) .table-main th {
+  min-width: 213px;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+:where(.table) .table-main th:nth-child(1) {
+  border-top-left-radius: 10px;
+}
+
+:where(.table) .table-main th:nth-last-child(1) {
+  border-top-right-radius: 10px;
+}
+
+:where(.table) .table-main td {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+:where(.table) .table-main tbody tr:nth-last-child(1) td:nth-child(1) {
+  border-bottom-left-radius: 10px;
+}
+
+:where(.table) .table-main tbody tr:nth-last-child(1) td:nth-last-child(1) {
+  border-bottom-right-radius: 10px;
+}
+
+:where(.table) .table-main tbody tr:nth-child(2n+1) td {
+  background-color: rgb(255 255 255);
+}
+
+:where(.table) .table-main tbody tr:nth-child(2n) td {
+  background-color: rgb(245 245 245);
+}
+
+:where(.table) .table-main.table-blue th {
+  background-color: rgb(16 141 250 / 95%);
+  font-family: var(--f-bold);
+  color: rgb(255 255 255);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@media (width <= 767px) {
+  :where(.table) .table-main th {
+    font-size: 14px;
+  }
+
+  :where(.table) .table-main.table-blue th {
+    padding: 16px 20px;
+    font-size: 14px;
+    line-height: 130%;
+  }
+}
+
+@media (width <= 575px) {
+  :where(.table) .table-main th {
+    min-width: 146px;
+  }
+}
+
+
+/* EDS slotting: authored cell paragraphs */
+.table .table-main :is(th, td) p {
+  margin: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}
+
+/* two variant (archetype-campaign): source table-two rates table + section title rules (page sheet) */
+:where(.table.two) .text-center {
+  text-align: center !important;
+}
+
+:where(.table.two) .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:where(.table.two) .mg-b15 {
+  margin-bottom: 15px !important;
+}
+
+:where(.table.two) .heading36 {
+  font-family: var(--f-reg);
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: rgb(0 0 0);
+}
+
+:where(.table.two) .heading36 span {
+  font-family: var(--f-bold);
+}
+
+:where(.table.two) .pd-t40i {
+  padding-top: 40px !important;
+}
+
+:where(.table.two) .container {
+  margin: auto;
+  padding: 0 15px;
+}
+
+@media (width <= 991px) {
+  :where(.table.two) .heading36 {
+    font-size: 30px;
+  }
+}
+
+@media (width <= 767px) {
+  :where(.table.two) .container {
+    max-width: 100%;
+  }
+
+  :where(.table.two) .heading36 {
+    font-size: 22px;
+  }
+}
+
+@media (width >= 768px) {
+  :where(.table.two) .container {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 992px) {
+  :where(.table.two) .container {
+    max-width: 960px;
+  }
+}
+
+@media (width >= 1200px) {
+  :where(.table.two) .container {
+    max-width: 1140px;
+  }
+}
+
+:where(.table.two) .table-main-new {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+:where(.table.two) .table-main-new table {
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+  table-layout: fixed;
+  border-radius: 10px;
+  overflow: auto hidden;
+}
+
+:where(.table.two) .table-main-new table td,
+:where(.table.two) .table-main-new table th {
+  padding: 16px 20px;
+  text-align: left;
+  vertical-align: top;
+}
+
+:where(.table.two) .table-main-new table tr {
+  background: linear-gradient(134.06deg, rgb(18 104 179 / 71%) 0, rgb(16 141 250 / 95%) 99.11%);
+}
+
+:where(.table.two) .table-main-new table th {
+  font-family: var(--f-semi);
+  color: rgb(255 255 255);
+  font-size: 16px;
+  line-height: 130%;
+}
+
+:where(.table.two) .table-main-new table td {
+  background: rgb(255 255 255);
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: rgb(51 51 51);
+  border-bottom: 1px solid rgb(224 224 224);
+}
+
+:where(.table.two) .table-main-new table tbody tr:nth-child(2n+1) td {
+  background-color: rgb(234 244 242);
+}
+
+@media (width <= 767px) {
+  :where(.table.two) .table-main-new {
+    padding-bottom: 10px;
+  }
+
+  :where(.table.two) .table-main-new table th {
+    font-size: 14px;
+  }
+
+  :where(.table.two) .table-main-new table td {
+    font-size: 13px;
+  }
+}
+
+:where(.table.two) .retes-chanrges-inner {
+  max-width: 1060px;
+  margin: auto;
+  box-shadow: rgb(0 0 0 / 1%) -5px 0 10px 0;
+}
+
+:where(.table.two) .retes-chanrges-inner .table-section {
+  margin-bottom: 0;
+}
+
+:where(.table.two) .table-section {
+  margin-bottom: 30px;
+}
+
+:where(.table.two) .pd-t40i {
+  padding-top: 40px !important;
+}
+
+:where(.table.two) .pd-t30i {
+  padding-top: 30px !important;
+}
+
+.table.two .heading36 strong {
+  font-family: var(--f-bold);
+  font-weight: normal;
+}
+
+/* black variant (cluster-article): source `table-main table-black` header row */
+.table.black .table-main.table-black th {
+  background-color: rgb(36 36 36);
+  font-family: var(--f-bold);
+  color: rgb(255 255 255);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@media (width <= 767px) {
+  .table.black .table-main.table-black th {
+    font-size: 14px;
+  }
+}
+
+/* flush variant (cluster-program, home-loan): `two` table placed straight under the card text
+   (source `personal-para > .table-two`, no container gutter, no top pad, full card width);
+   cell lists are the source `list-circle-info` bullets */
+.table.two.flush > .cmp-container.container {
+  max-width: none;
+  padding: 0 !important;
+}
+
+.table.two.flush .retes-chanrges-inner {
+  max-width: none;
+}
+
+.table.two.flush td ul {
+  margin: 0;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.table.two.flush td li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 13px;
+}
+
+.table.two.flush td li:last-child {
+  margin-bottom: 0;
+}
+
+.table.two.flush td li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgb(79 79 79);
+}
+
+.table.two.flush td p {
+  margin: 0;
+}

@@ -1,0 +1,176 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-02T17:28:26.754Z"
+  },
+  "method": "Replica delivery: settled client-rendered content authored as blocks (static-snapshot); video players, calculators, header drawer/menus/search UI rebuilt natively in block JS; lead / OTP / newsletter forms interim (validate, no request leaves) pending a secured endpoint; sign-in decided out (links to the source).",
+  "features": [
+    {
+      "id": "video-modal-related",
+      "feature": "video popover (related videos)",
+      "class": "M",
+      "pages": 3,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "dialog 1440px with player iframe; Escape closes",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/check-credit-score",
+          "trigger": ".related-video .media-figure"
+        }
+      ]
+    },
+    {
+      "id": "video-modal-loan-steps",
+      "feature": "video popover (loan steps)",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "dialog 1440px with player iframe; Escape closes",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/home-loan",
+          "trigger": ".loan-steps .step-play-btn"
+        }
+      ]
+    },
+    {
+      "id": "video-modal-steps-completion",
+      "feature": "video popover (app steps)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "dialog 1440px with player iframe; Escape closes",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/home-loan-app",
+          "trigger": ".steps-completion-video .step-play-btn"
+        }
+      ]
+    },
+    {
+      "id": "video-modal-csr",
+      "feature": "CSR video modal",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "dialog 1440px, title heading, player iframe; Escape closes",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/sawaal-karo-phir-loan-lo",
+          "trigger": ".csr-videos .video-play-trigger"
+        }
+      ]
+    },
+    {
+      "id": "emi-calculators",
+      "feature": "EMI / eligibility calculators (client-only)",
+      "class": "F",
+      "pages": 4,
+      "disposition": "client-only",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "4 inputs in the home calculator; 74 calculator links on /calculator",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".home-calculator input",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/calculator",
+          "selector": ".calculator-tab a",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "runtime",
+      "feature": "page runtime (all pages)",
+      "class": "X",
+      "pages": 10,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "0 uncaught exceptions on 10 pages",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/calculator",
+            "/check-credit-score",
+            "/experian-credit-score",
+            "/home-loan-app",
+            "/home-loan",
+            "/partners",
+            "/sawaal-karo-phir-loan-lo",
+            "/privacy-commitment",
+            "/personal-loan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-forms",
+      "feature": "short lead form + OTP form, pre-approved offer form, newsletter",
+      "class": "F",
+      "pages": 6,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "form UI rendered; valid input shows a not-connected notice, invalid shows the source validation copy; no request leaves",
+      "owner": "provide a secured lead-capture endpoint (and OTP service) for the forms to post to",
+      "checks": []
+    },
+    {
+      "id": "mdm-api",
+      "feature": "first-party MDM APIs (mitc-pdfs, minmaxmaster, stampdutymaster)",
+      "class": "A",
+      "pages": 6,
+      "disposition": "data-fed",
+      "reproducibility": "snapshot",
+      "status": "interim",
+      "snapshot": "2026-11-02",
+      "verifiedBy": "values rendered from the capture-date snapshot",
+      "owner": "decide whether to feed these from a sheet synced from the source API",
+      "checks": []
+    },
+    {
+      "id": "smart-search",
+      "feature": "header Smart Search (third-party senseforth)",
+      "class": "S",
+      "pages": 10,
+      "disposition": "index-backed",
+      "reproducibility": "vendor",
+      "status": "interim",
+      "verifiedBy": "search bar UI opens and closes; results are the vendor's",
+      "owner": "keep the senseforth vendor or replace it with an index-backed search",
+      "checks": []
+    },
+    {
+      "id": "sign-in",
+      "feature": "sign-in / account links",
+      "class": "X",
+      "pages": 6,
+      "disposition": "decided-out",
+      "reproducibility": "external",
+      "status": "decided-out",
+      "verifiedBy": "links point to the source's account pages; account area stays on the source platform",
+      "checks": []
+    }
+  ]
+}
